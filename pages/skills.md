@@ -1,51 +1,24 @@
-~~NOTOC~~
-
 # Skill Overview
 
 ----
 
-
-*  [{{:images:skills:beacon_2.png?nolink&16](en/skills/Beacon) [en:skills:Beacon](en/skills/Beacon)
-
-*  [{{:images:skills:behavior.png?nolink&16](en/skills/Behavior) [en:skills:Behavior](en/skills/Behavior)
-
-*  [{{:images:skills:control.png?nolink&16](en/skills/Control) [en:skills:Control](en/skills/Control)
-
-*  [{{:images:skills:damage.png?nolink&16](en/skills/Damage) [en:skills:Damage](en/skills/Damage)
-
-*  [{{:images:skills:fire.png?nolink&16](en/skills/Fire) [en:skills:Fire](en/skills/Fire)
-
-*  [{{:images:skills:hp.png?nolink&16](en/skills/HP) [en:skills:HP](en/skills/HP)
-
-*  [{{:images:skills:hpreg.png?nolink&16](en/skills/Heal) [Heal](en/skills/Heal)
-
-*  [{{:images:skills:inventory_1.png?nolink&16](en/skills/Inventory) [Inventory](en/skills/backpack)
-
-*  [{{:images:skills:knockback_3.png?nolink&16](en/skills/Knockback) [en:skills:Knockback](en/skills/Knockback)
-
-*  [{{:images:skills:lightning.png?nolink&16](en/skills/Lightning) [en:skills:Lightning](en/skills/Lightning)
-
-*  [{{:images:skills:pickup.png?nolink&16](en/skills/Pickup) [en:skills:Pickup](en/skills/Pickup)
-
-*  [{{:images:skills:poison.png?nolink&16](en/skills/Poison) [en:skills:Poison](en/skills/Poison)
-
-*  [{{:images:skills:ranged.png?nolink&16](en/skills/Ranged) [en:skills:Ranged](en/skills/Ranged)
-
-*  [{{:images:skills:ride.png?nolink&16](en/skills/Ride) [en:skills:Ride](en/skills/Ride)
-
-*  [{{:images:skills:shield.png?nolink&16](en/skills/Shield) [en:skills:Shield](en/skills/Shield)
-
-*  [{{:images:skills:slow.png?nolink&16](en/skills/Slow) [en:skills:Slow](en/skills/Slow)
-
-*  [{{:images:skills:sprint.png?nolink&16](en/skills/Sprint) [en:skills:Sprint](en/skills/Sprint)
-
-*  [{{:images:skills:stomp.png?nolink&16](en/skills/Stomp) [en:skills:Stomp](en/skills/Stomp)
-
-*  [{{:images:skills:thorns_1.png?nolink&16](en/skills/Thorns) [en:skills:Thorns](en/skills/Thorns)
-
-*  [{{:images:skills:wither.png?nolink&16](en/skills/Wither) [en:skills:Wither](en/skills/Wither)
-
-----
-
-
-
+* [![Beacon](/wiki/images/skills/beacon_2.png) Beacon](skills/beacon)
+* [![Behavior](/wiki/images/skills/behavior.png) Behavior](skills/behavior)
+* [![Control](/wiki/images/skills/control.png) Control](skills/vontrol)
+* [![Damage](/wiki/images/skills/damage.png) Damage](skills/damage)
+* [![Fire](/wiki/images/skills/fire.png) Fire](skills/fire)
+* [![HP](/wiki/images/skills/hp.png) HP](skills/hp)
+* [![Heal](/wiki/images/skills/hpreg.png) Heal](skills/heal)
+* [![Inventory](/wiki/images/skills/inventory_1.png) Inventory](skills/backpack)
+* [![Knockback](/wiki/images/skills/knockback_3.png) Knockback](skills/knockback)
+* [![Lightning](/wiki/images/skills/lightning.png) Lightning](skills/lightning)
+* [![Pickup](/wiki/images/skills/pickup.png) Pickup](skills/pickup)
+* [![Poison](/wiki/images/skills/poison.png) Poison](skills/poison)
+* [![Ranged](/wiki/images/skills/ranged.png) Ranged](skills/ranged)
+* [![Ride](/wiki/images/skills/ride.png) Ride](skills/ride)
+* [![Shield](/wiki/images/skills/shield.png) Shield](skills/shield)
+* [![Slow](/wiki/images/skills/slow.png) Slow](skills/slow)
+* [![Sprint](/wiki/images/skills/sprint.png) Sprint](skills/sprint)
+* [![Stomp](/wiki/images/skills/stomp.png) Stomp](skills/stomp)
+* [![Thorns](/wiki/images/skills/thorns_1.png) Thorns](skills/thorns)
+* [![Wither](/wiki/images/skills/wither.png) Wither](skills/wither)

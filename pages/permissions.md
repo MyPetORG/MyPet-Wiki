@@ -1,7 +1,8 @@
 # MyPet - Permissions
 
 **Normal Permissions:**
-`<code|yaml>`- MyPet.admin
+~~~
+- MyPet.admin
 - MyPet.command.info.other
 - MyPet.command.capturehelper
 - MyPet.command.release
@@ -15,24 +16,23 @@
 - MyPet.command.trade.receive.`<MyPet-Type>`
 - MyPet.leash.`<MyPet-Type>`
 - MyPet.skilltree.`<skilltreename>`
-`</code>`
+~~~
 ----
 ## MyPet Leash Permissions
 
 The leash permission is the most important permission because it allows to take a mob on a lead.
-You can allow all types by using the wildcard ''*'' or you can allow only certain types to certain players as you want.\\
-:!: This permission only allows to leash a certain mob but everything else a player can do with a *MyPet* has nothing to do with this permission :!:
+You can allow all types by using the wildcard `*` or you can allow only certain types to certain players as you want.<br>
+:!: This permission only allows to leash a certain mob but everything else a player can do with a pet has nothing to do with this permission :!:
 
-*  ''MyPet.leash.`<Pet-Type-Name>`
-    * `<Pet-Type-Name>` has to be replaced with a valid Pet-Type-Name or wildcard(''*'') to give permission for all Pet-Types. 
-    * allows to leash a *MyPet* of this Pet-Type.
+* `MyPet.leash.<Pet-Type-Name>`
+  * `<Pet-Type-Name>` has to be replaced with a valid Pet-Type-Name or wildcard(`*`) to give permission for all Pet-Types.
+  * allows to leash a pet of this Pet-Type.
 
-`<spoiler|MyPet-Type-Leash-Permissions>`
-`<code|yaml>`
+~~~
 - MyPet.leash.*
-`</code>`
+~~~
 or
-`<code|yaml>`
+~~~
 - MyPet.leash.Bat
 - MyPet.leash.Blaze
 - MyPet.leash.CaveSpider
@@ -64,82 +64,80 @@ or
 - MyPet.leash.Wither
 - MyPet.leash.Wolf
 - MyPet.leash.Zombie
-`</code>`
-`</spoiler>`
+~~~
 
 ----
 ## Other MyPet Permissions
 
-*  ''MyPet.admin''
-    * allows to:
-      * open inventory of any *MyPet*.
-      * open the inventory in creative mode/worlds.
-      * switch skilltree as you want it.
-      * access to `<color DarkCyan>`/petadmin`</color>` command.
+*  `MyPet.admin`
+ * allows to:
+  * open inventory of any pet.
+  * open the inventory in creative mode/worlds.
+  * switch skilltree as you want it.
+  * access to <font color="DarkCyan">_/petadmin_</font> command.
 
 
-*  ''MyPet.command.info.other''
-    * allows to view pet info of other players with the `<color DarkCyan>`///petinfo//`</color>` command.
+*  `MyPet.command.info.other`
+  * allows to view pet info of other players with the <font color="DarkCyan">_/petinfo_</font> command.
 
 
-*  ''MyPet.command.capturehelper''
-    * allows to use the CaptureHelper.
+*  `MyPet.command.capturehelper`
+  * allows to use the CaptureHelper.
 
 
-*  ''MyPet.command.release''
-    * allows to release your *MyPet*.
+*  `MyPet.command.release`
+  * allows to release your pet.
 
 
-*  ''MyPet.command.name''
-    * allows to rename your *MyPet*.
+*  `MyPet.command.name`
+  * allows to rename your pet.
 
 
-*  ''MyPet.command.name.color''
-    * allows to use colors in *MyPet*-names.
+*  `MyPet.command.name.color`
+  * allows to use colors in pet-names.
 
 
-*  ''MyPet.command.respawn''
-    * allows to use the `<color DarkCyan>`/petrespawn`</color>` command to respawn your MyPet (needs Economy plugin).
+*  `MyPet.command.respawn`
+  * allows to use the <font color="DarkCyan">/petrespawn</font> command to respawn your MyPet (needs Economy plugin).
 
 
-*  ''MyPet.command.switch''
-    * allows to use the `<color DarkCyan>`/petswitch`</color>` command to switch between MyPets.
+*  `MyPet.command.switch`
+  * allows to use the <font color="DarkCyan">/petswitch</font> command to switch between MyPets.
 
 
-*  ''MyPet.command.switch.bypass''
-    * allows to switch your pet even if you have exceded the limit
-    * it doesn't allow to store more pets
+*  `MyPet.command.switch.bypass`
+  * allows to switch your pet even if you have exceded the limit
+  * it doesn't allow to store more pets
 
 
-*  ''MyPet.command.switch.limit.`<limit>`
-    * limits the amount of *MyPet*s a player can store.
-    * `<limit>` has to be replaced by a number between 1 and 54
+*  `MyPet.command.switch.limit.`<limit>`
+  * limits the amount of pets a player can store.
+  * `<limit>` has to be replaced by a number between 1 and 54
 
 
-*  ''MyPet.command.trade.offer.`<MyPet-Type>`
-    * allows to offer somebody your MyPet of type `<MyPet-Type>`
-    * (P) Premium feature
+*  `MyPet.command.trade.offer.`<MyPet-Type>`
+  * allows to offer somebody your MyPet of type `<MyPet-Type>`
+  * (P) Premium feature
 
 
-*  ''MyPet.command.trade.receive.`<MyPet-Type>`
-    * allows to offer somebody your MyPet of type `<MyPet-Type>`
-    * (P) Premium feature
+*  `MyPet.command.trade.receive.`<MyPet-Type>`
+  * allows to offer somebody your MyPet of type `<MyPet-Type>`
+  * (P) Premium feature
 
 
-*  ''MyPet.skilltree.`<skilltreename>`
-    * `<skilltreename>` has to be replaced with the name of any existing skilltreename.
-    * allows to use the `<skilltreename>` skilltree.
-    * :!: you can't use ''MyPet.skilltree.*'' with GroupManager (Essentials) :!:
-    * the names of the default skilltrees are: **''Combat''**, **''Utility''**, **''PvP''**, **''Ride''** & **''Farm''**
+*  `MyPet.skilltree.`<skilltreename>`
+  * `<skilltreename>` has to be replaced with the name of any existing skilltreename.
+  * allows to use the `<skilltreename>` skilltree.
+  * :!: you can't use `MyPet.skilltree.*` with GroupManager (Essentials) :!:
+  * the names of the default skilltrees are: **`Combat`**, **`Utility`**, **`PvP`**, **`Ride`** & **`Farm`**
 
 ----
 ## Extended MyPet Permissions
 
-To use the extended permissions you need to activate them in the config (`<color Coral>`//MyPet.Permissions.Extended//`</color>`)\\
-Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds.\\
+To use the extended permissions you need to activate them in the config (<font color="Coral">//MyPet.Permissions.Extended//</font>)<br>
+Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds.<br>
 All these permissions should be self explaining but remember, they are only supposed to disable these things.
-`<spoiler|Do not open this spoiler unless you read the text about extended permission!>`
-`<code|yaml>`
+~~~
 - MyPet.extended.feed
 - MyPet.extended.beacon
 - MyPet.extended.behavior.friendly
@@ -153,5 +151,4 @@ All these permissions should be self explaining but remember, they are only supp
 - MyPet.extended.pickup
 - MyPet.extended.equip
 - MyPet.extended.nametag
-`</code>`
-`</spoiler>`
+~~~

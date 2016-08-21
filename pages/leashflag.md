@@ -1,35 +1,38 @@
 # Leash Flags
 
-Leash Flags are the requirements that a mob needs to meet in order to become a MyPet. All Leash Flags can be combined with each others but some of them will only apply on some mob types (see table below) and some will overwrite others, depending on the order they are written in the [[en:petconfig|pet-config.yml.
+Leash Flags are the requirements that a mob needs to meet in order to become a MyPet.
+All Leash Flags can be combined with each others but some of them will only apply on some
+mob types (see table below) and some will overwrite others, depending on the order
+they are written in the [pet-config.yml](petconfig).
 
-*  **None**
-    * if this is a requirement every other LeashFlags will be irgnored and the mob type can be directly taken on a lead
+*  `None`
+ * if this is a requirement every other LeashFlags will be irgnored and the mob type can be directly taken on a lead
 
-*  **Impossible**
-    * if this is a requirement every other LeashFlags will be ignored and you can't take this mob type on a lead
+*  `Impossible`
+ * if this is a requirement every other LeashFlags will be ignored and you can't take this mob type on a lead
 
-*  **LowHP**
-    * mob types with this LeashFlag need to be lower than 10% of it's max health
+*  `LowHP`
+ * mob types with this LeashFlag need to be lower than 10% of it's max health
 
-*  **Baby**
-    * mob types with this leashflag need to be a baby
+*  `Baby`
+ * mob types with this leashflag need to be a baby
 
-*  **Adult**
-    * mob types with this leashflag need to be grown up
+*  `Adult`
+ * mob types with this leashflag need to be grown up
 
-*  **Tamed**
-    * mob types with this leashflag need to be tamed
+*  `Tamed`
+ * mob types with this leashflag need to be tamed
 
-*  **UserCreated**
-    * mob types with this leashflag need to be constructed by a player
+*  `UserCreated`
+ * mob types with this leashflag need to be constructed by a player
 
-*  **Wild**
-    * mob types with this leashflag need to be wild
+*  `Wild`
+ * mob types with this leashflag need to be wild
 
-*  **CanBreed**
-    * mob types with this leashflag need to be willing to breed
+*  `CanBreed`
+ * mob types with this leashflag need to be willing to breed
 
-*  **Angry**
-    * mob types with this leashflag need to be angry (wolves)
+*  `Angry`
+ * mob types with this leashflag need to be angry (wolves)
 
-{{ :images:mt_lf.png?nolink |}}
+![LeashFlags](/wiki/images/mt_lf.png)

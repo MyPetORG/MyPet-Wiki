@@ -1,11 +1,9 @@
-~~NOTOC~~
-
 # NBT to MySQL
 
 
 ### This feature is part of MyPet-Premium!
 
-If you want to use a MySQL database to store your pets please download the premium version of MyPet [here](https///www.spigotmc.org/resources/mypet-premium.17566/).
+If you want to use a MySQL database to store your pets please download the premium version of MyPet [here](https://www.spigotmc.org/resources/mypet-premium.17566/).
 
 ----
 
@@ -14,23 +12,23 @@ If you want to use a MySQL database to store your pets please download the premi
 First of all thank your for purchasing MyPet-Premium!
 
  1.  Put the plugin file into you plugin folder and restart the server so that the plugin can generate the new config options.
- 2.  Set the "''**Type**''" option under "''**Repository**''" to "''**MySQL**''"
- 3.  If you have an old ''**My.Pet**'' file you want to import set "''**ConvertFrom**''" option under "''**Repository**''" to "''**NBT**''".
- 4.  create a new database (collation: ''**utf8_general_ci**'') on your MySQL server (default: ''mypet'').
- 5.  replace the credentials under "''**MySQL**''" with your own.
- 6.  restart the server once again. It should create the tables and convert the old ''**My.Pets**'' file to database .entires.
- 7.  If you want to merge multiple ''**My.Pets**'' files into one database you can use the script at the bottom of this page.
+ 2.  Set the `Type` option under `Repository` to `MySQL`
+ 3.  If you have an old `My.Pet` file you want to import set `ConvertFrom` option under `Repository` to `NBT`.
+ 4.  create a new database (collation: `utf8_general_ci`) on your MySQL server (default: `mypet`).
+ 5.  replace the credentials under `MySQL` with your own.
+ 6.  restart the server once again. It should create the tables and convert the old `My.Pets` file to database .entires.
+ 7.  If you want to merge multiple `My.Pets` files into one database you can use the script at the bottom of this page.
  8.  You can run your server like normal but all servers you use can now access the pets from one database!
+
+----
 
 ### MySQL Merge Script
 
 If you want to merge two MyPet databases, they need to be on the same server and have different names. Just download the file in the spoiler and fill in the correct credentials and database names and the PHP script will merge them together. Different (MyPet) owner UUIDs are no problem as long as the player name or the Mojang UUID are the same.
 
-`<WRAP center round important 60%>`
 Please make backups of your databases before you try to merge them!
-`</WRAP>`
 
-`<code php mypet_merge.php>`
+~~~
 <?php
 
 $database_1 = "mypet";
@@ -180,4 +178,4 @@ $mysqli->query($query);
 if($mysqli->affected_rows > 0) {
     printf("Inserted %d pets.`<br>`", $mysqli->affected_rows);
 }
-`</code>`
+~~~

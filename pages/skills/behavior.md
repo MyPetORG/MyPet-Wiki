@@ -1,24 +1,24 @@
 ~~NOTOC~~
 # Behavior
 
-With this skill you can change the behavior of the *MyPet*.\\
+With this skill you can change the behavior of the *MyPet*.<br>
 There are 5 possible behavior-modes:
 
-*  `<color LimeGreen>`friendly`</color>` -> don't fight, even he's attacked by anything
+*  <font color="LimeGreen">friendly</font> -> don't fight, even he's attacked by anything
     * friend
 
-*  `<color LimeGreen>`normal`</color>` -> like a normal wolf
+*  <font color="LimeGreen">normal</font> -> like a normal wolf
 
-*  `<color LimeGreen>`aggressive`</color>` -> attacks everythink within 15 blocks of the owner
+*  <font color="LimeGreen">aggressive</font> -> attacks everythink within 15 blocks of the owner
     * aggro
 
-*  `<color LimeGreen>`farm`</color>` -> attacks every **Monster** within 15 blocks of the owner
+*  <font color="LimeGreen">farm</font> -> attacks every **Monster** within 15 blocks of the owner
 
-*  `<color LimeGreen>`raid`</color>` -> like normal but the *MyPet* doesn't attack players and their minions
+*  <font color="LimeGreen">raid</font> -> like normal but the *MyPet* doesn't attack players and their minions
 
-*  `<color LimeGreen>`duel`</color>` -> pets will attack other pets with aktive duel behavior within a 5 block radius
+*  <font color="LimeGreen">duel</font> -> pets will attack other pets with aktive duel behavior within a 5 block radius
 
-To toggle the mode type `<color DarkCyan>`/petbehavior `</color>``<color LimeGreen>`[normal/friendly/aggressive/farm/raid/duel]`</color>`.
+To toggle the mode type <font color="DarkCyan">/petbehavior </font><font color="LimeGreen">[normal/friendly/aggressive/farm/raid/duel]</font>.
 ----
 ## Demonstration
 

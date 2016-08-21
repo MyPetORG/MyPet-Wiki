@@ -1,12 +1,12 @@
 ## Colors
 
-*  `<color blue>`Skill`</color>`
+*  <font color="blue">Skill</font>
 
-*  `<color DarkCyan>`//Chat Command//`</color>`
+*  <font color="DarkCyan">//Chat Command//</font>
 
-*  `<color Coral>`//Config Option//`</color>`
+*  <font color="Coral">//Config Option//</font>
 
-*  `<color Purple>`//Permission//`</color>`
+*  <font color="Purple">//Permission//</font>
 
 ## Icons
 

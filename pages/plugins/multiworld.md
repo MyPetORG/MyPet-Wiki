@@ -6,17 +6,17 @@ The *MyPet* will switch automatically when the player changes the world and ente
 
 ## Download
 
-Temporary Download Link: [MyPet-MultiWorld-0.0.1-SNAPSHOT.jar](http://build.keyle.de/job/MyPet-MultiWorld/lastSuccessfulBuild/artifact/target/MyPet-MultiWorld-0.0.1-SNAPSHOT.jar) \\
+Temporary Download Link: [MyPet-MultiWorld-0.0.1-SNAPSHOT.jar](http://build.keyle.de/job/MyPet-MultiWorld/lastSuccessfulBuild/artifact/target/MyPet-MultiWorld-0.0.1-SNAPSHOT.jar) <br>
 Jenkins: [MyPet-MultiWorld](http://build.keyle.de/job/MyPet-MultiWorld/)
 
 ## Installation
 
-Just put the  plugin-''jar''-file into the plugins folder and start the server.\\
-The plugin will create the a default *WorldGroup* configuration and adds all worlds to the ''default'' *WorldGroup*.
+Just put the  plugin-`jar`-file into the plugins folder and start the server.<br>
+The plugin will create the a default *WorldGroup* configuration and adds all worlds to the `default` *WorldGroup*.
 
 ## Configuration
 
-Every world has to be in a *WorldGroup*. You can create as much *WorldGroups* as you want as long as every world is in only **one** *WorldGroup*.\\
+Every world has to be in a *WorldGroup*. You can create as much *WorldGroups* as you want as long as every world is in only **one** *WorldGroup*.<br>
 
 Example configuration: (All players will have a *MyPet* in the normal worlds an one in the nether worlds)
 `<code|yaml>`Groups:

@@ -3,7 +3,7 @@
 
 With this skill your pet will shot projectiles at their targets that cause damage to them.
 
-The used projectile, rate of fire (rounds per second) and the damage can be set via the [skilltree](en/skilltrees) skill settings.
+The used projectile, rate of fire (rounds per second) and the damage can be set via the [skilltree](skilltrees) skill settings.
 
 ### Projectiles
 
