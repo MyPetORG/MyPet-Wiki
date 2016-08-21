@@ -1,0 +1,1 @@
+# Available Mobtypes in MyPet
