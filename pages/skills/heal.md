@@ -1,4 +1,3 @@
-~~NOTOC~~
 # Heal
 
 With this skill your pet heals skill itself every few seconds.<br>
@@ -8,8 +7,5 @@ The healed amount and the interval can be set via the [skilltree](skilltrees) sk
 
 ## Demonstration
 
-{{ :en:skills:heal.gif?nolink |}}
-
-----
-
+![Heal](/wiki/images/skills/heal.gif)
 
