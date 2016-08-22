@@ -1,6 +1,6 @@
 # Experience-Script
 
-With the **Experience-Script** `exp.js` it's possible to customize when a *MyPet* will level up.<br>
+With the **Experience-Script** `exp.js` it's possible to customize when a pet will level up.<br>
 As you can see at the file ending, the used language is **JavaScript**.<br>
 ## Script
 

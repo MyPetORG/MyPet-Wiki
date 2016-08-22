@@ -1,6 +1,6 @@
 # Experience
 
-As well as player, *MyPet*s can also gain experience and level up.<br>
+As well as player, pets can also gain experience and level up.<br>
 In each level they can get special [abilities](skills) like [Inventory](skills/backpack).
 
 ----
@@ -10,7 +10,7 @@ There are two different ways the experience is converted into levels, etc at the
 ## The normal Way
 
 The normal way aka `Default` is the default way the experience part is calculated.
-When <font color="Coral">MyPet.LevelSystem.CalculationMode</font> is set to `default` all *MyPet*s will level up like normal players would level up like in [Minecraft Pre-Snapshot 12w23a](http://www.minecraftwiki.net/wiki/Experience#Pre-Snapshot_12w23a).
+When <font color="Coral">MyPet.LevelSystem.CalculationMode</font> is set to `default` all pets will level up like normal players would level up like in [Minecraft Pre-Snapshot 12w23a](http://www.minecraftwiki.net/wiki/Experience#Pre-Snapshot_12w23a).
 
 ## JavaScript
 

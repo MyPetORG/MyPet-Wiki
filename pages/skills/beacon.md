@@ -8,13 +8,13 @@ By default this skill consumes [food](hungersystem) when it is active, that mean
 
 ## Beacon Buff Selection Menu
 
-{{ :images:skills:beacon_inv.png?nolink |}}
+![Beacon](/wiki/images/skills/beacon_inv.png)
 
-*  <font color="#008000>###1###</font> selectable buffs
-*  <font color="#0080FF>###2###</font> target selection (owner, party, everyone)
-*  <font color="#FF8000>###3###</font> remaining selectable buffs
-*  <font color="#FFFF00">###4###</font> confirm/cancel selection
-*  <font color="#800000>###5###</font> power on/off
+*  <font color="#008000">**1**</font> selectable buffs
+*  <font color="#0080FF">**2**</font> target selection (owner, party, everyone)
+*  <font color="#FF8000">**3**</font> remaining selectable buffs
+*  <font color="#FFFF00">**4**</font> confirm/cancel selection
+*  <font color="#800000">**5**</font> power on/off
 
 
 ----

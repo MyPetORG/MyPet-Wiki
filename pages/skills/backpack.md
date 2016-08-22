@@ -10,4 +10,4 @@ Line added by skill upgrade will add 9 extra slots (up to 54 slots).
 
 ## Demonstration
 
-![Inventory](/wiki/images/skills/inventory.gif)
+![Backpack](/wiki/images/skills/inventory.gif)
