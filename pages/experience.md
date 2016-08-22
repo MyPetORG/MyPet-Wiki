@@ -1,6 +1,6 @@
 # Experience
 
-As well as player, pets can also gain experience and level up.<br>
+As well as player, pets can also gain experience and level up.
 In each level they can get special [abilities](skills) like [Inventory](skills/backpack).
 
 ----

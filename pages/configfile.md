@@ -1,6 +1,6 @@
 # Main Configuration
 
-The *config.yml* file is the main configfile of *MyPet*. All pet type related options can be found in the [pet-config.yml](petconfig).<br>
+The *config.yml* file is the main configfile of *MyPet*. All pet type related options can be found in the [pet-config.yml](petconfig).
 
 ----
 
@@ -13,7 +13,7 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;OwnerCanAttackPet:|  boolean  |  `false`  |  -  |Enable to allow the owner to hit his own pet.|
 |&nbsp;&nbsp;DisablePetVersusPlayer:|  boolean  |  `false`  |  -  |Prevents combat between players and pets.|
 |&nbsp;&nbsp;RemovePetsAfterRelease:|  boolean  |  `false`  |  -  |Enable to remove pets when they get released. Prevents players from griefing other players by releasing monsters in their vicinity.|
-|&nbsp;&nbsp;ReleasePetsOnDeath:|  boolean  |  `false`  |  -  |Enable to release the pet when it dies. Player that have the <font color="Purple">//MyPet.admin//</font> permission are excluded from this.|
+|&nbsp;&nbsp;ReleasePetsOnDeath:|  boolean  |  `false`  |  -  |Enable to release the pet when it dies. Player that have the <font color="Purple">_MyPet.admin_</font> permission are excluded from this.|
 |&nbsp;&nbsp;FollowStartDistance:|  double  |  `7.0`  |  -  |Sets the distance from the player where the pet starts to follow him.|
 |&nbsp;&nbsp;RetainEquipmentOnTame:|  boolean  |  `true`  |  -  |Allows mobs to keep their equipment after leashed (based on the drop chance).|
 |&nbsp;&nbsp;Make-Pet-Invisible-When-Owner-Is-Invisible:|  boolean  |  `true`  |  -  |Makes the pet invisible when the owner has the `Invisible` effect. Does not affect vanished players.|
@@ -37,9 +37,9 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnUpdate:|  boolean  |  `true`  |  -  |Sets if all pets are written to the NBT file when a pet is updated.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnRemove:|  boolean  |  `true`  |  -  |Sets if all pets are written to the NBT file when a pet gets removed from the list.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Player:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnAdd:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when player is recognized as a //MyPet-Player//.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnUpdate:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when a //MyPet-Player// is updated.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnRemove:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when a //MyPet-Player// is not required anymore.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnAdd:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when player is recognized as a _MyPet-Player_.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnUpdate:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when a _MyPet-Player_ is updated.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnRemove:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when a _MyPet-Player_ is not required anymore.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Backup:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Active:|  boolean  |  `true`  |  -  |Activates backups for the `My.Pets` file.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveInterval:|  integer  |  `1440`  |  -  |Sets interval in which the `My.Pets` file will be backed up into the `backups` folder..|

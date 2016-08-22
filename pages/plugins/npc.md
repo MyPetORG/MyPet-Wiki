@@ -1,10 +1,10 @@
 # MyPet - NPC
 
-**MyPet-NPC** is a simple addon for *MyPet* that adds a trait to Citizens that allows pet-owners to store their pets.<br>
-<br>
-Every *WorldGroup* has it's own storage so you can not transfer pets between *WorldGroup*s.<br>
-You need **MyPet 1.1.1+** in order to use this plugin.<br>
-<br>
+**MyPet-NPC** is a simple addon for *MyPet* that adds a trait to Citizens that allows pet-owners to store their pets.
+
+Every *WorldGroup* has it's own storage so you can not transfer pets between *WorldGroup*s.
+You need **MyPet 1.1.1+** in order to use this plugin.
+
 The Citizens **trait**s are called:
 
 * `mypet-storage`  ->  MyPet Storage
@@ -14,9 +14,9 @@ The Citizens **trait**s are called:
 
 ## Links
 
-Jenkins (download): [MyPet-NPC](http://build.keyle.de/job/MyPet-NPC/) <br>
-Source: https://github.com/xXKeyleXx/MyPet-NPC <br>
-BugReport: https://github.com/xXKeyleXx/MyPet/issues <br>
+Jenkins (download): [MyPet-NPC](http://build.keyle.de/job/MyPet-NPC/)
+Source: https://github.com/xXKeyleXx/MyPet-NPC
+BugReport: https://github.com/xXKeyleXx/MyPet/issues
 
 ----
 

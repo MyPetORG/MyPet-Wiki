@@ -1,13 +1,13 @@
 # Hunger-System
 
-With the Hunger-System was a new value added. The *Hunger-Points*.<br>
-This value is always between **1** and **100**, where **100** is the best and **1** is the worst value.<br>
+With the Hunger-System was a new value added. The *Hunger-Points*.
+This value is always between **1** and **100**, where **100** is the best and **1** is the worst value.
 After a periodic amount of time (can be set with the <font color="Coral">MyPet.HungerSystem.Time</font> setting) this value decreases and affects other stats of your pet.
 
 ## What is affected by the Hunger-Points?
 
 ### Hitpoints on respawn
-When a pet respawns it doesn't has full hitpoints when the *Hunger-Points* is below **90**.<br>
+When a pet respawns it doesn't has full hitpoints when the *Hunger-Points* is below **90**.
 This tables shows how much the Hunger-Points affect the hitpoints on a respawn:
 
  | Hunger-Points | Hitpoints on respawn      |

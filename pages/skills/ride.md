@@ -3,7 +3,7 @@
 With this skill you can ride your pet.
 To mount your pet  rightclick your pet with the item specified in the config (<font color="Coral">MyPet.Skill.Ride.Item</font>).
 Riding your pet is like riding a horse.
-<br> <br>
+
 When you bought the (P) premium version of MyPet you can also fly with your pet when it's enabled by your [skilltree](skilltrees).
 
 The ride speed (and the ability to fly (P)) can be set via the [skilltree](skilltrees) skill settings.

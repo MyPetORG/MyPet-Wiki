@@ -10,7 +10,7 @@ You have to provide the Item properties in this order:
 
 Example:
 
-*  <font color="green">363</font> <font color="Purple">0</font> <font color="blue">{display:{Name:"Wolf Food",Lore:["Tasty wolf food","Tastes like banana"]}}</font><br>
+*  <font color="green">363</font> <font color="Purple">0</font> <font color="blue">{display:{Name:"Wolf Food",Lore:["Tasty wolf food","Tastes like banana"]}}</font>
 When you set the food of the wolf to this, a player needs an item that is like in this picture:
 {{ :images:configitem.png?nolink&200 |}}
 This will allow server owners to set the food and leash items (and some other items used by MyPet) to items that can only be obtained by shops etc.

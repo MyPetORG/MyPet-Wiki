@@ -1,6 +1,6 @@
 ## Installation
 
-After you downloaded a version of *MyPet*, put it into you **plugins** folder and start the server.<br>
+After you downloaded a version of *MyPet*, put it into you **plugins** folder and start the server.
 On first startup *MyPet* will create the default config files and a default skilltree-file for all mobs that contains some sample skilltrees.
 
 ## Configuration

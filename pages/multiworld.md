@@ -18,7 +18,7 @@ The plugin will create the a default *WorldGroup* configuration file and adds ev
 
 ## Configuration
 
-Every world has to be in a *WorldGroup*. You can create as much *WorldGroups* as you want as long as every world is in just **one** *WorldGroup*.<br>
+Every world has to be in a *WorldGroup*. You can create as much *WorldGroups* as you want as long as every world is in just **one** *WorldGroup*.
 
 Example configuration: With this configuration every player can have one pet in the normal worlds an one in the nether worlds
 ~~~

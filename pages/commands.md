@@ -3,10 +3,10 @@
 ----
 ## Legend
 
-*  <font color="DarkCyan">Chatcommands</font><br>
-    * <font color="red">`<variable>`</font> -> required!<br>
-    * <font color="LimeGreen">[vaiable]</font> -> optional<br>
-Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them instead the long version.<br>
+*  <font color="DarkCyan">Chatcommands</font>
+    * <font color="red">`<variable>`</font> -> required!
+    * <font color="LimeGreen">[vaiable]</font> -> optional
+Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them instead the long version.
 
 :!: In most cases you can also go through the command options by using the `<key>`TAB`</key>`-key. :!:
 

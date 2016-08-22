@@ -1,7 +1,7 @@
 # Skilltrees
 
-**Skilltree**s are the way to specify when which pet will unlock/upgrade which abilities.<br>
-You can think of skilltrees like classes for players (for example knight and archer).<br>
+**Skilltree**s are the way to specify when which pet will unlock/upgrade which abilities.
+You can think of skilltrees like classes for players (for example knight and archer).
 
 ### Skilltrees
 
@@ -14,7 +14,7 @@ Within a skilltree you can specify from which levels the pet should get a new ab
 ### Skills
 
 Within the levels you can specify which ability will be learnd or should be updated.
-Any Ability has it's own custom option that can be set in the skilltrees.<br>
+Any Ability has it's own custom option that can be set in the skilltrees.
 ## Inheritance
 
 **Skilltree**s are capable of inheritance which means if **skilltree** `a` inherits from **skilltree** `b`, **skilltree** `a` will have all the settings form **skilltree** `b` and in adition to the own settings.
@@ -22,7 +22,7 @@ The inheritance of already inherted skills can be disabled by setting <font colo
 
 ## The structure
 
-The struckture of the **skilltree**s is easy.<br>
-For each pet-type exists a file (`<pet-type>.st`) in which the **skilltree**s of the pet-types are saved. There is a file `default.st` too, that applies for all pet-types. The priority of the specific pet-type files is higher than the `default.st` which means that you can override the default **skilltree** for specific pet-types.<br>
+The struckture of the **skilltree**s is easy.
+For each pet-type exists a file (`<pet-type>.st`) in which the **skilltree**s of the pet-types are saved. There is a file `default.st` too, that applies for all pet-types. The priority of the specific pet-type files is higher than the `default.st` which means that you can override the default **skilltree** for specific pet-types.
 
 At the first start of the plugin it will create a folder in the plugin directory named `skilltrees`  in which the **skilltree**-files have to be saved.

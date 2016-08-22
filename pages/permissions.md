@@ -21,7 +21,7 @@
 ## MyPet Leash Permissions
 
 The leash permission is the most important permission because it allows to take a mob on a lead.
-You can allow all types by using the wildcard `*` or you can allow only certain types to certain players as you want.<br>
+You can allow all types by using the wildcard `*` or you can allow only certain types to certain players as you want.
 :!: This permission only allows to leash a certain mob but everything else a player can do with a pet has nothing to do with this permission :!:
 
 * `MyPet.leash.<Pet-Type-Name>`
@@ -110,8 +110,8 @@ or
 ----
 ## Extended MyPet Permissions
 
-To use the extended permissions you need to activate them in the config (<font color="Coral">//MyPet.Permissions.Extended//</font>)<br>
-Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds.<br>
+To use the extended permissions you need to activate them in the config (<font color="Coral">//MyPet.Permissions.Extended//</font>)
+Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds.
 All these permissions should be self explaining but remember, they are only supposed to disable these things.
 ~~~
   -MyPet.extended.feed

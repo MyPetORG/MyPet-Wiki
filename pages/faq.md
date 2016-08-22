@@ -13,15 +13,15 @@ Yes, there are 3 ways to activate a level cap:
 
 ### How can I equip my Zombie/Skeleton/PigZombie?
 
-Just rightclick your pet with the item you want them to wear while sneaking.<br>
-To remove the equipment just rightclick your pet with shears while sneaking.<br>
+Just rightclick your pet with the item you want them to wear while sneaking.
+To remove the equipment just rightclick your pet with shears while sneaking.
 :!: **Weapons/Armor are only visually and have no effect on the pet** :!:
 
 ----
 
 ### How can I control my pet while riding it?
 
-Riding a pet is like riding a horse with a saddle.<br>
+Riding a pet is like riding a horse with a saddle.
 
 ----
 
@@ -41,7 +41,7 @@ It will first increase the [saturation](hungersystem) of your pet your pet and w
 
 ### Is there a way to have more than 1 pet?
 
-No. You can only have **one** active pet at the same time.<br>
+No. You can only have **one** active pet at the same time.
 However you can *store* pets and switch between them ([NPC](plugins/npc) or [command](commands)).
 
 ----

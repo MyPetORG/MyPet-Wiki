@@ -8,7 +8,7 @@ Find a mob that is leadable is the easiest step. All leadable mobtypes can be fo
 
 ## Step 2 - Meeting the Requirements
 
-This can be the hardest part but how hard it really will depends on the configuration of the Server.<br>
+This can be the hardest part but how hard it really will depends on the configuration of the Server.
 Every pet-Type has a [setting](petconfig) called [LeashFlags](leashflag) that sets the requirements needed for the pet-Type to become a pet.
 
 ## Step 3 - Taking mob on a lead

@@ -1,5 +1,5 @@
 # Behavior
-With this skill you can change the behavior of the pet.<br>
+With this skill you can change the behavior of the pet.
 There are 5 possible behavior-modes:
 
 *  <font color="LimeGreen">friendly</font> -> don't fight, even he's attacked by anything

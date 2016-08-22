@@ -1,8 +1,8 @@
 # SkilltreeCreator - Tool
 
-The *SkilltreeCreator* is a tool with which you can create skilltrees for pet quickly, easily and without experience.<br>
-<font color="red">The *SkilltreeCreator* is built into the plugin and doesn't has to be downloaded separately.</font><br>
-Simply doubleclick the `MyPet.jar` and the *SkilltreeCreator* should start.<br>
+The *SkilltreeCreator* is a tool with which you can create skilltrees for pet quickly, easily and without experience.
+<font color="red">The *SkilltreeCreator* is built into the plugin and doesn't has to be downloaded separately.</font>
+Simply doubleclick the `MyPet.jar` and the *SkilltreeCreator* should start.
 Most parts of the *SkilltreeCreator* should be self-explaining.
 
 ----
