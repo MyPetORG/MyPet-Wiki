@@ -8,7 +8,7 @@
     * <font color="LimeGreen">[vaiable]</font> -> optional
 Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them instead the long version.
 
-:!: In most cases you can also go through the command options by using the `<key>`TAB`</key>`-key. :!:
+:!: In most cases you can also go through the command options by using the <kbd>TAB</kbd>-key. :!:
 
 
 ----
@@ -136,7 +136,7 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
                 * <font color="LimeGreen">`<ownername>`</font>
                 * <font color="LimeGreen">`<pettype>`</font>
                 * <font color="LimeGreen">[parameter]</font>
-            * Use the `<key>`TAB`</key>`-key to see all possible paramerters for the selected pettype
+            * Use the <kbd>TAB</kbd>-key to see all possible paramerters for the selected pettype
         * <font color="red">clone</font>
             * clones a pet from a player and gives it to another player
             * parameters:

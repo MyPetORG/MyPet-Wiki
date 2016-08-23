@@ -201,14 +201,14 @@
 *  <font color="green">+</font> added some donator effects
 *  <font color="green">+</font> added some particle effects to skills
 *  <font color="green">+</font> added LevelUp-Message (can be set in the skilltrees)
-*  <font color="gold">o</font> changed colorcode format from `%color%` to `%%`<color>`%%`
+*  <font color="gold">o</font> changed colorcode format from `%color%` to `<color>`
     * default colorcodes are now usable too. Example: `<0>` for black or `<f>` for white
 *  <font color="gold">o</font> changed permissions for the commands
     * `MyPet.user.command.capturehelper`
     * `Mypet.user.command.release`
     * `Mypet.user.command.respawn`
     * `MyPet.user.command.name` <font color="green">(new)</font>
-*  <font color="gold">o</font> `<key>`w`</key>` `<key>`a`</key>` `<key>`s`</key>` `<key>`d`</key>` riding
+*  <font color="gold">o</font> <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> riding
 *  <font color="gold">o</font> improved Thorns skill
 *  <font color="gold">o</font> improved some SkilltreeCreator things
     * Change the strucure of YAML skilltrees slightly
