@@ -14,7 +14,7 @@ When <font color="Coral">MyPet.LevelSystem.CalculationMode</font> is set to `def
 
 ## JavaScript
 
-This is the advanced way where you can create your own level behavior. When <font color="Coral">MyPet.LevelSystem.CalculationMode</font> is set to `JS` or `JavaScript` the plugin used the `exp.js` in the *MyPet*-pluginfolder to calculate everything. In order to use this feature the plugin needs the [rhino.jar](https://github.com/mozilla/rhino/releases) inside the *MyPet* folder (//since MyPet 1.2.3//).
+This is the advanced way where you can create your own level behavior. When <font color="Coral">MyPet.LevelSystem.CalculationMode</font> is set to `JS` or `JavaScript` the plugin used the `exp.js` in the *MyPet*-pluginfolder to calculate everything. In order to use this feature the plugin needs the [rhino.jar](https://github.com/mozilla/rhino/releases) inside the *MyPet* folder (_since MyPet 1.2.3_).
 
 You can find an example [here](https://github.com/xXKeyleXx/MyPet/blob/master/experience-scripts/exp.js) and a further discription [here](expjs).
 If you have any questions related to this topic please send me a [private message](http://dev.bukkit.org/home/send-private-message/?to=xXKeyleXx) on BukkitDev

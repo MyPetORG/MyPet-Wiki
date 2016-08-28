@@ -8,7 +8,7 @@
 ----
 
 ### Version 1.2.9
-[GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.8...HEAD)
+[GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.8...1.2.9)
 
 *  <font color="green">+</font> Wiki-URL can be changed in the config
 *  <font color="gold">o</font> namefilter now ignores colors
@@ -19,7 +19,7 @@
 ----
 
 ### Version 1.2.8
-[GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.7...1.2.8
+[GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.7...1.2.8)
 
 *  <font color="green">+</font> added a limit([permissions](permissions)) to the **/petswitch store** command
 *  <font color="green">+</font> added eggs as projectiles to the Ranged skill

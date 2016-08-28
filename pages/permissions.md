@@ -110,7 +110,7 @@ or
 ----
 ## Extended MyPet Permissions
 
-To use the extended permissions you need to activate them in the config (<font color="Coral">//MyPet.Permissions.Extended//</font>)
+To use the extended permissions you need to activate them in the config (<font color="Coral">_MyPet.Permissions.Extended_</font>)
 Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds.
 All these permissions should be self explaining but remember, they are only supposed to disable these things.
 ~~~
