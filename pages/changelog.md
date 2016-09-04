@@ -23,7 +23,7 @@
 
 *  <font color="green">+</font> added a limit([permissions](permissions)) to the **/petswitch store** command
 *  <font color="green">+</font> added eggs as projectiles to the Ranged skill
-*  <font color="green">+</font> (P) added Shield skill <font color="DarkCyan"></font>
+*  <font color="green">+</font> ![$](/wiki/images/premium.gif) added Shield skill <font color="DarkCyan"></font>
 *  <font color="gold">o</font> Beacon range is now calculated differently when using the Hunger System
 *  <font color="gold">o</font> Ride speed is not affected by the Hunger System
 *  <font color="gold">o</font> food items are now stored in a list (please delete the pet-config.yml when you haven't changed it at all)

@@ -81,7 +81,7 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
 ----
 
 *  <font color="DarkCyan">/pettrade</font> <font color="red">[accept</font> or <font color="red">reject</font> or <font color="red">cancel</font> or a <font color="red">`<player name>`]</font> <font color="LimeGreen">`<price>`</font>
-    * (P) only available in premium version
+    * ![$](/wiki/images/premium.gif) only available in premium version
     * offers your current pet to another player.
         * <font color="LimeGreen">`<auto>`</font> can be any economy price
     * alias:

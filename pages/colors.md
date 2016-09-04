@@ -7,4 +7,4 @@
 
 ## Icons
 
-*  (P) Premium
+*  ![$](/wiki/images/premium.gif) Premium

@@ -4,7 +4,7 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 
 ----
 
-|  Setting  |  Type  |  Default  |  Since / (P)  |  Description  |
+|  Setting  |  Type  |  Default  |  Since / ![$](/wiki/images/premium.gif)  |  Description  |
 | --------  |        |           |               |               |
 |**MyPet:**|||||
 |  **Miscellaneous Settings**  |||||
@@ -23,13 +23,13 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;Wiki-URL:|  string  |  `https://wiki.mypet-plugin.de`  |  -  |This can be changed if the server has it's own Wiki for MyPet.|
 |&nbsp;&nbsp;Max-Stored-Pet-Count:|  integer  |  `45`  |  -  |Sets the maximum amount of inactive (stored) pets a player can have.|
 |&nbsp;&nbsp;Update-Check:|  boolean  |  `true`  |  -  |Sets if the plugin will check for updates when it is loaded. This will not download the new version.|
-|&nbsp;&nbsp;Activate-Resourcepack-By-Default:|  boolean  |  `false`  |  (P) <br> 2.1.7  |This will actiave the ressource pack by default. Players can still disable it.|
+|&nbsp;&nbsp;Activate-Resourcepack-By-Default:|  boolean  |  `false`  |  ![$](/wiki/images/premium.gif) <br> 2.1.7  |This will actiave the ressource pack by default. Players can still disable it.|
 |&nbsp;&nbsp;Throw-PlayerMoveEvent-While-Riding:|  boolean  |  `true`  |  2.2.0  |Disable this when other plugins cause bugs  because of the thrown events.|
 |&nbsp;&nbsp;OverwriteLanguages:|  string  |  `''`  |  2.2.5  |If you don't want per player language detection you can use this to overwrite the language for all players. Available languages can be found [here](https://github.com/xXKeyleXx/MyPet-Translations). Example: `pt_br` |
 |  **Repository Settings**  |||||
 |&nbsp;&nbsp;**Repository:**||||
-|&nbsp;&nbsp;&nbsp;&nbsp;Type:|  string  |  `NBT`  |  (P)  |The storage type where the plugin will save the pets into. (P) Premium users also have access to `MySQL` and `MongoDB`.|
-|&nbsp;&nbsp;&nbsp;&nbsp;ConvertFrom:|  string  |  `''`  |  (P)  |This options allows to migrate from one storage type to another. For example from `NBT` to `MySQL`.|
+|&nbsp;&nbsp;&nbsp;&nbsp;Type:|  string  |  `NBT`  |  ![$](/wiki/images/premium.gif)  |The storage type where the plugin will save the pets into. ![$](/wiki/images/premium.gif) Premium users also have access to `MySQL` and `MongoDB`.|
+|&nbsp;&nbsp;&nbsp;&nbsp;ConvertFrom:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |This options allows to migrate from one storage type to another. For example from `NBT` to `MySQL`.|
 |&nbsp;&nbsp;&nbsp;&nbsp;**NBT:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;AutoSaveTime:|  integer  |  `60`  |  -  |The interval in which the plugin writes all pets to the NBT file.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Pet:**|||||
@@ -45,20 +45,20 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveInterval:|  integer  |  `1440`  |  -  |Sets interval in which the `My.Pets` file will be backed up into the `backups` folder..|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DateFormat:|  string  |  `yyyy_MM_dd_HH.mm`  |  -  |The format the filename will have. A detailed format description can be found [here](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).|
 |&nbsp;&nbsp;&nbsp;&nbsp;**MySQL:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database:|  string  |  `mypet`  |  (P)  |The name of the MySQL database.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TablePrefix:|  string  |  `''`  |  (P)  |The table prefix if the database is shared with other applications.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host:|  string  |  `localhost`  |  (P)  |The address of the MySQL server.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port:|  integer  |  `3306`  |  (P)  |The port of the MySQL server.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:|  string  |  `''`  |  (P)  |The password of the MySQL user.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User:|  string  |  `root`  |  (P)  |The username of the MySQL user.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MaxConnections:|  integer  |  `CPU cores * 2`  |  (P)  |The amount of simultaneous connections the plugin will create to the MySQL server. You can find more about the best pool size [here](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing).|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database:|  string  |  `mypet`  |  ![$](/wiki/images/premium.gif)  |The name of the MySQL database.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TablePrefix:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |The table prefix if the database is shared with other applications.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host:|  string  |  `localhost`  |  ![$](/wiki/images/premium.gif)  |The address of the MySQL server.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port:|  integer  |  `3306`  |  ![$](/wiki/images/premium.gif)  |The port of the MySQL server.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |The password of the MySQL user.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User:|  string  |  `root`  |  ![$](/wiki/images/premium.gif)  |The username of the MySQL user.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MaxConnections:|  integer  |  `CPU cores * 2`  |  ![$](/wiki/images/premium.gif)  |The amount of simultaneous connections the plugin will create to the MySQL server. You can find more about the best pool size [here](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing).|
 |&nbsp;&nbsp;&nbsp;&nbsp;**MongoDB:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database:|  string  |  `mypet`  |  (P)  |The name of the MongoDB database.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CollectionPrefix:|  string  |  `''`  |  (P)  |The collection prefix if the database is shared with other applications.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host:|  string  |  `localhost`  |  (P)  |The address of the MongoDB server.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port:|  integer  |  `3306`  |  (P)  |The port of the MongoDB server.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:|  string  |  `''`  |  (P)  |The password of the MongoDB user.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User:|  string  |  `''`  |  (P)  |The username of the MongoDB user.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database:|  string  |  `mypet`  |  ![$](/wiki/images/premium.gif)  |The name of the MongoDB database.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CollectionPrefix:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |The collection prefix if the database is shared with other applications.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host:|  string  |  `localhost`  |  ![$](/wiki/images/premium.gif)  |The address of the MongoDB server.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port:|  integer  |  `3306`  |  ![$](/wiki/images/premium.gif)  |The port of the MongoDB server.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |The password of the MongoDB user.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |The username of the MongoDB user.|
 |  **Respawn Settings**   |||||
 |&nbsp;&nbsp;**Respawn:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;**Time:**|||||
@@ -131,7 +131,7 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Item:|  string  |  `420`  |  -  |Sets the item that allows the player to mount the pet. This setting follows the [config item](configitem) guidelines|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HungerPerMeter:|  double  |  `0.01`  |  -  |If the [Hunger-System](hungersystem) is active, this setting set the value the hunger value is decreased by for every ridden meter.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**FlyZones:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">SomeRegion</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">__global__</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**…**|  boolean  |  `true`  |  2.1.3<br> (P)  |This setting allows to disable flying in WorldGuard regions. For every region you want to allow/disable flying you have to add a new line that looks like this:<br> **<font color="#1CA8D6">&lt;World&gt;</font>**::**<font color="#86C48B">&lt;RegionName&gt;</font>**: false<br> Regions with higher priorities will overwrite regions with a lower priorities. This allows to have small regions that allow flying in big regions where flying is diabled and vice versa.<br> An example can be found [here](skills/ride#example).|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">SomeRegion</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">__global__</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**…**|  boolean  |  `true`  |  2.1.3<br> ![$](/wiki/images/premium.gif)  |This setting allows to disable flying in WorldGuard regions. For every region you want to allow/disable flying you have to add a new line that looks like this:<br> **<font color="#1CA8D6">&lt;World&gt;</font>**::**<font color="#86C48B">&lt;RegionName&gt;</font>**: false<br> Regions with higher priorities will overwrite regions with a lower priorities. This allows to have small regions that allow flying in big regions where flying is diabled and vice versa.<br> An example can be found [here](skills/ride#example).|
 |&nbsp;&nbsp;&nbsp;&nbsp;**[[skills:backpack|Inventory]]:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creative:|  boolean  |  `false`  |  -  |Allows players to open the inventory of their pet when they are in creative mode.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DropWhenOwnerDies:|  boolean  |  `false`  |  -  |When this is set to `true` the pet will drop the content in it's inventory when the owner dies.|
@@ -145,7 +145,7 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;MCMMO:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the MCMMO plugin like **parties**. If the owner of a pet can attack a player, the MyPet can attack this player too.|
 |&nbsp;&nbsp;&nbsp;&nbsp;Factions:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the Factions plugin. If the owner of a pet can attack a player, the MyPet can attack this player too.|
 |&nbsp;&nbsp;&nbsp;&nbsp;Heroes:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the Heroes plugin like **minimum PvP level** or **parties**. If the owner of a pet can attack a player, the MyPet can attack this player too.|
-|&nbsp;&nbsp;&nbsp;&nbsp;WorldGuard:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the WorldGuard like **region flags**. If the owner of a pet can attack a player, the MyPet can attack this player too. This will not affect **Fly Zones** (P) because they can be disabled by just removing all zones.|
+|&nbsp;&nbsp;&nbsp;&nbsp;WorldGuard:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the WorldGuard like **region flags**. If the owner of a pet can attack a player, the MyPet can attack this player too. This will not affect **Fly Zones** ![$](/wiki/images/premium.gif) because they can be disabled by just removing all zones.|
 |&nbsp;&nbsp;&nbsp;&nbsp;Residence:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the Residence. If the owner of a pet can attack a player, the MyPet can attack this player too.|
 |&nbsp;&nbsp;&nbsp;&nbsp;GriefPrevention:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the GriefPrevention. If the owner of a pet can attack a player, the MyPet can attack this player too.|
 |&nbsp;&nbsp;&nbsp;&nbsp;PvPManager:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the PvPManager. If the owner of a pet can attack a player, the MyPet can attack this player too.|
@@ -166,7 +166,7 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;**BattleArena:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DisablePetsInArena:|  boolean  |  `true`  |  -  |Disables MyPets in the arenas completely.|
 |&nbsp;&nbsp;&nbsp;&nbsp;**Vault:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Economy:|  boolean  |  `true`  |  -  |Enables the economy support. Used by (P) trading, respawning and storing pets.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Economy:|  boolean  |  `true`  |  -  |Enables the economy support. Used by ![$](/wiki/images/premium.gif) trading, respawning and storing pets.|
 |&nbsp;&nbsp;&nbsp;&nbsp;**SkillAPI:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GrantExp:|  boolean  |  `true`  |  -  |This setting allows pets to gain XP when the owner gains SkillAPI XP.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disable-Vanilla-Exp:|  boolean  |  `false`  |  -  |This setting disables XP gain of normal sources at all. The only way pets can get any XP is when the owner gets XP via SkillAPI.|

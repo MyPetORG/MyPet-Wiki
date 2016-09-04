@@ -3,7 +3,7 @@
 The *pet-config.yml* file contains all MyPet-Type specific settings.
 All other settings can be found in the main config ([config.yml](configfile)).
 
-|  Setting  |  Type  |  Default  |  Since / (P)  |  Description  |
+|  Setting  |  Type  |  Default  |  Since / ![$](/wiki/images/premium.gif)  |  Description  |
 | --------  |        |           |               |               |
 |**MyPet:**|||||
 |&nbsp;&nbsp;**Pets:**|||||

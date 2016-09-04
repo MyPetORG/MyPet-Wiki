@@ -97,10 +97,10 @@ or
      * `<limit>` has to be replaced by a number between 1 and 54
 *  `MyPet.command.trade.offer.<MyPet-Type>`
      * allows to offer somebody your MyPet of type `<MyPet-Type>`
-     * (P) Premium feature
+     * ![$](/wiki/images/premium.gif) Premium feature
 *  `MyPet.command.trade.receive.<MyPet-Type>`
      * allows to offer somebody your MyPet of type `<MyPet-Type>`
-     * (P) Premium feature
+     * ![$](/wiki/images/premium.gif) Premium feature
 *  `MyPet.skilltree.<skilltreename>`
      * `<skilltreename>` has to be replaced with the name of any existing skilltreename.
      * allows to use the `<skilltreename>` skilltree.
