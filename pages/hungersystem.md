@@ -1,14 +1,14 @@
 # Hunger-System
 
-With the Hunger-System was a new value added. The *Hunger-Points*.
-This value is always between **1** and **100**, where **100** is the best and **1** is the worst value.
-After a periodic amount of time (can be set with the <font color="Coral">MyPet.HungerSystem.Time</font> setting) this value decreases and affects other stats of your pet.
+With the Hunger-System is based on saturation. Tghe saturation is a value between **1** and **100**, where **100** is the best and **1** is the worst.
+After a periodic amount of time (can be set with the <font color="Coral">MyPet.HungerSystem.Time</font> setting) the saturation decreases and affects other stats of your pet.
 
-## What is affected by the Hunger-Points?
+----
 
-### Hitpoints on respawn
-When a pet respawns it doesn't has full hitpoints when the *Hunger-Points* is below **90**.
-This tables shows how much the Hunger-Points affect the hitpoints on a respawn:
+#### Hitpoints on respawn
+
+When a pet respawns it doesn't has full hitpoints when the *Saturation* is below **90**.
+This tables shows how much the saturation affect the hitpoints on a respawn:
 
  | Hunger-Points | Hitpoints on respawn      |
  | ------------- | --------------------      |
@@ -26,6 +26,10 @@ This tables shows how much the Hunger-Points affect the hitpoints on a respawn:
 
 ----
 
-### Beacon range
+#### Beacon range
+The lower the saturation the less is the range of the beacon effect.
 
-The lower the Hunger-Points the less is the range of the beacon effect.
+----
+
+#### Ride speed
+The lower the saturation the slower your pet will run when you ride it.

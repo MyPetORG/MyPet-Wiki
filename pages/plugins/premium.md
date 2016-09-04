@@ -19,10 +19,11 @@ These are the current features that the premium version has over the free one:
 ### Particle effects
 
 If you purchased the premium version of the plugin you can send me a message with up to 2 Minecraft names who will then get particle effects on their pets!
-`<spoiler |Preview>`
-{{ :images:particles.gif?nolink |}}
-`</spoiler>`
+
+![Particles](/wiki/images/particles.gif)
+
 ----
+
 ###  Planned Premium Features
 
 You can find planned premium features [here](https://github.com/xXKeyleXx/MyPet/issues?q=is%3Aissue+is%3Aopen+label%3APremium+-label%3ABug+-label%3A%22Bug+(Unconfirmed)%22).

@@ -2,6 +2,8 @@
 
 There are three simple steps on your way to get a pet.
 
+----
+
 ## Step 1 - Finding a leadable Mob
 
 Find a mob that is leadable is the easiest step. All leadable mobtypes can be found [here](mobtypes).

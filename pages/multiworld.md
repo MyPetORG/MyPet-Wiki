@@ -2,6 +2,8 @@
 
 To allows server owners to manage the worlds where players have the same pet, MyPet uses WorlGroups to combine different worlds together (or split them up). These groups are managed in the `worldgroups.yml` file.
 
+----
+
 ## How does it work?
 
 Every world is in a *WorldGroup* and every player can have one pet per *WorldGroup*, so players can have multiple pets on one server.
