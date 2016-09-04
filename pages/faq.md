@@ -27,7 +27,7 @@ Riding a pet is like riding a horse with a saddle.
 
 ### How can I get a pet?
 
-[Tutorials](tutorials) -> [How to get a pet](how_to_get_a_mypet)?
+[Tutorials](tutorials) -> [How to get a pet](tutorials/how_to_get_a_mypet)?
 
 ----
 
