@@ -4,7 +4,7 @@
 
 * [![Beacon](/wiki/images/skills/beacon_2.png) Beacon](skills/beacon)
 * [![Behavior](/wiki/images/skills/behavior.png) Behavior](skills/behavior)
-* [![Control](/wiki/images/skills/control.png) Control](skills/vontrol)
+* [![Control](/wiki/images/skills/control.png) Control](skills/control)
 * [![Damage](/wiki/images/skills/damage.png) Damage](skills/damage)
 * [![Fire](/wiki/images/skills/fire.png) Fire](skills/fire)
 * [![HP](/wiki/images/skills/hp.png) HP](skills/hp)
