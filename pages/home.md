@@ -1,4 +1,4 @@
-![MyPet Banner](/wiki/images/banner/banner.png)
+# MyPet - Wiki
 
 ----
 
