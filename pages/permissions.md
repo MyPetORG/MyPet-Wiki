@@ -10,6 +10,7 @@
   - MyPet.command.name
   - MyPet.command.name.color
   - MyPet.command.switch
+  - MyPet.command.options.resourcepack
   - MyPet.command.trade.offer.<MyPet-Type>
   - MyPet.command.trade.receive.<MyPet-Type>
   - MyPet.shop.access.<shopname>
@@ -89,6 +90,8 @@ or
      * allows to use the <font color="DarkCyan">/petrespawn</font> command to respawn your pet (needs Economy plugin).
 *  `MyPet.command.switch`
      * allows to use the <font color="DarkCyan">/petswitch</font> command to switch between pets.
+*  `MyPet.command.options.resourcepack`
+     * allows to use the <font color="DarkCyan">/petoptions resource-pack</font> command to toggle the resource pack.
 *  `MyPet.command.trade.offer.<MyPet-Type>`
      * allows to offer somebody your MyPet of type `<MyPet-Type>`
      * ![$](/wiki/images/premium.gif) Premium feature
