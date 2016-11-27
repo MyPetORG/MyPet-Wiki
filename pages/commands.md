@@ -73,10 +73,19 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
 
 ----
 
-*  <font color="DarkCyan">/petswitch </font><font color="LimeGreen">[store]</font>
-    * allows you to switch between pets or store your pet so you can catch a new one without losing the old one.
+*  <font color="DarkCyan">/petswitch </font>
+    * allows you to switch between pets.
     * alias:
         * <font color="DarkCyan">/pswitch</font>
+
+----
+
+*  <font color="DarkCyan">/petstore </font>
+    * allows you to store your active pet
+    * stored pets can be retrieved by the <font color="DarkCyan">/petswitch</font> command
+    * alias:
+        * <font color="DarkCyan">/pstore</font>
+        * <font color="DarkCyan">/pst</font>
 
 ----
 
