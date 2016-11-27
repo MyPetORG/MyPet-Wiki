@@ -8,7 +8,7 @@
     * <font color="LimeGreen">[vaiable]</font> -> optional
 Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them instead the long version.
 
-:!: In most cases you can also go through the command options by using the <kbd>TAB</kbd>-key. :!:
+![$](/wiki/images/exclaim.gif) In most cases you can also go through the command options by using the <kbd>TAB</kbd>-key. ![$](/wiki/images/exclaim.gif)
 
 
 ----
@@ -177,7 +177,7 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
 *  <font color="DarkCyan">/petskilltree </font><font color="red">`<mobtype>` </font><font color="LimeGreen">[skilltree name]</font>
     * shows all available skilltrees for a mobtype
     * shows all levels and skills for a skilltree of a mobtype
-    * ** :!: can only be used in the server console :!: **
+    * ** ![$](/wiki/images/exclaim.gif) can only be used in the server console ![$](/wiki/images/exclaim.gif) **
 
 ----
 
@@ -232,7 +232,7 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
 
 *  <font color="DarkCyan">/petpickup</font>
     * toggles pickup of your pet on/off
-    * :!: requires <font color="blue">Inventory</font> with at least one row of slots :!:
+    * ![$](/wiki/images/exclaim.gif) requires <font color="blue">Inventory</font> with at least one row of slots ![$](/wiki/images/exclaim.gif)
     * alias:
       * <font color="DarkCyan">/pp</font>
       * <font color="DarkCyan">/petp</font>

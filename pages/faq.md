@@ -15,7 +15,7 @@ Yes, there are 3 ways to activate a level cap:
 
 Just rightclick your pet with the item you want them to wear while sneaking.
 To remove the equipment just rightclick your pet with shears while sneaking.
-:!: **Weapons/Armor are only visually and have no effect on the pet** :!:
+![$](/wiki/images/exclaim.gif) **Weapons/Armor are only visually and have no effect on the pet** ![$](/wiki/images/exclaim.gif)
 
 ----
 

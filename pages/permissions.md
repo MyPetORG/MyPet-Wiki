@@ -23,7 +23,7 @@
 
 The leash permission is the most important permission because it allows to take a mob on a lead.
 You can allow all types by using the wildcard `*` or you can allow only certain types to certain players as you want.
-:!: This permission only allows to leash a certain mob but everything else a player can do with a pet has nothing to do with this permission :!:
+![$](/wiki/images/exclaim.gif) This permission only allows to leash a certain mob but everything else a player can do with a pet has nothing to do with this permission ![$](/wiki/images/exclaim.gif)
 
 * `MyPet.leash.<Pet-Type-Name>`
   * `<Pet-Type-Name>` has to be replaced with a valid Pet-Type-Name or wildcard(`*`) to give permission for all Pet-Types.
@@ -108,7 +108,7 @@ or
 *  `MyPet.skilltree.<skilltreename>`
      * `<skilltreename>` has to be replaced with the name of any existing skilltreename.
      * allows to use the `<skilltreename>` skilltree.
-     * :!: you can't use `MyPet.skilltree.*` with GroupManager (Essentials) :!:
+     * ![$](/wiki/images/exclaim.gif) you can't use `MyPet.skilltree.*` with GroupManager (Essentials) ![$](/wiki/images/exclaim.gif)
      * the names of the default skilltrees are: **`Combat`**, **`Utility`**, **`PvP`**, **`Ride`** & **`Farm`**
 
 ----
