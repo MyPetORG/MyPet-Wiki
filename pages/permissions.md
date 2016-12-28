@@ -40,15 +40,20 @@ or
   - MyPet.leash.Chicken
   - MyPet.leash.Cow
   - MyPet.leash.Creeper
+  - MyPet.leash.Donkey
+  - MyPet.leash.ElderGuardian
   - MyPet.leash.EnderDragon
   - MyPet.leash.Enderman
   - MyPet.leash.Endermite
   - MyPet.leash.Ghast
   - MyPet.leash.Giant
   - MyPet.leash.Guardian
+  - MyPet.leash.Husk
   - MyPet.leash.IronGolem
+  - MyPet.leash.Llama
   - MyPet.leash.MagmaCube
   - MyPet.leash.Mooshroom
+  - MyPet.leash.Mule
   - MyPet.leash.Ocelot
   - MyPet.leash.Pig
   - MyPet.leash.PigZombie
@@ -57,14 +62,21 @@ or
   - MyPet.leash.Sheep
   - MyPet.leash.Silverfish
   - MyPet.leash.Skeleton
+  - MyPet.leash.SkeletonHorse
   - MyPet.leash.Slime
   - MyPet.leash.Snowman
   - MyPet.leash.Spider
+  - MyPet.leash.Squid
+  - MyPet.leash.Stray
+  - MyPet.leash.Vex
   - MyPet.leash.Villager
   - MyPet.leash.Witch
   - MyPet.leash.Wither
+  - MyPet.leash.WitherSkeleton
   - MyPet.leash.Wolf
   - MyPet.leash.Zombie
+  - MyPet.leash.ZombieHorse
+  - MyPet.leash.ZombieVillager
 ~~~
 
 ----
