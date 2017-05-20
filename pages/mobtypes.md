@@ -24,7 +24,8 @@ All food items and leashflags can be changed in the config so these values migth
 | ![Guardian](/wiki/images/mobs/Guardian.png) **Guardian** | Suggar | 10% HP or less | elder |
 | ![Horse](/wiki/images/mobs/Horse.png) **Horse** | Sugar, Wheat, Apples | tamed | saddle, chest, armor, <br>baby, type, variant |
 | ![Husk](/wiki/images/mobs/Husk.png) **Husk** | Rotten Flesh | 10% HP or less | [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), baby |
-| ![Irongolem](/wiki/images/mobs/Irongolem.png) **Irongolem** | Iron Ingot | created by player | flower |
+| ![Illusioner](/wiki/images/mobs/Illusioner.png) **Illusioner** | Apples | 10% HP or less | [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie) |
+| ![Irongolem](/wiki/images/mobs/Irongolem.png) **Irongolem** | Iron Ingots | created by player | flower |
 | ![Llama](/wiki/images/mobs/Llama.png) **Llama** | Wheet | tamed | color, chest, baby, decor |
 | ![Magma Cube](/wiki/images/mobs/MagmaCube.png) **Magma Cube** | Redstone | 10% HP or less | size |
 | ![Mooshroom](/wiki/images/mobs/Mooshroom.png) **Mooshroom** | Wheat | 10% HP or less | baby |
@@ -32,6 +33,7 @@ All food items and leashflags can be changed in the config so these values migth
 | ![Ocelot](/wiki/images/mobs/Ocelot.png) **Ocelot** | Raw Fish | tamed | baby, type |
 | ![Pig](/wiki/images/mobs/Pig.png) **Pig** | Carrots | 10% HP or less | saddle, baby |
 | ![Zombie Pigman](/wiki/images/mobs/ZombiePigman.png) ** Pig Zombie** | Rotten Flesh | 10% HP or less | [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), baby |
+| ![Parrot](/wiki/images/mobs/Parrot.png) **Parrot** | Seeds, Cookies | tamed | variant |
 | ![Polar Bear](/wiki/images/mobs/PolarBear.png) **Polar Bear** | Any Raw Fish | 10% HP or less | baby |
 | ![Rabbit](/wiki/images/mobs/Rabbit.png) **Rabbit** | Carrots, Roses | 10% HP or less | variant, baby |
 | ![Sheep](/wiki/images/mobs/Sheep.png) **Sheep** | Wheat | 10% HP or less | color, sheared, baby |
