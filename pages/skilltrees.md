@@ -19,10 +19,3 @@ Any Ability has it's own custom option that can be set in the skilltrees.
 
 **Skilltree**s are capable of inheritance which means if **skilltree** `a` inherits from **skilltree** `b`, **skilltree** `a` will have all the settings form **skilltree** `b` and in adition to the own settings.
 The inheritance of already inherted skills can be disabled by setting <font color="coral">MyPet.Skilltree.InheritAlreadyInheritedSkills</font> to `false`.
-
-## The structure
-
-The struckture of the **skilltree**s is easy.
-For each pet-type exists a file (`<pet-type>.st`) in which the **skilltree**s of the pet-types are saved. There is a file `default.st` too, that applies for all pet-types. The priority of the specific pet-type files is higher than the `default.st` which means that you can override the default **skilltree** for specific pet-types.
-
-At the first start of the plugin it will create a folder in the plugin directory named `skilltrees`  in which the **skilltree**-files have to be saved.
