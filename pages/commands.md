@@ -37,7 +37,7 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
 *  <font color="DarkCyan">/petname </font><font color="LimeGreen">[new-pet-name]</font>
     * set the name of your pet.
     * owners can use colors to make the name of their pets more colorfull with this placeholder:
-        * `<black>`, `<darkblue>`, `<darkgreen>`, `<darkred>`, `<darkpurple>`, `<gold>`, `<gray>`, `<darkgray>`, `<blue>`, `<green>`, `<aqua>`, `<red>`, `<lightpurple>`, `<yellow>`, `<white>`, `<magic>`, `<bold>`, `<strikethrough>`, `<underline>`, `<italic>`, `<reset>`
+        * `<black>`, `<darkaqua>`, `<darkblue>`, `<darkgreen>`, `<darkred>`, `<darkpurple>`, `<gold>`, `<gray>`, `<darkgray>`, `<blue>`, `<green>`, `<aqua>`, `<red>`, `<lightpurple>`, `<yellow>`, `<white>`, `<magic>`, `<bold>`, `<strikethrough>`, `<underline>`, `<italic>`, `<reset>`
 
 ----
 
