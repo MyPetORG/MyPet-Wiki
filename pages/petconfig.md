@@ -3,12 +3,16 @@
 The *pet-config.yml* file contains all MyPet-Type specific settings.
 All other settings can be found in the main config ([config.yml](configfile)).
 
-|  Setting  |  Type  |  Default  |  Since / ![$](/wiki/images/premium.gif)  |  Description  |
-| --------  |        |           |               |               |
+
+----
+
+
+| Setting | Type | Default | ![$](/wiki/images/premium.gif) | Description |
+| :------- | :------: |  :------: |  :------: | -------: |
 |**MyPet:**|||||
 |&nbsp;&nbsp;**Pets:**|||||
 |  These settings are per MyPet-Type  |||||
-|&nbsp;&nbsp;&nbsp;&nbsp;**&lt;MyPet-Typ-Name&gt;:**|||||
+|&nbsp;&nbsp;&nbsp;&nbsp;**&lt;MyPet-Type-Name&gt;:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HP:|  double  |  `20`  |  -  |The maximum HP the pet (type) has by default.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Speed:|  double  |  `0.3`  |  -  |The running speed the pet (type) has by default. ![$](/wiki/images/exclaim.gif) Small changes have a massive impact on the speed ![$](/wiki/images/exclaim.gif)|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food:|  list  |    |  -  |The food this pet (type) eats. This setting must be a list of valid [config items](configitem)|

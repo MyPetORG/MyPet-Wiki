@@ -4,8 +4,8 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 
 ----
 
-|  Setting  |  Type  |  Default  |  Since / ![$](/wiki/images/premium.gif)  |  Description  |
-| --------  |        |           |               |               |
+|  Setting  |  Type  |  Default  |  ![$](/wiki/images/premium.gif)  |  Description  |
+| :------- | :------: |  :------: |  :------: | -------: |
 |**MyPet:**|||||
 |  **Miscellaneous Settings**  |||||
 |&nbsp;&nbsp;**Leash:**|||||
@@ -22,28 +22,18 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;**Info:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;Wiki-URL:|  string  |  `https://wiki.mypet-plugin.de`  |  -  |This can be changed if the server has it's own Wiki for MyPet.|
 |&nbsp;&nbsp;Max-Stored-Pet-Count:|  integer  |  `45`  |  -  |Sets the maximum amount of inactive (stored) pets a player can have.|
-|&nbsp;&nbsp;Update-Check:|  boolean  |  `true`  |  -  |Sets if the plugin will check for updates when it is loaded. This will not download the new version.|
-|&nbsp;&nbsp;Activate-Resourcepack-By-Default:|  boolean  |  `false`  |  ![$](/wiki/images/premium.gif) <br> 2.1.7  |This will actiave the ressource pack by default. Players can still disable it.|
-|&nbsp;&nbsp;Throw-PlayerMoveEvent-While-Riding:|  boolean  |  `true`  |  2.2.0  |Disable this when other plugins cause bugs  because of the thrown events.|
-|&nbsp;&nbsp;OverwriteLanguages:|  string  |  `''`  |  2.2.5  |If you don't want per player language detection you can use this to overwrite the language for all players. Available languages can be found [here](https://github.com/xXKeyleXx/MyPet-Translations). Example: `pt_br` |
+|&nbsp;&nbsp;**Update:**|||||
+|&nbsp;&nbsp;&nbsp;Check:|  boolean  |  `true`  |  -  |Sets if the plugin will check for updates when it is loaded. This will not download the new version.|
+|&nbsp;&nbsp;&nbsp;Download:|  boolean  |  `false`  |  -  |Sets if the plugin will download the update.|
+|&nbsp;&nbsp;&nbsp;ReplaceOld:|  boolean  |  `false`  |  -  |Sets if the plugin will load the update on the next server start.|
+|&nbsp;&nbsp;&nbsp;Token:|  String  |  `''`  |  ![$](/wiki/images/premium.gif)  |The download token you need to download the latest MyPet-Premium version. You can get your token [here](https://mypet-plugin.de/download).|
+|&nbsp;&nbsp;Activate-Resourcepack-By-Default:|  boolean  |  `false`  |  ![$](/wiki/images/premium.gif)  |This will actiave the ressource pack by default. Players can still disable it.|
+|&nbsp;&nbsp;Throw-PlayerMoveEvent-While-Riding:|  boolean  |  `true`  |  -  |Disable this when other plugins cause bugs  because of the thrown events.|
+|&nbsp;&nbsp;OverwriteLanguages:|  string  |  `''`  |  -  |If you don't want per player language detection you can use this to overwrite the language for all players. Available languages can be found [here](https://github.com/xXKeyleXx/MyPet-Translations). Example: `pt_br` |
 |  **Repository Settings**  |||||
 |&nbsp;&nbsp;**Repository:**||||
-|&nbsp;&nbsp;&nbsp;&nbsp;Type:|  string  |  `NBT`  |  ![$](/wiki/images/premium.gif)  |The storage type where the plugin will save the pets into. ![$](/wiki/images/premium.gif) Premium users also have access to `MySQL` and `MongoDB`.|
+|&nbsp;&nbsp;&nbsp;&nbsp;Type:|  string  |  `SQLite`  |  ![$](/wiki/images/premium.gif)  |The storage type where the plugin will save the pets into. ![$](/wiki/images/premium.gif) Premium users also have access to `MySQL` and `MongoDB`.|
 |&nbsp;&nbsp;&nbsp;&nbsp;ConvertFrom:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |This options allows to migrate from one storage type to another. For example from `NBT` to `MySQL`.|
-|&nbsp;&nbsp;&nbsp;&nbsp;**NBT:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;AutoSaveTime:|  integer  |  `60`  |  -  |The interval in which the plugin writes all pets to the NBT file.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Pet:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnAdd:|  boolean  |  `true`  |  -  |Sets if all pets are written to the NBT file when a new pet is added to the list.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnUpdate:|  boolean  |  `true`  |  -  |Sets if all pets are written to the NBT file when a pet is updated.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnRemove:|  boolean  |  `true`  |  -  |Sets if all pets are written to the NBT file when a pet gets removed from the list.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Player:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnAdd:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when player is recognized as a _MyPet-Player_.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnUpdate:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when a _MyPet-Player_ is updated.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveOnRemove:|  boolean  |  `true`  |  -  |Sets if all data is written to the NBT file when a _MyPet-Player_ is not required anymore.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Backup:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Active:|  boolean  |  `true`  |  -  |Activates backups for the `My.Pets` file.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SaveInterval:|  integer  |  `1440`  |  -  |Sets interval in which the `My.Pets` file will be backed up into the `backups` folder..|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DateFormat:|  string  |  `yyyy_MM_dd_HH.mm`  |  -  |The format the filename will have. A detailed format description can be found [here](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html).|
 |&nbsp;&nbsp;&nbsp;&nbsp;**MySQL:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database:|  string  |  `mypet`  |  ![$](/wiki/images/premium.gif)  |The name of the MySQL database.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TablePrefix:|  string  |  `''`  |  ![$](/wiki/images/premium.gif)  |The table prefix if the database is shared with other applications.|
@@ -79,9 +69,6 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |  **Level System Settings**  |||||
 |&nbsp;&nbsp;**LevelSystem:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;CalculationMode:|  string  |  `Default`  |  -  |Set this to `JS` or `JavaScript` if you want use a custom [exp.js](expjs).|
-|&nbsp;&nbsp;&nbsp;&nbsp;**Firework:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enabled:|  boolean  |   `false`  |  -  |Disable this if you don't want fireworks to be used as the levelup indicator.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Color:|  string  |   `'#00FF00'`  |  -  |Sets the color of the fireworks ([HEX value](http://htmlcolorcodes.com/color-picker/)).|
 |  **Hunger System Settings**  |||||
 |&nbsp;&nbsp;**HungerSystem:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;Active:|  boolean  |  `true`  |  -  |Disable the [hungersystem](hungersystem) if you don't want your pets need food to survive.|
@@ -94,7 +81,7 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;InheritAlreadyInheritedSkills:|  boolean  |  `false`  |  -  |Enable this if you want skill that are inherited by another skilltree can be inherited again.|
 |&nbsp;&nbsp;&nbsp;&nbsp;ChooseOnce:|  boolean  |  `false`  |  -  |Enable this if players shouldn't be able to pick another skilltree once the pet has a skilltree.|
 |&nbsp;&nbsp;&nbsp;&nbsp;PreventLevellingWithout:|  boolean  |  `true`  |  -  |Pets without a skilltree will not gain XP if it is set to `true`.|
-|&nbsp;&nbsp;&nbsp;&nbsp;**SwitchPenalty:**|||||
+|&nbsp;&nbsp;&nbsp;&nbsp;**SwitchFee:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admin:|  boolean  |  `false`  |  -  |Set this to `true` if admins should pay the same skilltree switch penalty like normal players.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Percent:|  integer  |  `5`  |  -  |The percentage of XP a players has to pay if he switches to another skilltree.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fixed:|  double  |  `0.0`  |  -  |The amount of XP a players has to pay if he switches to another skilltree.|
@@ -102,8 +89,8 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;**Name:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;Filter:|  list  |  `whore, fuck`  |  -  |Every pet name is checked against this list of filters (string/regular expression).|
 |&nbsp;&nbsp;&nbsp;&nbsp;MaxLength:|  integer  |  `32`  |  -  |The maximum length a petname can have.|
-|&nbsp;&nbsp;&nbsp;&nbsp;**OverHead:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Visible:|  boolean  |  `true`  |  -  |Set this to `false` if you don't want nametags for MyPets.|
+|&nbsp;&nbsp;&nbsp;&nbsp;**Tag:**|||||
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show:|  boolean  |  `true`  |  -  |Set this to `false` if you don't want nametags for MyPets.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prefix:|  string  |  `<aqua>`  |  -  |This text will be added in front of the name. You can use color codes and these placeholders:<br> `<owner>` ⇒ name of the owner<br> `<level>` ⇒ level of the pet|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suffix:|  string  |  `''`  |  -  |This text will be added the end of the name. You can use color codes and these placeholders:<br> `<owner>` ⇒ name of the owner<br> `<level>` ⇒ level of the pet|
 |  **Experience Settings**  |||||
@@ -131,7 +118,7 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Item:|  string  |  `420`  |  -  |Sets the item that allows the player to mount the pet. This setting follows the [config item](configitem) guidelines|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HungerPerMeter:|  double  |  `0.01`  |  -  |If the [Hunger-System](hungersystem) is active, this setting set the value the hunger value is decreased by for every ridden meter.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**FlyZones:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">SomeRegion</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">__global__</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**…**|  boolean  |  `true`  |  2.1.3<br> ![$](/wiki/images/premium.gif)  |This setting allows to disable flying in WorldGuard regions. For every region you want to allow/disable flying you have to add a new line that looks like this:<br> **<font color="#1CA8D6">&lt;World&gt;</font>**::**<font color="#86C48B">&lt;RegionName&gt;</font>**: false<br> Regions with higher priorities will overwrite regions with a lower priorities. This allows to have small regions that allow flying in big regions where flying is diabled and vice versa.<br> An example can be found [here](skills/ride#example).|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">SomeRegion</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<font color="#1CA8D6">SomeWorld</font>**::**<font color="#86C48B">__global__</font>**:<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**…**|  boolean  |  `true`  |  ![$](/wiki/images/premium.gif)  |This setting allows to disable flying in WorldGuard regions. For every region you want to allow/disable flying you have to add a new line that looks like this:<br> **<font color="#1CA8D6">&lt;World&gt;</font>**::**<font color="#86C48B">&lt;RegionName&gt;</font>**: false<br> Regions with higher priorities will overwrite regions with a lower priorities. This allows to have small regions that allow flying in big regions where flying is diabled and vice versa.<br> An example can be found [here](skills/ride#example).|
 |&nbsp;&nbsp;&nbsp;&nbsp;**[[skills:backpack|Inventory]]:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creative:|  boolean  |  `false`  |  -  |Allows players to open the inventory of their pet when they are in creative mode.|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DropWhenOwnerDies:|  boolean  |  `false`  |  -  |When this is set to `true` the pet will drop the content in it's inventory when the owner dies.|
@@ -151,8 +138,9 @@ The *config.yml* file is the main configfile of *MyPet*. All pet type related op
 |&nbsp;&nbsp;&nbsp;&nbsp;PvPManager:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player following the rules of the PvPManager. If the owner of a pet can attack a player, the MyPet can attack this player too.|
 |&nbsp;&nbsp;&nbsp;&nbsp;Citizens:|  boolean  |  `true`  |  -  |Checks whether the target NPC can be damaged by a MyPet. NPCs can't be leashed.|
 |&nbsp;&nbsp;&nbsp;&nbsp;**MobArena:**|||||
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PvP:|  boolean  |  `true`  |  -  |Checks whether the MyPet-owner can attack a target player inside an arena. If the owner of a pet can attack a player, the MyPet can attack this player too.|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DisablePetsInArena:|  boolean  |  `true`  |  -  |Disables MyPets in the arenas completely.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enabled:|  boolean  |  `true`  |  -  |Enables the MobArena hook. (This allows the pet to deal damage in arenas)|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RespectPvPRule:|  boolean  |  `true`  |  -  |If `true` pets will respects the PvP rules of an arena. If the owner of a pet can attack a player, the MyPet can attack this player too.|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AllowPets:|  boolean  |  `true`  |  -  |If `true` pets will be able to enter arenas.|
 |&nbsp;&nbsp;&nbsp;&nbsp;**Minigames:**|||||
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DisablePetsInGames:|  boolean  |  `true`  |  -  |Disables MyPets in any minigame completely.|
 |&nbsp;&nbsp;&nbsp;&nbsp;**PvPArena:**|||||

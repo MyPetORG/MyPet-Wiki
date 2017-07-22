@@ -15,6 +15,7 @@
 | `%mypet_health_max%` | the maximum health of the pet |
 | `%mypet_saturation%` | the saturation of the pet |
 | `%mypet_uuid%` | the UUID of the pet |
+| `%mypet_behavior%` | the behavior mode of the pet (Normal when pet doesn't know the skill) |
 | `%mypet_skilltree_display%` | the display name of the pet's skilltree |
 | `%mypet_skilltree_name%` | the name of the pet's skilltree |
 | `%mypet_world_group%` | the worldgroup of the pet |
