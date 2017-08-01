@@ -7,6 +7,7 @@
 * [Commands](commands)
 * [Available Mobtypes](mobtypes)
 * [Tutorials](tutorials)
+* [Auto Updater](updater)
 * [FAQ](faq)
 
 #### Configuration
