@@ -2,6 +2,12 @@
 
 ----
 
+### Is MyPet EULA compliant?
+
+Read [this](eula).
+
+----
+
 ### Is there a max levelcap?
 
 Yes, there are 3 ways to activate a level cap:

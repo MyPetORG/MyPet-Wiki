@@ -17,6 +17,7 @@
 * [Multiworld](multiworld)
 * [Experience](experience)
 * [Translations](https://translation.mypet-plugin.de)
+* [EULA compliance](eula)
 
 #### Skillsystem
 * [Skills](skills)
