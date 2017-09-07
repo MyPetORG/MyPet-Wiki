@@ -1,6 +1,5 @@
 # MyPet - Permissions
 
-**Normal Permissions:**
 ~~~
   - MyPet.admin
   - MyPet.command.info.other
@@ -48,13 +47,16 @@ or
   - MyPet.leash.Ghast
   - MyPet.leash.Giant
   - MyPet.leash.Guardian
+  - MyPet.leash.Horse
   - MyPet.leash.Husk
+  - MyPet.leash.Illusioner
   - MyPet.leash.IronGolem
   - MyPet.leash.Llama
   - MyPet.leash.MagmaCube
   - MyPet.leash.Mooshroom
   - MyPet.leash.Mule
   - MyPet.leash.Ocelot
+  - MyPet.leash.Parrot
   - MyPet.leash.Pig
   - MyPet.leash.PigZombie
   - MyPet.leash.PolarBear
@@ -69,6 +71,7 @@ or
   - MyPet.leash.Squid
   - MyPet.leash.Stray
   - MyPet.leash.Vex
+  - MyPet.leash.Vindicator
   - MyPet.leash.Villager
   - MyPet.leash.Witch
   - MyPet.leash.Wither
