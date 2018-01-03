@@ -13,6 +13,7 @@
   - MyPet.command.trade.offer.<MyPet-Type>
   - MyPet.command.trade.receive.<MyPet-Type>
   - MyPet.shop.access.<shopname>
+  - MyPet.shop.storage
   - MyPet.petstorage.limit.<limit>
   - MyPet.leash.<MyPet-Type>
   - MyPet.skilltree.<skilltreename>
@@ -119,6 +120,9 @@ or
 * `MyPet.shop.access.<shopname>`
      * allows to access a shop with the <font color="DarkCyan">/petshop <shopname></font> command
      * `<shopname>` needs to be replaced by a shop name
+     * ![$](/wiki/images/premium.gif) Premium feature
+* `MyPet.shop.storage`
+     * allows to buy pets to the storage so you don't have to store your pet before buying a new one
      * ![$](/wiki/images/premium.gif) Premium feature
 *  `MyPet.skilltree.<skilltreename>`
      * `<skilltreename>` has to be replaced with the name of any existing skilltreename.

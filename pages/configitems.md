@@ -17,5 +17,5 @@ This will allow server owners to set the food and leash items (and some other it
 
 ## NBT data
 
-The syntax for the NBT data is the same like in the `/give` command in *Minecraft 1.7*. You can find all possible NBT properties [here](http://www.minecraftwiki.net/wiki/Player.dat_Format#Item_structure). A detailed description will follow soon (hopefully).
+The syntax for the NBT data is the same like in the `/give` command in *Minecraft*. You can find all possible NBT properties [here](http://www.minecraftwiki.net/wiki/Player.dat_Format#Item_structure). A detailed description will follow soon (hopefully).
 
