@@ -109,16 +109,16 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
     * You need the *<font color="purple">MyPet.admin</font>* permission to use this command!
     * options:
         * <font color="red">name</font>
-              * set the name of a pet for a specific player
-              * parameters:
-                  * <font color="LimeGreen">`<ownername>`</font>
-                  * <font color="LimeGreen">`<new petname>`</font>
+            * set the name of a pet for a specific player
+            * parameters:
+                * <font color="LimeGreen">`<ownername>`</font>
+                * <font color="LimeGreen">`<new petname>`</font>
         * <font color="red">exp</font>
-              * set the exp of a pet for a specific player
-              * parameters:
-                  * <font color="LimeGreen">`<ownername>`</font>
-                  * <font color="LimeGreen">`<new exp of the pet>`</font>
-                  * <font color="LimeGreen">[**add**/**set**/**remove**]</font>
+            * set the exp of a pet for a specific player
+            * parameters:
+                * <font color="LimeGreen">`<ownername>`</font>
+                * <font color="LimeGreen">`<new exp of the pet>`</font>
+                * <font color="LimeGreen">[**add**/**set**/**remove**]</font>
         * <font color="red">respawn</font>
             * set/displays the respawnt time of a pet for a specific player
             * will only change the respawn time for dead pets
