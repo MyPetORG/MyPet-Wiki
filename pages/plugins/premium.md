@@ -12,7 +12,7 @@ These are the current features that the premium version has over the free one:
 *  MongoDB support ([How to switch from file to MongoDB](/tutorials/how_to_upgrade_from_file_to_MongoDB))
 *  [fly mode](/skills/ride#demonstration) for the [Ride](/skills/ride) skill that allows players to fly with their pets
 *  [Shield](/skills/shield) skill
-*  improved CaptureHelper (uses particles instead of chat messages)
+*  The CaptureHelper
 *  /pettrade [command](/commands)
 
 ----
