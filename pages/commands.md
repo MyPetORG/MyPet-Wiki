@@ -99,6 +99,15 @@ Most commands have aliases like <font color="DarkCyan">/pi</font>. Use them inst
 
 ----
 
+*  <font color="DarkCyan">/petshop</font>
+    * ![$](/wiki/images/premium.gif) only available in premium version
+    * opens a GUI that shows the available pet shops
+    * alias:
+        * <font color="DarkCyan">/petsh</font>
+        * <font color="DarkCyan">/psh</font>
+
+----
+
 *  <font color="DarkCyan">/petskill </font><font color="LimeGreen">[playername]</font>
     * shows info about the skills of your pet.
     * as an admin this command you can also shows info about other player's pets

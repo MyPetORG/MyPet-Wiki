@@ -13,6 +13,7 @@
 #### Configuration
 * [config.yml](configfile)
 * [pet-config.yml](petconfig)
+* ![$](/wiki/images/premium.gif) [pet-shops.yml](shopconfig)
 * [Permissions](permissions)
 * [Multiworld](multiworld)
 * [Experience](experience)

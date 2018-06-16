@@ -13,6 +13,7 @@ These are the current features that the premium version has over the free one:
 *  [fly mode](/skills/ride#demonstration) for the [Ride](/skills/ride) skill that allows players to fly with their pets
 *  [Shield](/skills/shield) skill
 *  The CaptureHelper
+*  Pet shops
 *  /pettrade [command](/commands)
 
 ----

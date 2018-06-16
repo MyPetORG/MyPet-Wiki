@@ -9,7 +9,7 @@ There are two different ways the experience is converted into levels, etc at the
 
 ## The normal Way
 
-The normal way aka `Default` is the default way the experience part is calculated. When <font color="Coral">MyPet.LevelSystem.CalculationMode</font> is set to `default` all pets will level up like normal players would level up like in [Minecraft Pre-Snapshot 12w23a](http://www.minecraftwiki.net/wiki/Experience#Pre-Snapshot_12w23a).
+The normal way aka `Default` is the default way the experience part is calculated. When <font color="Coral">MyPet.LevelSystem.CalculationMode</font> is set to `default` all pets will level up like normal players would level up like in [Minecraft Pre-Snapshot 12w23a](https://minecraft.gamepedia.com/Experience#Values_of_Beta_1.8_-_Before_1.3.1_.2812w23a.29).
 
 ## JavaScript
 
