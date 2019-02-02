@@ -1,14 +1,12 @@
 # MyPet-Premium 3.0
 
-----
-
 ## Breaking changes
 
-##### Skilltree format
+### Skilltree format
 
 * MyPet now uses the JSON format for all skilltree files
-* A new and better editor is also included (doubleclick the jar file)
-  * after selecting the skilltree folder (of your choice) it will open a new tab in your default webbrowser
+* A new and better editor is also included \(doubleclick the jar file\)
+  * after selecting the skilltree folder \(of your choice\) it will open a new tab in your default webbrowser
 * The skilltree system got completely rewritten so old skilltrees can not be loaded with the new version
   * If you never changes the skilltrees you don't have to do anything
   * You can convert your old skilltrees with the new SkilltreeCreator
@@ -20,22 +18,19 @@
     6. hit the save button
     7. upload the new `.st.json` files to the skilltree folder on your server
 
-----
-
 ## Other changes
 
 * Fixed Ender Dragon interactions
 * improved EXP calculation system
   * JS files just need the `getExpByLevel(level, info)` function now
     * you don't have to do anything if you use a exp.js file
-* pets can level down if they die (can be enabled via the `Allow-Level-Drowngrade` setting)
+* pets can level down if they die \(can be enabled via the `Allow-Level-Drowngrade` setting\)
 * some other longstanding bugs got fixed
 
-##### Overhaul of the LeashFlag system
+### Overhaul of the LeashFlag system
 
 * they work like before but there are more and some of them can be configured
 * also there are flags that require other plugins
-
 * New flags:
   * `World` flag
     * `World:<world name>:...`
@@ -64,7 +59,7 @@
   * `Chance` flag
     * with this flag you can add a random factor to the leashing
     * `Chance:<chance>`
-      * `<chance>` is the chance in percent (%)
+      * `<chance>` is the chance in percent \(%\)
     * Examples:
       * `Chance:2`
       * `Chance:50`
@@ -81,3 +76,4 @@
     * Examples:
       * `MythicMobs:SkeletalKnight`
       * `MythicMobs:StaticallyChargedSheep:SkeletonKing`
+

@@ -1,388 +1,352 @@
 # Changelog
 
-### Version 1.3.0
+## Version 1.3.0
+
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.8...HEAD)
-*  <font color="gold">o</font> improved NBT pet storage
-*  <font color="red">-</font> fixed some bugs
 
-----
+* o improved NBT pet storage
+* - fixed some bugs
 
-### Version 1.2.9
+## Version 1.2.9
+
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.8...1.2.9)
 
-*  <font color="green">+</font> Wiki-URL can be changed in the config
-*  <font color="gold">o</font> namefilter now ignores colors
-*  <font color="gold">o</font> added EnderDragon as an option to the SkilltreeCreator
-*  <font color="red">-</font> fixed a bug that allowed players to spawn more than one MyPet entity
-*  <font color="red">-</font> fix pet-config.yml contained all nodes
+* + Wiki-URL can be changed in the config
+* o namefilter now ignores colors
+* o added EnderDragon as an option to the SkilltreeCreator
+* - fixed a bug that allowed players to spawn more than one MyPet entity
+* - fix pet-config.yml contained all nodes
 
-----
+## Version 1.2.8
 
-### Version 1.2.8
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.7...1.2.8)
 
-*  <font color="green">+</font> added a limit([permissions](permissions)) to the **/petswitch store** command
-*  <font color="green">+</font> added eggs as projectiles to the Ranged skill
-*  <font color="green">+</font> ![$](/wiki/images/premium.gif) added Shield skill <font color="DarkCyan"></font>
-*  <font color="gold">o</font> Beacon range is now calculated differently when using the Hunger System
-*  <font color="gold">o</font> Ride speed is not affected by the Hunger System
-*  <font color="gold">o</font> food items are now stored in a list (please delete the pet-config.yml when you haven't changed it at all)
-*  <font color="red">-</font> fixed a bug that could prevent pets from being saved correctly
-*  <font color="red">-</font> fixed a bug that caused the plugin to overwrite the pet-config.yml
+* + added a limit\([permissions](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/permissions/README.md)\) to the **/petswitch store** command
+* + added eggs as projectiles to the Ranged skill
+* + !\[$\]\(/wiki/images/premium.gif\) added Shield skill
+* o Beacon range is now calculated differently when using the Hunger System
+* o Ride speed is not affected by the Hunger System
+* o food items are now stored in a list \(please delete the pet-config.yml when you haven't changed it at all\)
+* - fixed a bug that could prevent pets from being saved correctly
+* - fixed a bug that caused the plugin to overwrite the pet-config.yml
 
-----
+## Version 1.2.7
 
-### Version 1.2.7
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.6...1.2.7)
 
-*  <font color="green">+</font> readded */petadmin clean* command
-*  <font color="green">+</font> added */petswitch* command
-*  <font color="green">+</font> add [SkillAPI](http://dev.bukkit.org/bukkit-plugins/skillapi/) support
-*  <font color="red">-</font> fixed pet size
-*  <font color="red">-</font> fixed a bug with return values from EXP script (JS)
+* + readded _/petadmin clean_ command
+* + added _/petswitch_ command
+* + add [SkillAPI](http://dev.bukkit.org/bukkit-plugins/skillapi/) support
+* - fixed pet size
+* - fixed a bug with return values from EXP script \(JS\)
 
-----
+## Version 1.2.6
 
-### Version 1.2.6
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.5...1.2.6)
 
-*  <font color="green">+</font> add /petoptions idle-volume command to set the volume of the idle sound from pets
-*  <font color="green">+</font> add random skilltree assignment
+* + add /petoptions idle-volume command to set the volume of the idle sound from pets
+* + add random skilltree assignment
 
-----
+## Version 1.2.5
 
-### Version 1.2.5
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.3...1.2.5)
 
-*  <font color="red">-</font> fixed chat spamming bug
+* - fixed chat spamming bug
 
-----
+## Version 1.2.3
 
-### Version 1.2.3
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.2...1.2.3)
 
-*  <font color="green">+</font> added a name filter
-*  <font color="green">+</font> added Ender Dragon as possible pet (not recommended for usage)(ProtocolLib required)
-*  <font color="gold">o</font> changed some config options
-    * pet configuration moved to *pet-config.yml*
-    * *MyPet.Info.OverHead* ⇒ *MyPet.Name.OverHead*
-    * *MaxPetNameLength* ⇒ *Name.MaxLength*
-*  <font color="gold">o</font> JavaScript XP-Scripts need the [rhino.jar](https://github.com/mozilla/rhino/releases) inside the MyPet folder now
-*  <font color="gold">o</font> improved translation handling (for example *pt_br* is possible now)
-*  <font color="red">-</font> fixed bugs
+* + added a name filter
+* + added Ender Dragon as possible pet \(not recommended for usage\)\(ProtocolLib required\)
+* o changed some config options
+  * pet configuration moved to _pet-config.yml_
+  * _MyPet.Info.OverHead_ ⇒ _MyPet.Name.OverHead_
+  * _MaxPetNameLength_ ⇒ _Name.MaxLength_
+* o JavaScript XP-Scripts need the [rhino.jar](https://github.com/mozilla/rhino/releases) inside the MyPet folder now
+* o improved translation handling \(for example _pt\_br_ is possible now\)
+* - fixed bugs
 
-----
+## Version 1.2.2
 
-### Version 1.2.2
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.1...1.2.2)
 
-*  <font color="green">+</font> added a levelcap (default is 100)
-*  <font color="gold">o</font> dropped Java 6 support
-*  <font color="red">-</font> fixed a lot of bugs
-*  <font color="red">-</font> fixed a memory leak
+* + added a levelcap \(default is 100\)
+* o dropped Java 6 support
+* - fixed a lot of bugs
+* - fixed a memory leak
 
-----
+## Version 1.2.1
 
-### Version 1.2.1
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.2.0...1.2.1)
 
-*  <font color="green">+</font> add health bar (action bar)
-*  <font color="green">+</font> pet notifies owner when it's hungry
-*  <font color="green">+</font> donator perk is back (**NOT** in BukkitDev version, get it [here](http://build.keyle.de/job/MyPet/682/))
-*  <font color="red">-</font> fixed some bugs
+* + add health bar \(action bar\)
+* + pet notifies owner when it's hungry
+* + donator perk is back \(**NOT** in BukkitDev version, get it [here](http://build.keyle.de/job/MyPet/682/)\)
+* - fixed some bugs
 
-----
+## Version 1.2.0
 
-### Version 1.2.0
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.9...1.2.0)
 
-*  <font color="green">+</font> make pet invisible when the owner is
-*  <font color="green">+</font> add config option to always grant passive XP
-*  <font color="green">+</font> disable trample of farmland by MyPets
-*  <font color="gold">o</font> change the follow speed so pets can catch up mostly
+* + make pet invisible when the owner is
+* + add config option to always grant passive XP
+* + disable trample of farmland by MyPets
+* o change the follow speed so pets can catch up mostly
 
-----
+## Version 1.1.9
 
-### Version 1.1.9
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.8...1.1.9)
 
-*  <font color="green">+</font> add support for [Ultimate Survival Games](http://dev.bukkit.org/bukkit-plugins/ultimatesurvivalgames/)
-*  <font color="green">+</font> add party support for the beacon skill
-*  <font color="green">+</font> add pet switch admin command option
-*  <font color="green">+</font> add RetainEquipmentOnTame config option
-*  <font color="gold">o</font> LowHP leashflag now requires a mob to be below 10% health instead of static 2 HP
-*  <font color="red">-</font> fixed some bugs
+* + add support for [Ultimate Survival Games](http://dev.bukkit.org/bukkit-plugins/ultimatesurvivalgames/)
+* + add party support for the beacon skill
+* + add pet switch admin command option
+* + add RetainEquipmentOnTame config option
+* o LowHP leashflag now requires a mob to be below 10% health instead of static 2 HP
+* - fixed some bugs
 
-----
+## Version 1.1.8
 
-### Version 1.1.8
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.7...1.1.8)
 
-*  <font color="green">+</font> Mooshrooms can give soup now
-*  <font color="green">+</font> added ticket command (**/petadmin ticket**)
-*  <font color="green">+</font> added PvPManager support
-*  <font color="green">+</font> prefix and suffix of pet nametags can now contain ownername and level
-    * `<ownername>`
-    * `<level>`
-*  <font color="gold">o</font> improved Towny support
-*  <font color="gold">o</font> improved /petinfo and /petsendaway command
-*  <font color="red">-</font> fixed some bugs
+* + Mooshrooms can give soup now
+* + added ticket command \(**/petadmin ticket**\)
+* + added PvPManager support
+* + prefix and suffix of pet nametags can now contain ownername and level
+  * `<ownername>`
+  * `<level>`
+* o improved Towny support
+* o improved /petinfo and /petsendaway command
+* - fixed some bugs
 
-----
+## Version 1.1.7
 
-### Version 1.1.7
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.6...1.1.7)
 
-*  <font color="green">+</font> added Stomp skill
-*  <font color="red">-</font> removed support for the old color format (`%color%`)
-*  <font color="red">-</font> fixed some bugs
+* + added Stomp skill
+* - removed support for the old color format \(`%color%`\)
+* - fixed some bugs
 
-----
+## Version 1.1.6
 
-### Version 1.1.6
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.5...1.1.6)
 
-*  <font color="green">+</font> added level cap for skilltrees
-*  <font color="green">+</font> added level requirement for skilltrees
-*  <font color="green">+</font> added config option to enable: Zombies attacking *MyPets*
-*  <font color="green">+</font> Pickup can also pick up XP now
-*  <font color="green">+</font> added config option to set a maximum petname length
-*  <font color="green">+</font> added permission for colors in petnames (default: `true`)
-    * `MyPet.user.command.name.color`
-*  <font color="gold">o</font> speed and jump height can be set for the Ride skill
-*  <font color="gold">o</font> improved the performance of the XP-JavaScript part (example: [exp.js](https://github.com/xXKeyleXx/MyPet/blob/master/experience-scripts/exp.js))
-*  <font color="gold">o</font> improved the Beacon skill
-    * choosable receiver (owner, everyone)
-    * more buffs (12)
-    * no tribute item required
-    * easy on/off switching
-*  <font color="gold">o</font> the exp option of the admin command can now change the level too (like the vanilla `/xp` command)
-    * example: `/petadmin exp Keyle 5L add`
-*  <font color="red">-</font> levelsystem can not be disabled anymore
-*  <font color="red">-</font> fixed some bugs
+* + added level cap for skilltrees
+* + added level requirement for skilltrees
+* + added config option to enable: Zombies attacking _MyPets_
+* + Pickup can also pick up XP now
+* + added config option to set a maximum petname length
+* + added permission for colors in petnames \(default: `true`\)
+  * `MyPet.user.command.name.color`
+* o speed and jump height can be set for the Ride skill
+* o improved the performance of the XP-JavaScript part \(example: [exp.js](https://github.com/xXKeyleXx/MyPet/blob/master/experience-scripts/exp.js)\)
+* o improved the Beacon skill
+  * choosable receiver \(owner, everyone\)
+  * more buffs \(12\)
+  * no tribute item required
+  * easy on/off switching
+* o the exp option of the admin command can now change the level too \(like the vanilla `/xp` command\)
+  * example: `/petadmin exp Keyle 5L add`
+* - levelsystem can not be disabled anymore
+* - fixed some bugs
 
-----
+## Version 1.1.5
 
-### Version 1.1.5
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.4...1.1.5)
 
-*  <font color="gold">o</font> MyPet is usable with Java6 again
-*  <font color="red">-</font> removed the donator perk (had to because the BukkitDev team said that)
+* o MyPet is usable with Java6 again
+* - removed the donator perk \(had to because the BukkitDev team said that\)
 
-----
+## Version 1.1.4
 
-### Version 1.1.4
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.3...1.1.4)
 
-*  <font color="green">+</font> items in config can now have [custom data](configitems)
-*  <font color="green">+</font> added config option for releasing pets when they die
-*  <font color="green">+</font> added per pettype leashitem config option
-*  <font color="green">+</font> the rate of fire for the Ranged skill can be set by skilltrees
-*  <font color="gold">o</font> optimizations
-*  <font color="red">-</font> fixed some bugs
+* + items in config can now have [custom data](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/configitems/README.md)
+* + added config option for releasing pets when they die
+* + added per pettype leashitem config option
+* + the rate of fire for the Ranged skill can be set by skilltrees
+* o optimizations
+* - fixed some bugs
 
-----
+## Version 1.1.3
 
-### Version 1.1.3
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.2...1.1.3)
 
-*  <font color="green">+</font> Skilltrees can now be selected by an ItemMenu
-*  <font color="red">-</font> fixed some bugs
+* + Skilltrees can now be selected by an ItemMenu
+* - fixed some bugs
+* _If you still have the default skilltrees please delete/rename your skilltree file \(_`default.st`_\)_
 
-*  *If you still have the default skilltrees please delete/rename your skilltree file (`default.st`)*
+## Version 1.1.2
 
-----
-
-### Version 1.1.2
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.1...1.1.2)
 
-*  <font color="green">+</font> update to Minecraft 1.6.2
-*  <font color="green">+</font> added horses & squids
-*  <font color="green">+</font> added some donator effects
-*  <font color="green">+</font> added some particle effects to skills
-*  <font color="green">+</font> added LevelUp-Message (can be set in the skilltrees)
-*  <font color="gold">o</font> changed colorcode format from `%color%` to `<color>`
-    * default colorcodes are now usable too. Example: `<0>` for black or `<f>` for white
-*  <font color="gold">o</font> changed permissions for the commands
-    * `MyPet.user.command.capturehelper`
-    * `Mypet.user.command.release`
-    * `Mypet.user.command.respawn`
-    * `MyPet.user.command.name` <font color="green">(new)</font>
-*  <font color="gold">o</font> <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> riding
-*  <font color="gold">o</font> improved Thorns skill
-*  <font color="gold">o</font> improved some SkilltreeCreator things
-    * Change the strucure of YAML skilltrees slightly
-*  <font color="gold">o</font> players need to sneak for every optical change now
+* + update to Minecraft 1.6.2
+* + added horses & squids
+* + added some donator effects
+* + added some particle effects to skills
+* + added LevelUp-Message \(can be set in the skilltrees\)
+* o changed colorcode format from `%color%` to `<color>`
+  * default colorcodes are now usable too. Example: `<0>` for black or `<f>` for white
+* o changed permissions for the commands \* \`MyPet.user.command.capturehelper\` \* \`Mypet.user.command.release\` \* \`Mypet.user.command.respawn\` \* \`MyPet.user.command.name\` \(new\)
+* o W A S D riding
+* o improved Thorns skill
+* o improved some SkilltreeCreator things
+  * Change the strucure of YAML skilltrees slightly
+* o players need to sneak for every optical change now
+* **Known Issues:**
+  * You can **NOT** downgrade to 1.1.1
+  * GriefPrevention 7.7 will **not** fully supported anymore. Use a 7.8 devbuild instead.
 
-*  **Known Issues:**
-    * You can **NOT** downgrade to 1.1.1
-    * GriefPrevention 7.7 will **not** fully supported anymore. Use a 7.8 devbuild instead.
+## Version 1.1.1
 
-
-----
-
-### Version 1.1.1
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.1.0...1.1.1)
 
-*  <font color="green">+</font> added config option for consumable leash items
-*  <font color="green">+</font> added first attempt of an API
-*  <font color="green">+</font> added more projectile types for the Ranged skill
-*  <font color="green">+</font> added [MyHungerGames](http://dev.bukkit.org/bukkit-mods/myhungergames/) support
-*  <font color="gold">o</font> improved Lightning skill
-*  <font color="red">-</font> fixed MobArena damage problem
-*  <font color="red">-</font> fixed experience loss
+* + added config option for consumable leash items
+* + added first attempt of an API
+* + added more projectile types for the Ranged skill
+* + added [MyHungerGames](http://dev.bukkit.org/bukkit-mods/myhungergames/) support
+* o improved Lightning skill
+* - fixed MobArena damage problem
+* - fixed experience loss
 
-----
+## Version 1.1.0
 
-### Version 1.1.0
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.9...1.1.0)
 
-*  <font color="green">+</font> added [Multiworld](Multiworld)
-*  <font color="green">+</font> added [BattleArena](http://dev.bukkit.org/bukkit-mods/battlearena/) & [Survival Games](http://dev.bukkit.org/bukkit-plugins/survival-games/) support
-*  <font color="green">+</font> color of the level-up firework can be changed now
-*  <font color="red">-</font> removed the YAML and JSON support from the SkilltreeCreator.
-    * For YAML and JSON you have to download it seperatly now!
-    * You can download the full version of the SkilltreeCreator [here](http://build.keyle.de/job/MyPet-SkilltreeCreator/).
-*  <font color="red">-</font> removed MyWolf wolf converter
+* + added [Multiworld](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/Multiworld/README.md)
+* + added [BattleArena](http://dev.bukkit.org/bukkit-mods/battlearena/) & [Survival Games](http://dev.bukkit.org/bukkit-plugins/survival-games/) support
+* + color of the level-up firework can be changed now
+* - removed the YAML and JSON support from the SkilltreeCreator.
+  * For YAML and JSON you have to download it seperatly now!
+  * You can download the full version of the SkilltreeCreator [here](http://build.keyle.de/job/MyPet-SkilltreeCreator/).
+* - removed MyWolf wolf converter
+* **Known Issues:**
+  * You can **NOT** downgrade to 1.0.9
 
-*  **Known Issues:**
-    * You can **NOT** downgrade to 1.0.9
+## Version 1.0.9
 
-----
-
-### Version 1.0.9
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.8...1.0.9)
 
-*  <font color="green">+</font> added new locale system -> [en:translations](translations)
-*  <font color="green">+</font> added [Minigames](http://dev.bukkit.org/server-mods/minigames/) & [PvPArena](http://dev.bukkit.org/bukkit-mods/pvparena/) support
-*  <font color="gold">o</font> improved pet creation admin command option
-*  <font color="gold">o</font> improved CaptureHelper
-*  <font color="red">-</font> fixed behavior mode switch bug
-*  <font color="red">-</font> fixed 2 beacon bugs
+* + added new locale system -&gt; [en:translations](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/translations/README.md)
+* + added [Minigames](http://dev.bukkit.org/server-mods/minigames/) & [PvPArena](http://dev.bukkit.org/bukkit-mods/pvparena/) support
+* o improved pet creation admin command option
+* o improved CaptureHelper
+* - fixed behavior mode switch bug
+* - fixed 2 beacon bugs
+* **Known Issues:**
+  * You can **NOT** downgrade to 1.0.8
 
-*  **Known Issues:**
-    * You can **NOT** downgrade to 1.0.8
+## Version 1.0.8
 
-----
-
-### Version 1.0.8
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.7...1.0.8)
 
-*  <font color="green">+</font> added CaptureHelper command
-*  <font color="green">+</font> added [Grief Prevention](http://dev.bukkit.org/server-mods/grief-prevention/) support
-*  <font color="green">+</font> new levelup effect (fireworks)
-*  <font color="green">+</font> petowners can make the name of their pets colorfull
-*  <font color="green">+</font> added backup system for the `My.Pets`-file
-*  <font color="green">+</font> added option do disable sheep wool regrowth
-*  <font color="green">+</font> added Ghasts as tamable pet
-*  <font color="green">+</font> added Sprint skill
-*  <font color="green">+</font> added skill for ranged attacks (arrows only :-( )
-*  <font color="green">+</font> added simple pet-creation admin command option
-*  <font color="green">+</font> added damage weighted experience distribution system
-*  <font color="gold">o</font> melee attack range of slimes/magmacubes depends on size now
-*  <font color="gold">o</font> lowered the following stop distance from 5 to 2
-*  <font color="gold">o</font> changed the interval-calculation for the HP-Regeneration skill
-*  <font color="red">-</font> removed Update-Check (updates come not frequently enough for this)
+* + added CaptureHelper command
+* + added [Grief Prevention](http://dev.bukkit.org/server-mods/grief-prevention/) support
+* + new levelup effect \(fireworks\)
+* + petowners can make the name of their pets colorfull
+* + added backup system for the `My.Pets`-file
+* + added option do disable sheep wool regrowth
+* + added Ghasts as tamable pet
+* + added Sprint skill
+* + added skill for ranged attacks \(arrows only :-\( \)
+* + added simple pet-creation admin command option
+* + added damage weighted experience distribution system
+* o melee attack range of slimes/magmacubes depends on size now
+* o lowered the following stop distance from 5 to 2
+* o changed the interval-calculation for the HP-Regeneration skill
+* - removed Update-Check \(updates come not frequently enough for this\)
 
-----
+## === Version 1.0.7 ===
 
-### === Version 1.0.7 ===
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.6...1.0.7)
 
-*  <font color="green">+</font> added Wither as leadable mobtype
-*  <font color="green">+</font> added extenden permission node for Inventory
-*  <font color="green">+</font> added overhead names
-*  <font color="green">+</font> added TAB auto completion
-*  <font color="gold">o</font> improved Exp-Script and Exp-Script handling
-*  <font color="gold">o</font> made *SkilltreeCreator* independent of `craftbukkit.jar`
-*  <font color="red">-</font> removed `Keep` permission
-*  <font color="red">-</font> removed `Damage` from pet configuration (use Damage skill for this purpose)
-*  <font color="red">-</font> fixed pickup item dupe bug
-*  <font color="red">-</font> fixed equipment dupe bug
-*  <font color="red">-</font> fixed height when riding pets
-*  <font color="red">-</font> fixed a lot of bugs
+* + added Wither as leadable mobtype
+* + added extenden permission node for Inventory
+* + added overhead names
+* + added TAB auto completion
+* o improved Exp-Script and Exp-Script handling
+* o made _SkilltreeCreator_ independent of `craftbukkit.jar`
+* - removed `Keep` permission
+* - removed `Damage` from pet configuration \(use Damage skill for this purpose\)
+* - fixed pickup item dupe bug
+* - fixed equipment dupe bug
+* - fixed height when riding pets
+* - fixed a lot of bugs
 
-----
+## Version 1.0.6
 
-### Version 1.0.6
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.5...1.0.6)
 
-*  <font color="green">+</font> added config reload option to admin command
-*  <font color="green">+</font> skilltrees are configurable in JSON format
-*  <font color="green">+</font> new default skilltree (thanks to [GaseousMaximus](http://dev.bukkit.org/profiles/GaseousMaximus/))
-*  <font color="green">+</font> skilltrees will now inherit already inherited skilltrees
-*  <font color="green">+</font> AncientRPG damage fix
-*  <font color="green">+</font> Skeleton, PigZombie, Zombie can now wear equipment (only optic)
-*  <font color="green">+</font> improved Beacon skill
-*  <font color="green">+</font> new skills: Wither, Lightning, Knockback, Slow
-*  <font color="green">+</font> Giant, Blaze, Witch are leadable
-*  <font color="green">+</font> config options for special abilities of Cow, Sheep, Chicken and Irongolem
-*  <font color="green">+</font> now all font options are available for language file
-*  <font color="green">+</font> added PvP support for AncientRPG, Regios, mcMMO, MobArena and Residence
-*  <font color="gold">o</font> default skilltree format is now NBT([Skilltreecreator](skilltreecreator))
-*  <font color="green">+</font> improved [Skilltreecreator](skilltreecreator) for the new NBT format
-*  <font color="red">-</font> removed Vault dependency for permissions
-*  <font color="red">-</font> fixed skill upgrade messages
-*  <font color="red">-</font> fixed HP bug
-*  <font color="red">-</font> fixed pet switch to default state bug
-*  <font color="red">-</font> fixed legacy support for old MyWolf database
+* + added config reload option to admin command
+* + skilltrees are configurable in JSON format
+* + new default skilltree \(thanks to [GaseousMaximus](http://dev.bukkit.org/profiles/GaseousMaximus/)\)
+* + skilltrees will now inherit already inherited skilltrees
+* + AncientRPG damage fix
+* + Skeleton, PigZombie, Zombie can now wear equipment \(only optic\)
+* + improved Beacon skill
+* + new skills: Wither, Lightning, Knockback, Slow
+* + Giant, Blaze, Witch are leadable
+* + config options for special abilities of Cow, Sheep, Chicken and Irongolem
+* + now all font options are available for language file
+* + added PvP support for AncientRPG, Regios, mcMMO, MobArena and Residence
+* o default skilltree format is now NBT\([Skilltreecreator](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/skilltreecreator/README.md)\)
+* + improved [Skilltreecreator](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/skilltreecreator/README.md) for the new NBT format
+* - removed Vault dependency for permissions
+* - fixed skill upgrade messages
+* - fixed HP bug
+* - fixed pet switch to default state bug
+* - fixed legacy support for old MyWolf database
 
-----
+## Version 1.0.5
 
-### Version 1.0.5
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.4...1.0.5)
 
-*  <font color="green">+</font> Angry & Impossible leashflags
-*  <font color="green">+</font> Beacon & Fire skill
-*  <font color="green">+</font> more text is translatable
-*  <font color="green">+</font> Snowman (snow on the ground is only on clientside so I can't do anything against it :/ )
-*  <font color="green">+</font> config options to set the walking speed of the pets (be carefull)
-*  <font color="gold">o</font> skilltree files must be lower case now!
-*  <font color="green">+</font> colorfull console output
-*  <font color="red">-</font> fixed a lot of bugs!
+* + Angry & Impossible leashflags
+* + Beacon & Fire skill
+* + more text is translatable
+* + Snowman \(snow on the ground is only on clientside so I can't do anything against it :/ \)
+* + config options to set the walking speed of the pets \(be carefull\)
+* o skilltree files must be lower case now!
+* + colorfull console output
+* - fixed a lot of bugs!
+* **Known Issues:**
+  * HP will not become grater than 20
+  * pet switch to default state
+  * legacy support for old MyWolf database is not working
 
-*  **Known Issues:**
-    * HP will not become grater than 20
-    * pet switch to default state
-    * legacy support for old MyWolf database is not working
+## Version 1.0.4
 
-----
-
-### Version 1.0.4
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.3...1.0.4)
 
-*  <font color="green">+</font> skilltree-switch penalty
-*  <font color="gold">o</font> pets will not attack tamed animals of the owner in aggressive mode
-*  <font color="green">+</font> Thorns skill
-*  <font color="red">-</font> fixed a lot of bugs!
+* + skilltree-switch penalty
+* o pets will not attack tamed animals of the owner in aggressive mode
+* + Thorns skill
+* - fixed a lot of bugs!
 
-----
+## Version 1.0.3
 
-### Version 1.0.3
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.2...1.0.3)
 
-*  <font color="gold">o</font> add items to visible inventory when size gets smaller
-*  <font color="green">+</font> CanBreed leashflag
-*  <font color="green">+</font> skilltrees selectable/switchable
-*  <font color="green">+</font> option to let user choose the skilltree of their pet only once
-*  <font color="red">-</font> fixed a lot of bugs!
+* o add items to visible inventory when size gets smaller
+* + CanBreed leashflag
+* + skilltrees selectable/switchable
+* + option to let user choose the skilltree of their pet only once
+* - fixed a lot of bugs!
 
-----
+## Version 1.0.2
 
-### Version 1.0.2
 [GitHub Compare](https://github.com/xXKeyleXx/MyPet/compare/1.0.1...1.0.2)
 
-*  <font color="red">-</font> fixed a target finder bug (can crash the server)
-*  <font color="green">+</font> Behavior-modes can now be disabled
+* - fixed a target finder bug \(can crash the server\)
+* + Behavior-modes can now be disabled
 
-### Version 1.0.1
+## Version 1.0.1
 
-----
+* + MyPets are rideable
+* + Hunger-System
+* + Configurable Damage/Hitpoints/Food/LeashFlags
+* + Skilltrees are configurable for every MyPet-type
+* + SkilltreeCreator
+* + UpdateChecker
+* - fixed tons of bugs
 
-*  <font color="green">+</font> MyPets are rideable
-*  <font color="green">+</font> Hunger-System
-*  <font color="green">+</font> Configurable Damage/Hitpoints/Food/LeashFlags
-*  <font color="green">+</font> Skilltrees are configurable for every MyPet-type
-*  <font color="green">+</font> SkilltreeCreator
-*  <font color="green">+</font> UpdateChecker
-*  <font color="red">-</font> fixed tons of bugs

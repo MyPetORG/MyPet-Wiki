@@ -1,10 +1,8 @@
 # BossShopPro
 
-----
+## Reward:
 
-### Reward:
-
-```
+```text
        RewardType: mypet
        Reward:
          - Name:Piggy
@@ -14,3 +12,4 @@
          - - baby
            - saddle
 ```
+

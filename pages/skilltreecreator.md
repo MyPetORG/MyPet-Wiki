@@ -1,26 +1,22 @@
 # SkilltreeCreator - Tool
 
-The *SkilltreeCreator* is a tool with which you can create skilltrees for pet quickly, easily and without experience.
-<font color="red">The *SkilltreeCreator* is built into the plugin and doesn't has to be downloaded separately.</font>
-Simply doubleclick the `MyPet.jar` and the *SkilltreeCreator* should start.
-Most parts of the *SkilltreeCreator* should be self-explaining.
+The _SkilltreeCreator_ is a tool with which you can create skilltrees for pet quickly, easily and without experience.
 
-----
+The _SkilltreeCreator_ is built into the plugin and doesn't has to be downloaded separately. Simply doubleclick the `MyPet.jar` and the _SkilltreeCreator_ should start. Most parts of the _SkilltreeCreator_ should be self-explaining.
 
 ## SkilltreeCreator
 
-![SkilltreeCreator](/wiki/images/skilltreecreator/skilltreecreator.png)
+![SkilltreeCreator](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/skilltreecreator/skilltreecreator.png)
 
-In the *SkilltreeCreator* window you can create and delete skilltrees for certain pet-types and save the changes that were made. You can also change the order of the *skilltree*s
+In the _SkilltreeCreator_ window you can create and delete skilltrees for certain pet-types and save the changes that were made. You can also change the order of the _skilltree_s
 
-<font color="red">Attention!</font> Empty *skilltree*s and level will not be saved and will be gone when you close this tool!
-
-----
+Attention! Empty _skilltree_s and level will not be saved and will be gone when you close this tool!
 
 ## LevelCreator
 
-![LevelCreator](/wiki/images/skilltreecreator/levelcreator.png)
+![LevelCreator](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/skilltreecreator/levelcreator.png)
 
-In the *LevelCreator*-window you can add level to the selected *skilltree* and add skills to the selected level. You can also select a *skilltree* from whick the selected *skilltree* have to inherit.
+In the _LevelCreator_-window you can add level to the selected _skilltree_ and add skills to the selected level. You can also select a _skilltree_ from whick the selected _skilltree_ have to inherit.
 
-<font color="red">Attention!:</font> All made changes will only be saved if the `Save`-button in the *SkilltreeCreator*-window is clicked.
+Attention!: All made changes will only be saved if the `Save`-button in the _SkilltreeCreator_-window is clicked.
+

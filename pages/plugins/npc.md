@@ -1,47 +1,41 @@
 # MyPet - NPC
 
-**MyPet-NPC** is a simple addon for *MyPet* that adds a trait to Citizens that allows pet-owners to store their pets.
+**MyPet-NPC** is a simple addon for _MyPet_ that adds a trait to Citizens that allows pet-owners to store their pets.
 
-Every *WorldGroup* has it's own storage so you can not transfer pets between *WorldGroup*s.
+Every _WorldGroup_ has it's own storage so you can not transfer pets between _WorldGroup_s.
 
 The Citizens **trait**s are called:
 
-* `mypet-storage`  ->  MyPet Storage
-* `mypet-wallet`  ->  Economy addon for the `mypet-storage` trait
-* `mypet-shop`  ->  Pet shop ![$](/wiki/images/premium.gif)
-
-----
+* `mypet-storage`  -&gt;  MyPet Storage
+* `mypet-wallet`  -&gt;  Economy addon for the `mypet-storage` trait
+* `mypet-shop`  -&gt;  Pet shop ![$](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/premium.gif)
 
 ## Pictures
 
-![Inventory](/wiki/images/plugins/npc/handover.png) ![Inventory](/wiki/images/plugins/npc/take.png)
-
-----
+![Inventory](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/plugins/npc/handover.png) ![Inventory](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/plugins/npc/take.png)
 
 ## Commands
-- <font color="DarkCyan">/petadmin npc wallet</font> <font color="LimeGreen">\[**Private**/**Owner**/**Bank**/**None**]</font>
-  - sets the account where the money will be transfered to
-    - Owner and Bank need a name as a 2nd parameter
 
-- <font color="DarkCyan">/petadmin npc shop</font> <font color="red">`<shop name>`</font>
-  - set the shop that will be opened by the selected NPC
-
-----
+* /petadmin npc wallet \[**Private**/**Owner**/**Bank**/**None**\]
+  * sets the account where the money will be transfered to
+    * Owner and Bank need a name as a 2nd parameter
+* /petadmin npc shop `<shop name>`
+  * set the shop that will be opened by the selected NPC
 
 ## Permissions
 
-The `MyPet.petstorage.limit.<limit>` permission is shared with by <font color="DarkCyan">/petswitch store</font> command and the **storage/shop trait**.
-~~~
+The `MyPet.petstorage.limit.<limit>` permission is shared with by /petswitch store command and the **storage/shop trait**.
+
+```text
  - MyPet.npc.storage
  - MyPet.npc.shop
 
  - MyPet.petstorage.limit.<limit>
-~~~
-
-----
+```
 
 ## Links
 
 * Download: [https://mypet-plugin.de/download](https://mypet-plugin.de/download)
 * Source: [https://github.com/xXKeyleXx/MyPet-NPC](https://github.com/xXKeyleXx/MyPet-NPC)
 * Report a problem: [https://github.com/xXKeyleXx/MyPet/issues](https://github.com/xXKeyleXx/MyPet/issues)
+

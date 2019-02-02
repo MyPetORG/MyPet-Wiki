@@ -1,8 +1,7 @@
 # Region Flags
 
-----
+## Available Region Flags:
 
-### Available Region Flags:
+* `mypet-fly`
+* `mypet-damage`
 
-  * `mypet-fly`
-  * `mypet-damage`

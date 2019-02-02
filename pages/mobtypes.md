@@ -1,514 +1,283 @@
 # Available Mobtypes in MyPet
 
-----
-
 All food items and leashflags can be changed in the config so these values migth not reflect your server.
 
-----
+[![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Bat.png) Bat](mobtypes.md#Bat) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Blaze.png) Blaze](mobtypes.md#Blaze) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/CaveSpider.png) CaveSpider](mobtypes.md#CaveSpider) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Chicken.png) Chicken](mobtypes.md#Chicken) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Cow.png) Cow](mobtypes.md#Cow) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Creeper.png) Creeper](mobtypes.md#Creeper) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Donkey.png) Donkey](mobtypes.md#Donkey) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ElderGuardian.png) Elder Guardian](mobtypes.md#ElderGuardian) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/EnderDragon.png) Ender Dragon](mobtypes.md#EnderDragon) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Enderman.png) Enderman](mobtypes.md#Enderman) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Ghast.png) Ghast](mobtypes.md#Ghast) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Giant.png) Giant](mobtypes.md#Giant) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Horse.png) Horse](mobtypes.md#Horse) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Husk.png) Husk](mobtypes.md#Husk) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Illusioner.png) Illusioner](mobtypes.md#Illusioner) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Llama.png) Llama](mobtypes.md#Llama) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/MagmaCube.png) Magma Cube](mobtypes.md#MagmaCube) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Mooshroom.png) Mooshroom](mobtypes.md#Mooshroom) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Mule.png) Mule](mobtypes.md#Mule) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Ocelot.png) Ocelot](mobtypes.md#Ocelot) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Pig.png) Pig](mobtypes.md#Pig) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ZombiePigman.png) Zombie Pigman](mobtypes.md#ZombiePigman) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Parrot.png) Parrot](mobtypes.md#Parrot) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/PolarBear.png) Polar Bear](mobtypes.md#PolarBear) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Rabbit.png) Rabbit](mobtypes.md#Rabbit) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Sheep.png) Sheep](mobtypes.md#Sheep) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Silverfish.png) Silverfish](mobtypes.md#Silverfish) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Skeleton.png) Skeleton](mobtypes.md#Skeleton) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/SkeletonHorse.png) Skeleton Horse](mobtypes.md#SkeletonHorse) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Slime.png) Slime](mobtypes.md#Slime) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Snowman.png) Snowman](mobtypes.md#Snowman) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Spider.png) Spider](mobtypes.md#Spider) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Squid.png) Squid](mobtypes.md#Squid) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Stray.png) Stray](mobtypes.md#Stray) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Vex.png) Vex](mobtypes.md#Vex) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Villager.png) Villager](mobtypes.md#Villager) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Witch.png) Witch](mobtypes.md#Witch) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/WitherSkeleton.png) Wither Skeleton](mobtypes.md#WitherSkeleton) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Wolf.png) Wolf](mobtypes.md#Wolf) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Zombie.png) Zombie](mobtypes.md#Zombie) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ZombieHorse.png) Zombie Horse](mobtypes.md#ZombieHorse) [![](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ZombieVillager.png) Zombie Villager](mobtypes.md#ZombieVillager)
 
- [<img src="/wiki/images/mobs/Bat.png" width="16" height="16" /> Bat](#Bat) [<img src="/wiki/images/mobs/Blaze.png" width="16" height="16" /> Blaze](#Blaze) [<img src="/wiki/images/mobs/CaveSpider.png" width="16" height="16" /> CaveSpider](#CaveSpider) [<img src="/wiki/images/mobs/Chicken.png" width="16" height="16" /> Chicken](#Chicken) [<img src="/wiki/images/mobs/Cow.png" width="16" height="16" /> Cow](#Cow) [<img src="/wiki/images/mobs/Creeper.png" width="16" height="16" /> Creeper](#Creeper) [<img src="/wiki/images/mobs/Donkey.png" width="16" height="16" /> Donkey](#Donkey) [<img src="/wiki/images/mobs/ElderGuardian.png" width="16" height="16" /> Elder Guardian](#ElderGuardian) [<img src="/wiki/images/mobs/EnderDragon.png" width="16" height="16" /> Ender Dragon](#EnderDragon) [<img src="/wiki/images/mobs/Enderman.png" width="16" height="16" /> Enderman](#Enderman) [<img src="/wiki/images/mobs/Ghast.png" width="16" height="16" /> Ghast](#Ghast) [<img src="/wiki/images/mobs/Giant.png" width="16" height="16" /> Giant](#Giant) [<img src="/wiki/images/mobs/Horse.png" width="16" height="16" /> Horse](#Horse) [<img src="/wiki/images/mobs/Husk.png" width="16" height="16" /> Husk](#Husk) [<img src="/wiki/images/mobs/Illusioner.png" width="16" height="16" /> Illusioner](#Illusioner) [<img src="/wiki/images/mobs/Llama.png" width="16" height="16" /> Llama](#Llama) [<img src="/wiki/images/mobs/MagmaCube.png" width="16" height="16" /> Magma Cube](#MagmaCube) [<img src="/wiki/images/mobs/Mooshroom.png" width="16" height="16" /> Mooshroom](#Mooshroom) [<img src="/wiki/images/mobs/Mule.png" width="16" height="16" /> Mule](#Mule) [<img src="/wiki/images/mobs/Ocelot.png" width="16" height="16" /> Ocelot](#Ocelot) [<img src="/wiki/images/mobs/Pig.png" width="16" height="16" /> Pig](#Pig) [<img src="/wiki/images/mobs/ZombiePigman.png" width="16" height="16" /> Zombie Pigman](#ZombiePigman) [<img src="/wiki/images/mobs/Parrot.png" width="16" height="16" /> Parrot](#Parrot) [<img src="/wiki/images/mobs/PolarBear.png" width="16" height="16" /> Polar Bear](#PolarBear) [<img src="/wiki/images/mobs/Rabbit.png" width="16" height="16" /> Rabbit](#Rabbit) [<img src="/wiki/images/mobs/Sheep.png" width="16" height="16" /> Sheep](#Sheep) [<img src="/wiki/images/mobs/Silverfish.png" width="16" height="16" /> Silverfish](#Silverfish) [<img src="/wiki/images/mobs/Skeleton.png" width="16" height="16" /> Skeleton](#Skeleton) [<img src="/wiki/images/mobs/SkeletonHorse.png" width="16" height="16" /> Skeleton Horse](#SkeletonHorse) [<img src="/wiki/images/mobs/Slime.png" width="16" height="16" /> Slime](#Slime) [<img src="/wiki/images/mobs/Snowman.png" width="16" height="16" /> Snowman](#Snowman) [<img src="/wiki/images/mobs/Spider.png" width="16" height="16" /> Spider](#Spider) [<img src="/wiki/images/mobs/Squid.png" width="16" height="16" /> Squid](#Squid) [<img src="/wiki/images/mobs/Stray.png" width="16" height="16" /> Stray](#Stray) [<img src="/wiki/images/mobs/Vex.png" width="16" height="16" /> Vex](#Vex) [<img src="/wiki/images/mobs/Villager.png" width="16" height="16" /> Villager](#Villager) [<img src="/wiki/images/mobs/Witch.png" width="16" height="16" /> Witch](#Witch) [<img src="/wiki/images/mobs/WitherSkeleton.png" width="16" height="16" /> Wither Skeleton](#WitherSkeleton) [<img src="/wiki/images/mobs/Wolf.png" width="16" height="16" /> Wolf](#Wolf) [<img src="/wiki/images/mobs/Zombie.png" width="16" height="16" /> Zombie](#Zombie) [<img src="/wiki/images/mobs/ZombieHorse.png" width="16" height="16" /> Zombie Horse](#ZombieHorse) [<img src="/wiki/images/mobs/ZombieVillager.png" width="16" height="16" /> Zombie Villager](#ZombieVillager)
+## Bat
 
-----
+![Bat](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Bat.png)
 
-### <a name="Bat"></a>Bat
-![Bat](/wiki/images/mobs/Bat.png)
+**Food:** Spider Eye [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
+## Blaze
 
-**Food:** Spider Eye
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
+![Blaze](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Blaze.png)
 
-----
+**Food:** Gun Powder [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** fire
 
+## Cave Spider
 
-### <a name="Blaze"></a>Blaze
-![Blaze](/wiki/images/mobs/Blaze.png)
+![Cave Spider](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/CaveSpider.png)
 
+**Food:** Rotten Flesh [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
-**Food:** Gun Powder
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** fire
+## Chicken
 
-----
+![Chicken](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Chicken.png)
 
+**Food:** Seeds [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** baby
 
-### <a name="Cave Spider"></a>Cave Spider
-![Cave Spider](/wiki/images/mobs/CaveSpider.png)
+## Cow
 
+![Cow](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Cow.png)
 
-**Food:** Rotten Flesh
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
+**Food:** Wheat [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** baby
 
-----
+## Creeper
 
+![Creeper](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Creeper.png)
 
-### <a name="Chicken"></a>Chicken
-![Chicken](/wiki/images/mobs/Chicken.png)
+**Food:** Gun Powder [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** powered
 
+## Donkey
 
-**Food:** Seeds
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** baby
+![Donkey](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Donkey.png)
 
-----
+**Food:** Sugar, Wheat, Apples [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** tamed **Visual Changeables:** baby, chest
 
+## Ender Guardian
 
-### <a name="Cow"></a>Cow
-![Cow](/wiki/images/mobs/Cow.png)
+![Elder Guardian](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ElderGuardian.png)
 
+**Food:** Sugar [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
-**Food:** Wheat
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** baby
+## Ender Dragon
 
-----
+![Ender Dragon](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/EnderDragon.png)
 
+**Food:** End Stone [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
-### <a name="Creeper"></a>Creeper
-![Creeper](/wiki/images/mobs/Creeper.png)
+## Enderman
 
+![Enderman](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Enderman.png)
 
-**Food:** Gun Powder
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** powered
+**Food:** Soulsand [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** block
 
-----
+## Endermite
 
+![Endermite](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Endermite.png)
 
-### <a name="Donkey"></a>Donkey
-![Donkey](/wiki/images/mobs/Donkey.png)
+**Food:** Suggar [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
+## Ghast
 
-**Food:** Sugar, Wheat, Apples
-**[Leashflag](leashflag):** tamed
-**Visual Changeables:** baby, chest
+![Ghast](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Ghast.png)
 
-----
+**Food:** Gun Powder [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** impossible **Visual Changeables:** none
 
+## Giant
 
-### <a name="Ender Guardian"></a>Ender Guardian
-![Elder Guardian](/wiki/images/mobs/ElderGuardian.png)
+![Giant](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Giant.png)
 
+**Food:** Rotten Flesh [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md)
 
-**Food:** Sugar
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
+## Guardian
 
-----
+![Guardian](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Guardian.png)
 
+**Food:** Suggar [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** elder
 
-### <a name="Ender Dragon"></a>Ender Dragon
-![Ender Dragon](/wiki/images/mobs/EnderDragon.png)
+## Horse
 
+![Horse](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Horse.png)
 
-**Food:** End Stone
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
+**Food:** Sugar, Wheat, Apples [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** tamed **Visual Changeables:** saddle, chest, armor, baby, type, variant
 
-----
+## Husk
 
+![Husk](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Husk.png)
 
-### <a name="Enderman"></a>Enderman
-![Enderman](/wiki/images/mobs/Enderman.png)
+**Food:** Rotten Flesh [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md), baby
 
+## Illusioner
 
-**Food:** Soulsand
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** block
+![Illusioner](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Illusioner.png)
 
-----
+**Food:** Apples [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md)
 
+## Irongolem
 
-### <a name="Endermite"></a>Endermite
-![Endermite](/wiki/images/mobs/Endermite.png)
+![Irongolem](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Irongolem.png)
 
+**Food:** Iron Ingots [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** created by player **Visual Changeables:** flower
 
-**Food:** Suggar
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
+## Llama
 
-----
+![Llama](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Llama.png)
 
+**Food:** Wheet [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** tamed **Visual Changeables:** color, chest, baby, decor
 
-### <a name="Ghast"></a>Ghast
-![Ghast](/wiki/images/mobs/Ghast.png)
+## Magma Cube
 
+![Magma Cube](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/MagmaCube.png)
 
-**Food:** Gun Powder
-**[Leashflag](leashflag):** impossible
-**Visual Changeables:** none
+**Food:** Redstone [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** size
 
-----
+## Mooshroom
 
+![Mooshroom](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Mooshroom.png)
 
-### <a name="Giant"></a>Giant
-![Giant](/wiki/images/mobs/Giant.png)
+**Food:** Wheat [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** baby
 
+## Mule
 
-**Food:** Rotten Flesh
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie)
+![Mule](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Mule.png)
 
-----
+**Food:** Sugar, Wheat, Apples [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** baby, chest
 
+## Ocelot
 
-### <a name="Guardian"></a>Guardian
-![Guardian](/wiki/images/mobs/Guardian.png)
+![Ocelot](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Ocelot.png)
 
+**Food:** Raw Fish [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** tamed **Visual Changeables:** baby, type
 
-**Food:** Suggar
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** elder
+## Pig
 
-----
+![Pig](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Pig.png)
 
+**Food:** Carrots [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** saddle, baby
 
-### <a name="Horse"></a>Horse
-![Horse](/wiki/images/mobs/Horse.png)
+##  Pig Zombie
 
+![Zombie Pigman](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ZombiePigman.png)
 
-**Food:** Sugar, Wheat, Apples
-**[Leashflag](leashflag):** tamed
-**Visual Changeables:** saddle, chest, armor, baby, type, variant
+**Food:** Rotten Flesh [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md), baby
 
-----
+## Parrot
 
+![Parrot](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Parrot.png)
 
-### <a name="Husk"></a>Husk
-![Husk](/wiki/images/mobs/Husk.png)
+**Food:** Seeds, Cookies [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** tamed **Visual Changeables:** variant
 
+## Polar Bear
 
-**Food:** Rotten Flesh
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), baby
+![Polar Bear](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/PolarBear.png)
 
-----
+**Food:** Any Raw Fish [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** baby
 
+## Rabbit
 
-### <a name="Illusioner"></a>Illusioner
-![Illusioner](/wiki/images/mobs/Illusioner.png)
+![Rabbit](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Rabbit.png)
 
+**Food:** Carrots, Roses [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** variant, baby
 
-**Food:** Apples
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie)
+## Sheep
 
-----
+![Sheep](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Sheep.png)
 
+**Food:** Wheat [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** color, sheared, baby
 
-### <a name="Irongolem"></a>Irongolem
-![Irongolem](/wiki/images/mobs/Irongolem.png)
+## Silverfish
 
+![Silverfish](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Silverfish.png)
 
-**Food:** Iron Ingots
-**[Leashflag](leashflag):** created by player
-**Visual Changeables:** flower
+**Food:** Suggar [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
-----
+## Skeleton
 
+![Skeleton](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Skeleton.png)
 
-### <a name="Llama"></a>Llama
-![Llama](/wiki/images/mobs/Llama.png)
+**Food:** Bone [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md)
 
+## Skeleton Horse
 
-**Food:** Wheet
-**[Leashflag](leashflag):** tamed
-**Visual Changeables:** color, chest, baby, decor
+![Skeleton Horse](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/SkeletonHorse.png)
 
-----
+**Food:** Bone [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [horse armor](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md),  
+saddle
 
+## Slime
 
-### <a name="Magma Cube"></a>Magma Cube
-![Magma Cube](/wiki/images/mobs/MagmaCube.png)
+![Slime](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Slime.png)
 
+**Food:** Suggar [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** size
 
-**Food:** Redstone
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** size
+## Snowman
 
-----
+![Snowman](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Snowman.png)
 
+**Food:** Carrot, Snowball [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** pumpkin
 
-### <a name="Mooshroom"></a>Mooshroom
-![Mooshroom](/wiki/images/mobs/Mooshroom.png)
+## Spider
 
+![Spider](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Spider.png)
 
-**Food:** Wheat
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** baby
+**Food:** Rotten Flesh [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
-----
+## Squid
 
+![Squid](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Squid.png)
 
-### <a name="Mule"></a>Mule
-![Mule](/wiki/images/mobs/Mule.png)
+**Food:** Raw Fish [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
+## Stray
 
-**Food:** Sugar, Wheat, Apples
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** baby, chest
+![Stray](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Stray.png)
 
-----
+**Food:** Raw Fish [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md)
 
+## Vex
 
-### <a name="Ocelot"></a>Ocelot
-![Ocelot](/wiki/images/mobs/Ocelot.png)
+![Vex](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Vex.png)
 
+**Food:** Apple [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md), glowing
 
-**Food:** Raw Fish
-**[Leashflag](leashflag):** tamed
-**Visual Changeables:** baby, type
+## Villager
 
-----
+![Villager](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Villager.png)
 
+**Food:** Apple [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** baby, profession
 
-### <a name="Pig"></a>Pig
-![Pig](/wiki/images/mobs/Pig.png)
+## Witch
 
+![Witch](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Witch.png)
 
-**Food:** Carrots
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** saddle, baby
+**Food:** Apple [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** none
 
-----
+## Wither
 
+![Wither](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Wither.png)
 
-### <a name=" Pig Zombie"></a> Pig Zombie
-![Zombie Pigman](/wiki/images/mobs/ZombiePigman.png)
+**Food:** Bone [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** impossible **Visual Changeables:** baby
 
+## Wither Skeleton
 
-**Food:** Rotten Flesh
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), baby
+![Wither Skeleton](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/WitherSkeleton.png)
 
-----
+**Food:** Bone [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md)
 
+## Wolf
 
-### <a name="Parrot"></a>Parrot
-![Parrot](/wiki/images/mobs/Parrot.png)
+![Wolf](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Wolf.png)
 
+**Food:** Raw Beef, Raw Chicken [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** tamed **Visual Changeables:** collar, baby, angry
 
-**Food:** Seeds, Cookies
-**[Leashflag](leashflag):** tamed
-**Visual Changeables:** variant
+## Zombie
 
-----
+![Zombie](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/Zombie.png)
 
+**Food:** Rotten Flesh [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md), baby
 
-### <a name="Polar Bear"></a>Polar Bear
-![Polar Bear](/wiki/images/mobs/PolarBear.png)
+## Zombie Horse
 
+![Zombie Horse](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ZombieHorse.png)
 
-**Food:** Any Raw Fish
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** baby
+**Food:** Sugar, Wheat, Apples [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md), baby, saddle
 
-----
+## Zombie Villager
 
+![Zombie Villager](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/mobs/ZombieVillager.png)
 
-### <a name="Rabbit"></a>Rabbit
-![Rabbit](/wiki/images/mobs/Rabbit.png)
+**Food:** Rotten Flesh [**Leashflag**](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/leashflag/README.md)**:** 10% HP or less **Visual Changeables:** [equipment](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/how_can_i_equip_my_zombie_skeleton_pigzombie/README.md), baby, profession
 
-
-**Food:** Carrots, Roses
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** variant, baby
-
-----
-
-
-### <a name="Sheep"></a>Sheep
-![Sheep](/wiki/images/mobs/Sheep.png)
-
-
-**Food:** Wheat
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** color, sheared, baby
-
-----
-
-
-### <a name="Silverfish"></a>Silverfish
-![Silverfish](/wiki/images/mobs/Silverfish.png)
-
-
-**Food:** Suggar
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
-
-----
-
-
-### <a name="Skeleton"></a>Skeleton
-![Skeleton](/wiki/images/mobs/Skeleton.png)
-
-
-**Food:** Bone
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie)
-
-----
-
-
-### <a name="Skeleton Horse"></a>Skeleton Horse
-![Skeleton Horse](/wiki/images/mobs/SkeletonHorse.png)
-
-
-**Food:** Bone
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [horse armor](how_can_i_equip_my_zombie_skeleton_pigzombie),<br>saddle
-
-----
-
-
-### <a name="Slime"></a>Slime
-![Slime](/wiki/images/mobs/Slime.png)
-
-
-**Food:** Suggar
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** size
-
-----
-
-
-### <a name="Snowman"></a>Snowman
-![Snowman](/wiki/images/mobs/Snowman.png)
-
-
-**Food:** Carrot, Snowball
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** pumpkin
-
-----
-
-
-### <a name="Spider"></a>Spider
-![Spider](/wiki/images/mobs/Spider.png)
-
-
-**Food:** Rotten Flesh
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
-
-----
-
-
-### <a name="Squid"></a>Squid
-![Squid](/wiki/images/mobs/Squid.png)
-
-
-**Food:** Raw Fish
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
-
-----
-
-
-### <a name="Stray"></a>Stray
-![Stray](/wiki/images/mobs/Stray.png)
-
-
-**Food:** Raw Fish
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie)
-
-----
-
-
-### <a name="Vex"></a>Vex
-![Vex](/wiki/images/mobs/Vex.png)
-
-
-**Food:** Apple
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), glowing
-
-----
-
-
-### <a name="Villager"></a>Villager
-![Villager](/wiki/images/mobs/Villager.png)
-
-
-**Food:** Apple
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** baby, profession
-
-----
-
-
-### <a name="Witch"></a>Witch
-![Witch](/wiki/images/mobs/Witch.png)
-
-
-**Food:** Apple
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** none
-
-----
-
-
-### <a name="Wither"></a>Wither
-![Wither](/wiki/images/mobs/Wither.png)
-
-
-**Food:** Bone
-**[Leashflag](leashflag):** impossible
-**Visual Changeables:** baby
-
-----
-
-
-### <a name="Wither Skeleton"></a>Wither Skeleton
-![Wither Skeleton](/wiki/images/mobs/WitherSkeleton.png)
-
-
-**Food:** Bone
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie)
-
-----
-
-
-### <a name="Wolf"></a>Wolf
-![Wolf](/wiki/images/mobs/Wolf.png)
-
-
-**Food:** Raw Beef, Raw Chicken
-**[Leashflag](leashflag):** tamed
-**Visual Changeables:** collar, baby, angry
-
-----
-
-
-### <a name="Zombie"></a>Zombie
-![Zombie](/wiki/images/mobs/Zombie.png)
-
-
-**Food:** Rotten Flesh
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), baby
-
-----
-
-
-### <a name="Zombie Horse"></a>Zombie Horse
-![Zombie Horse](/wiki/images/mobs/ZombieHorse.png)
-
-
-**Food:** Sugar, Wheat, Apples
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), baby, saddle
-
-----
-
-
-### <a name="Zombie Villager"></a>Zombie Villager
-![Zombie Villager](/wiki/images/mobs/ZombieVillager.png)
-
-
-**Food:** Rotten Flesh
-**[Leashflag](leashflag):** 10% HP or less
-**Visual Changeables:** [equipment](how_can_i_equip_my_zombie_skeleton_pigzombie), baby, profession

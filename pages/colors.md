@@ -1,10 +1,13 @@
+# colors
+
 ## Colors
 
-*  <font color="blue">Skill</font>
-*  <font color="DarkCyan">_Chat Command_</font>
-*  <font color="Coral">_Config Option_</font>
-*  <font color="Purple">_Permission_</font>
+* Skill
+* \_Chat Command\_
+* \_Config Option\_
+* \_Permission\_
 
 ## Icons
 
-*  ![$](/wiki/images/premium.gif) Premium
+* ![$](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/premium.gif) Premium
+
