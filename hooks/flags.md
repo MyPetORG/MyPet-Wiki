@@ -1,4 +1,4 @@
-# Region Flags
+# WG Region Flags
 
 ## Available Region Flags:
 

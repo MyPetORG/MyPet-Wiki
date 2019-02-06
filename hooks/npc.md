@@ -1,4 +1,4 @@
-# NPC
+# Citizens NPC
 
 A simple addon for _MyPet_ that adds a trait to Citizens that allows pet-owners to store their pets.
 
