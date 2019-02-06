@@ -2,6 +2,7 @@
 
 * [MyPet - Wiki](README.md)
 * [MyPet-Premium](premium.md)
+* [MyPet 3.0](premium30.md)
 * [Setup](setup/README.md)
   * [Update to 3.0](setup/update-to-3.0.md)
   * [Permissions](setup/permissions.md)
@@ -46,7 +47,6 @@
   * [How to get a pet](tutorials/how_to_get_a_mypet.md)
   * [File to MySQL](tutorials/how_to_upgrade_from_file_to_mysql.md)
   * [File to MongoDB](tutorials/how_to_upgrade_from_file_to_mongodb.md)
-* [MyPet 3.0](premium30.md)
 * [Plugin-Hooks](hooks/README.md)
   * [NPC](hooks/npc.md)
   * [PlaceholderAPI](hooks/placeholder.md)
