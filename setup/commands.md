@@ -174,6 +174,13 @@
   * `/ps`
   * `/pets`
 
+### `/petskilltree`
+
+* Syntax: `/petskilltree <mobtype> [skilltree name]`
+* shows all available skilltrees for a mobtype
+* shows all levels and skills for a skilltree of a mobtype
+* can only be used in the server console
+
 ### `/petchooseskilltree`
 
 * shows all available skilltrees and lets you selects a skilltree for your pet
@@ -192,6 +199,11 @@
 * enable/disable the CaptureHelper
 * alias:
   * `/pch`
+
+### `/pettype`
+
+* Syntax: `/pettype <pettype>`
+* displays info about the pettype like `default HP`, `leash flags`and `food`
 
 ### `/petoptions`
 

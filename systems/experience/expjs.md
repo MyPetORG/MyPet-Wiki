@@ -8,7 +8,11 @@ With the **Experience-Script** `exp.js` it's possible to customize when a pet wi
 
 To make a fully functional exp-script that can be used by _MyPet_ you have to implement the following methods:
 
-* `function getExpByLevel(level, mypet)` -&gt; return the exp needed for this level.
+* \`\`
+  * `function getLevel(exp, mypet)`-&gt; return the actual level in this method.
+  * `function getRequiredExp(exp, mypet)` -&gt; return the exp that are needed to levelup in this method
+  * `function getCurrentExp(exp, mypet)` -&gt; return the actual exp of the current level in this method.
+  * `function getExpByLevel(level, mypet)` -&gt; return the exp needed for this level in this method.
 
 **Usable Methods**
 

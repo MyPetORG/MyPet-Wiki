@@ -16,5 +16,3 @@ When Step 1 & 2 are done you just have to hit you target with the LeashItem \(St
 
 You took a pet on a lead, it will be a good pet.
 
-### Congratulation you now have a pet.
-

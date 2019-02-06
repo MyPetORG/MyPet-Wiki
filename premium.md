@@ -9,6 +9,7 @@ These are the current features that the premium version has over the free one:
 * MySQL support \([How to switch from file to MySQL](tutorials/how_to_upgrade_from_file_to_mysql.md)\)
 * MongoDB support \([How to switch from file to MongoDB](tutorials/how_to_upgrade_from_file_to_mongodb.md)\)
 * [fly mode](skills/ride.md#fly-zones) for the [Ride](skills/ride.md) skill that allows players to fly with their pets
+* [Shield](skills/shield.md) skill
 * The CaptureHelper
 * Pet shops
 * `/pettrade` [command](setup/commands.md)
