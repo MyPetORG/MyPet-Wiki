@@ -51,8 +51,8 @@
   * [WG Region Flags](hooks/flags.md)
   * [PlaceholderAPI](hooks/placeholder.md)
   * [BossShopPro](hooks/bossshoppro.md)
-* [Misc](pages/README.md)
-  * [Is MyPet EULA compliant?](pages/eula.md)
-  * [FAQ](pages/faq.md)
-  * [Changelog](pages/changelog.md)
+* [Misc](misc/README.md)
+  * [Is MyPet EULA compliant?](misc/eula.md)
+  * [FAQ](misc/faq.md)
+  * [Changelog](misc/changelog.md)
 
