@@ -1,6 +1,10 @@
-# Auto Updater
+---
+description: >-
+  This page describes the new auto plugin updater functionality and what you
+  need to know to use it.
+---
 
-This page describes the new auto plugin updater functionality and what you need to know to use it.
+# Auto Updater
 
 ## Step 1 - Install the Auto Updater
 

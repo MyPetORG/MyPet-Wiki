@@ -3,6 +3,7 @@
 ## Usage
 
 * [Installation](setup/)
+* [Update to MyPet 3.0](setup/update-to-3.0.md)
 * [Commands](setup/commands.md)
 * [Tutorials](tutorials/)
 * [Auto Updater](systems/updater.md)
