@@ -6,7 +6,7 @@
 * [Commands](setup/commands.md)
 * [Tutorials](tutorials/)
 * [Auto Updater](systems/updater.md)
-* [FAQ](pages/faq.md)
+* [FAQ](misc/faq.md)
 
 ## Configuration
 
@@ -33,8 +33,8 @@
 
 ## Misc
 
-* [Changelog](pages/changelog.md)
-* [EULA compliance](pages/eula.md)
+* [Changelog](misc/changelog.md)
+* [EULA compliance](misc/eula.md)
 * [Metrics \(MyPet\)](https://bstats.org/plugin/bukkit/MyPet)
 * [Metrics \(MyPet-Premium\)](https://bstats.org/plugin/bukkit/MyPet-Premium)
 
