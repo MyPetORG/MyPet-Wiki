@@ -19,7 +19,7 @@
   - MyPet.skilltree.<skilltreename>
 ```
 
-## MyPet Leash Permissions
+## Leash Permissions
 
 The leash permission is the most important permission because it allows to take a mob on a lead. You can allow all types by using the wildcard `*` or you can allow only certain types to certain players as you want. ![$](../.gitbook/assets/exclaim.gif) This permission only allows to leash a certain mob but everything else a player can do with a pet has nothing to do with this permission ![$](../.gitbook/assets/exclaim.gif)
 
@@ -83,14 +83,14 @@ or
   - MyPet.leash.ZombieVillager
 ```
 
-## Other MyPet Permissions
+## MyPet Permissions
 
 * `MyPet.admin`
   * allows to:
     * open inventory of any pet.
     * open the inventory in creative mode/worlds.
     * switch skilltree as you want it.
-    * access to _/petadmin_ command.
+    * access to _`/petadmin`_ command.
 * `MyPet.command.info.other`
   * allows to view pet info of other players with the _/petinfo_ command.
 * `MyPet.command.capturehelper`
@@ -126,12 +126,11 @@ or
 * `MyPet.skilltree.<skilltreename>`
   * `<skilltreename>` has to be replaced with the name of any existing skilltreename.
   * allows to use the `<skilltreename>` skilltree.
-  * ![$](../.gitbook/assets/exclaim.gif) you can't use `MyPet.skilltree.*` with GroupManager \(Essentials\) ![$](../.gitbook/assets/exclaim.gif)
   * the names of the default skilltrees are: `Combat`, `Utility`, `PvP`, `Ride` & `Farm`
 
 ## Extended MyPet Permissions
 
-To use the extended permissions you need to activate them in the config \(_MyPet.Permissions.Extended_\) Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds. All these permissions should be self explaining but remember, they are only supposed to disable these things.
+To use the extended permissions you need to activate them in the config \(_`MyPet.Permissions.Extended`_\). Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds. All these permissions should be self explaining but remember, they are only supposed to disable these things.
 
 ```text
   - MyPet.extended.feed

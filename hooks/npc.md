@@ -16,6 +16,8 @@ The Citizens **trait**s are called:
 
 ## Commands
 
+For all NPC commands you need to select a Citizens NPC before!
+
 * `/petadmin npc wallet [`**`Private`**`/`**`Owner`**`/`**`Bank`**`/`**`None`**`]`
   * sets the account where the money will be transfered to
     * Owner and Bank need a name as a 2nd parameter

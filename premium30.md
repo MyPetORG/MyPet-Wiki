@@ -1,5 +1,7 @@
 # MyPet 3.0
 
+## You can find an update guide [here](setup/update-to-3.0.md).
+
 ## Breaking changes
 
 ### Skilltree format
