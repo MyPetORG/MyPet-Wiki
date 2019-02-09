@@ -114,13 +114,11 @@ The _config.yml_ file is the main configfile of _MyPet_. All pet type related op
 |     [**Ride**](../../skills/ride.md)**:** |  |  |
 |       Item: | string | Sets the item that allows the player to mount the pet. This setting follows the [config item](configitems.md) guidelines |
 |       HungerPerMeter: | double | If the [Hunger-System](../../systems/hungersystem.md) is active, this setting set the value the hunger value is decreased by for every ridden meter. |
-|       **FlyZones:** |  |  |
-|         **SomeWorld**::**SomeRegion**:         **SomeWorld**::**global**:           **…** | boolean | This setting allows to disable flying in WorldGuard regions. For every region you want to allow/disable flying you have to add a new line that looks like this:  ::: false  Regions with higher priorities will overwrite regions with a lower priorities. This allows to have small regions that allow flying in big regions where flying is diabled and vice versa.  An example can be found [here](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/skills/ride/README.md#example). |
 |     [**Backpack**](../../skills/backpack.md): |  |  |
 |       Creative: | boolean | Allows players to open the inventory of their pet when they are in creative mode. |
 |       DropWhenOwnerDies: | boolean | When this is set to `true` the pet will drop the content in it's inventory when the owner dies. |
 |     [**Beacon**](../../skills/beacon.md)**:** |  |  |
 |       HungerDecreaseTime: | integer | If the [Hunger-System](../../systems/hungersystem.md) is active, this setting sets the interval in which the value the hunger value is decreased by 1. |
-|       Party-Support: | boolean | Enables the support for parties from these plugins: [MCMMO](https://www.spigotmc.org/resources/mcmmo.2445/), [Heroes](https://www.spigotmc.org/resources/heroes.305/), [Ancient](http://dev.bukkit.org/bukkit-plugins/ancient-rpg/)  If you have any party plugins MyPet should support please [contact me](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/contact/README.md). |
+|       Party-Support: | boolean | Enables the support for parties from these plugins: [MCMMO](https://www.spigotmc.org/resources/mcmmo.2445/), [Heroes](https://www.spigotmc.org/resources/heroes.305/), [Ancient](http://dev.bukkit.org/bukkit-plugins/ancient-rpg/)  If you have any party plugins MyPet should support please [r](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/contact/README.md)equest them on GitHub or Discord. |
 |  |  |  |
 

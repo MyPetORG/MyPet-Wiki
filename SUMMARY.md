@@ -34,7 +34,7 @@
   * [Fire](skills/fire.md)
   * [Heal](skills/heal.md)
   * [Knockback](skills/knockback.md)
-  * [Life](skills/hp.md)
+  * [Life](skills/life.md)
   * [Lightning](skills/lightning.md)
   * [Pickup](skills/pickup.md)
   * [Poison](skills/poison.md)
