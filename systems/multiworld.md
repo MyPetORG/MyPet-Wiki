@@ -30,3 +30,12 @@ Groups:
   - 2ndWorld_nether
 ```
 
+## Disable Worlds
+
+You can also disable world where MyPet will not be active. This world cannot be in a world group.The config is also in the worldgroups.yml:
+
+```text
+Disabled:
+- example_world
+```
+

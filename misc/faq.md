@@ -6,7 +6,7 @@ description: Frequently Asked Questions
 
 ## Is MyPet EULA compliant?
 
-Read [this](eula.md).
+{% page-ref page="eula.md" %}
 
 ## Is there a max levelcap?
 
@@ -22,7 +22,7 @@ Riding a pet is like riding a horse with a saddle.
 
 ## How can I get a pet?
 
-[Tutorials](../tutorials/) -&gt; [How to get a pet](../tutorials/how_to_get_a_mypet.md)?
+{% page-ref page="../tutorials/how\_to\_get\_a\_mypet.md" %}
 
 ## How can I feed my pet?
 

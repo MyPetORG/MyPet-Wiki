@@ -3,12 +3,14 @@
 ## Legend
 
 * Chatcommands
-  * `<variable>` -&gt; **required**!
-  * `[vaiable]` -&gt; optional
+  * `<option>` -&gt; **required**!
+  * `[option]` -&gt; optional
 
     Most commands have aliases like `/pi`. Use them instead the long version.
 
-![$](../.gitbook/assets/exclaim.gif) In most cases you can also go through the command options by using the `TAB`-key. ![$](../.gitbook/assets/exclaim.gif)
+{% hint style="info" %}
+In most cases you can also go through the command options by using the `TAB`-key.
+{% endhint %}
 
 ## MyPet Commands
 

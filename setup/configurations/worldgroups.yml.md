@@ -4,5 +4,5 @@ description: World Group Configuration
 
 # worldgroups.yml
 
-See [World Groups](../../systems/multiworld.md).
+{% page-ref page="../../systems/multiworld.md" %}
 

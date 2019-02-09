@@ -1,7 +1,5 @@
 # Changelog
 
-## 
-
 #### Version 3.0
 
 * ✔️MC 1.13, 1.13.1 and 1.13.2 support \(including new mobs\)

@@ -2,7 +2,9 @@
 
 MyPet was not designed with the EULA in mind but with some changes to the configuration, MyPet should be EULA compliant. This depends mainly on the MyPet features you want to use on your server.
 
-![$](../.gitbook/assets/exclaim.gif) In this article players that paid for anything on a server with real money are referred as Donators.
+{% hint style="info" %}
+In this article players that paid for anything on a server with real money are referred as Donators.
+{% endhint %}
 
 ## What do I have to change?
 

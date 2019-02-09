@@ -1,7 +1,5 @@
 # How to get a pet
 
-There are three simple steps on your way to get a pet.
-
 ## Step 1 - Find the mob you want
 
 Find a mob that is tameable is the easiest step. All tamable mobtypes can be found [here](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/tutorials/mobtypes/README.md) \(This may vary for your server as each type can be enabled/disabled with permissions\).

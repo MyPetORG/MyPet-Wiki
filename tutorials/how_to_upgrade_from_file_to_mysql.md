@@ -1,6 +1,8 @@
 # File to MySQL
 
+{% hint style="warning" %}
 ### This feature is part of MyPet-Premium!
+{% endhint %}
 
 If you want to use a MySQL database to store your pets please download the premium version of MyPet [here](https://www.spigotmc.org/resources/mypet-premium.17566/).
 
