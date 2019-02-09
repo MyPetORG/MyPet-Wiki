@@ -2,7 +2,7 @@
 
 * [MyPet - Wiki](README.md)
 * [MyPet-Premium](premium.md)
-* [MyPet 3.0](premium30.md)
+* [MyPet 3.0](mypet-3.0.md)
 * [Setup](setup/README.md)
   * [Update to 3.0](setup/update-to-3.0.md)
   * [Permissions](setup/permissions.md)
