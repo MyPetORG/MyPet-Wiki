@@ -1,10 +1,10 @@
 # Configurations
 
-{% page-ref page="configfile.md" %}
+{% page-ref page="config.yml.md" %}
 
-{% page-ref page="petconfig.md" %}
+{% page-ref page="pet-config.yml.md" %}
 
-{% page-ref page="shopconfig.md" %}
+{% page-ref page="pet-shops.yml.md" %}
 
 {% page-ref page="hooks-config.yml.md" %}
 

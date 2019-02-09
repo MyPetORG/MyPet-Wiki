@@ -11,9 +11,9 @@
 
 ## Configuration
 
-* [config.yml](setup/configurations/configfile.md)
-* [pet-config.yml](setup/configurations/petconfig.md)
-* [pet-shops.yml](setup/configurations/shopconfig.md) ![](.gitbook/assets/premium.gif) 
+* [config.yml](setup/configurations/config.yml.md)
+* [pet-config.yml](setup/configurations/pet-config.yml.md)
+* [pet-shops.yml](setup/configurations/pet-shops.yml.md) ![](.gitbook/assets/premium.gif) 
 * [Permissions](setup/permissions.md)
 * [Multiworld](systems/multiworld.md)
 * [Experience](systems/experience/)

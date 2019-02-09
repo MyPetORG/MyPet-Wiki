@@ -4,7 +4,7 @@ description: Pet Configuration
 
 # pet-config.yml
 
-The _pet-config.yml_ file contains all MyPet-Type specific settings. All other settings can be found in the main config \([config.yml](configfile.md)\).
+The _pet-config.yml_ file contains all MyPet-Type specific settings. All other settings can be found in the main config \([config.yml](config.yml.md)\).
 
 | Setting | Type | Description |
 | :--- | :---: | ---: |

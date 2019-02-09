@@ -4,7 +4,7 @@ description: Main Configuration
 
 # config.yml
 
-The _config.yml_ file is the main configfile of _MyPet_. All pet type related options can be found in the [pet-config.yml](petconfig.md).
+The _config.yml_ file is the main configfile of _MyPet_. All pet type related options can be found in the [pet-config.yml](pet-config.yml.md).
 
 | Setting | Type | Description |
 | :--- | :---: | ---: |

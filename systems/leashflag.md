@@ -8,7 +8,7 @@ description: >-
 
 All Leash Flags can be combined with each others but some of them will only apply on some  
 mob types, some require other plugins and some will overwrite others depending on the order  
-they are written in the [pet-config.yml](../setup/configurations/petconfig.md).  
+they are written in the [pet-config.yml](../setup/configurations/pet-config.yml.md).  
 
 
 * `Impossible`

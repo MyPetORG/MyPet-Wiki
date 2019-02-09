@@ -10,8 +10,8 @@ This pages show you how to configure _MyPet_:
 
 * Setup [Permissions](permissions.md)
 * Configuration of the _WorldGroups_ for the [multiworld](../systems/multiworld.md) support
-* Configuration of the plugin in [config.yml](configurations/configfile.md)
-* Pet configuration in [pet-config.yml](configurations/petconfig.md)
+* Configuration of the plugin in [config.yml](configurations/config.yml.md)
+* Pet configuration in [pet-config.yml](configurations/pet-config.yml.md)
 * Configuration of the [Skilltrees](../systems/skilltrees/)
 * Optional: Create a [translation](https://translation.mypet-plugin.de/)
 

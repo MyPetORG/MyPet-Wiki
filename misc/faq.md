@@ -10,7 +10,7 @@ description: Frequently Asked Questions
 
 ## Is there a max levelcap?
 
-Yes, there are 3 ways to activate a level cap: 1. via [config](../setup/configurations/configfile.md) 2. via [skilltrees](../systems/skilltrees/) 3. create your own [expjs](../systems/experience/expjs.md) and add a levelcap in there
+Yes, there are 3 ways to activate a level cap: 1. via [config](../setup/configurations/config.yml.md) 2. via [skilltrees](../systems/skilltrees/) 3. create your own [expjs](../systems/experience/expjs.md) and add a levelcap in there
 
 ## How can I equip my Zombie/Skeleton/PigZombie?
 
