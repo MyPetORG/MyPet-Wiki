@@ -11,7 +11,9 @@ Examples:
 * 363 0 {display:{Name:"Wolf Food",Lore:\["Tasty wolf food","Tastes like banana"\]}}
 * minecraft:beef 0 {display:{Name:"Wolf Food",Lore:\["Tasty wolf food","Tastes like banana"\]}}
 
-When you set the food of the wolf to this, a player needs an item that is like in this picture: ![Custom-Item-Example](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/wiki/images/configitem.png) This will allow server owners to set the food and leash items \(and some other items used by MyPet\) to items that can only be obtained by shops etc.
+When you set the food of the wolf to this, a player needs an item that is like in this picture: ![Custom-Item-Example](../../.gitbook/assets/configitem.png) 
+
+This will allow server owners to set the food and leash items \(and some other items used by MyPet\) to items that can only be obtained by shops etc.
 
 ## Item generators
 
