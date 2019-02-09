@@ -8,7 +8,29 @@ With the **Experience-Script** `exp.js` it's possible to customize when a pet wi
 
 To make a fully functional exp-script that can be used by _MyPet_ you have to implement the following methods:
 
-* `function getExpByLevel(level, mypet)` -&gt; return the exp needed for this level.
+{% tabs %}
+{% tab title="Function" %}
+{% code-tabs %}
+{% code-tabs-item title="exp.js" %}
+```javascript
+function getExpByLevel(level, mypet) {
+  return exp;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+{% endtab %}
+
+{% tab title="Lambda" %}
+{% code-tabs %}
+{% code-tabs-item title="exp.js" %}
+```javascript
+getExpByLevel = (level, mypet) => exp;
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **Usable Methods**
 

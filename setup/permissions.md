@@ -31,12 +31,14 @@ This permission only allows to leash a certain mob but everything else a player 
   * `<Pet-Type-Name>` has to be replaced with a valid Pet-Type-Name or wildcard\(`*`\) to give permission for all Pet-Types.
   * allows to leash a pet of this Pet-Type.
 
+{% tabs %}
+{% tab title="Wildcard \(\*\)" %}
 ```text
   - MyPet.leash.*
 ```
+{% endtab %}
 
-or
-
+{% tab title="All" %}
 ```text
   - MyPet.leash.Bat
   - MyPet.leash.Blaze
@@ -86,6 +88,8 @@ or
   - MyPet.leash.ZombieHorse
   - MyPet.leash.ZombieVillager
 ```
+{% endtab %}
+{% endtabs %}
 
 ## MyPet Permissions
 

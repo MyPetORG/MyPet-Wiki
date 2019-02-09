@@ -25,7 +25,7 @@ If you want to merge two MyPet databases, they need to be on the same server and
 
 Please make backups of your databases before you try to merge them!
 
-```text
+```php
 <?php
 
 $database_1 = "mypet";
