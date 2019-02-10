@@ -32,15 +32,43 @@ getExpByLevel = (level, mypet) => exp;
 {% endtab %}
 {% endtabs %}
 
-**Usable Methods**
+### **Differentiating between pet types and world groups**
 
-You can use the following methods to react individually on some pets:
+Examples:
 
-* `MyPet.getType()` -&gt; pet-type of the _MyPet_.
-* `MyPet.getOwnerName()` -&gt; name of the owner.
-* `MyPet.getSkilltree()` -&gt; selected skilltree.
-* `MyPet.getUUID()` -&gt; internal UUID of the _MyPet_.
-* `MyPet.getWorldGroup()` -&gt; worldgroup the _MyPet_ is in.
+{% tabs %}
+{% tab title="Pet Type" %}
+{% code-tabs %}
+{% code-tabs-item title="exp.js" %}
+```javascript
+function getExpByLevel(level, mypet) {
+  var exp = 10;
+  if(mypet.type == "Cow") {
+    exp = 15;
+  }
+  return exp;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+{% endtab %}
+
+{% tab title="World Group" %}
+{% code-tabs %}
+{% code-tabs-item title="exp.js" %}
+```javascript
+function getExpByLevel(level, mypet) {
+  var exp = 10;
+  if(mypet.worldGroup == "Lucky Worlds") {
+    exp = 20;
+  }
+  return exp;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 If you have any questions related to this topic please contact me on Discord or the Spigot forums.
 
