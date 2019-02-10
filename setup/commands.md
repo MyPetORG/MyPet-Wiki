@@ -85,7 +85,7 @@
 ### `/pettrade`
 
 * Syntax: `/pettrade [`**`accept`**`or`**`reject`**`or`**`cancel`**`or`**`a <player name>`**`] <price>`
-* ![$](https://wiki.mypet-plugin.de/wiki/images/premium.gif) only available in premium version
+* 💲 only available in premium version
 * offers your current pet to another player.
   * `<auto>` can be any economy price
 * alias:
@@ -94,7 +94,7 @@
 
 ### `/petshop`
 
-* ![$](https://wiki.mypet-plugin.de/wiki/images/premium.gif) only available in premium version
+* 💲 only available in premium version
 * opens a GUI that shows the available pet shops
 * alias:
   * `/petsh`
@@ -195,7 +195,7 @@
 
 ### `/petcapturehelper`
 
-* ![$](https://wiki.mypet-plugin.de/wiki/images/premium.gif) only available in premium version
+* 💲 only available in premium version
 * enable/disable the CaptureHelper
 * alias:
   * `/pch`

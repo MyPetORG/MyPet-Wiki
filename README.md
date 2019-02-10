@@ -12,7 +12,7 @@
 
 * [config.yml](setup/configurations/configfile.md)
 * [pet-config.yml](setup/configurations/petconfig.md)
-* [pet-shops.yml](setup/configurations/shopconfig.md) ![](.gitbook/assets/premium.gif) 
+* [pet-shops.yml](setup/configurations/shopconfig.md) 💲
 * [Permissions](setup/permissions.md)
 * [Multiworld](systems/multiworld.md)
 * [Experience](systems/experience/)

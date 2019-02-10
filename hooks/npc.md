@@ -8,7 +8,7 @@ The Citizens **trait**s are called:
 
 * `mypet-storage`  -&gt;  MyPet Storage
 * `mypet-wallet`  -&gt;  Economy addon for the `mypet-storage` trait
-* `mypet-shop`  -&gt;  Pet shop ![$](../.gitbook/assets/premium.gif)
+* `mypet-shop`  -&gt;  Pet shop 
 
 ## Pictures
 

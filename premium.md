@@ -1,6 +1,6 @@
 # MyPet-Premium
 
-[MyPet-Premium](https://www.spigotmc.org/resources/mypet-premium.17566/) is the paid version of [MyPet](https://www.spigotmc.org/resources/mypet.12725/) that the author of MyPet offers on [Spigot](https://www.spigotmc.org/). It has additional features and new features will most likely end up in the premium version. All premium fetatures should be marked with a ![$](.gitbook/assets/premium.gif) in this wiki to make it clear that the free version does not have them.
+[MyPet-Premium](https://www.spigotmc.org/resources/mypet-premium.17566/) is the paid version of [MyPet](https://www.spigotmc.org/resources/mypet.12725/) that the author of MyPet offers on [Spigot](https://www.spigotmc.org/). It has additional features and new features will most likely end up in the premium version. All premium fetatures should be marked with a 💲 in this wiki to make it clear that the free version does not have them.
 
 ## Premium Features
 
