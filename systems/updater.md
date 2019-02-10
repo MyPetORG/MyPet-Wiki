@@ -14,7 +14,7 @@ Since MyPet 2.3.0 \(Premium: 2.3.5 or D1\) the auto updater is part of the plugi
 
 By default the plugin checks for plugin updates but doesn't download them. You can enable the download by activating it in the config \(_MyPet.Update.Download_\)
 
-![$](../.gitbook/assets/premium.gif) Premium users have to set a download token in the config \(_MyPet.Update.Token_\) that authenticates the download. The token can be found on the [download page](https://mypet-plugin.de/download) of the MyPet website. _\(login & an activated premium key required\)_ ![$](../.gitbook/assets/premium.gif)
+💲 Premium users have to set a download token in the config \(_MyPet.Update.Token_\) that authenticates the download. The token can be found on the [download page](https://mypet-plugin.de/download) of the MyPet website. _\(login & an activated premium key required\)_ 💲
 
 ## Step 3 - Reload the plugin
 

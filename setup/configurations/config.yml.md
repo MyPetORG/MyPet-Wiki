@@ -34,7 +34,7 @@ The _config.yml_ file is the main configfile of _MyPet_. All pet type related op
 |   OverwriteLanguages: | string | If you don't want per player language detection you can use this to overwrite the language for all players. Available languages can be found [here](https://github.com/xXKeyleXx/MyPet-Translations). Example: `pt_br` |
 | **Repository Settings** |  |  |
 |   **Repository:** |  |  |
-|     Type: | string | The storage type where the plugin will save the pets into. ![$](../../.gitbook/assets/premium.gif) Premium users also have access to `MySQL` and `MongoDB`. |
+|     Type: | string | The storage type where the plugin will save the pets into. 💲 Premium users also have access to `MySQL` and `MongoDB`. |
 |     ConvertFrom: | string | This options allows to migrate from one storage type to another. For example from `NBT` to `MySQL`. |
 |     **MySQL:** |  |  |
 |       Database: | string | The name of the MySQL database. |

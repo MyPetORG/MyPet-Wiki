@@ -85,7 +85,7 @@ In most cases you can also go through the command options by using the `TAB`-key
 ### `/pettrade`
 
 * Syntax: `/pettrade [`**`accept`**`or`**`reject`**`or`**`cancel`**`or`**`a <player name>`**`] <price>`
-* ![$](https://wiki.mypet-plugin.de/wiki/images/premium.gif) only available in premium version
+* 💲 only available in premium version
 * offers your current pet to another player.
   * `<price>` can be any economy price
 * alias:
@@ -95,7 +95,7 @@ In most cases you can also go through the command options by using the `TAB`-key
 ### `/petshop`
 
 * Syntax: `/petshop [shopname]`
-* ![$](https://wiki.mypet-plugin.de/wiki/images/premium.gif) only available in premium version
+* 💲 only available in premium version
 * opens a GUI that shows the available pet shops
 * alias:
   * `/petsh`
@@ -191,7 +191,7 @@ In most cases you can also go through the command options by using the `TAB`-key
 
 ### `/petcapturehelper`
 
-* ![$](https://wiki.mypet-plugin.de/wiki/images/premium.gif) only available in premium version
+* 💲 only available in premium version
 * enables/disables the CaptureHelper
 * alias:
   * `/pch`
