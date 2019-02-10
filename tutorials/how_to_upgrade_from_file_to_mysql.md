@@ -12,11 +12,11 @@ First of all thank your for purchasing MyPet-Premium!
 
 1. Put the plugin file into you plugin folder and restart the server so that the plugin can generate the new config settings.
 2. Set the `Type` setting under `Repository` to `MySQL`
-3. If you have an old `My.Pet` file you want to import set `ConvertFrom` setting under `Repository` to `SQLite`\(or what `Type` was before\).
+3. If you have an old `pets.db` file you want to import set `ConvertFrom` setting under `Repository` to `SQLite`\(or what `Type` was before\).
 4. create a new database \(collation: `utf8_general_ci`\) on your MySQL server \(default: `mypet`\).
 5. replace the credentials under `MySQL` with your own.
 6. restart the server once again. It should create the tables and import the local file to the database.
-7. **OPTIONAL:** _If you want to merge multiple_ `My.Pets` _files into one database you can use the script at the bottom of this page._
+7. **OPTIONAL:** _If you want to merge multiple_ `pets.db` _files into one database you can use the script at the bottom of this page._
 8. You can run your server like normal but all servers you use can now access the pets from one database!
 
 ### MySQL Merge Script
