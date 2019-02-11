@@ -34,7 +34,7 @@ Examples:
 ```javascript
 function getExpByLevel(level, mypet) {
   var exp = 10;
-  if(mypet.type == "Cow") {
+  if(mypet.getType() == "Cow") {
     exp = 15;
   }
   return exp;
@@ -50,7 +50,7 @@ function getExpByLevel(level, mypet) {
 ```javascript
 function getExpByLevel(level, mypet) {
   var exp = 10;
-  if(mypet.worldGroup == "LuckyWorlds") {
+  if(mypet.getWorldGroup() == "LuckyWorlds") {
     exp = 20;
   }
   return exp;
