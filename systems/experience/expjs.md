@@ -15,7 +15,7 @@ To make a fully functional exp-script that can be used by _MyPet_ you have to im
 {% code-tabs %}
 {% code-tabs-item title="exp.js" %}
 ```javascript
-function getExpByLevel(level, mypet) {
+function getExpByLevel(level, petType, worldGroup) {
   var exp = 0;
   return exp;
 }
@@ -32,9 +32,9 @@ Examples:
 {% code-tabs %}
 {% code-tabs-item title="exp.js" %}
 ```javascript
-function getExpByLevel(level, mypet) {
+function getExpByLevel(level, petType, worldGroup) {
   var exp = 10;
-  if(mypet.getType() == "Cow") {
+  if(petType == "Cow") {
     exp = 15;
   }
   return exp;
@@ -48,9 +48,9 @@ function getExpByLevel(level, mypet) {
 {% code-tabs %}
 {% code-tabs-item title="exp.js" %}
 ```javascript
-function getExpByLevel(level, mypet) {
+function getExpByLevel(level, petType, worldGroup) {
   var exp = 10;
-  if(mypet.getWorldGroup() == "LuckyWorlds") {
+  if(worldGroup == "LuckyWorlds") {
     exp = 20;
   }
   return exp;
@@ -72,7 +72,7 @@ If you have any questions related to this topic please contact me on Discord or 
 //  Level 17-31 cost 3 more XP points than the previous
 //  Level 32-∞ cost 7 more XP points than the previous
 
-function getExpByLevel(level, info) {
+function getExpByLevel(level, petType, worldGroup) {
     if (level <= 1) {
         return 0;
     }
