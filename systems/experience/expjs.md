@@ -4,7 +4,7 @@ With the **Experience-Script** `exp.js` it's possible to customize when a pet wi
 
 ## Installation
 
-1. Download [Rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino) and put the `rhino.jar`/`rhino-1.7.9.jar`/`rhino-1.7.10.jar` into the MyPet folder.
+1. Download [Rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino), rename the jar to `rhino.jar` and put the file into the MyPet folder.
 2. Set `LevelSystem.CalculationMode` to **`JavaScript`** int the **`config.yml`.**
 3. Edit the `exp.js` to your likings.
 
@@ -61,7 +61,13 @@ function getExpByLevel(level, petType, worldGroup) {
 {% endtab %}
 {% endtabs %}
 
-If you have any questions related to this topic please contact me on Discord or the Spigot forums.
+### Debugging
+
+To provide an easy method to debug your scripts the plugin adds a print method to the usable JavaScript functions.
+
+```javascript
+print("message");
+```
 
 ## Example
 
