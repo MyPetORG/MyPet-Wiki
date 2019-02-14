@@ -24,5 +24,5 @@ An upgrade can be applied on fixed levels or on repeating schedules like every 3
 
 ### Inheritance
 
-Skilltrees are capable of inheritance which means if **skilltree** `a` inherits from **skilltree** `b`, **skilltree** `a` will have all the upgrades form **skilltree** `b` and in adition to the own upgrades.
+Skilltrees are capable of inheritance which means if **skilltree** `a` inherits from **skilltree** `b`, **skilltree** `a` will have all the upgrades form **skilltree** `b` and in addition to it's own upgrades.
 

@@ -36,3 +36,12 @@ No. You can only have **one** active pet at the same time. However you can _stor
 
 Your pets just don't have a damage skill \([Damage](../skills/damage.md) or [Ranged](../skills/ranged.md)\). Select a skilltree with a damage skill or add a damage skill to your existing skilltrees.
 
+## Why can't I tame the Enderdragon?
+
+ProtocolLib is required for the Enderdragon to be tame-able.
+
+## Why doesn't the Enderdragon/Bat/Phantom etc; fly?
+
+There is no Flying AI in Minecraft.  
+Pets utilize the Tamed Wolf AI once they are tamed as a MyPet.
+
