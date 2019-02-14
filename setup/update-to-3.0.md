@@ -10,14 +10,15 @@ If you are running [MyPet-NPC](../hooks/npc.md) too you can delete that now as i
 
 ### Step 2 - Convert the skilltrees
 
-**If you never touched the skilltrees you can skip this step!**   
-
+{% hint style="info" %}
+**If you never touched the skilltrees you can skip this step!** 
+{% endhint %}
 
 If you made your own skilltrees or edited the default ones you need to convert them to the new format using the following steps:
 
 1. open up the new SkilltreeCreator
 2. select the folder you want to save your new skilltrees in
-3. Your browser will open and you will see the new [Skilltree Creator](../systems/skilltrees/skilltreecreator.md)
+3. your browser will open and you will see the new [Skilltree Creator](../systems/skilltrees/skilltreecreator.md)
 4. open the menu on the top left hand corner
 5. select `Import Legacy Skilltree`
 6. follow the 3 steps of the wizard

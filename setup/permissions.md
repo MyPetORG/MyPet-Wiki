@@ -1,6 +1,6 @@
 # Permissions
 
-```text
+```yaml
   - MyPet.admin
   - MyPet.command.info.other
   - MyPet.command.capturehelper
@@ -33,13 +33,13 @@ This permission only allows to leash a certain mob but everything else a player 
 
 {% tabs %}
 {% tab title="Wildcard \(\*\)" %}
-```text
+```yaml
   - MyPet.leash.*
 ```
 {% endtab %}
 
 {% tab title="All" %}
-```text
+```yaml
   - MyPet.leash.Bat
   - MyPet.leash.Blaze
   - MyPet.leash.CaveSpider
@@ -140,7 +140,7 @@ This permission only allows to leash a certain mob but everything else a player 
 
 To use the extended permissions you need to activate them in the config \(_`MyPet.Permissions.Extended`_\). Extended permissions are supposed to be used as a feature blocker. That means that it only usefull to active them when you want to disable certain features in certain worlds like disable Inventory in creative worlds. All these permissions should be self explaining but remember, they are only supposed to disable these things.
 
-```text
+```yaml
   - MyPet.extended.feed
   - MyPet.extended.beacon
   - MyPet.extended.behavior.friendly

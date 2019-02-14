@@ -3,14 +3,14 @@
 {% hint style="info" %}
 **MyPet uses the language the player has selected!**
 
-So players playing Minecraft in german will get german messages and english players english messages.
+Players playing Minecraft in german will get german messages and english players english messages.
 {% endhint %}
 
-If you want to help translating MyPet you can do so on the [MyPet Translation Site](https://translation.mypet-plugin.de/). MyPet is already translated into several languages so please check the site for existing translations before you do your own.
+If you want to help translate MyPet you can do so on the [MyPet Translation Site](https://translation.mypet-plugin.de/). MyPet is already translated into several languages so please check the site for existing translations before you do your own.
 
 ### Custom Translation
 
-You can create your own translation by modifying an [existing translation](https://github.com/xXKeyleXx/MyPet-Translations) or creating a completly new one. Either way you have to put the file into the `locale` folder and name it in this schema: `MyPet_XX.properties` . XX has to be replaced by the [locale code](https://minecraft.gamepedia.com/Language) of the language you want to change/create.
+You can create your own translation by modifying an [existing translation](https://github.com/xXKeyleXx/MyPet-Translations) or creating a completely new one. Either way you have to put the file into the `locale` folder and name it in this schema: `MyPet_XX.properties` . XX has to be replaced by the [locale code](https://minecraft.gamepedia.com/Language) of the language you want to change/create.
 
 ### Overriding the Language
 

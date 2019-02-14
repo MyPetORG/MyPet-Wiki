@@ -9,19 +9,19 @@
     Most commands have aliases like `/pi`. Use them instead the long version.
 
 {% hint style="info" %}
-In most cases you can also go through the command options by using the `TAB`-key.
+**You can also go through the command options by using the autocompletion with the`[TAB]`-key.**
 {% endhint %}
 
 ## MyPet Commands
 
 ### `/mypet`
 
-* show all available _MyPet_ commands.
+* shows all available _MyPet_ commands.
 
 ### `/petinfo`
 
 * Syntax: `/petinfo [username]`
-* show the following info about your or another player's pet.
+* shows the following info about your or another player's pet.
   * hitpoints
   * experience
   * damage
@@ -34,7 +34,7 @@ In most cases you can also go through the command options by using the `TAB`-key
 
 * Syntax: 
   * `/petname <new-pet-name>`
-* set the name of your pet.
+* sets the name of your pet.
 * owners can use colors to make the name of their pets more colorfull with this placeholder:
   * `<black>`, `<darkaqua>`, `<darkblue>`, `<darkgreen>`, `<darkred>`, `<darkpurple>`, `<gold>`, `<gray>`, `<darkgray>`, `<blue>`, `<green>`, `<aqua>`, `<red>`, `<lightpurple>`, `<yellow>`, `<white>`, `<magic>`, `<bold>`, `<strikethrough>`, `<underline>`, `<italic>`, `<reset>`
 
@@ -52,7 +52,7 @@ In most cases you can also go through the command options by using the `TAB`-key
 
 ### `/petsendaway`
 
-* send your pet away.
+* sends your pet away.
 * it can be still called by using the `/petcall` command
 * alias:
   * `/psa`
@@ -61,7 +61,7 @@ In most cases you can also go through the command options by using the `TAB`-key
 ### `/petrespawn`
 
 * Syntax: `/petrespawn [`**`pay`**`or`**`show`**`or`**`auto`**`]`
-* show the following info about your or another player's pet.
+* shows the following info about your or another player's pet.
   * auto with an addition parameter \(Integer\) determines what the maximum time is the player want to pay for
   * Example: A player used `/petrespawn auto 10` and the pet dies and has a respawn time of 16 seconds. Now the plugin will wait until the respawntime is 10 seconds and then respawn the pet when the owner can pay the respawn fee.
 * alias:
@@ -201,7 +201,7 @@ In most cases you can also go through the command options by using the `TAB`-key
 * Syntax: `/petoptions <option> [parameters...]`
 * options:
   * `healthbar`
-    * toggles healthbar on/off
+    * toggles actionbar healthbar on/off
   * `idle-volume`
     * set the volume of the idle sound pets make
     * parameters:

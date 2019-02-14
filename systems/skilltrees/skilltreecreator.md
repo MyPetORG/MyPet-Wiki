@@ -7,7 +7,7 @@ description: >-
 # SkilltreeCreator - Tool
 
 The _SkilltreeCreator_ is built into the plugin and doesn't has to be downloaded separately.  
-Simply doubleclick the `MyPet.jar` and a browser window will open.  
+Simply doubleclick the `MyPet.jar` and a folder selection opens. Select the folder where your skilltrees are located and when you selected a folder a browser window will open.  
 All changes made on this page will be saved to the skilltree files when you hit the **Save**-Button.  
 Most parts of the _SkilltreeCreator_ should be self-explaining.
 
@@ -15,7 +15,7 @@ Attention! You have to use the save button at the top of the page to save the sk
 Don't close the window/tab if you have unsaved changes. They will be lost if you do so.  
 If you closed the window/tab by accident you can reopen it via the icon in the tray menu.
 
-### Skilltree list
+### Skilltree List
 
  
 
@@ -24,7 +24,7 @@ If you closed the window/tab by accident you can reopen it via the icon in the t
 In the skilltree list/overview you can create and delete skilltrees and change the order of them.  
 You also have access to the menu where you can switch between languages \(only english and german for now\) and import \(legacy\) skilltrees.
 
-### Upgrade editor
+### Upgrade Editor
 
 On the upgrade page you can add new upgrades for every single skill.
 
