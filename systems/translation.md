@@ -10,9 +10,9 @@ If you want to help translating MyPet you can do so on the [MyPet Translation Si
 
 ### Custom Translation
 
-You can create your own translation by modifying an [existing translation](https://github.com/xXKeyleXx/MyPet-Translations) or creating a completly new one. Either way you have to put the file into the `locale` folder and name it in this schema: `MyPet_XX.properties` . XX has to be replaced by the [language code](https://minecraft.gamepedia.com/Language) of the language you want to change/create.
+You can create your own translation by modifying an [existing translation](https://github.com/xXKeyleXx/MyPet-Translations) or creating a completly new one. Either way you have to put the file into the `locale` folder and name it in this schema: `MyPet_XX.properties` . XX has to be replaced by the [locale code](https://minecraft.gamepedia.com/Language) of the language you want to change/create.
 
 ### Overriding the Language
 
-If you don't want the default behavior where the plugin will send messages in the language of the player or you did your own messages then you can force the plugin to use only that one language. You can do so by setting `OverwriteLanguages` in the [config.yml](../setup/configurations/config.yml.md) to the [language code](https://minecraft.gamepedia.com/Language) you want to use.
+If you don't want the default behavior where the plugin will send messages in the language of the player or you did your own messages then you can force the plugin to use only that one language. You can do so by setting `OverwriteLanguages` in the [config.yml](../setup/configurations/config.yml.md) to the [locale code](https://minecraft.gamepedia.com/Language) you want to use.
 
