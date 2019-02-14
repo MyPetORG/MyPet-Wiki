@@ -119,6 +119,6 @@ The _config.yml_ file is the main configfile of _MyPet_. All pet type related op
 |       DropWhenOwnerDies: | boolean | When this is set to `true` the pet will drop the content in it's inventory when the owner dies. |
 |     [**Beacon**](../../skills/beacon.md)**:** |  |  |
 |       HungerDecreaseTime: | integer | If the [Hunger-System](../../systems/hungersystem.md) is active, this setting sets the interval in which the value the hunger value is decreased by 1. |
-|       Party-Support: | boolean | Enables the support for parties from these plugins: [MCMMO](https://www.spigotmc.org/resources/mcmmo.2445/), [Heroes](https://www.spigotmc.org/resources/heroes.305/), [Ancient](http://dev.bukkit.org/bukkit-plugins/ancient-rpg/)  If you have any party plugins MyPet should support please [r](https://github.com/xXKeyleXx/MyPet-Wiki/tree/07680434e1278c970819d5e9518888598106688b/pages/contact/README.md)equest them on GitHub or Discord. |
+|       Party-Support: | boolean | Enables the support for parties from these plugins: [MCMMO](https://www.spigotmc.org/resources/mcmmo.2445/), [Heroes](https://www.spigotmc.org/resources/heroes.305/), [Ancient](http://dev.bukkit.org/bukkit-plugins/ancient-rpg/)  If you have any party plugins MyPet should support please request them on GitHub or Discord. |
 |  |  |  |
 
