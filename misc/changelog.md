@@ -10,13 +10,18 @@
   * Gangs+
   * MiniaturePets
   * BossShopPro
-* 🔅 rewrote the entire [skilltree](../systems/skilltrees/) system
+  *  MobStacker
+  * StackMob
+* ✔️ included [MyPet-NPC](../hooks/npc.md) into the plugin
+* ✔️option to disable MyPet in some worlds
+* ✔️allow command execution of commands on pet rightclick
+* 🔅 rewrote the entire [skilltree](../systems/skilltrees/) system & added skilltree requirements
 * 🔅 rewrote the [Leash Flag/Requirements](../systems/leashflag.md) system and added new flags
 * 🔅 improved EXP calculation system
-  * JS files just need the `getExpByLevel(level, info)` function now
-    * you don't have to do anything if you use a exp.js file
+  * JS files just need the `getExpByLevel(level, petType, worldGroup)` function now
+* 🔅 API changes
 * ⚙️fixed Ender Dragon interactions
-* ⚙️fixed some bugs
+* ⚙️fixed a **LOT** of bugs
 
 ### Version 1.3.0
 

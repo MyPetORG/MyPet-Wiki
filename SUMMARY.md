@@ -19,6 +19,7 @@
   * [Translation](systems/translation.md)
   * [Leash Flags / Requirements](systems/leashflag.md)
   * [Skilltrees](systems/skilltrees/README.md)
+    * [Skilltree Requirements](systems/skilltrees/skilltree-requirements.md)
     * [SkilltreeCreator - Tool](systems/skilltrees/skilltreecreator.md)
   * [Experience](systems/experience/README.md)
     * [Experience-Script](systems/experience/expjs.md)
