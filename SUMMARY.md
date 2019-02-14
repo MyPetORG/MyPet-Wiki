@@ -16,6 +16,7 @@
     * [worldgroups.yml](setup/configurations/worldgroups.yml.md)
     * [Custom-Item-Data in Config](setup/configurations/configitems.md)
 * [Systems](systems/README.md)
+  * [Translation](systems/translation.md)
   * [Leash Flags / Requirements](systems/leashflag.md)
   * [Skilltrees](systems/skilltrees/README.md)
     * [SkilltreeCreator - Tool](systems/skilltrees/skilltreecreator.md)

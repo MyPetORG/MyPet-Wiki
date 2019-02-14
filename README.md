@@ -17,7 +17,7 @@
 * [Permissions](setup/permissions.md)
 * [Multiworld](systems/multiworld.md)
 * [Experience](systems/experience/)
-* [Translations](https://translation.mypet-plugin.de)
+* [Translations](systems/translation.md)
 
 ## Skillsystem
 
