@@ -79,9 +79,6 @@ print("message");
 //  Level 32-∞ cost 7 more XP points than the previous
 
 function getExpByLevel(level, petType, worldGroup) {
-    if (level <= 1) {
-        return 0;
-    }
     var exp = 0, i;
     if (level > 31) {
         exp = 887;
