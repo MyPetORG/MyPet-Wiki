@@ -1,14 +1,6 @@
 # File to MySQL
 
-{% hint style="warning" %}
-### This feature is part of MyPet-Premium!
-{% endhint %}
-
-If you want to use a MySQL database to store your pets please download the premium version of MyPet [here](https://www.spigotmc.org/resources/mypet-premium.17566/).
-
 ## Setup
-
-First of all thank your for purchasing MyPet-Premium!
 
 1. Put the plugin file into you plugin folder and restart the server so that the plugin can generate the new config settings.
 2. Set the `Type` setting under `Repository` to `MySQL`

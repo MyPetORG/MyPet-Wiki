@@ -28,14 +28,12 @@ The _config.yml_ file is the main configfile of _MyPet_. All pet type related op
 |    Check: | boolean | Sets if the plugin will check for updates when it is loaded. This will not download the new version. |
 |    Download: | boolean | Sets if the plugin will download the update. |
 |    ReplaceOld: | boolean | Sets if the plugin will load the update on the next server start. |
-|    Token: | String | The download token you need to download the latest MyPet-Premium version. You can get your token [here](https://mypet-plugin.de/download). |
-|   Activate-Resourcepack-By-Default: | boolean | This will actiave the ressource pack by default. Players can still disable it. |
 |   Throw-PlayerMoveEvent-While-Riding: | boolean | Disable this when other plugins cause bugs  because of the thrown events. |
 |   OverwriteLanguages: | string | If you don't want per player language detection you can use this to overwrite the language for all players. Available languages can be found [here](https://github.com/xXKeyleXx/MyPet-Translations). Example: `pt_br` |
 | **Repository Settings** |  |  |
 |   **Repository:** |  |  |
-|     Type: | string | The storage type where the plugin will save the pets into. 💲 Premium users also have access to `MySQL` and `MongoDB`. |
-|     ConvertFrom: | string | This options allows to migrate from one storage type to another. For example from `NBT` to `MySQL`. |
+|     Type: | string | The storage type where the plugin will save the pets into. Options: `SQLite` ,`MySQL` ,`MongoDB`. |
+|     ConvertFrom: | string | This options allows to migrate from one storage type to another. For example from `SQLite` to `MySQL`. |
 |     **MySQL:** |  |  |
 |       Database: | string | The name of the MySQL database. |
 |       TablePrefix: | string | The table prefix if the database is shared with other applications. |

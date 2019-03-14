@@ -85,7 +85,6 @@
 ### `/pettrade`
 
 * Syntax: `/pettrade [`**`accept`**`or`**`reject`**`or`**`cancel`**`or`**`a <player name>`**`] <price>`
-* 💲 only available in premium version
 * offers your current pet to another player.
   * `<price>` can be any economy price
 * alias:
@@ -95,7 +94,6 @@
 ### `/petshop`
 
 * Syntax: `/petshop [shopname]`
-* 💲 only available in premium version
 * opens a GUI that shows the available pet shops
 * alias:
   * `/petsh`
@@ -191,7 +189,6 @@
 
 ### `/petcapturehelper`
 
-* 💲 only available in premium version
 * enables/disables the CaptureHelper
 * alias:
   * `/pch`

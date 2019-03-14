@@ -1,6 +1,6 @@
 # Custom-Item-Data in Config
 
-Since MyPet-1.1.4 it is possible to set the `item data` \(like wool color\) and `NBT data` \(like enchantments, name and lore\) for items in the MyPet config.
+It is possible to set the `item data` \(like wool color\) and `NBT data` \(like enchantments, name and lore\) for items in the MyPet config.
 
 You have to provide the Item properties in this order:
 

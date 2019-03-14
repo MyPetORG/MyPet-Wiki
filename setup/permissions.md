@@ -117,20 +117,16 @@ This permission only allows to leash a certain mob but everything else a player 
   * allows to use the /petoptions resource-pack command to toggle the resource pack.
 * `MyPet.command.trade.offer.<MyPet-Type>`
   * allows to offer somebody your MyPet of type `<MyPet-Type>`
-  * 💲 Premium feature
 * `MyPet.command.trade.receive.<MyPet-Type>`
   * allows to offer somebody your MyPet of type `<MyPet-Type>`
-  * 💲 Premium feature
 * `MyPet.petstorage.limit.<limit>`
   * limits the amount of pets a player can store.
   * `<limit>` has to be replaced by a number between 1 and 54
 * `MyPet.shop.access.<shopname>`
   * allows to access a shop with the /petshop command
   * `<shopname>` needs to be replaced by a shop name
-  * 💲 Premium feature
 * `MyPet.shop.storage`
   * allows to buy pets to the storage so you don't have to store your pet before buying a new one
-  * 💲 Premium feature
 * `MyPet.skilltree.<skilltreename>`
   * `<skilltreename>` has to be replaced with the name of any existing skilltreename.
   * allows to use the `<skilltreename>` skilltree.

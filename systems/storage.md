@@ -8,7 +8,7 @@ This doesn't mean you can have more than one pet active at a time but to store a
 
 ## What uses the storage?
 
-* The pet [shop](../premium.md) 💲
+* The pet [shop](../premium.md)
 * the `/petstore` and `/petswitch` [commands](../setup/commands.md)
 * The `mypet-storage`-Citizens trait of [MyPet-NPC](../hooks/npc.md)
 * all pets obtained by other sources than taming them

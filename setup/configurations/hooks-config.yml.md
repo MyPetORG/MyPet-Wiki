@@ -38,7 +38,7 @@ The table below shows only the custom settings.
 |     **BattleArena:** |  |  |
 |       DisablePetsInArena: | boolean | Disables MyPets in the arenas completely. |
 |     **Vault:** |  |  |
-|       Economy: | boolean | Enables the economy support. Used by 💲 trading, respawning and storing pets. |
+|       Economy: | boolean | Enables the economy support. Used by trading, respawning and storing pets. |
 |     **SkillAPI:** |  |  |
 |       GrantExp: | boolean | This setting allows pets to gain XP when the owner gains SkillAPI XP. |
 |       Disable-Vanilla-Exp: | boolean | This setting disables XP gain of normal sources at all. The only way pets can get any XP is when the owner gets XP via SkillAPI. |

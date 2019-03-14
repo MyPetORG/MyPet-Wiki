@@ -1,14 +1,6 @@
 # File to MongoDB
 
-{% hint style="warning" %}
-### This feature is part of MyPet-Premium!
-{% endhint %}
-
-If you want to use a MongoDB database to store your pets please download the premium version of MyPet [here](https://www.spigotmc.org/resources/mypet-premium.17566/).
-
 ## Setup
-
-First of all thank your for purchasing MyPet-Premium!
 
 1. Put the plugin file into you plugin folder and restart the server so that the plugin can generate the new config options.
 2. download this jar file \([mongo-java-driver-3.2.1.jar](https://search.maven.org/remotecontent?filepath=org/mongodb/mongo-java-driver/3.2.1/mongo-java-driver-3.2.1.jar)\) and put it into the MyPet folder.

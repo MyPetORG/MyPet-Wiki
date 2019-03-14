@@ -4,7 +4,7 @@ description: Pet Shop Configuration
 
 # pet-shops.yml
 
-The _pet-shops.yml_ file contains the shops where players can buy pets. Pet shops are exclusively available in the 💲 premium version of MyPet.
+The _pet-shops.yml_ file contains the shops where players can buy pets.
 
 You can create as many shops as you want, but all of them need different IDs \(`<shop-id>`\)
 

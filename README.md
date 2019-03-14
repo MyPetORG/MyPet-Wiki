@@ -13,7 +13,7 @@
 
 * [config.yml](setup/configurations/config.yml.md)
 * [pet-config.yml](setup/configurations/pet-config.yml.md)
-* [pet-shops.yml](setup/configurations/pet-shops.yml.md)  💲
+* [pet-shops.yml](setup/configurations/pet-shops.yml.md)
 * [Permissions](setup/permissions.md)
 * [Multiworld](systems/multiworld.md)
 * [Experience](systems/experience/)
@@ -29,7 +29,6 @@
 ## Plugins
 
 * [NPC](hooks/npc.md)
-* [MyPet-Premium](premium.md)
 * [Plugin-Hooks](hooks/)
 
 ## Misc
@@ -37,5 +36,4 @@
 * [Changelog](misc/changelog.md)
 * [EULA compliance](misc/eula.md)
 * [Metrics \(MyPet\)](https://bstats.org/plugin/bukkit/MyPet)
-* [Metrics \(MyPet-Premium\)](https://bstats.org/plugin/bukkit/MyPet-Premium)
 
