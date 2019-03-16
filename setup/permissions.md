@@ -17,6 +17,9 @@
   - MyPet.petstorage.limit.<limit>
   - MyPet.leash.<MyPet-Type>
   - MyPet.skilltree.<skilltreename>
+  
+   - MyPet.npc.storage
+   - MyPet.npc.shop
 ```
 
 ## Leash Permissions
@@ -131,6 +134,10 @@ This permission only allows to leash a certain mob but everything else a player 
   * `<skilltreename>` has to be replaced with the name of any existing skilltreename.
   * allows to use the `<skilltreename>` skilltree.
   * the names of the default skilltrees are: `Combat`, `Utility`, `PvP`, `Ride` & `Farm`
+* `MyPet.npc.storage`
+  * allows to interact with the `mypet-storage` Citizens trait
+* `MyPet.npc.shop`
+  * allows to interact with the `mypet-shop` Citizens trait
 
 ## Extended MyPet Permissions
 
