@@ -9,7 +9,7 @@
   - MyPet.command.name
   - MyPet.command.name.color
   - MyPet.command.switch
-  - MyPet.command.options.resourcepack
+  - MyPet.command.store
   - MyPet.command.trade.offer.<MyPet-Type>
   - MyPet.command.trade.receive.<MyPet-Type>
   - MyPet.shop.access.<shopname>
@@ -103,7 +103,7 @@ This permission only allows to leash a certain mob but everything else a player 
     * switch skilltree as you want it.
     * access to _`/petadmin`_ command.
 * `MyPet.command.info.other`
-  * allows to view pet info of other players with the _/petinfo_ command.
+  * allows to view pet info of other players with the _`/petinfo`_ command.
 * `MyPet.command.capturehelper`
   * allows to use the CaptureHelper.
 * `MyPet.command.release`
@@ -113,11 +113,11 @@ This permission only allows to leash a certain mob but everything else a player 
 * `MyPet.command.name.color`
   * allows to use colors in pet-names.
 * `MyPet.command.respawn`
-  * allows to use the /petrespawn command to respawn your pet \(needs Economy plugin\).
+  * allows to use the _`/petrespawn`_ command to respawn your pet \(needs Economy plugin\).
 * `MyPet.command.switch`
-  * allows to use the /petswitch command to switch between pets.
-* `MyPet.command.options.resourcepack`
-  * allows to use the /petoptions resource-pack command to toggle the resource pack.
+  * allows to use the _`/petswitch`_ command to switch between pets.
+* `MyPet.command.store`
+  * allows to use the _`/petstore`_ command to store pets.
 * `MyPet.command.trade.offer.<MyPet-Type>`
   * allows to offer somebody your MyPet of type `<MyPet-Type>`
 * `MyPet.command.trade.receive.<MyPet-Type>`

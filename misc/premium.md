@@ -6,5 +6,5 @@ MyPet-Premium was the paid version of [MyPet](https://www.spigotmc.org/resources
 
 If you purchased the premium version of the plugin you can still [select](https://mypet-plugin.de/premium/particles) up to 2 Minecraft usernames \(UUIDs\) who will then get particle effects on their pets!  
 
-![Premium Particles](.gitbook/assets/particles.gif)
+![Premium Particles](../.gitbook/assets/particles.gif)
 

@@ -1,7 +1,6 @@
 # Table of contents
 
 * [MyPet - Wiki](README.md)
-* [MyPet-Premium](premium.md)
 * [MyPet 3.0](mypet-3.0.md)
 * [Setup](setup/README.md)
   * [Update to 3.0](setup/update-to-3.0.md)
@@ -59,6 +58,7 @@
   * [PlaceholderAPI](hooks/placeholder.md)
   * [BossShopPro](hooks/bossshoppro.md)
 * [Misc](misc/README.md)
+  * [MyPet-Premium](misc/premium.md)
   * [Is MyPet EULA compliant?](misc/eula.md)
   * [FAQ](misc/faq.md)
   * [Changelog](misc/changelog.md)
