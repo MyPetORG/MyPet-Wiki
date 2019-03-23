@@ -1,6 +1,6 @@
 # Changelog
 
-#### Version 3.0
+### Version 3.0
 
 * ✔️**ALL MyPet-Premium features are now included in the FREE version!**
 * ✔️MC 1.13, 1.13.1 and 1.13.2 support \(including new mobs\)
@@ -13,9 +13,10 @@
   * BossShopPro
   *  MobStacker
   * StackMob
-* ✔️ included [MyPet-NPC](../hooks/npc.md) into the plugin
+* ✔️included [MyPet-NPC](../hooks/npc.md) into the plugin
 * ✔️option to disable MyPet in some worlds
 * ✔️allow command execution of commands on pet rightclick
+* ✔️add `MyPet.command.store` permission to the _`/petstore`_ command
 * 🔅 rewrote the entire [skilltree](../systems/skilltrees/) system & added skilltree requirements
 * 🔅 rewrote the [Leash Flag/Requirements](../systems/leashflag.md) system and added new flags
 * 🔅 improved EXP calculation system
