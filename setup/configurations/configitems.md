@@ -4,12 +4,11 @@ It is possible to set the `item data` \(like wool color\) and `NBT data` \(like 
 
 You have to provide the Item properties in this order:
 
-* Item-ID/Item-Name Item-Data NBT-Data
+* `1.13-Item-ID` `NBT-Data`
 
-Examples:
+Example:
 
-* 363 0 {display:{Name:"Wolf Food",Lore:\["Tasty wolf food","Tastes like banana"\]}}
-* minecraft:beef 0 {display:{Name:"Wolf Food",Lore:\["Tasty wolf food","Tastes like banana"\]}}
+* `beef {display:{Name:"Wolf Food",Lore:["Tasty wolf food","Tastes like banana"]}}`
 
 When you set the food of the wolf to this, a player needs an item that is like in this picture: ![Custom-Item-Example](../../.gitbook/assets/configitem.png) 
 
