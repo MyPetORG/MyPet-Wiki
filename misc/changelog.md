@@ -3,7 +3,7 @@
 ### Version 3.0
 
 * ✔️**ALL MyPet-Premium features are now included in the FREE version!**
-* ✔️MC 1.13, 1.13.1 and 1.13.2 support \(including new mobs\)
+* ✔️MC 1.13, 1.13.1, 1.13.2, 1.14 and 1.14.1 support \(including new mobs\)
 * ✔️pets can level down if they die \(can be enabled via the `Allow-Level-Drowngrade` setting\)
 * ✔️Experience Multiplier \(global or via permissions\)
 * ✔️new plugin hooks:
