@@ -1,3 +1,7 @@
+---
+description: The official wiki of MyPet!
+---
+
 # MyPet - Wiki
 
 ## Usage
@@ -7,7 +11,7 @@
 * [Commands](setup/commands.md)
 * [Tutorials](tutorials/)
 * [Auto Updater](systems/updater.md)
-* [FAQ](misc/faq.md)
+* \*\*\*\*[**FAQ**](misc/faq.md)\*\*\*\*
 
 ## Configuration
 

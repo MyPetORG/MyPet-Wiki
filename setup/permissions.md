@@ -18,8 +18,15 @@
   - MyPet.leash.<MyPet-Type>
   - MyPet.skilltree.<skilltreename>
   
-   - MyPet.npc.storage
-   - MyPet.npc.shop
+  - MyPet.experience.multiplier.250
+  - MyPet.experience.multiplier.225
+  - MyPet.experience.multiplier.200
+  - MyPet.experience.multiplier.175
+  - MyPet.experience.multiplier.150
+  - MyPet.experience.multiplier.125
+  
+  - MyPet.npc.storage
+  - MyPet.npc.shop
 ```
 
 ## Leash Permissions
@@ -138,6 +145,9 @@ This permission only allows to leash a certain mob but everything else a player 
   * allows to interact with the `mypet-storage` Citizens trait
 * `MyPet.npc.shop`
   * allows to interact with the `mypet-shop` Citizens trait
+* `MyPet.experience.multiplier.`**`X`**
+  * Allows the pets of this player to gain **`X`**% XP
+  * For a full list of **`X`** see [list](permissions.md) at the top op this page
 
 ## Extended MyPet Permissions
 
