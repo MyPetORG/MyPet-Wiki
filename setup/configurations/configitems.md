@@ -8,7 +8,15 @@ You have to provide the Item properties in this order:
 
 Example:
 
-* `beef {display:{Name:"Wolf Food",Lore:["Tasty wolf food","Tastes like banana"]}}`
+{% tabs %}
+{% tab title="1.13" %}
+`beef {display:{Name:"Wolf Food",Lore:["Tasty wolf food","Tastes like banana"]}}`
+{% endtab %}
+
+{% tab title="1.14" %}
+`beef {"display":{"Name":"[{\"text\":\"Wolf Food\"}]","Lore":["{\"text\":\"Tasty wolf food\"}","{\"text\":\"Tastes like banana\"}"]}}`
+{% endtab %}
+{% endtabs %}
 
 When you set the food of the wolf to this, a player needs an item that is like in this picture: ![Custom-Item-Example](../../.gitbook/assets/configitem.png) 
 
