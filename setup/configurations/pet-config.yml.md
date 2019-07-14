@@ -4,18 +4,79 @@ description: Pet Configuration
 
 # pet-config.yml
 
-The _pet-config.yml_ file contains all MyPet-Type specific settings. All other settings can be found in the main config \([config.yml](config.yml.md)\).
+The _`pet-config.yml`_ file contains all MyPet-Type specific settings. All other settings can be found in the main config \([config.yml](config.yml.md)\).
 
-| Setting | Type | Description |
-| :--- | :---: | ---: |
-| **MyPet:** |  |  |
-|   **Pets:** |  |  |
-|     **&lt;MyPet-Type-Name&gt;:** |  |  |
-|       HP: | double | The maximum HP the pet \(type\) has by default. |
-|       Speed: | double | The running speed the pet \(type\) has by default. ![$](../../.gitbook/assets/exclaim.gif) Small changes have a massive impact on the speed ![$](../../.gitbook/assets/exclaim.gif) |
-|       Food: | list | The food this pet \(type\) eats. This setting must be a list of valid [config items](configitems.md) |
-|       LeashItem: | string | The item this pet \(type\) can be leashed with. This setting must be a valid [config item](configitems.md) |
-|       LeashRequirements: | list | A list of valid [Leash Requirements](../../systems/leashflag.md) |
-|       CustomRespawnTimeFactor: | int | This setting allows to change the respawn times pet pet \(type\). The value will be added on top of the value from the main config. |
-|       CustomRespawnTimeFixed: | int | This setting allows to change the respawn times pet pet \(type\). The value will be added on top of the value from the main config. |
-
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Setting</th>
+      <th style="text-align:center">Type</th>
+      <th style="text-align:right">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>MyPet:</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:right"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;<b>Pets:</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:right"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;<b>&lt;MyPet-Type-Name&gt;:</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:right"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;HP:</td>
+      <td style="text-align:center">double</td>
+      <td style="text-align:right">The maximum HP the pet (type) has by default.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Speed:</td>
+      <td style="text-align:center">double</td>
+      <td style="text-align:right">
+        <p>The running speed the pet-type has by default.</p>
+        <p>&#x2757; Small changes have a massive impact on the speed &#x2757;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;Food:</td>
+      <td style="text-align:center">list</td>
+      <td style="text-align:right">The food this pet-type eats. This setting must be a list of valid <a href="configitems.md">config items</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;LeashItem:</td>
+      <td style="text-align:center">string</td>
+      <td style="text-align:right">The item this pet-type can be leashed with. This setting must be a valid
+        <a
+        href="configitems.md">config item</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;LeashRequirements:</td>
+      <td style="text-align:center">list</td>
+      <td style="text-align:right">A list of valid <a href="../../systems/leashflag.md">Leash Requirements</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;CustomRespawnTimeFactor:</td>
+      <td style="text-align:center">int</td>
+      <td style="text-align:right">This setting allows to change the respawn times pet-type. This value will
+        be added on top of the value from the main config.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;CustomRespawnTimeFixed:</td>
+      <td style="text-align:center">int</td>
+      <td style="text-align:right">This setting allows to change the respawn times pet-type. This value will
+        be added on top of the value from the main config.</td>
+    </tr>
+  </tbody>
+</table>

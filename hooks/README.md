@@ -13,6 +13,7 @@
 | [GriefPreventionPlus](https://github.com/KaiKikuchi/GriefPreventionPlus) | [PetVsPlayer-Protection](hook-types.md#pet-vs-player-protection), [PetVsCreature-Protection](hook-types.md#pet-vs-creature-protection) |
 | [Heroes](http://dev.bukkit.org/bukkit-plugins/heroes/) | Parties, [PetVsPlayer-Protection](hook-types.md#pet-vs-player-protection) |
 | [Kingdoms](https://www.spigotmc.org/resources/kingdoms-plugin-demo.6392/) | [PetVsPlayer-Protection](hook-types.md#pet-vs-player-protection) |
+| [Lands](https://www.spigotmc.org/resources/lands-land-claim-plugin-grief-prevention-features-gui-land-management-taxes-1-14-ready.53313/) | [PetVsPlayer-Protection](hook-types.md#pet-vs-player-protection), [PetVsCreature-Protection](hook-types.md#pet-vs-creature-protection) |
 | [MagicSpells](http://dev.bukkit.org/bukkit-plugins/magicspells/) | EXP |
 | [mcMMO](https://www.spigotmc.org/resources/mcmmo.2445/) | Parties, [PetVsPlayer-Protection](hook-types.md#pet-vs-player-protection) |
 | [MiniaturePets](https://www.spigotmc.org/resources/⌾-miniaturepets-⌾-custom-mobs-great-for-eula.23991/) | [PetVsCreature-Protection](hook-types.md#pet-vs-creature-protection) |

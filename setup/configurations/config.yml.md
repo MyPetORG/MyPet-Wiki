@@ -148,8 +148,7 @@ The _config.yml_ file is the main configfile of _MyPet_. All pet type related op
       <td style="text-align:right">
         <p>This is used to identify different users for the error reporter. This
           will allow the devs to see how many servers have the same problem.</p>
-        <p><b>DO NOT CHANGE!</b>
-        </p>
+        <p>&#x2757; <b>DO NOT CHANGE </b>&#x2757;</p>
       </td>
     </tr>
     <tr>
