@@ -57,6 +57,8 @@
   * [WG Region Flags](hooks/flags.md)
   * [PlaceholderAPI](hooks/placeholder.md)
   * [BossShopPro](hooks/bossshoppro.md)
+* [Default Settings](default-settings/README.md)
+  * [Pet-Config](default-settings/pet-config.md)
 * [Misc](misc/README.md)
   * [MyPet-Premium](misc/premium.md)
   * [Is MyPet EULA compliant?](misc/eula.md)
