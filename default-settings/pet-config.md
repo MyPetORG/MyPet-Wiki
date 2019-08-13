@@ -318,7 +318,7 @@ For information on what each setting does, visit [pet-config.yml](https://wiki.m
   Food:  
   - rotten\_flesh  
   LeashRequirements:  
-  LowHp  
+  - LowHp  
   CustomRespawnTimeFactor: 0  
   CustomRespawnTimeFixed: 0  
   LeashItem: lead  
@@ -431,10 +431,6 @@ For information on what each setting does, visit [pet-config.yml](https://wiki.m
   ReleaseOnDeath: false  
   RemoveAfterRelease: false  
   GrowUpItem: experience\_bottle
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
 {% endtab %}
 {% endtabs %}
 
