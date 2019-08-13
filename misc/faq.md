@@ -45,3 +45,8 @@ ProtocolLib is required for the Enderdragon to be tame-able.
 There is no Flying AI in Minecraft.  
 Pets utilize the Tamed Wolf AI once they are tamed as a MyPet.
 
+## Can I make my Pet Sit/Stay?
+
+Yes, you can make your pet stay by Shift + Right Click  
+All pets can be told to Stay, not just the standard tame-able mobs such as Cats and Wolves.
+
