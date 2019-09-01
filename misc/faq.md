@@ -43,9 +43,11 @@ No. You can only have **one** active pet at the same time. However you can _stor
 
 Your pets just don't have a damage skill \([Damage](../skills/damage.md) or [Ranged](../skills/ranged.md)\). Select a skilltree with a damage skill or add a damage skill to your existing skilltrees.
 
-## Why can't I tame the Enderdragon?
+## Why can't I tame the Enderdragon/Wither?
 
-ProtocolLib is required for the Enderdragon to be tame-able.
+[ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) is required for the Enderdragon to be tame-able.
+
+The [leash requirements](../systems/leashflag.md) for the enderdragon/wither are set to `impossible` by default. Change it to one of the other requirements \(or replace them with an empty list `[]`\) in the [pet-config.yml](../setup/configurations/pet-config.yml.md).
 
 ## Why doesn't the Enderdragon/Bat/Phantom etc; fly?
 
