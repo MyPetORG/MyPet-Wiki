@@ -20,6 +20,13 @@ Just rightclick your pet with the item you want them to wear while sneaking. To 
 
 Riding a pet is like riding a horse with a saddle.
 
+## How can I fly my pet?
+
+1. The pet need the [ride](../skills/ride.md) skill
+2. The [fly](../skills/ride.md#flying) flag must be enabled by the skilltree
+3. Mount your pet
+4. Press `space`
+
 ## How can I get a pet?
 
 {% page-ref page="../tutorials/how\_to\_get\_a\_mypet.md" %}
