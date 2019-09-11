@@ -39,7 +39,7 @@ Firstly look what you pet wants as food here. Then just rightclick your pet whil
 
 No. You can only have **one** active pet at the same time. However you can _store_ pets and switch between them \([NPC](../hooks/npc.md) or [command](../setup/commands.md)\).
 
-## Why does the pets on my server can't attack anything?
+## Why can't the pets on my server attack anything?
 
 Your pets just don't have a damage skill \([Damage](../skills/damage.md) or [Ranged](../skills/ranged.md)\). Select a skilltree with a damage skill or add a damage skill to your existing skilltrees.
 
@@ -58,4 +58,12 @@ Pets utilize the Tamed Wolf AI once they are tamed as a MyPet.
 
 Yes, you can make your pet stay by Shift + Right Click  
 All pets can be told to Stay, not just the standard tame-able mobs such as Cats and Wolves.
+
+## Why can't I use the `/petstore` command?
+
+ You need the following [permissions ](../setup/permissions.md)to use this command: 
+
+* `MyPet.command.store` 
+* `MyPet.petstorage.limit.<limit>`
+  * \(refere to the [permissions ](../setup/permissions.md)page for more info about how to use this permission\)
 
