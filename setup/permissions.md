@@ -163,6 +163,7 @@ To use the extended permissions you need to activate them in the config \(_`MyPe
   - MyPet.extended.behavior.duel
   - MyPet.extended.inventory
   - MyPet.extended.ride
+  - MyPet.extended.ride.fly
   - MyPet.extended.control
   - MyPet.extended.pickup
   - MyPet.extended.equip
