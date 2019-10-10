@@ -166,6 +166,8 @@
       * \[1Y\] \[1D\] \[1H\] \[1M\]
   * `ticket`
     * creates a ZIP file that contains all the info the developers need when you ask something on [GitHub](https://github.com/xXKeyleXx/MyPet/issues)
+  * `info item`
+    * this command will output the item \(including NBT data\) you are currently holding in your hand to your server logs. Helpfull if you want to setup [items ](configurations/configitems.md)in your MyPet config.
 
 ### `/petstop`
 

@@ -24,7 +24,9 @@ This will allow server owners to set the food and leash items \(and some other i
 
 ## Item generators
 
-You can also use item generators from various site like these:
+You can create any item you want but sometimes MyPet will not recognize these items. This happens because the item comparison is very harsh in MyPet. To make it easier to setup config items the plugin now has the `/petadmin info item` command. This command will output the item you are currently holding in your main hand to the server logs \(don't copy from console\). Copy and paste this output to your config and it should work fine.
+
+You can use item generators from various site like these:
 
 * [http://mapmaking.fr/give/](http://mapmaking.fr/give/)
 * [https://ezekielelin.com/give/](https://ezekielelin.com/give/)
