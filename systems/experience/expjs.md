@@ -12,16 +12,14 @@ With the **Experience-Script** `exp.js` it's possible to customize when a pet wi
 
 To make a fully functional exp-script that can be used by _MyPet_ you have to implement the following method:
 
-{% code-tabs %}
-{% code-tabs-item title="exp.js" %}
+{% code title="exp.js" %}
 ```javascript
 function getExpByLevel(level, petType, worldGroup) {
   var exp = 0;
   return exp;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### **Differentiating between pet types and world groups**
 
@@ -29,8 +27,7 @@ Examples:
 
 {% tabs %}
 {% tab title="Pet Type" %}
-{% code-tabs %}
-{% code-tabs-item title="exp.js" %}
+{% code title="exp.js" %}
 ```javascript
 function getExpByLevel(level, petType, worldGroup) {
   var exp = 10;
@@ -40,13 +37,11 @@ function getExpByLevel(level, petType, worldGroup) {
   return exp;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 
 {% tab title="World Group" %}
-{% code-tabs %}
-{% code-tabs-item title="exp.js" %}
+{% code title="exp.js" %}
 ```javascript
 function getExpByLevel(level, petType, worldGroup) {
   var exp = 10;
@@ -56,8 +51,7 @@ function getExpByLevel(level, petType, worldGroup) {
   return exp;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
@@ -71,8 +65,7 @@ print("message");
 
 ## Example
 
-{% code-tabs %}
-{% code-tabs-item title="exp.js" %}
+{% code title="exp.js" %}
 ```javascript
 //  Level 2-16 cost 17 XP points each
 //  Level 17-31 cost 3 more XP points than the previous
@@ -99,6 +92,5 @@ function getExpByLevel(level, petType, worldGroup) {
     return (level - 1) * 17;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
