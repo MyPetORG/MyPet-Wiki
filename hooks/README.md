@@ -19,7 +19,7 @@
 | [MiniaturePets](https://www.spigotmc.org/resources/⌾-miniaturepets-⌾-custom-mobs-great-for-eula.23991/) | [PetVsCreature-Protection](hook-types.md#pet-vs-creature-protection) |
 | [Minigames](https://www.spigotmc.org/resources/minigames.19687/) | [Arena](hook-types.md#arena) |
 | [MobArena](http://dev.bukkit.org/bukkit-plugins/mobarena/) | [Arena](hook-types.md#arena) |
-| [MythicMobs](https://www.spigotmc.org/resources/⚔-mythicmobs-►the-1-custom-mob-creator◄.5702/) | [Leash Flags](../systems/leashflag.md) |
+| [MythicMobs](https://www.spigotmc.org/resources/⚔-mythicmobs-►the-1-custom-mob-creator◄.5702/) | [Leash Flags](../systems/leashflag.md), [Custom EXP](../setup/configurations/exp-config.yml.md) |
 | [PlayeholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | [Placeholders](placeholder.md) |
 | [PlotSquared](https://www.spigotmc.org/resources/mcmmo.2445/) | [PetVsPlayer-Protection](hook-types.md#pet-vs-player-protection), [PetVsCreature-Protection](hook-types.md#pet-vs-creature-protection) |
 | [PreciousStones](https://www.spigotmc.org/resources/preciousstones.5270/) | [PetVsPlayer-Protection](hook-types.md#pet-vs-player-protection), [PetVsCreature-Protection](hook-types.md#pet-vs-creature-protection) |

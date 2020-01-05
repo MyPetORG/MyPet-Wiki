@@ -52,6 +52,7 @@ This permission only allows to leash a certain mob but everything else a player 
 ```yaml
   - MyPet.leash.Bat
   - MyPet.leash.Blaze
+  - MyPet.least.Cat
   - MyPet.leash.CaveSpider
   - MyPet.leash.Chicken
   - MyPet.leash.Cow
