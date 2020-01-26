@@ -74,6 +74,7 @@ This permission only allows to leash a certain mob but everything else a player 
   - MyPet.leash.Mooshroom
   - MyPet.leash.Mule
   - MyPet.leash.Ocelot
+  - MyPet.leash.Panda
   - MyPet.leash.Parrot
   - MyPet.leash.Pig
   - MyPet.leash.PigZombie
