@@ -22,9 +22,12 @@
 
 * Syntax: `/petinfo [username]`
 * shows the following info about your or another player's pet.
-  * hitpoints
+  * hit-points
+  * hunger
+  * food items
+  * behavior
   * experience
-  * damage
+  * level
   * owner \(only when pets isn't yours\)
   * skilltree
 * alias:
