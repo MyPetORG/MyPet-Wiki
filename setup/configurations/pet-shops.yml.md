@@ -30,7 +30,7 @@ You can create as many shops as you want, but all of them need different IDs \(`
       <td style="text-align:center">
         <p><code>&lt;shop-id&gt;</code> can be chosen freely but needs to be unique
           for every shop</p>
-        <p><em>(This is &lt;shop-name&gt; in the shop permission node)</em>
+        <p><em>(This is <code>&lt;shop-name&gt;</code> in the shop permission node)</em>
         </p>
       </td>
     </tr>
