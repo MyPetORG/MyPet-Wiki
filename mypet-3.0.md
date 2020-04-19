@@ -12,7 +12,7 @@
 * A new and better editor is also included \(doubleclick the jar file\)
   * after selecting the skilltree folder \(of your choice\) it will open a new tab in your default webbrowser
 * The skilltree system got completely rewritten so old skilltrees can not be loaded with the new version
-  * If you never changes the skilltrees you don't have to do anything
+  * If you never changed the skilltrees you don't have to do anything
   * You can convert your old skilltrees with the new SkilltreeCreator
     1. open the new SkilltreeCreator
     2. select the folder you want to save your new skilltrees in
@@ -70,7 +70,7 @@
   * `mcMMO` flag
     * checks if a player has a skill above a certain level
     * `mcMMO:<job>=<level>:...`
-    * if multiple jobs are specified all requirements must be fullfilled
+    * if multiple jobs are specified all requirements must be fulfilled
     * Examples:
       * `mcMMO:Mining=10`
       * `mcMMO:Mining=2:Taming=25`
