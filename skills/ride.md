@@ -8,11 +8,7 @@ You can also fly with your pet when it's enabled by your [skilltree](../systems/
 
 The ride speed \(and the ability to fly\) can be set via the [skilltree](../systems/skilltrees/) skill settings.
 
-Even very small speed values will increase the speed a lot, so be careful.
-
-{% hint style="info" %}
-1 meter = 1 block
-{% endhint %}
+Even very small speed values will increase the speed a lot, so be carefull.
 
 ### Region Flag
 
