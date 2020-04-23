@@ -78,5 +78,15 @@ The _`pet-config.yml`_ file contains all MyPet-Type specific settings. All other
       <td style="text-align:right">This setting allows to change the respawn times pet-type. This value will
         be added on top of the value from the main config.</td>
     </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;ReleaseOnDeath:</td>
+      <td style="text-align:center">bool</td>
+      <td style="text-align:right">Whether or not the pet is released on death.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;RemoveAfterRelease:</td>
+      <td style="text-align:center">bool</td>
+      <td style="text-align:right">Whether or not the Mob is deleted after the pet is released.</td>
+    </tr>
   </tbody>
 </table>
