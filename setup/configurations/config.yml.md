@@ -37,18 +37,6 @@ The _config.yml_ file is the main configfile of _MyPet_. All pet type related op
       <td style="text-align:right">Prevents combat between players and pets.</td>
     </tr>
     <tr>
-      <td style="text-align:left">RemovePetsAfterRelease:</td>
-      <td style="text-align:center">boolean</td>
-      <td style="text-align:right">Enable to remove pets when they get released. Prevents players from griefing
-        other players by releasing monsters in their vicinity.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ReleasePetsOnDeath:</td>
-      <td style="text-align:center">boolean</td>
-      <td style="text-align:right">Enable to release the pet when it dies. Player that have the <em>MyPet.admin</em> permission
-        are excluded from this</td>
-    </tr>
-    <tr>
       <td style="text-align:left">Make-Pet-Invisible-When-Owner-Is-Invisible:</td>
       <td style="text-align:center">boolean</td>
       <td style="text-align:right">Makes the pet invisible when the owner has the <code>Invisible</code> effect.
