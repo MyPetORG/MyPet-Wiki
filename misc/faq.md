@@ -14,7 +14,12 @@ Yes, there are 3 ways to activate a level cap: 1. via [config](../setup/configur
 
 ## How can I equip my Zombie/Skeleton/PigZombie?
 
-Just rightclick your pet with the item you want them to wear while sneaking. To remove the equipment just rightclick your pet with shears while sneaking. ![$](../.gitbook/assets/exclaim.gif) **Weapons/Armor are only visually and have no effect on the pet** ![$](../.gitbook/assets/exclaim.gif)
+Just right-click your pet with the item you want them to wear while sneaking. To remove the equipment just right-click your pet with shears while sneaking. ![$](../.gitbook/assets/exclaim.gif) **Weapons/Armor are only visually and have no effect on the pet** ![$](../.gitbook/assets/exclaim.gif)
+
+{% hint style="info" %}
+This applies to Horses, Donkeys, Enderman and Iron-Golems.  
+The same method is used to handle equipping/unequipping any pet with an item.
+{% endhint %}
 
 ## How can I control my pet while riding it?
 
