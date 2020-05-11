@@ -10,7 +10,12 @@ This can be the hardest part but how hard it really will depends on the configur
 
 ## Step 3 - Taking mob on a lead
 
-When Step 1 & 2 are done you just have to hit you target with the LeashItem \(`Lead` by default\). After hiting your target it will convert from a normal mob into a pet and you will see a message like this:
+When Step 1 & 2 are done you just have to hit \(attack\) your target with the LeashItem \(`Lead` by default\). After hitting your target it will convert from a normal mob into a pet and you will see a message like this:
 
 You took a pet on a lead, it will be a good pet.
+
+{% hint style="info" %}
+Using the Lead as a weapon is required to perform the actual act of taming.  
+Putting the mob on the lead/rope will do nothing towards taming your new pet.
+{% endhint %}
 
