@@ -52,7 +52,7 @@ This permission only allows to leash a certain mob but everything else a player 
 ```yaml
   - MyPet.leash.Bat
   - MyPet.leash.Blaze
-  - MyPet.least.Cat
+  - MyPet.leash.Cat
   - MyPet.leash.CaveSpider
   - MyPet.leash.Chicken
   - MyPet.leash.Cow
@@ -134,6 +134,7 @@ This permission only allows to leash a certain mob but everything else a player 
 * `MyPet.petstorage.limit.<limit>`
   * limits the amount of pets a player can store.
   * `<limit>` has to be replaced by a number between 1 and 54
+    * must be less than the `Max-Stored-Pet-Count` value in [config.yml](https://wiki.mypet-plugin.de/setup/configurations/config.yml)
 * `MyPet.shop.access.<shopname>`
   * allows to access a shop with the /petshop command
   * `<shopname>` needs to be replaced by a shop name
