@@ -51,20 +51,27 @@ This permission only allows to leash a certain mob but everything else a player 
 {% tab title="All" %}
 ```yaml
   - MyPet.leash.Bat
+  - MyPet.leash.Bee
   - MyPet.leash.Blaze
   - MyPet.leash.Cat
   - MyPet.leash.CaveSpider
   - MyPet.leash.Chicken
+  - MyPet.leash.Cod
   - MyPet.leash.Cow
   - MyPet.leash.Creeper
+  - MyPet.leash.Dolphin
   - MyPet.leash.Donkey
+  - MyPet.leash.Drowned
   - MyPet.leash.ElderGuardian
-  - MyPet.leash.EnderDragon
+  - MyPet.leash.Enderdragon
   - MyPet.leash.Enderman
   - MyPet.leash.Endermite
-  - MyPet.leash.Ghast
+  - MyPet.leash.Evoker
+  - MyPet.leash.Fox
   - MyPet.leash.Giant
+  - MyPet.leash.Ghast
   - MyPet.leash.Guardian
+  - MyPet.leash.Hoglin
   - MyPet.leash.Horse
   - MyPet.leash.Husk
   - MyPet.leash.Illusioner
@@ -76,10 +83,16 @@ This permission only allows to leash a certain mob but everything else a player 
   - MyPet.leash.Ocelot
   - MyPet.leash.Panda
   - MyPet.leash.Parrot
+  - MyPet.leash.Phantom
   - MyPet.leash.Pig
+  - MyPet.leash.Piglin
   - MyPet.leash.PigZombie
+  - MyPet.leash.Pillager
   - MyPet.leash.PolarBear
+  - MyPet.leash.Pufferfish
   - MyPet.leash.Rabbit
+  - MyPet.leash.Ravager
+  - MyPet.leash.Salmon
   - MyPet.leash.Sheep
   - MyPet.leash.Silverfish
   - MyPet.leash.Skeleton
@@ -89,16 +102,23 @@ This permission only allows to leash a certain mob but everything else a player 
   - MyPet.leash.Spider
   - MyPet.leash.Squid
   - MyPet.leash.Stray
+  - MyPet.leash.Strider
+  - MyPet.leash.TraderLlama
+  - MyPet.leash.TropicalFish
+  - MyPet.leash.Turtle
   - MyPet.leash.Vex
-  - MyPet.leash.Vindicator
   - MyPet.leash.Villager
+  - MyPet.leash.Vindicator
+  - MyPet.leash.WanderingTrader
   - MyPet.leash.Witch
   - MyPet.leash.Wither
   - MyPet.leash.WitherSkeleton
   - MyPet.leash.Wolf
+  - MyPet.leash.Zoglin
   - MyPet.leash.Zombie
   - MyPet.leash.ZombieHorse
   - MyPet.leash.ZombieVillager
+  - MyPet.leash.ZombifiedPiglin
 ```
 {% endtab %}
 {% endtabs %}
