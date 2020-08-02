@@ -9,7 +9,7 @@
     Most commands have aliases like `/pi`. Use them instead the long version.
 
 {% hint style="info" %}
-**You can also go through the command options by using the auto completion with the`[TAB]`-key.**
+**You can also go through the command options by using the autocompletion with the`[TAB]`-key.**
 {% endhint %}
 
 ## MyPet Commands
@@ -38,7 +38,7 @@
 * Syntax: 
   * `/petname <new-pet-name>`
 * sets the name of your pet.
-* owners can use colors to make the name of their pets more colorful with this placeholder:
+* owners can use colors to make the name of their pets more colorfull with this placeholder:
   * `<black>`, `<darkaqua>`, `<darkblue>`, `<darkgreen>`, `<darkred>`, `<darkpurple>`, `<gold>`, `<gray>`, `<darkgray>`, `<blue>`, `<green>`, `<aqua>`, `<red>`, `<lightpurple>`, `<yellow>`, `<white>`, `<magic>`, `<bold>`, `<strikethrough>`, `<underline>`, `<italic>`, `<reset>`
 
 ### `/petrelease`
@@ -66,7 +66,7 @@
 * Syntax: `/petrespawn [`**`pay`**`or`**`show`**`or`**`auto`**`]`
 * shows the following info about your or another player's pet.
   * auto with an addition parameter \(Integer\) determines what the maximum time is the player want to pay for
-  * Example: A player used `/petrespawn auto 10` and the pet dies and has a respawn time of 16 seconds. Now the plugin will wait until the respawn time is 10 seconds and then respawn the pet when the owner can pay the respawn fee.
+  * Example: A player used `/petrespawn auto 10` and the pet dies and has a respawn time of 16 seconds. Now the plugin will wait until the respawntime is 10 seconds and then respawn the pet when the owner can pay the respawn fee.
 * alias:
   * `/petr`
   * `/pr`
@@ -125,7 +125,7 @@
       * `<new exp of the pet>`
       * \[**add**/**set**/**remove**\]
   * `respawn`
-    * set/displays the respawn time of a pet for a specific player
+    * set/displays the respawnt time of a pet for a specific player
     * will only change the respawn time for dead pets
     * parameters:
       * `<ownername>`
@@ -152,8 +152,7 @@
       * `<ownername>`
       * `<pettype>`
       * \[parameter\]
-    * Use the TAB-key to see all possible parameters for the selected pettype
-      * Data-values are required for many "Type" based options can be found on their appropriate Minecraft Wiki page.
+    * Use the TAB-key to see all possible paramerters for the selected pettype
   * `clone`
     * clones a pet from a player and gives it to another player
     * parameters:
@@ -171,7 +170,7 @@
   * `ticket`
     * creates a ZIP file that contains all the info the developers need when you ask something on [GitHub](https://github.com/xXKeyleXx/MyPet/issues)
   * `info item`
-    * this command will output the item \(including NBT data\) you are currently holding in your hand to your server logs. Helpful if you want to setup [items ](configurations/configitems.md)in your MyPet config.
+    * this command will output the item \(including NBT data\) you are currently holding in your hand to your server logs. Helpfull if you want to setup [items ](configurations/configitems.md)in your MyPet config.
 
 ### `/petstop`
 
@@ -196,7 +195,6 @@
 ### `/petcapturehelper`
 
 * enables/disables the CaptureHelper
-* Displays requirements to capturing a mob as a MyPet and whether or not these requirements are met
 * alias:
   * `/pch`
 
@@ -238,9 +236,9 @@
   * `friendly` -&gt; the pet will not fight even when it's attacked by anything
     * friend
   * `normal` -&gt; the pet will act like a normal wolf
-  * aggressive -&gt; attacks automatically everything within 15 blocks of the owner
+  * aggressive -&gt; attacks automaticly everythink within 15 blocks of the owner
     * aggro
-  * `farm` -&gt; attacks automatically every **Monster** within 15 blocks of the owner
+  * `farm` -&gt; attacks automaticly every **Monster** within 15 blocks of the owner
   * `raid` -&gt; like normal but the pet will not attack players and their minions \(wolves, ocelot, pets\)
   * `duel` -&gt; pets will attack other pets with active duel behavior within a 5 block radius
 * alias:

@@ -70,5 +70,5 @@ All pets can be told to Stay, not just the standard tame-able mobs such as Cats 
 
 * `MyPet.command.store` 
 * `MyPet.petstorage.limit.<limit>`
-  * \(refere to the [permissions ](../setup/permissions.md)page for more info about how to use this permission\)
+  * \(refer to the [permissions ](../setup/permissions.md)page for more info about how to use this permission\)
 
