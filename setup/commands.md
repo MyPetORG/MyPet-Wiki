@@ -152,7 +152,8 @@
       * `<ownername>`
       * `<pettype>`
       * \[parameter\]
-    * Use the TAB-key to see all possible paramerters for the selected pettype
+    * Use the TAB-key to see all possible parameters for the selected pettype
+      * Data-values are required for many "Type" based options can be found on their appropriate Minecraft Wiki page.
   * `clone`
     * clones a pet from a player and gives it to another player
     * parameters:
@@ -170,7 +171,7 @@
   * `ticket`
     * creates a ZIP file that contains all the info the developers need when you ask something on [GitHub](https://github.com/xXKeyleXx/MyPet/issues)
   * `info item`
-    * this command will output the item \(including NBT data\) you are currently holding in your hand to your server logs. Helpfull if you want to setup [items ](configurations/configitems.md)in your MyPet config.
+    * this command will output the item \(including NBT data\) you are currently holding in your hand to your server logs. Helpful if you want to setup [items ](configurations/configitems.md)in your MyPet config.
 
 ### `/petstop`
 
@@ -195,6 +196,7 @@
 ### `/petcapturehelper`
 
 * enables/disables the CaptureHelper
+* Displays requirements to capturing a mob as a MyPet and whether or not these requirements are met
 * alias:
   * `/pch`
 
@@ -236,9 +238,9 @@
   * `friendly` -&gt; the pet will not fight even when it's attacked by anything
     * friend
   * `normal` -&gt; the pet will act like a normal wolf
-  * aggressive -&gt; attacks automaticly everythink within 15 blocks of the owner
+  * aggressive -&gt; attacks automatically everything within 15 blocks of the owner
     * aggro
-  * `farm` -&gt; attacks automaticly every **Monster** within 15 blocks of the owner
+  * `farm` -&gt; attacks automatically every **Monster** within 15 blocks of the owner
   * `raid` -&gt; like normal but the pet will not attack players and their minions \(wolves, ocelot, pets\)
   * `duel` -&gt; pets will attack other pets with active duel behavior within a 5 block radius
 * alias:
