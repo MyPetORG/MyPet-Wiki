@@ -9,7 +9,7 @@
     Most commands have aliases like `/pi`. Use them instead the long version.
 
 {% hint style="info" %}
-**You can also go through the command options by using the autocompletion with the`[TAB]`-key.**
+**You can also go through the command options by using the auto completion with the`[TAB]`-key.**
 {% endhint %}
 
 ## MyPet Commands
@@ -38,7 +38,7 @@
 * Syntax: 
   * `/petname <new-pet-name>`
 * sets the name of your pet.
-* owners can use colors to make the name of their pets more colorfull with this placeholder:
+* owners can use colors to make the name of their pets more colorful with this placeholder:
   * `<black>`, `<darkaqua>`, `<darkblue>`, `<darkgreen>`, `<darkred>`, `<darkpurple>`, `<gold>`, `<gray>`, `<darkgray>`, `<blue>`, `<green>`, `<aqua>`, `<red>`, `<lightpurple>`, `<yellow>`, `<white>`, `<magic>`, `<bold>`, `<strikethrough>`, `<underline>`, `<italic>`, `<reset>`
 
 ### `/petrelease`
@@ -66,7 +66,7 @@
 * Syntax: `/petrespawn [`**`pay`**`or`**`show`**`or`**`auto`**`]`
 * shows the following info about your or another player's pet.
   * auto with an addition parameter \(Integer\) determines what the maximum time is the player want to pay for
-  * Example: A player used `/petrespawn auto 10` and the pet dies and has a respawn time of 16 seconds. Now the plugin will wait until the respawntime is 10 seconds and then respawn the pet when the owner can pay the respawn fee.
+  * Example: A player used `/petrespawn auto 10` and the pet dies and has a respawn time of 16 seconds. Now the plugin will wait until the respawn time is 10 seconds and then respawn the pet when the owner can pay the respawn fee.
 * alias:
   * `/petr`
   * `/pr`
@@ -125,7 +125,7 @@
       * `<new exp of the pet>`
       * \[**add**/**set**/**remove**\]
   * `respawn`
-    * set/displays the respawnt time of a pet for a specific player
+    * set/displays the respawn time of a pet for a specific player
     * will only change the respawn time for dead pets
     * parameters:
       * `<ownername>`
