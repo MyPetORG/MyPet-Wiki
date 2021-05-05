@@ -110,3 +110,4 @@ You can create as many shops as you want, but all of them need different IDs \(`
     </tr>
   </tbody>
 </table>
+
