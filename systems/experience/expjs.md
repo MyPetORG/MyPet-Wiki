@@ -4,7 +4,7 @@ With the **Experience-Script** `exp.js` it's possible to customize when a pet wi
 
 ## Installation
 
-1. Download [Rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino), rename the jar to `rhino.jar` and put the file into the MyPet folder.
+1. Download [Rhino](https://github.com/mozilla/rhino/releases), rename the jar to `rhino.jar` and put the file into the MyPet folder.
 2. Set `LevelSystem.CalculationMode` to **`JavaScript`** int the **`config.yml`.**
 3. Edit the `exp.js` to your likings.
 
