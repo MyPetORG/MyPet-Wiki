@@ -67,8 +67,8 @@ print("message");
 
 {% code title="exp.js" %}
 ```javascript
-//  Level 2-16 cost 17 XP points each
-//  Level 17-31 cost 3 more XP points than the previous
+//  Level 2-17 cost 17 XP points each
+//  Level 18-31 cost 3 more XP points than the previous
 //  Level 32-∞ cost 7 more XP points than the previous
 
 function getExpByLevel(level, petType, worldGroup) {
