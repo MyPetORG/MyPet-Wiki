@@ -1,5 +1,5 @@
 ---
-description: Experience Configuratio
+description: Experience Configuration
 ---
 
 # exp-config.yml
