@@ -16,7 +16,7 @@ description: Experience Configuratio
 |    **`<Nametag>`:** |  |  |
 |       Max: | double | The maximum amount of XP that this entity type grants. |
 |       Min: | double | The minimal amount of XP that this entity type grants. |
-| **'\[MythicMobs\]=**`<Typename>`**':** |  |  |
+|    **'\[MythicMobs\]=`<Typename>`':** |  |  |
 |       Max: | double | The maximum amount of XP that this entity type grants. |
 |       Min: | double | The minimal amount of XP that this entity type grants. |
 
