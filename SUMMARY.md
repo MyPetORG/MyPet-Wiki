@@ -43,6 +43,11 @@
 * [Commands](getting-started/commands/README.md)
   * [Pet Admin](getting-started/commands/pet-admin.md)
 
+## Supported Mobs
+
+* [Mob Page Template](supported-mobs/mob-page-template.md)
+* [Overview](supported-mobs/overview.md)
+
 ## Skilltree Creation
 
 * [What are Skilltrees?](skilltree-creation/what-are-skilltrees.md)
@@ -73,7 +78,3 @@
     * [Stomp](skilltree-creation/creating-custom-skilltrees/skills/stomp.md)
     * [Thorns](skilltree-creation/creating-custom-skilltrees/skills/thorns.md)
     * [Wither](skilltree-creation/creating-custom-skilltrees/skills/wither.md)
-
-## Group 1
-
-* [Page 1](group-1/page-1.md)
