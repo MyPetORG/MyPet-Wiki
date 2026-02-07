@@ -10,12 +10,12 @@ MyPet supports a wide range of Minecraft versions across the two main Minecraft 
 #### Version Support Policy
 
 * We always recommend updating to the latest supported Minecraft server version.
-* Expect support for minor updates of older major versions to be dropped. For example, if 1.21 is out, earlier minor versions of 1.20 (like 1.21.1, 1.21.2, etc) may have their support dropped in favor of the latest minor version (1.20.6.)
+* Expect support for minor updates of older major versions to be dropped. For example, if 1.21 is out, earlier minor versions of 1.20 (like 1.20.1, 1.20.2, etc) may have their support dropped in favor of the latest minor version (1.20.6.)
 * If a Minecraft version you are looking for is not listed below, it is likely not supported.
 
 {% tabs %}
 {% tab title="1.21" %}
-<table><thead><tr><th width="132">Version</th><th>Supported</th></tr></thead><tbody><tr><td>1.21.10</td><td>✅ Supported</td></tr><tr><td>1.21.9</td><td>✅ Supported</td></tr><tr><td>1.21.8</td><td>✅ Supported</td></tr><tr><td>1.21.7</td><td>✅ Supported</td></tr><tr><td>1.21.6</td><td>✅ Supported</td></tr><tr><td>1.21.5</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.4</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.3</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.2</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.1</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21</td><td>✅ Supported - recommended to update to 1.21.10</td></tr></tbody></table>
+<table><thead><tr><th width="132">Version</th><th>Supported</th></tr></thead><tbody><tr><td>1.21.11</td><td>✅ Supported</td></tr><tr><td>1.21.10</td><td>✅ Supported</td></tr><tr><td>1.21.9</td><td>✅ Supported</td></tr><tr><td>1.21.8</td><td>✅ Supported</td></tr><tr><td>1.21.7</td><td>✅ Supported</td></tr><tr><td>1.21.6</td><td>✅ Supported</td></tr><tr><td>1.21.5</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.4</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.3</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.2</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21.1</td><td>✅ Supported - recommended to update to 1.21.10</td></tr><tr><td>1.21</td><td>✅ Supported - recommended to update to 1.21.10</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="1.20" %}
