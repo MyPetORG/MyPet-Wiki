@@ -21,12 +21,13 @@ The MyPet 3.14 series will be the **last MyPet version series to support base Sp
 {% step %}
 ### Download MyPet from an official source
 
-Recommended sources:
+There are five official sources:
 
 * [**Modrinth**](https://modrinth.com/plugin/mypet) (**recommended;** stable + snapshot releases)
 * [**Hangar**](https://hangar.papermc.io/MyPet/MyPet) (stable releases)
 * [**Polymart**](https://polymart.org/product/8915/mypet) (stable releases)
 * [**Spigot**](https://www.spigotmc.org/resources/mypet.12725/) (using the legacy MyPetDownloader)
+* [GitHub](https://github.com/MyPetORG/MyPet/releases) (builds here only last for a certain period of time)
 {% endstep %}
 
 {% step %}
