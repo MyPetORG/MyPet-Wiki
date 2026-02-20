@@ -6,9 +6,7 @@ noRobotsIndex: true
 
 # Mob Page Template
 
-{% hint style="info" %}
-All values, abilities, and capture requirements shown here are MyPet defaults. Server owners can change these values to fit their server.
-{% endhint %}
+{% include "../.gitbook/includes/all-values-abilities-and-....md" %}
 
 {% columns fullWidth="true" %}
 {% column %}
