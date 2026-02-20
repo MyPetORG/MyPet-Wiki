@@ -58,7 +58,7 @@ On first boot, MyPet will create `plugins/MyPet/`. This is where `config.yml` an
 3. Confirm you see `MyPet` in the plugin list.
 
 {% hint style="warning" %}
-If you don’t see `MyPet`, check the console for errors. Also confirm you downloaded the jar for the right platform (Paper/Spigot).
+If you don’t see `MyPet`, check the console for errors.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
