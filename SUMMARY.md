@@ -42,6 +42,14 @@
     * [1.8.8](getting-started/supported-versions/1.8/1.8.8.md)
 * [Commands](getting-started/commands/README.md)
   * [Pet Admin](getting-started/commands/pet-admin.md)
+* [Configuration](getting-started/configuration/README.md)
+  * [config.yml](getting-started/configuration/config.yml.md)
+  * [pet-config.yml](getting-started/configuration/pet-config.yml.md)
+  * [pet-shops.yml](getting-started/configuration/pet-shops.yml.md)
+  * [hooks-config.yml](getting-started/configuration/hooks-config.yml.md)
+  * [exp-config.yml](getting-started/configuration/exp-config.yml.md)
+  * [worldgroups.yml](getting-started/configuration/worldgroups.yml.md)
+  * [Custom-Item-Data in Config](getting-started/configuration/custom-item-data-in-config.md)
 
 ## Supported Mobs
 
