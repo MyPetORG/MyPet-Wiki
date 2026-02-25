@@ -1,10 +1,11 @@
 ---
 description: Make your Pet's attacks potentially strike lightning upon their opponent.
+icon: bolt-lightning
 ---
 
 # Lightning
 
-With this skill your pet has a chance to let a lightning strike at his target. The damage caused by the lightning can be changed via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+With this skill your pet has a chance to summon a lightning strike at its target. The damage caused by the lightning can be changed via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

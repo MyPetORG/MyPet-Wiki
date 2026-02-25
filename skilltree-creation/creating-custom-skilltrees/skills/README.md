@@ -1,6 +1,27 @@
+---
+description: Skills are the abilities that Pets can gain as they level up.
+icon: calculator-simple
+---
+
 # Skills
 
-Skills are the abilities that Pets can gain as they level up.
+<figure><img src="../../../.gitbook/assets/Skilltree Skills.png" alt="" width="563"><figcaption></figcaption></figure>
+
+The `Skills` tab of the [Skilltree Creator](../) allows you to configure the skills included in the skilltree and their individual parameters. Here you can add or remove skills in the current skilltree.
+
+<figure><img src="../../../.gitbook/assets/Skilltree Skills Dropdown.png" alt="" width="210"><figcaption></figcaption></figure>
+
+Click the `Skill` dropdown on the top right of the tab screen to select a skill, then click the `+ Add Skill` button to include it in the list.
+
+<figure><img src="../../../.gitbook/assets/Skilltree Skill Editor.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Click on an individual skill to edit its properties. A newly added skill will warn you that no upgrades have been added, so from here you can click the `+ Add Upgrade` button. In the popup that appears you can choose between a `fixed` and a `dynamic` level-rule.
+
+`Fixed` rules will apply the upgrade on fixed levels like 5 or 1, 3, 5, and 7.
+
+`Dynamic` rules can be used if you want to apply the upgrade over a certain range of levels, for example every 2 levels like 2, 4, 6, 8, 10, ... or 1, 3, 5, 7, 9, etc.
+
+From here you can configure the parameters specific to each skill. These are further explained on each skill's page linked in the table below.
 
 | Skill                     | Description                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |

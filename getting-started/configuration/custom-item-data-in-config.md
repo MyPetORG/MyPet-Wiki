@@ -33,7 +33,7 @@ beef {display:{Name:"Wolf Food",Lore:["Tasty wolf food","Tastes like banana"]}}
 {% endtabs %}
 
 When you set the food of the wolf to this, a player needs an item that is like in this picture:\
-![Custom-Item-Example](../../.gitbook/assets/image)
+![Custom-Item-Example](<../../.gitbook/assets/image (6)>)
 
 This will allow server owners to set the food and leash items (and some other items used by MyPet) to items that can only be obtained by shops, etc.
 
@@ -48,6 +48,6 @@ You can use item generators from various sites like these:
 
 Just copy the generated command and remove the `/give @a`.
 
-### NBT data
+### Item Components/NBT data
 
-The syntax for the NBT data is the same as in the `/give` command in Minecraft. You can find all possible NBT properties [here](https://minecraft.fandom.com/wiki/Minecraft_Wiki#Item_structure) or just use one of the generators from above.
+The syntax for the NBT data is the same as in the `/give` command in Minecraft. You can find all possible NBT properties [here](https://minecraft.wiki/w/Data_component_format#Item_format) or just use one of the generators from above.

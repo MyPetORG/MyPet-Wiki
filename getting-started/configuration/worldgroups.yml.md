@@ -1,8 +1,9 @@
 ---
-hidden: true
 icon: earth-americas
 ---
 
 # worldgroups.yml
 
-Not yet imported. See Systems.
+{% content-ref url="../systems/world-groups.md" %}
+[world-groups.md](../systems/world-groups.md)
+{% endcontent-ref %}

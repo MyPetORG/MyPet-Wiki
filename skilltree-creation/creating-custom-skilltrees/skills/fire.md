@@ -1,10 +1,11 @@
 ---
 description: Make your Pet's attacks potentially set fire to their opponent.
+icon: fire
 ---
 
 # Fire
 
-With this skill your pet has a chance to set his target on fire for some seconds. The chance and the duration can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings
+With this skill your pet has a chance to set its target on fire. The chances and the duration of the fire ticks can be set via the [skilltree](../../what-are-skilltrees.md) skill settings
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

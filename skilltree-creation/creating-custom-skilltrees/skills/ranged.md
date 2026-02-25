@@ -1,14 +1,15 @@
 ---
 description: Arm your Pet with the ability to shoot projectiles at an opponent.
+icon: bow-arrow
 ---
 
 # Ranged
 
-With this skill your pet will shot projectiles at their targets that cause damage to them.
+With this skill your pet will shoot damage-inflicting projectiles at their targets.
 
-The used projectile, rate of fire (rounds per second) and the damage can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+The type of projectile, rate of fire (rounds per second) and the damage dealt can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
-### Projectiles <a href="#projectiles" id="projectiles"></a>
+### Available Projectiles <a href="#projectiles" id="projectiles"></a>
 
 * arrow
 * egg
@@ -17,7 +18,7 @@ The used projectile, rate of fire (rounds per second) and the damage can be set 
 * small fireball
 * large fireball
 
-All projectiles deal the same amount of damage that is set by the skill. The only difference is the trajectory of some projectiles.
+All projectiles deal the same amount of damage as set by the skill. The only difference is the trajectory of some projectiles.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

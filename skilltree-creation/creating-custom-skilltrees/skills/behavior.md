@@ -1,21 +1,20 @@
 ---
 description: Change the behavior of your Pet.
+icon: people-arrows
 ---
 
 # Behavior
 
 With this skill you can change the behavior of the pet. There are 5 possible behavior-modes:
 
-* friendly -> don't fight, even he's attacked by anything
-  * friend
-* normal -> like a normal wolf
-* aggressive -> attacks everythink within 15 blocks of the owner
-  * aggro
-* farm -> attacks every **Monster** within 15 blocks of the owner
-* raid -> like normal but the pet doesn't attack players and their minions
-* duel -> pets will attack other pets with aktive duel behavior within a 5 block radius
+* `friendly` -> the pet doesn't fight, even when being attacked.
+* `normal` -> behaves like a normal tamed wolf.
+* `aggressive` -> attacks everything within 15 blocks of the owner.
+* `farm` -> attacks every **monster** within 15 blocks of the owner.
+* `raid` -> similar to normal behavior, but the pet doesn't attack players and their minions.
+* `duel` -> pets will attack other pets with active duel behavior within a 5 block radius.
 
-To toggle the mode type `/petbehavior [`**`normal`**`/`**`friendly`**`/`**`aggressive`**`/`**`farm`**`/`**`raid`**`/`**`duel`**`]`.
+To toggle the behavior mode, use the command `/petbehavior [`**`normal`**`/`**`friendly`**`/`**`aggressive`**`/`**`farm`**`/`**`raid`**`/`**`duel`**`]`.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

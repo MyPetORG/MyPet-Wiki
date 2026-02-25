@@ -1,4 +1,5 @@
 ---
+description: MyPet's main config file.
 icon: gear
 ---
 
@@ -55,7 +56,7 @@ Below are the available settings, their types and descriptions.
 ### Max-Stored-Pet-Count
 
 * Type: integer
-* Description: Sets the maximum amount of inactive (stored) pets a player can have.
+* Description: Sets the maximum amount of inactive ([stored](../systems/pet-storage.md)) pets a player can have.
 
 ### Throw-PlayerMoveEvent-While-Riding
 
@@ -266,7 +267,8 @@ Below are the available settings, their types and descriptions.
 
 * CalculationMode
   * Type: string
-  * Description: Set this to `JS` or `JavaScript` if you want use a custom exp.js: https://wiki.mypet-plugin.de/systems/experience/expjs
+  * Default: "Default"
+  * Description: [More here](../systems/experience/). Set this to `JS` or `JavaScript` if you want use a custom [exp.js](../systems/experience/experience-script.md).
 
 ***
 
@@ -274,7 +276,7 @@ Below are the available settings, their types and descriptions.
 
 * Feed-From-Inventory
   * Type: boolean
-  * Description: When true, allows pets to feed themselves from food items acceptable for that pet type which are stored in their inventories.
+  * Description: When true, allows pets to feed themselves from items stored in their inventories which are a configured food for that pet type.
 * #### Damage
   * Time-Before-Damage
     * Type: double
@@ -290,7 +292,7 @@ Below are the available settings, their types and descriptions.
     * Description: When set to true, damage dealt to a pet from hunger will be able to kill the pet.
 * Active
   * Type: boolean
-  * Description: Disable the hunger system if you don't want your pets to need food to survive. (https://wiki.mypet-plugin.de/systems/hungersystem)
+  * Description: Disable the [hunger system](../systems/hunger-system.md) if you don't want your pets to need food to survive.
 * Time
   * Type: integer
   * Description: Sets the interval (in seconds) in which the hunger counter will be reduced by `1`.
@@ -299,10 +301,10 @@ Below are the available settings, their types and descriptions.
   * Description: Sets the value the hunger counter will be increased by if the pet is fed.
 * Affect-Ride-Speed
   * Type: boolean
-  * Description: If true the saturation affects the ride speed.
+  * Description: If true the [saturation](../systems/hunger-system.md) affects the ride speed.
 * Affect-Beacon-Range
   * Type: boolean
-  * Description: If true the saturation affects the beacon range.
+  * Description: If true the [saturation](../systems/hunger-system.md) affects the beacon range.
 
 ***
 
@@ -424,28 +426,28 @@ Below are the available settings, their types and descriptions.
 
 ### Skill
 
-* Control (https://wiki.mypet-plugin.de/skills/control)
+* [Control](../../skilltree-creation/creating-custom-skilltrees/skills/control.md)
   * Item
     * Type: string
-    * Description: Sets the item that allows the player to use the Control skill on the pet. Follows the config item guidelines: https://wiki.mypet-plugin.de/setup/configurations/configitems
-* Ride (https://wiki.mypet-plugin.de/skills/ride)
+    * Description: Sets the item that allows the player to use the Control skill on the pet. Follows the [config item](custom-item-data-in-config.md) guidelines.
+* [Ride](../../skilltree-creation/creating-custom-skilltrees/skills/ride.md)
   * Item
     * Type: string
-    * Description: Sets the item that allows the player to mount the pet. Follows the config item guidelines: https://wiki.mypet-plugin.de/setup/configurations/configitems
+    * Description: Sets the item that allows the player to mount the pet. Follows the [config item](custom-item-data-in-config.md) guidelines.
   * HungerPerMeter
     * Type: double
     * Description: If the Hunger-System is active, sets how much hunger is decreased for every ridden meter.
   * Prevent-Teleportation-While-Riding
     * Type: boolean
     * Description: When true, prevents the player from teleporting while riding a pet.
-* Backpack (https://wiki.mypet-plugin.de/skills/backpack)
+* [Backpack](../../skilltree-creation/creating-custom-skilltrees/skills/backpack.md)
   * Creative
     * Type: boolean
     * Description: Allows players to open the inventory of their pet when they are in creative mode.
   * DropWhenOwnerDies
     * Type: boolean
     * Description: When true the pet will drop the content in its inventory when the owner dies.
-* Beacon (https://wiki.mypet-plugin.de/skills/beacon)
+* [Beacon](../../skilltree-creation/creating-custom-skilltrees/skills/beacon.md)
   * Disable-Head-Textures
     * Type: boolean
     * Description: Not yet documented.
@@ -454,4 +456,4 @@ Below are the available settings, their types and descriptions.
     * Description: If the Hunger-System is active, sets the interval in which the hunger value is decreased by 1.
   * Party-Support
     * Type: boolean
-    * Description: Enables support for parties from these plugins: [MCMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/), [Heroes](https://www.spigotmc.org/resources/%E2%9A%94-heroes-premium-%E2%9A%94-best-minecraft-spigot-rpg-plugin-ever.24734/), Ancient (http://dev.bukkit.org/bukkit-plugins/ancient-rpg/). If you have any party plugins MyPet should support please request them on GitHub or Discord.
+    * Description: Enables support for parties from these plugins: [MCMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/), [Heroes](https://www.spigotmc.org/resources/%E2%9A%94-heroes-premium-%E2%9A%94-best-minecraft-spigot-rpg-plugin-ever.24734/), [Ancient RPG](https://dev.bukkit.org/bukkit-plugins/ancient-rpg/). If you have any party plugins MyPet should support please request them on GitHub or Discord.

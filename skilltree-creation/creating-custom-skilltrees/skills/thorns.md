@@ -1,12 +1,13 @@
 ---
 description: Make your Pet's attacks potentially reflect back against their opponent.
+icon: skull-cow
 ---
 
 # Thorns
 
-With this skill your pet has a chance to reflect the half of the incoming damage back to the damager.
+With this skill your pet has a chance to reflect the half of the incoming damage back to the attacker.
 
-The chance can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+The chance can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

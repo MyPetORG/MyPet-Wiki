@@ -1,4 +1,5 @@
 ---
+description: Contains options for pet shops.
 icon: shop
 ---
 

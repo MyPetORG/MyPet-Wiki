@@ -1,26 +1,25 @@
 ---
 description: Train your Pet to be ridden.
+icon: horse-saddle
 ---
 
 # Ride
 
-With this skill you can ride your pet. To mount your pet rightclick your pet with the item specified in the [config.yml](https://wiki.mypet-plugin.de/setup/configurations/config.yml) (`MyPet.Skill.Ride.Item`). The default item is a **`lead`**. The controls while riding your pet is like you would ride a horse.
+With this skill you can ride your pet. To mount your pet right click your pet with the item specified in the [config.yml](../../../getting-started/configuration/config.yml.md) (`MyPet.Skill.Ride.Item`). The default item is a **`lead`**. Controlling your pet while riding is similar to those while riding a horse.
 
 ### Flying <a href="#flying" id="flying"></a>
 
-You can also fly with your pet when it's enabled by your [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees).
+You can also fly with your pet when it's enabled by your [skilltree](../../what-are-skilltrees.md).
 
-The ride speed (and the ability to fly) can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+The ride speed (and the ability to fly) can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
-Even very small speed values will increase the speed a lot, so be careful.
+Even very small speed values will significantly increase the speed, so be careful.
 
 1 meter = 1 block
 
 #### Region Flag <a href="#region-flag" id="region-flag"></a>
 
-_The region flag_ can be used to prevent/allow flying in certain [WorldGuard](http://dev.bukkit.org/bukkit-plugins/worldguard/) regions.
-
-The flag is called: `mypet-fly`
+A custom _region flag,_ `mypet-fly,` can be used to prevent or allow flying in [WorldGuard](http://dev.bukkit.org/bukkit-plugins/worldguard/) regions.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

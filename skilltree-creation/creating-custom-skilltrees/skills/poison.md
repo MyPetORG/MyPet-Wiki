@@ -1,12 +1,13 @@
 ---
 description: Make your Pet's attacks potentially poison their opponent.
+icon: skull-crossbones
 ---
 
 # Poison
 
-With this skill your pet has a chance to poison his target for a certain time.
+With this skill your pet has a chance to poison its target for a certain time.
 
-The chance and the duration the target is poisoned can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+The chances of application and duration of the poison effect on the target can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

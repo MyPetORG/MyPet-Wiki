@@ -1,12 +1,13 @@
 ---
 description: Make your Pet's attacks potentially wither their opponent.
+icon: flask-round-poison
 ---
 
 # Wither
 
-With this skill your pet has a chance to wither his target for a some seconds.
+With this skill your pet has a chance to apply the wither effect to its target.
 
-The chance and the duration that target is withered can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+The application chances and duration of the effect can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

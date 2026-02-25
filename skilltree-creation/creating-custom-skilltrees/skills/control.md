@@ -1,12 +1,13 @@
 ---
 description: Directly control your Pet's actions.
+icon: gamepad-modern
 ---
 
 # Control
 
 ### Control <a href="#control" id="control"></a>
 
-With this skill you have more control about where you pet walk and what the pet attacks. To use this you have to rightclick with the **Control item** anywhere you want the pet has to walk to. The item that is used to control the pet can be set in the config (`Skill.Control.Item`)
+With this skill you have more control over where your pet walks and what the pet attacks. To use this, right click with the **control item** to essentially point where you want the pet to go. The item that is used to control the pet can be set in the [config.yml](../../../getting-started/configuration/config.yml.md) (`Skill.Control.Item`).
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

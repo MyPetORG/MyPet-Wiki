@@ -1,12 +1,13 @@
 ---
 description: Train your Pet to shield you from your opponent's attacks.
+icon: shield
 ---
 
 # Shield
 
 With this skill your pet can shield (some) damage from you and redirect it to itself.
 
-The chance and the percentage of the redirected damage can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+The chance and the percentage of the redirected damage can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

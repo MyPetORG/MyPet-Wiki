@@ -1,12 +1,13 @@
 ---
 description: Make your Pet's attacks potentially slow down their opponent.
+icon: turtle
 ---
 
 # Slow
 
-With this skill your pet has a chance to slow his target down for a some seconds.
+With this skill your pet has a chance to apply the slowness effect to the target.
 
-The chance and the time the target is slowed can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+The chance and the duration of the effect can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

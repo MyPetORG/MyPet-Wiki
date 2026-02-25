@@ -1,4 +1,5 @@
 ---
+description: Contains options for plugin hooks.
 icon: anchor
 ---
 

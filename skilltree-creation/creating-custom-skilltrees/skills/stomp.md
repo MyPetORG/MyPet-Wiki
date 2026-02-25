@@ -1,10 +1,11 @@
 ---
 description: Train your Pet to stomp to attack nearby targets,.
+icon: person-limbs-wide
 ---
 
 # Stomp
 
-With this skill your pet has a chance to stomp on the ground and damage all enemies around the pet. The damage and the chance to activate the skill can be changed via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+With this skill your pet has a chance to stomp on the ground and damage all enemies in the area around the pet. The amount of damage and the activation chances can be changed via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

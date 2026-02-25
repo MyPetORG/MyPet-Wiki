@@ -1,4 +1,5 @@
 ---
+description: Contains options for how experience is gained.
 icon: flask-round-potion
 ---
 

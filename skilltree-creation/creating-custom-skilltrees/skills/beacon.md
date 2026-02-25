@@ -1,10 +1,11 @@
 ---
 description: Turn your Pet into a walking beacon.
+icon: lighthouse
 ---
 
 # Beacon
 
-The Beacon skill transforms your pet in a walking and more powerfull [beacon](http://www.minecraftwiki.net/wiki/Beacon_Block). For administration of the buffs the plugin uses a custom menu (see Beacon Buff Selection Menu) that can be opened with the `/petbeacon` [command](https://wiki.mypet-plugin.de/setup/commands#skill-commands). By default this skill consumes food when it is active, that means the [Saturation](https://wiki.mypet-plugin.de/systems/hungersystem)-Value decreases continuously while the skill is active.
+The Beacon skill transforms your pet into a walking and more powerful [beacon](https://minecraft.wiki/w/Beacon). The plugin uses a custom menu (see Beacon Buff Selection Menu) that can be opened with the `/petbeacon` [command](https://wiki.mypet-plugin.de/setup/commands#skill-commands). By default this skill consumes food when it is active, which means the [Saturation-Value](../../../getting-started/systems/hunger-system.md) decreases continuously while the skill is active.
 
 ### Beacon Buff Selection Menu <a href="#beacon-buff-selection-menu" id="beacon-buff-selection-menu"></a>
 

@@ -1,10 +1,11 @@
 ---
 description: Make your Pet's attacks potentially knock back their opponent.
+icon: hammer-crash
 ---
 
 # Knockback
 
-With this skill your pet has a chance to knockback when attacking a target. The chance can be set via the [skilltree](https://wiki.mypet-plugin.de/systems/skilltrees) skill settings.
+With this skill your pet has a chance to knockback their target when attacking. The chances can be set via the [skilltree](../../what-are-skilltrees.md) skill settings.
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 

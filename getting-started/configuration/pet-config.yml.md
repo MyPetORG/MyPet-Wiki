@@ -1,4 +1,5 @@
 ---
+description: Contains options for pet types.
 icon: paw
 ---
 
@@ -45,7 +46,7 @@ Small changes have a massive impact on the speed.
 ### `LeashRequirements`
 
 * Type: list
-* Description: A list of valid [Leash Requirements](https://wiki.mypet-plugin.de/systems/leashflag).
+* Description: A list of valid [Leash Requirements](../systems/leash-flags-requirements.md).
 
 ### `CustomRespawnTimeFactor`
 
