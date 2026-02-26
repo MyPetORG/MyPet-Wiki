@@ -60,6 +60,12 @@
   * [Hunger-System](getting-started/systems/hunger-system.md)
   * [World Groups](getting-started/systems/world-groups.md)
   * [Auto Updater](getting-started/systems/auto-updater.md)
+* [Plugin Hooks](getting-started/plugin-hooks/README.md)
+  * [Hook Types](getting-started/plugin-hooks/hook-types.md)
+  * [BossShopPro](getting-started/plugin-hooks/bossshoppro.md)
+  * [Citizens NPC](getting-started/plugin-hooks/citizens-npc.md)
+  * [PlaceholderAPI](getting-started/plugin-hooks/placeholderapi.md)
+  * [WG Region Flags](getting-started/plugin-hooks/wg-region-flags.md)
 
 ## Supported Mobs
 

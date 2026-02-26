@@ -7,7 +7,7 @@ icon: calculator-simple
 
 <figure><img src="../../../.gitbook/assets/Skilltree Skills.png" alt="" width="563"><figcaption></figcaption></figure>
 
-The `Skills` tab of the [Skilltree Creator](../) allows you to configure the skills included in the skilltree and their individual parameters. Here you can add or remove skills in the current skilltree.
+The `Skills` tab of the [Skilltree Creator](../) allows you to add or remove the skills included in the skilltree and configure the individual skill parameters.
 
 <figure><img src="../../../.gitbook/assets/Skilltree Skills Dropdown.png" alt="" width="210"><figcaption></figcaption></figure>
 

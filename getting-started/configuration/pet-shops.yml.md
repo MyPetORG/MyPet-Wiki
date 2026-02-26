@@ -21,7 +21,7 @@ Below is the structure and types for entries in `pet-shops.yml`.
 * Shops:
   * `<shop-id>`:
     * Name (string): The name that will be shown in the shop overview
-    * Balance (string): Wallet type. Not yet documented. Default is `Private`.
+    * Balance (string): Wallet type. Default is `Private`.
     * Pets:
       * `<id>`:
         * Name (string): The name the pet will have

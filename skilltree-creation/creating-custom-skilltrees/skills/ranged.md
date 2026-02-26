@@ -11,12 +11,16 @@ The type of projectile, rate of fire (rounds per second) and the damage dealt ca
 
 ### Available Projectiles <a href="#projectiles" id="projectiles"></a>
 
-* arrow
-* egg
-* Wither skull
-* snowball
-* small fireball
-* large fireball
+* Arrow
+* Egg
+* EnderPearl
+* DragonFireball
+* LargeFireball
+* LlamaSpit
+* SmallFireball
+* Snowball
+* Trident
+* WitherSkull
 
 All projectiles deal the same amount of damage as set by the skill. The only difference is the trajectory of some projectiles.
 
