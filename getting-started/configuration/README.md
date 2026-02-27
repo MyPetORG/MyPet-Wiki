@@ -9,8 +9,8 @@ icon: gears
 [config.yml.md](config.yml.md)
 {% endcontent-ref %}
 
-{% content-ref url="pet-config.yml.md" %}
-[pet-config.yml.md](pet-config.yml.md)
+{% content-ref url="pet-config.yml/" %}
+[pet-config.yml](pet-config.yml/)
 {% endcontent-ref %}
 
 {% content-ref url="pet-shops.yml.md" %}

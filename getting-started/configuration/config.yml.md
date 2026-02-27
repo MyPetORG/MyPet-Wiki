@@ -5,7 +5,7 @@ icon: gear
 
 # config.yml
 
-The `config.yml` file is the main config file of MyPet. All pet type related options can be found in the [pet-config.yml](pet-config.yml.md).
+The `config.yml` file is the main config file of MyPet. All pet type related options can be found in the [pet-config.yml](pet-config.yml/).
 
 Below are the available settings, their types and descriptions.
 
