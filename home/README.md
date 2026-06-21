@@ -1,10 +1,28 @@
 ---
 description: Welcome to your team’s developer platform
+layout:
+  width: wide
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Developer Platform
 
-<figure><img src=".gitbook/assets/MyPet Logo New.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Untitled688_20260502231648.png" alt=""><figcaption></figcaption></figure>
 
 <h2 align="center">MyPet Wiki</h2>
 
