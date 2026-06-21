@@ -181,3 +181,54 @@ View skill info for another player’s pet.
 #### Notes
 
 * This requires admin permissions on most servers.
+
+***
+
+### Permissions
+
+#### Bundle node
+
+`MyPet.admin` is an **umbrella node** that grants every granular admin node listed below. Grant `MyPet.admin` to give a player complete admin capability; grant individual nodes for least-privilege delegation.
+
+#### `/mypet` admin subcommands
+
+| Permission node          | Command / action               |
+| ------------------------ | ------------------------------ |
+| `MyPet.admin.editor`     | `/mypet editor` — open the web editor |
+| `MyPet.admin.reload`     | `/mypet reload`                |
+| `MyPet.admin.ticket`     | `/mypet ticket`                |
+| `MyPet.admin.update`     | `/mypet update`                |
+
+#### `/mypetadmin` subcommands
+
+| Permission node            | Subcommand    |
+| -------------------------- | ------------- |
+| `MyPet.admin.clone`        | `clone`       |
+| `MyPet.admin.create`       | `create`      |
+| `MyPet.admin.exp`          | `exp`         |
+| `MyPet.admin.exprate`      | `exprate`     |
+| `MyPet.admin.info`         | `info`        |
+| `MyPet.admin.name`         | `name`        |
+| `MyPet.admin.npc`          | `npc`         |
+| `MyPet.admin.purge`        | `purge`       |
+| `MyPet.admin.remove`       | `remove`      |
+| `MyPet.admin.respawn`      | `respawn`     |
+| `MyPet.admin.skilltree`    | `skilltree`   |
+| `MyPet.admin.switch`       | `switch`      |
+
+#### Act on other players’ pets
+
+These nodes allow a player to run standard pet commands targeting another player’s pet:
+
+| Permission node                    | Command                      |
+| ---------------------------------- | ---------------------------- |
+| `MyPet.command.info.other`         | `/petinfo <player>`          |
+| `MyPet.command.list.other`         | `/petlist <player>`          |
+| `MyPet.command.skill.other`        | `/petskill <player>`         |
+| `MyPet.command.inventory.other`    | `/petinventory <player>`     |
+| `MyPet.command.sendaway.other`     | `/petsendaway <player>`      |
+
+#### Capability / bypass nodes
+
+* `MyPet.admin` — full admin capability: bypasses the stored-pet count limit and unlocks the admin sections of the pet menu.
+* `MyPet.admin.notify` — receive in-game notifications when a web-editor session applies changes.
