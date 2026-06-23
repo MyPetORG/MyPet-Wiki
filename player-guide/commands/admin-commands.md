@@ -232,3 +232,20 @@ These nodes allow a player to run standard pet commands targeting another player
 
 * `MyPet.admin` — full admin capability: bypasses the stored-pet count limit and unlocks the admin sections of the pet menu.
 * `MyPet.admin.notify` — receive in-game notifications when a web-editor session applies changes.
+
+### Bypass permissions
+
+These exempt a player from a normal gameplay restriction. All are `default: op`
+and are granted by the `MyPet.admin` bundle, so existing admins are unaffected.
+
+| Node | Effect |
+|------|--------|
+| `MyPet.bypass.skilltree` | Skip automatic skilltree assignment and the choose-only-once lock. |
+| `MyPet.bypass.fee` | Exempt from the skilltree switch fee (unless `Skilltree.SwitchFeeAdmin` is set). |
+| `MyPet.bypass.death` | Exempt from release-on-death and backpack-drop-on-death. |
+| `MyPet.bypass.inventory` | Open your own pet's backpack without `MyPet.extended.inventory`. |
+| `MyPet.bypass.creative` | Use the pet backpack and pickup in Creative mode even when `Backpack.OpenInCreative` is disabled. |
+| `MyPet.petstorage.limit.*` | Store the configured maximum number of pets (unlimited tier). |
+
+> The `isMyPetAdmin()` API method was removed; these nodes replace it. No code
+> path checks the bare `MyPet.admin` node anymore — it is purely a bundle.
