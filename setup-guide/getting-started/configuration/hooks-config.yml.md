@@ -98,3 +98,14 @@ The lists below show only the custom settings that you are able to modify. Remem
 * #### WorldGuard
   * Type: boolean
   * Description: Checks whether the MyPet owner can attack a target player following the rules of WorldGuard region flags. If the owner of a pet can attack a player, the MyPet can attack this player too.
+
+### Allowing taming of MythicMob creatures
+
+By default MyPet does not allow leashing MythicMob entities. To enable taming of MythicMob creatures that have a matching custom-creature definition in `pet-config.yml`, set `Disable-Leashing` to `false`:
+
+{% code title="hooks-config.yml" %}
+```yaml
+MythicMobs:
+  Disable-Leashing: false
+```
+{% endcode %}

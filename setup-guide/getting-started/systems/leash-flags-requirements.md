@@ -163,3 +163,7 @@ MythicMobs:<type name>:...
 MythicMobs:SkeletalKnight
 MythicMobs:StaticallyChargedSheep:SkeletonKing
 ```
+
+{% hint style="info" %}
+If you use MythicMobs or ItemsAdder to spawn modeled creatures in the world, players can tame them as custom pets. See [Custom Pet Models](custom-pet-models.md) for how to set this up.
+{% endhint %}

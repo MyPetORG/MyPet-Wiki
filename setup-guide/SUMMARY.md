@@ -60,6 +60,7 @@
   * [Pet Storage](getting-started/systems/pet-storage.md)
   * [Hunger-System](getting-started/systems/hunger-system.md)
   * [World Groups](getting-started/systems/world-groups.md)
+  * [Custom Pet Models](getting-started/systems/custom-pet-models.md)
   * [Auto Updater](getting-started/systems/auto-updater.md)
 * [Plugin Hooks](getting-started/plugin-hooks/README.md)
   * [Hook Types](getting-started/plugin-hooks/hook-types.md)
