@@ -150,13 +150,13 @@ These settings only apply to specific pet-types.
 
 ## Custom Pet Models
 
-MyPet supports custom BlockBench models through **ModelEngine**, **BetterModel**, and **ItemsAdder**, plus tameable creatures from **MythicMobs**/ItemsAdder. There are three configuration shapes, all under `MyPet.Pets` in `pet-config.yml`:
+MyPet supports custom BlockBench models through **ModelEngine**, **BetterModel**, and **ItemsAdder**, plus **MythicMobs** as a fourth custom-creature provider. There are three configuration shapes, all under `MyPet.Pets` in `pet-config.yml`:
 
 * **Re-skin an existing type** — add a `Model:` block to a vanilla pet type.
-* **Custom creature MyPet renders** — a `Host:` section with a `Model: { Provider, Id }` block.
-* **Tameable creature** — a `Host:` section with a `Model: { Source }` marker; the model comes from the leashed MythicMobs/ItemsAdder creature.
+* **Custom creature** — a `Host:` section with a `Model: { Provider, Id }` block. For ModelEngine/BetterModel/ItemsAdder, MyPet renders it, and — because the model is the identity — a mob wearing that model can be leashed straight back into the pet.
+* **Custom Creature — MythicMobs** — `Host:` + `Model: { Provider: MythicMobs, Id: <mob-name> }`; MyPet spawns/adopts the real MythicMob.
 
-For a feature overview and the seven supported combinations, see [Custom Pet Models](../../systems/custom-pet-models.md).
+For a feature overview and the six methods, see [Custom Pet Models](../../systems/custom-pet-models.md).
 
 ### Re-skin an existing pet type (`Model:`)
 
@@ -181,13 +181,13 @@ No per-pet setup is needed — the `Model:` block applies to the type. Editing i
 #### `Model.Provider`
 
 * Type: string
-* Values: `ModelEngine`, `BetterModel`, `ItemsAdder`
-* Description: Which rendering plugin supplies the model.
+* Values: `ModelEngine`, `BetterModel`, `ItemsAdder`, `MythicMobs` (`MythicMobs` is only valid on custom creatures — see below — not on a re-skin)
+* Description: Which provider supplies the model — a rendering plugin (ModelEngine/BetterModel/ItemsAdder) or the source creature plugin (MythicMobs).
 
 #### `Model.Id`
 
 * Type: string
-* Description: The model id as registered in the provider (ModelEngine/BetterModel model name, or ItemsAdder namespaced id such as `mypack:dragon`).
+* Description: The model id as registered in the provider — the ModelEngine/BetterModel model name, an ItemsAdder namespaced id such as `mypack:dragon`, or (for `Provider: MythicMobs`) the MythicMob's internal name.
 
 #### `Model.NameHeight`
 
@@ -220,7 +220,7 @@ MyPet:
 
 * Type: string
 * Required: Yes (for custom creatures)
-* Description: The vanilla mob type whose movement, pathfinding, and physics the creature inherits. A flying host (e.g. `Phantom`, `Allay`) makes the pet fly; a swimming host makes it swim. Changing `Host:` requires a server restart.
+* Description: The vanilla mob type whose movement, pathfinding, and physics the creature inherits. A flying host (e.g. `Phantom`, `Allay`) makes the pet fly; a swimming host makes it swim. Changing `Host:` requires a server restart. For `Provider: MythicMobs`, set `Host:` to the MythicMob's own base vanilla entity (a Phantom-based boss → `Host: Phantom`) — MyPet spawns/rebuilds from that type.
 
 {% hint style="info" %}
 **Skills for custom creatures** are granted through **skilltrees** — list the creature's type name in a skilltree's eligible mob types, exactly like vanilla pet types. There is no skill list directly in the creature definition.
@@ -234,52 +234,85 @@ MyPet:
 Selling a custom creature in a pet shop requires no extra fields here — add the creature id to `pet-shops.yml` with a price, description, and position just like any vanilla pet type.
 {% endhint %}
 
-### Tameable modeled creatures (source-driven)
+{% hint style="info" %}
+**Custom creatures are also tameable — no extra config.** Because a custom creature's model *is* its identity, any mob already wearing that model can be leashed straight into the pet (subject to the type's `LeashRequirements`): one you `/meg summon` / `/bm spawn` into the world, or one MyPet left behind when a pet of this type was released. You do **not** need a separate definition for ModelEngine / BetterModel / ItemsAdder / MythicMobs creatures — the `Provider:` + `Id:` type above handles both creating and taming, uniformly across all four providers.
+{% endhint %}
 
-To let players **leash a modeled creature that already exists in the world** — a MythicMobs mob or an ItemsAdder creature — and keep its model, define a **source-driven** custom creature: a `Host:` section whose `Model:` block uses a `Source:` marker instead of `Provider:`/`Id:`.
+{% hint style="warning" %}
+**Each custom type needs a unique model.** Because the model is the pet's identity, two custom types must not share the same `Provider` + `Id` — MyPet couldn't tell which type a leashed modeled mob should become. If two types declare the same model, MyPet keeps the first and **skips** the later one on load (a warning names both in the console). Give each custom type its own `Model.Id`.
+{% endhint %}
 
-Three things must line up:
-
-* **Section name = the source creature's id.** The MythicMobs internal name, or the ItemsAdder entity id (the part after the namespace — e.g. `phoenix` for `mypack:phoenix`). This is how MyPet recognises the leashed creature and how it respawns the genuine creature on release.
-* **`Host:` = the source creature's base vanilla mob.** The model rides on the tamed entity, and on respawn MyPet rebuilds it from that base type — so `Host:` must match what the MythicMob/ItemsAdder creature is built on (a Phantom-based boss → `Host: Phantom`). A mismatch makes the pet fall back to a bare host with no model.
-* **`Model.Source:`** marks the type as source-driven so the inherited model is kept (not stripped) each time the pet spawns.
+**MythicMobs works the same shape, with one difference under the hood.** For `Provider: MythicMobs`, MyPet doesn't draw a model on a vanilla host — it spawns (via `/petadmin create` / pet shop) or adopts (via leashing) the **real MythicMob**, model and all. `Id:` is the MythicMob's internal name, and (as with the other three providers) the section name is arbitrary:
 
 {% code title="pet-config.yml" %}
 ```yaml
 MyPet:
   Pets:
-    MyDragonBoss:                 # must match the MythicMob internal name / ItemsAdder entity id
-      Host: Phantom               # the vanilla mob the source creature is built on
+    FrostBoss:                    # arbitrary name — the mob's identity lives in Id
+      Host: Phantom                # the MythicMob's base vanilla entity
       HP: 200.0
       Speed: 0.3
       LeashItem: lead
+      LeashRequirements: [Tamed]
       Model:
-        Source: MyDragonBoss      # marks this type source-driven; model comes from the tamed creature
+        Provider: MythicMobs
+        Id: MyDragonBoss           # the MythicMob's internal name
 ```
 {% endcode %}
 
-A source-driven type has **no `Provider:`/`Id:`** — the model belongs to the tamed creature and is drawn by whatever engine that creature already uses (ModelEngine or BetterModel for MythicMobs; ItemsAdder for its own creatures). MyPet does not render it.
+{% hint style="info" %}
+**MythicMobs is spawned, not drawn.** MyPet doesn't render a MythicMob's model itself — it spawns/adopts the genuine MythicMob, so its model, AI, and abilities are the MythicMob's own. Releasing it respawns that same real MythicMob (not a bare vanilla animal). Taming also requires MythicMobs to allow it: set `Disable-Leashing: false` in the `MythicMobs:` section of [hooks-config.yml](../hooks-config.yml.md). The normal [leash requirements](../../systems/leash-flags-requirements.md) still apply.
+{% endhint %}
 
-#### `Model.Source`
+### Model animations
 
-* Type: string
-* Required: Yes (for tameable / source-driven creatures)
-* Description: Marks the pet type as source-driven — its model is inherited from the leashed source creature rather than rendered by MyPet. Set it to the source creature's id (the value documents intent; its presence is what activates source-driven behavior). Mutually exclusive with `Provider:`/`Id:`.
+MyPet plays a few **discrete animations** on a pet's model at the right moments. By default it plays animations named `spawn`, `despawn`, `sit`, `sit_loop`, `unsit`, and `attack` — so if your model uses those names, animations just work with no configuration. If a model names them differently (common for third-party MythicMobs/ItemsAdder models), remap them per type under an optional `Model.Animations` block. It works on **any** `Model:` block — re-skins and custom creatures alike, including MythicMobs.
+
+{% code title="pet-config.yml" %}
+```yaml
+      Model:
+        Provider: ModelEngine
+        Id: frost_dragon
+        Animations:            # all optional; an omitted event uses its default name
+          attack: swoop        # play "swoop" instead of "attack" when the pet hits
+          despawn: vanish
+```
+{% endcode %}
+
+| Event      | Default name | When it plays |
+| ---------- | ------------ | ------------- |
+| `spawn`    | `spawn`      | When the pet is first summoned (not on chunk reload / relog). |
+| `despawn`  | `despawn`    | When the pet is stored or removed (not on recall) — removal waits for the animation to finish. |
+| `sit`      | `sit`        | When the pet sits down. |
+| `sit_loop` | `sit_loop`   | Looped while the pet stays seated (started once `sit` has finished). |
+| `unsit`    | `unsit`      | When the pet stands back up. |
+| `attack`   | `attack`     | Each time the pet lands a melee hit or fires a ranged shot. |
 
 {% hint style="info" %}
-Taming also requires the source plugin to allow it. For MythicMobs set `Disable-Leashing: false` in the `MythicMobs:` section of [hooks-config.yml](../hooks-config.yml.md). The normal [leash requirements](../../systems/leash-flags-requirements.md) still apply.
+**Movement animations are not configured here.** Walking, running, idling, and jumping are driven automatically by the rendering plugin from the mob's movement — name them by your provider's own convention in the model itself. `Model.Animations` only covers the six discrete events above.
 {% endhint %}
+
+{% hint style="info" %}
+Animations are **best-effort**: if a named animation isn't present in the model, MyPet simply skips it. For the despawn delay, providers that can't report an animation's length (BetterModel, ItemsAdder) fall back to a short fixed delay.
+{% endhint %}
+
+#### `Model.Animations.<event>`
+
+* Type: string (one key per event: `spawn`, `despawn`, `sit`, `sit_loop`, `unsit`, `attack`)
+* Required: No
+* Description: Overrides the animation name MyPet plays for that event. Any omitted event uses its default name (identical to the event key). Applies to every provider alike, including MythicMobs.
 
 ### Acquiring custom creatures
 
-* **Command:** `/petadmin create <player> mypet:<creature-id>` — requires permission `MyPet.admin.create`. (Vanilla pet types are created with the `minecraft:` namespace, e.g. `minecraft:wolf`; custom creatures use `mypet:`.)
-* **Pet shop:** list the creature id in `pet-shops.yml` so players can buy it.
-* **Taming:** if the creature is defined as [source-driven](#tameable-modeled-creatures-source-driven) (section name matching a MythicMob internal name or ItemsAdder creature id, with a `Model.Source` marker), players can [leash](../../systems/leash-flags-requirements.md) a wild instance of it using the normal leash rules.
+* **Command:** `/petadmin create <player> mypet:<creature-id>` — requires permission `MyPet.admin.create`. (Vanilla pet types are created with the `minecraft:` namespace, e.g. `minecraft:wolf`; custom creatures use `mypet:`.) For a `Provider: MythicMobs` creature this spawns the genuine MythicMob.
+* **Pet shop:** list the creature id in `pet-shops.yml` so players can buy it — MythicMobs creatures spawn/adopt the real MythicMob the same as any other custom creature.
+* **Taming:** any mob already wearing the creature's model can be leashed straight into the pet, using the normal [leash requirement rules](../../systems/leash-flags-requirements.md) — a `/meg summon`/`/bm spawn` mob, one MyPet left behind on release, or (for MythicMobs) a wild MythicMob whose internal name matches the type's `Model.Id`. Taming a MythicMob also requires `Disable-Leashing: false` in the `MythicMobs:` section of [hooks-config.yml](../hooks-config.yml.md).
 
 ### Release behavior
 
 What happens when a player uses `/mypet release` depends on how the pet was created:
 
 * **Re-skinned vanilla pet (Path A):** releases as the underlying vanilla mob, same as always. The model is removed.
-* **Custom creature whose id matches a MythicMob or ItemsAdder creature:** the genuine source creature is respawned at the release location — with its own AI, abilities, and model — and MyPet's host entity is removed.
-* **Custom creature with no matching source plugin:** the entity is simply despawned. No vanilla replacement is created.
+* **Rendered custom creature (Path B — ModelEngine/BetterModel/ItemsAdder):** a wild mob is left behind still wearing the model, so it can be re-leashed back into the same pet.
+* **MythicMobs custom creature (Path C):** the genuine MythicMob is respawned at the release location — with its own AI, abilities, and model — and MyPet's host entity is removed.
+* **Custom creature whose provider plugin is no longer installed:** the entity is simply despawned. No vanilla replacement is created.
