@@ -42,6 +42,7 @@
     * [1.8.8](getting-started/supported-versions/1.8/1.8.8.md)
 * [Commands](getting-started/commands/README.md)
   * [Pet Admin](getting-started/commands/pet-admin.md)
+* [Permissions](getting-started/permissions.md)
 * [Configuration](getting-started/configuration/README.md)
   * [config.yml](getting-started/configuration/config.yml.md)
   * [pet-config.yml](getting-started/configuration/pet-config.yml/README.md)
