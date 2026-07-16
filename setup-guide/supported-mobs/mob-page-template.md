@@ -6,8 +6,6 @@ noRobotsIndex: true
 
 # Mob Page Template
 
-{% include "../../.gitbook/includes/all-values-abilities-and-....md" %}
-
 {% columns fullWidth="true" %}
 {% column %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -41,7 +39,5 @@ Special abilties that only exist when captured as a Pet.
 ![](https://placehold.co/800x500?text=Pet+Photo)
 
 <table><thead><tr><th width="129.36328125">Key</th><th>Value</th></tr></thead><tbody><tr><td>HP</td><td></td></tr><tr><td>Required MyPet version</td><td></td></tr></tbody></table>
-
-
 {% endcolumn %}
 {% endcolumns %}
