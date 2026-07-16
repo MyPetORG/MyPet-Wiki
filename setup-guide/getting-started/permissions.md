@@ -13,15 +13,15 @@ and its default, grouped by who it's meant for.
 
 Each node has one of two behaviours out of the box:
 
-* **Bundled into `mypet.*`** — granted to normal players automatically when you
-  give a group the `mypet.*` wildcard. This is the everyday player toolkit.
+* **Bundled into `mypet.player`** — granted to normal players automatically when
+  you give a group the `mypet.player` bundle. This is the everyday player toolkit.
 * **`default: op`** — only operators (or players you grant it to explicitly)
   have it. All admin and bypass nodes are `op`-only, so ordinary players never
   get them by accident.
 
 Two umbrella nodes cover the common cases:
 
-* **`mypet.*`** — the normal-player bundle (see [Player permissions](#player-permissions)).
+* **`mypet.player`** — the normal-player bundle (see [Player permissions](#player-permissions)).
 * **`mypet.admin`** — the full admin bundle; grants every admin, bypass, and
   storage node listed under [Admin permissions](#admin-permissions).
 
@@ -30,9 +30,9 @@ least-privilege setups.
 
 ## Player permissions
 
-### The `mypet.*` bundle
+### The `mypet.player` bundle
 
-Granting `mypet.*` gives a player the standard toolkit:
+Granting `mypet.player` gives a player the standard toolkit:
 
 | Node | Grants |
 | ---- | ------ |
@@ -53,7 +53,7 @@ Other player command nodes (`mypet.command.switch`, `mypet.command.store`,
 
 ### Extended permissions
 
-**Extended permissions are _not_ part of the `mypet.*` bundle** — grant them
+**Extended permissions are _not_ part of the `mypet.player` bundle** — grant them
 explicitly to unlock the matching capability. This lets you sell/gate features
 per rank.
 
