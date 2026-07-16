@@ -57,7 +57,6 @@
   * [Leash Flags / Requirements](getting-started/systems/leash-flags-requirements.md)
   * [Skilltrees](getting-started/systems/skilltrees.md)
   * [Experience](getting-started/systems/experience/README.md)
-    * [Experience-Script](getting-started/systems/experience/experience-script.md)
   * [Pet Storage](getting-started/systems/pet-storage.md)
   * [Hunger-System](getting-started/systems/hunger-system.md)
   * [World Groups](getting-started/systems/world-groups.md)

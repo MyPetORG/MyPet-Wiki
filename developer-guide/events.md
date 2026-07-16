@@ -240,7 +240,7 @@ public void onHitSkill(PetOnHitSkillEvent event) {
 
 `Cancellable`
 
-Fires when XP is being awarded to a pet (from kills, the experience-script system, or admin commands). Cancel to deny the XP entirely, or use `setExp(double)` to scale it.
+Fires when XP is being awarded to a pet (from kills, the experience system, or admin commands). Cancel to deny the XP entirely, or use `setExp(double)` to scale it.
 
 **Accessors**
 

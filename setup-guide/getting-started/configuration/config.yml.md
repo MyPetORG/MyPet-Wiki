@@ -268,7 +268,29 @@ Below are the available settings, their types and descriptions.
 * CalculationMode
   * Type: string
   * Default: "Default"
-  * Description: [More here](../systems/experience/). Set this to `JS` or `JavaScript` if you want use a custom [exp.js](../systems/experience/experience-script.md).
+  * Description: Which curve decides how much experience a pet needs per level. One of `Default` (also accepted as `MyPet`), `Linear`, `Power` or `Exponential`. Not case-sensitive. Unknown values fall back to `Default`. [More here](../systems/experience/).
+* #### Curve
+  * Only the settings of the selected `CalculationMode` are used. `Default` has no settings.
+  * Linear.Base
+    * Type: double
+    * Default: 17.0
+    * Description: Experience needed for each level, when `CalculationMode` is `Linear`.
+  * Power.Factor
+    * Type: double
+    * Default: 7.0
+    * Description: Scales the whole curve, when `CalculationMode` is `Power`.
+  * Power.Exponent
+    * Type: double
+    * Default: 1.5
+    * Description: How sharply the cost accelerates, when `CalculationMode` is `Power`. `1.0` behaves like `Linear`.
+  * Exponential.Base
+    * Type: double
+    * Default: 10.0
+    * Description: Experience needed for level 2, when `CalculationMode` is `Exponential`.
+  * Exponential.Growth
+    * Type: double
+    * Default: 1.1
+    * Description: Cost multiplier per level, when `CalculationMode` is `Exponential`. `1.1` means each level costs 10% more than the last.
 
 ***
 
