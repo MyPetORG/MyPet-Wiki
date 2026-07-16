@@ -33,6 +33,12 @@
   * [PlaceholderAPI](getting-started/plugin-hooks/placeholderapi.md)
   * [WG Region Flags](getting-started/plugin-hooks/wg-region-flags.md)
 
+## Configurator
+
+* [Configurator](configurator/README.md)
+  * [Opening a Session](configurator/opening-a-session.md)
+  * [Saving Changes](configurator/saving-changes.md)
+
 ## Supported Mobs
 
 * [Mob Page Template](supported-mobs/mob-page-template.md)

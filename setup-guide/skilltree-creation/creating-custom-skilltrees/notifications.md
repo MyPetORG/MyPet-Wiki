@@ -6,7 +6,7 @@ icon: message-check
 
 <figure><img src="../../.gitbook/assets/Skilltree Notifications.png" alt="" width="563"><figcaption></figcaption></figure>
 
-The `Notifications` tab of the [Skilltree Creator](./) allows you to configure notifications sent to the player when a pet reaches certain levels.
+The `Notifications` section of the [Configurator's](./) Inspector allows you to configure notifications sent to the player when a pet reaches certain levels.
 
 Click the `+ Add Notification` button to add a new notification. This will show a popup in which you can choose between `fixed` and `dynamic` level-notifications.
 

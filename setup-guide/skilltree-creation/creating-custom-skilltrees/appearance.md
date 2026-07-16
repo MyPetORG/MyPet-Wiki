@@ -4,9 +4,9 @@ icon: candy
 
 # Appearance
 
-<figure><img src="../../.gitbook/assets/Skilltree Appearance.png" alt="The Appearance tab of the MyPet Skilltree Creator showing the friendly name, icon material, and description fields." width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Skilltree Appearance.png" alt="The Appearance section showing the friendly name, icon material, and description fields." width="563"><figcaption></figcaption></figure>
 
-The `Appearance` tab of the [Skilltree Creator](./) allows you to configure how the skilltree will appear in the Skilltree GUI when the player uses the `/petchooseskilltree` command. Here you can modify the Name, Icon Material, and the Description (Lore).
+The `Appearance` section of the [Configurator's](./) Inspector allows you to configure how the skilltree will appear in the Skilltree GUI when the player uses the `/petchooseskilltree` command. Here you can modify the Name, Icon Material, and the Description (Lore).
 
 ### Name
 

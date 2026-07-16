@@ -7,9 +7,9 @@ icon: diamond-exclamation
 
 # Requirements
 
-<figure><img src="../../.gitbook/assets/Skilltree Requirements.png" alt="The Requirements tab of the MyPet Skilltree Creator which allows you to configure requirements that must be met in order to be able to use the skilltree." width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Skilltree Requirements.png" alt="The Requirements section, which allows you to configure requirements that must be met in order to be able to use the skilltree." width="563"><figcaption></figcaption></figure>
 
-The `Requirements` tab of the [Skilltree Creator](./) allows you to configure optional requirements that must be met in order to be able to use the skilltree.
+The `Requirements` section of the [Configurator's](./) Inspector allows you to configure optional requirements that must be met in order to be able to use the skilltree.
 
 ### Requirements List
 

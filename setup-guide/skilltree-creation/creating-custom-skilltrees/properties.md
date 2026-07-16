@@ -4,13 +4,13 @@ icon: sliders-up
 
 # Properties
 
-<figure><img src="../../.gitbook/assets/Skilltree Properties.webp" alt="The Properties of the MyPet Skilltree Creator showing the ID, Inheritance, and Weight fields." width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Skilltree Properties.webp" alt="The Properties section showing the ID, Inheritance, and Weight fields." width="563"><figcaption></figcaption></figure>
 
-The `Properties` tab of the [Skilltree Creator](./) allows you to configure the skilltree ID, Inheritance, and Weight.
+The `Properties` section of the [Configurator's](./) Inspector allows you to configure the skilltree ID, Inheritance, and Weight.
 
 ### ID
 
-The skilltree `ID` is the internal identifier used by the plugin. It is the same identifier used when selecting a skilltree using the `/petchooseskilltree [ID]` command. It is advisable to make this ID the same as the Skilltree Name on the [Appearance](appearance.md) tab.
+The skilltree `ID` is the internal identifier used by the plugin. It is the same identifier used when selecting a skilltree using the `/petchooseskilltree [ID]` command. It is advisable to make this ID the same as the Skilltree Name in the [Appearance](appearance.md) section.
 
 ### Inheritance
 
