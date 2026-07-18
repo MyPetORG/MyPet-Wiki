@@ -29,7 +29,8 @@ icon: percent
 | `%mypet_skilltree_display%`    | the display name of the pet's skilltree                               |
 | `%mypet_skilltree_name%`       | the name of the pet's skilltree                                       |
 | `%mypet_world_group%`          | the worldgroup of the pet                                             |
-| `%mypet_has_pet%`              | true if the player has a pet                                          |
+| `%mypet_has_pet%`              | `yes` if the player has an active (summoned) pet                      |
+| `%mypet_owns_pet%`             | `yes` if the player owns any pet at all — active or stored            |
 | `%mypet_player_is_premium%`    | true if the player has the premium rank                               |
 | `%mypet_player_is_donator%`    | true if the player has the donator rank                               |
 | `%mypet_player_is_creator%`    | true if the player has the creator rank (Keyle only)                  |
