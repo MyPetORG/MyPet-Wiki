@@ -10,6 +10,10 @@ icon: percent
 | `%mypet_level%`                | the current level of the pet                                          |
 | `%mypet_exp%`                  | the current EXP of the pet                                            |
 | `%mypet_exp_long%`             | the current EXP of the pet but more precise                           |
+| `%mypet_exp_current%`          | the EXP earned within the current level (progress into the level)     |
+| `%mypet_exp_current_long%`     | the EXP earned within the current level but more precise              |
+| `%mypet_exp_max%`              | the EXP required to advance from the current level to the next        |
+| `%mypet_exp_max_long%`         | the EXP required to advance to the next level but more precise        |
 | `%mypet_type%`                 | the type of the pet                                                   |
 | `%mypet_status%`               | the status of the pet (Dead, Despawned, PetState, Here)               |
 | `%mypet_health%`               | the current health of the pet                                         |
