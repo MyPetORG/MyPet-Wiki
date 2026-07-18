@@ -140,10 +140,7 @@ Below are the available settings, their types and descriptions.
   * Description: Sets if the plugin will check for updates when it is loaded. This will not download the new version.
 * #### Download
   * Type: boolean
-  * Description: Sets if the plugin will download the update.
-* #### ReplaceOld
-  * Type: boolean
-  * Description: Sets if the plugin will load the update on the next server start.
+  * Description: Sets if the plugin will download the update. The downloaded jar is loaded automatically on the next server start.
 * #### In-Background
   * Type: boolean
   * Description: If true the plugin will not wait until the update is downloaded on start.
