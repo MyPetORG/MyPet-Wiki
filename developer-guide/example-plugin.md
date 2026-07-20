@@ -18,15 +18,33 @@ SkillManager skills = MyPetApi.getSkillManager();
 
 skills.registerSkill(GlowImpl.class);
 
-skills.registerUpgradeParser(Glow.class, json -> new GlowUpgrade()
+skills.registerUpgradeParser(Glow.class, UpgradeSchema.builder()
+        .integer("chance").label("Chance %").suffix("%").cumulative()
+        .integer("duration").label("Duration (s)").cumulative()
+        .build(), json -> new GlowUpgrade()
         .chance(UpgradeParsers.parseInteger(UpgradeParsers.get(json, "chance")))
         .duration(UpgradeParsers.parseInteger(UpgradeParsers.get(json, "duration"))));
 ```
 
 * **`registerSkill(GlowImpl.class)`** — tells MyPet to instantiate one `GlowImpl` per pet. Supported since MyPet 1.x.
-* **`registerUpgradeParser(Glow.class, ...)`** — teaches the skilltree JSON loader how to read a `Skills.Glow.Upgrades.<level>` block out of any `.st.json` file. Introduced in MyPet 4.0. Without it, the loader logs `Unknown skill 'Glow'` and silently skips the upgrade entries — the pet still gets a `GlowImpl`, but it never receives upgrades, so it never fires.
+* **`registerUpgradeParser(Glow.class, schema, ...)`** — teaches the skilltree JSON loader how to read a `Skills.Glow.Upgrades.<level>` block out of any `.st.json` file. Introduced in MyPet 4.0. The middle `UpgradeSchema` argument is required: it describes the upgrade fields to the web editor so `Glow` gets a typed editing form in `/mypet editor` like any built-in skill. Without the call, the loader logs `Unknown skill 'Glow'` and silently skips the upgrade entries — the pet still gets a `GlowImpl`, but it never receives upgrades, so it never fires.
 
 The skill identifier (`"Glow"`) is read from the `@SkillName` annotation on `Glow.class` — there is no hand-typed string to keep in sync. The parser's return type is also type-checked: register `Glow.class` with a lambda that returns the wrong upgrade type and the call won't compile.
+
+### Upgrade schemas
+
+The second argument to `registerUpgradeParser` is an `UpgradeSchema` describing your
+skill's upgrade fields. It is required — the web editor uses it to render a typed
+editing form and to validate skilltrees, so custom skills work in `/mypet editor`
+automatically. Field names must be the exact JSON keys your parser reads.
+
+* `number(name)` / `integer(name)` — signed modifier strings (`"+5"`, `"-2.5"`)
+* `bool(name)` — booleans
+* `enumOf(name, MyEnum.class)` — fixed value sets
+* `group(name, g -> ...)` — one level of nested fields
+* Per field: `.label("Chance %")` (English fallback shown in the editor), `.suffix("%")`, `.cumulative()` (adds a running-total display)
+
+Labels localize through MyPet's locale files: the editor looks up `Editor.Skill.<SkillName>.<field>` in every loaded language bundle, and the skill's display name uses the existing `Name.Skill.<SkillName>` key.
 
 ## Repository layout
 

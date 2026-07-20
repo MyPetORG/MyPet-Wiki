@@ -83,6 +83,10 @@ The relevant settings live in the `config.yml` under `MyPet.WebEditor`:
 
 If the editor is disabled, `/mypet editor` replies with `The MyPet web editor is disabled in the server config.`
 
+## Skill list
+
+The editor's skill list is provided by your server: every skill registered at the time you run `/mypet editor` — including skills added by other plugins — appears in the skilltree editor with its fields and labels. Removing a plugin that registered a skill makes existing skilltree entries for it show up as validation errors.
+
 ## Security
 
 Your configuration travels between your server and your browser through two relay services, so that neither has to reach the other directly. Your server does not need to be publicly reachable, and you do not need to open a port.
