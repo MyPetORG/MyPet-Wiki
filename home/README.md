@@ -1,5 +1,5 @@
 ---
-description: Welcome to your team’s developer platform
+description: Your one-stop shop for all things MyPet
 layout:
   width: wide
   title:
@@ -20,7 +20,7 @@ layout:
     visible: true
 ---
 
-# Developer Platform
+# MyPet Wiki
 
 <figure><img src=".gitbook/assets/Untitled688_20260502231648.png" alt=""><figcaption></figcaption></figure>
 
