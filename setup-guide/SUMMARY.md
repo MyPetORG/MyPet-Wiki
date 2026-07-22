@@ -4,6 +4,7 @@
 
 * [Supported Versions](README.md)
 * [Quickstart](<README (1).md>)
+* [Updating from MyPet 3 to 4](getting-started/updating-from-3-to-4.md)
 * [Commands](getting-started/commands/README.md)
   * [Admin Commands](getting-started/commands/pet-admin.md)
 * [Permissions](getting-started/permissions.md)

@@ -7,7 +7,7 @@ description: Migrating plugins from the MyPet 3.x API to the 4.0 API.
 
 This page is the migration guide for plugin authors porting an existing integration from the MyPet 3.x API (the `master` branch) to the **4.0** API. Every entry has a migration path; entries without one say so explicitly.
 
-The scope is the published `mypet-api` Maven artifact. User-facing changes (commands, configuration, GUI) live in the [release changelog on GitHub](https://github.com/MyPetORG/MyPet/releases) and are not duplicated here.
+The scope is the published `mypet-api` Maven artifact. For what happens to a server's existing config, database, and skilltree data on upgrade, see [Updating from MyPet 3 to 4](../setup-guide/getting-started/updating-from-3-to-4.md).
 
 {% hint style="warning" %}
 **v4 is a breaking release.** Every plugin that imports a class from `de.Keyle.MyPet.api.event.*` or calls a method on `MyPetApi` will need source-level changes before it compiles against 4.0. Recompilation alone will not fix it — old `MyPet*Event` classes do not exist in 4.0.
