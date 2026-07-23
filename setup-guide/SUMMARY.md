@@ -4,6 +4,7 @@
 
 * [Supported Versions](README.md)
 * [Quickstart](<README (1).md>)
+* [What's New in MyPet 4](getting-started/whats-new-in-4.0.md)
 * [Updating from MyPet 3 to 4](getting-started/updating-from-3-to-4.md)
 * [Commands](getting-started/commands/README.md)
   * [Admin Commands](getting-started/commands/pet-admin.md)
