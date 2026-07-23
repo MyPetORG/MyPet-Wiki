@@ -1,5 +1,10 @@
-<!-- TODO: 4.0 logo image -->
-![MyPet 4.0 Logo](TODO)
+---
+icon: paw
+---
+
+# What's New in MyPet 4
+
+<figure><img src="../.gitbook/assets/Untitled688_20260502220153.png" alt=""><figcaption></figcaption></figure>
 
 MyPet 4.0 is here - the biggest update in MyPet's history. MyPet has been rewritten from the ground up: Pets are now real vanilla mobs, the version-specific compatibility code that powered MyPet for over a decade is gone entirely, and just about every part of the plugin - GUIs, commands, skills, skilltrees, configuration - has been rebuilt or expanded.
 
@@ -11,159 +16,172 @@ Upgrading from MyPet 3 is automatic: your configs, Pets, skilltrees, locale file
 
 Currently, MyPet is primarily developed by one person! All of these updates are produced for free in my spare time. If you or your players appreciate MyPet, please consider buying me a coffee or lunch (it means a lot): https://ko-fi.com/UserDerezzed
 
-**This update was made possible by Keyle, MaksyKun, Jakllp, Haeherfeder, Gullysdad, Mercurialmusic, the Altitude team (Teriuihi and Destro174 for using MyPet 4 months before anyone else; cultistclam for our amazing new MyPet artwork, akaemilyyy for dupe finding), the HeavenCreations team (LoupSavage who made our great new custom models that are *included* with MyPet 4,) those who have tipped me on Ko-Fi (seriously, huge thanks!) and the MyPet 4 Alpha Testers. Thank you!**
+**This update was made possible by Keyle, MaksyKun, Jakllp, Haeherfeder, Gullysdad, Mercurialmusic, the Altitude team (Teriuihi and Destro174 for using MyPet 4 months before anyone else; cultistclam for our amazing new MyPet artwork, akaemilyyy for dupe finding), the HeavenCreations team (LoupSavage who made our great new custom models that are&#x20;**_**included**_**&#x20;with MyPet 4,) those who have tipped me on Ko-Fi (seriously, huge thanks!) and the MyPet 4 Alpha Testers. Thank you!**
 
 Now, onto the changes!
 
-## A complete rewrite
-<!-- TODO: rewrite/architecture image -->
+### A complete rewrite
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-23 at 01.40.50.png" alt=""><figcaption></figcaption></figure>
+
 Since 2012, MyPet has shipped a compatibility module for every supported Minecraft version. By 3.14, that meant 20 of them. MyPet 4.0 has **zero**. Pets are now real vanilla mobs driven through Paper's official APIs, which means:
 
-- **New Minecraft versions work automatically.** No more waiting for a MyPet update after every Minecraft release.
-- **Folia support.** MyPet now runs on Folia's regionized threading.
-- **Better performance.** The plugin has been heavily optimized across the board.
-- **More vanilla behaviors.** Some Pets now benefit from their unique vanilla actions.
+* **New Minecraft versions work automatically.** No more waiting for a MyPet update after every Minecraft release.
+* **Folia support.** MyPet now runs on Folia's regionized threading.
+* **Better performance.** The plugin has been heavily optimized across the board.
+* **More vanilla behaviors.** Some Pets now benefit from their unique vanilla actions.
 
 Pets also now save their **exact entity state** when captured, stored, or released. Armor, stats, variants, everything - which stamps out a whole family of long-standing data-loss bugs.
 
 Text formatting has moved from legacy `&` color codes to **MiniMessage** (`<green>`, `<gradient>`, hover/click events, and more). Your existing pet names, configs, locales, and skilltrees are converted automatically.
 
-## New GUIs and a browser-based editor
-<!-- TODO: /pet menu screenshot + /mypet editor screenshot -->
+### New GUIs and a browser-based live editor
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-23 at 01.42.18.png" alt=""><figcaption></figcaption></figure>
+
 Every menu in MyPet has been rebuilt on a brand-new GUI system, headlined by **`/pet`**, a single-screen pet management menu with 17 buttons covering everything your Pet can do: rename, call, info, stay, auto-respawn, send-away, store, switch, trade, release, skilltree selection and info, backpack, behavior, pickup, stop-attacking, and volume. Menu layouts are defined in JSON, so you can customize them.
 
 For server owners, MyPet now ships a **browser-based live editor**: run **`/mypet editor`** and edit your config.yml, pet-config.yml, exp-config.yml, pet shops, skilltrees, and locale files in your browser. Changes apply live to the running server. Skills are provided to the editor by your server, so third-party and newly added skills appear in the skilltree editor automatically.
 
 There's also a new **volume slider** for Pet sounds, opened from `/petsettings volume` or the volume button in `/pet`, with presets at 0/25/50/75/100%.
 
-## Skills and skilltrees
-<!-- TODO: new skills image/GIF -->
+### Skills and skilltrees
+
 MyPet 4.0 adds **ten new skills**, bringing the total to 31: **Mining, Lumberjack, Fishing, Sniff, Potion, Toolbox, Taunt, Armor, Climb, and Camouflage**. The Ride skill also gains a new **climb** upgrade.
 
 To put them to work, MyPet now ships **124 built-in skilltrees** (up from 5), and introduces **skilltree ascension**: skilltrees can form ascension paths, ascending is free, it bypasses `MyPet.Skilltree.ChooseOnce`, and skilltree Weight can now be set per pet type.
 
-Third-party plugins can now register their own custom skills through the API, and they'll show up in the web editor's skilltree editor automatically.
+**Third-party plugins can now register their own custom skills through the API**, and they'll show up in the web editor's skilltree editor automatically.
 
-## New Pets, custom models, and ride sharing
-<!-- TODO: new mobs / custom model showcase image -->
+### New Pets, custom models, and ride sharing
+
+<div><figure><img src="../.gitbook/assets/capybara-square (1).gif" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/chameleon-square.gif" alt=""><figcaption></figcaption></figure></div>
+
 Five new species can now be tamed: **Nautilus, Zombie Nautilus, Happy Ghast, Camel Husk, and Parched**.
 
-Beyond vanilla mobs, MyPet 4.0 supports **custom-model Pets** through BetterModel (recommended), ModelEngine, ItemsAdder, and MythicMobs, plus custom model *overlays* on top of regular Pets. Your server's custom bosses and creatures can now be Pets.
+Beyond vanilla mobs, MyPet 4.0 supports **custom-model Pets** through BetterModel (recommended), ModelEngine, ItemsAdder, and MythicMobs, plus custom model _overlays_ on top of regular Pets. Your server's custom bosses and creatures can now be Pets.
+
+**MyPet 4 includes two custom model Pets - the Capybara and the Chameleon!** These are provided by [HeavenCreations](whats-new-in-4.0.md#a-complete-rewrite), huge thanks to them. (above gifs are not to scale)
 
 Riding got a major upgrade: the new **`/petride`** command mounts your active Pet, and owners can use `/petride driver|passengers allow|disallow` to let **other players** ride along, with new per-pet config options (`RequireRideSkill`, `RequireRideItem`, `RequireSaddle`, non-owner mount permissions) so server owners control exactly who can ride what. Flying Pets get tuned, configurable flight speeds (`OverrideFlySpeed`/`FlySpeed`).
 
 Per-pet creation options now use **readable string names** (`variant:lucy`, `profession:armorer`, `collar:red` instead of numeric IDs), Pets spawn with their species' **vanilla health** by default, and the per-pet config surface has grown massively - from Creeper explosion controls to Ender Dragon block-damage gates to `PreventDryOut` for Axolotls.
 
-### Full changelog:
+#### Full changelog:
 
-#### Added
-- Added `/pet` - a single-screen pet management menu with 17 buttons (rename, call, info, stay, auto-respawn, send-away, store, switch, trade, release, choose-skilltree, skilltree-info, backpack, behavior, pickup, stop-attacking, volume)
-- Added a completely new GUI system - every menu has been rebuilt, and menu layouts are customizable via JSON definitions
-- Added `/mypet editor` - a browser-based live editor for config.yml, pet-config.yml, exp-config.yml, pet shops, skilltrees, and locale files; skills are provided by the server so third-party skills appear automatically
-- Added a Pet volume slider GUI - opens from `/petsettings volume` or the volume button in `/pet`, with five presets at 0/25/50/75/100%
-- Added `Volume-Control` and `Volume-Mode` (per-owner or per-player) flags to `hooks-config.yml` under each packet adapter's section
-- Added support for Nautilus, Zombie Nautilus, Happy Ghast, Camel Husk, and Parched Pets
-- Added support for custom Pet types through BetterModel (recommended), ModelEngine, ItemsAdder, and MythicMobs
-- Added support for custom model overlays for Pets through BetterModel (recommended), ModelEngine, and ItemsAdder
-- Added ten new skills: Mining, Lumberjack, Fishing, Sniff, Potion, Toolbox, Taunt, Armor, Climb, and Camouflage
-- Added a "climb" upgrade to the Ride skill
-- Added 124 new default skilltrees with an ascension play style
-- Added skilltree ascension - ascending is free, bypasses `MyPet.Skilltree.ChooseOnce`, and skilltree Weight can be set per pet type
-- Added `/petride` - mounts your active Pet (requires the Ride skill unless `RequireRideSkill` is disabled)
-- Added `/petride driver|passengers allow|disallow` - lets Pet owners opt in to other players riding their Pet
-- Added `/petinv` as an alias for `/petinventory`
-- Added `/petadmin switch (user)` GUI for switching another player's active Pet
-- Added per-command admin permissions
-- Added support for Folia servers
-- Added support for WorldGuard-Folia
-- Added automatic migration from MyPet 3 - configs, Pets and their inventories, skilltrees, locale files, pet shops, and the database schema are all converted on first startup (including legacy color codes → MiniMessage)
-- Added an auto-updater for users downloading releases from BuiltByBit and dev builds from Discord
-- Added the `%mypet_exp_current%` and `%mypet_exp_max%` placeholders for a Pet's level progress
-- Added the `%mypet_owns_pet%` placeholder for whether a player owns any Pet, active or stored
-- Added support for the golden dandelion freezing a Pet's aging (Minecraft 26.1+)
-- Added `OverrideFlySpeed` (default false) and `FlySpeed` config options per Pet type
-- Added riding config options for naturally rideable Pets: `RequireRideSkill` (default true), `RequireRideItem` (default true), `AllowNonOwnerPrimaryMount` (default false), `AllowNonOwnerSecondaryMount` for multi-passenger Pets (default true), `RequireSaddle` (default false), and `AllowNonOwnerSaddle` (default false)
-- Added `AllowFlintAndSteelExplode`, `AllowNonOwnerFlintAndSteel`, `AllowExplosionBlockDamage`, `AllowExplosionEntityDamage`, and `AllowLightningPower` config options for Creeper Pets (all default false)
-- Added `GrantEndAdvancementOnKill`, `AllowBlockDamage`, `AllowPlayerContactDamage`, and `AllowEntityContactDamage` config options for Ender Dragon Pets (all default false)
-- Added `CanSwim`, `PreventSuffocation`, and `PreventDaylightBurn` config options for Pets that swim, suffocate on land, or burn in daylight
-- Added `PreventDryOut` config option for Axolotl Pets (default true)
-- Added `PreventSuffocation` config option for Nautilus Pets (default true)
-- Added `PreventNaturalGrowup` config option for baby Pets (default true)
-- Added `PreventProfessionChange` config option for Villager Pets (default true)
-- Added `AllowLeafDestruction` config option for Ravager Pets (default false)
-- Added `AllowLightningVariantFlip` config option for Mooshroom Pets (default false)
-- Added `AllowLightningConversion` config options for Pig and Villager Pets (default false)
-- Added `CanGiveMilk` config option for Goat Pets
-- Added `CanDropScute` config option for Turtle Pets
-- Added `Can-Shed-Scute` config option for Armadillo Pets
-- Added `Can-Drop-Slimeball` config option for sneezing baby Panda Pets
-- Added `Can-Drop-Horn` config option for Goat Pets
-- Added `Can-Dig-Seeds` config option for Sniffer Pets
-- Added `CanHurtPlayersOnContact` config option for Slime and Magma Cube Pets (default false)
-- Added `harness:<color>` creation option for Happy Ghast Pets
-- Added `variant` creation option for Salmon Pets
-- Added `oxidation` and `waxed` creation options for Copper Golem Pets
+**Added**
 
-#### Changed
-- Pets are now real vanilla mobs - the NMS entity system was replaced with Bukkit spawning and Paper's Mob Goal API
-- MyPet now requires Paper (or a derivative), Minecraft 1.20.5+, and Java 21
-- Replaced the command system with Paper's Brigadier Commands API
-- Replaced legacy `&` color codes with MiniMessage (`<green>`, `<gradient>`, hover/click events, …) everywhere - existing files are migrated automatically
-- Replaced all messaging with Adventure Components and the Keyle NBT library with Adventure NBT
-- Pets now save their exact entity state (armor, stats, variants, and more) on capture, store, and release, preventing Pet data loss
-- Each Pet now spawns with its species' vanilla health unless overridden by a config value or skill
-- Per-pet creation options now take string names - `variant:lucy` for Axolotl, `profession:armorer` for Villager, `collar:red` for Cat/Wolf, etc.
-- Horse Pet `variant:` creation option split into `color:` and `style:`
-- Tropical Fish Pet `variant:` creation option split into `pattern:`, `body-color:`, and `pattern-color:`
-- Cat Pet creation option renamed from `type:` to `variant:`
-- Snow Golem Pet `sheared` creation option renamed to `derp`
-- `/petadmin create` now aborts with a clear error when an option value isn't recognized for the chosen Pet type
-- A Pet now receives a default name when the `name:` argument is given with no value
-- Default Pet names are now resolved from Mojang's vanilla entity translations in the creator's language
-- Renamed the `CanGlide` config option for flying Pets to `CanFly` (old configs are migrated)
-- Replaced the `WillShake` config option with `AllowZombification` for Hoglin, Piglin, and Piglin Brute Pets (default false)
-- Replaced the dead Snow Golem `FixSnowTrack` config option with `DisableSnowTrack` (default true)
-- Renamed `/petsettings idle-volume` to `/petsettings volume` and broadened its scope from ambient-only sounds to every sound a Pet emits
-- Removed the Javascript experience calculator in favor of new experience modes (linear, power, exponential)
-- The `MyPet.experience.multiplier` permission now accepts any integer instead of 6 hardcoded tiers (e.g. `.183` for 1.83x)
-- Ender Dragon Pets no longer require ProtocolLib
-- Required libraries are now downloaded on startup through the server's library downloader
-- Updated all hook dependencies to their latest versions; replaced the Factions hook with FactionsUUID and the Kingdoms hook with KingdomsX
-- Miscellaneous performance improvements across the plugin
+* Added `/pet` - a single-screen pet management menu with 17 buttons (rename, call, info, stay, auto-respawn, send-away, store, switch, trade, release, choose-skilltree, skilltree-info, backpack, behavior, pickup, stop-attacking, volume)
+* Added a completely new GUI system - every menu has been rebuilt, and menu layouts are customizable via JSON definitions
+* Added `/mypet editor` - a browser-based live editor for config.yml, pet-config.yml, exp-config.yml, pet shops, skilltrees, and locale files; skills are provided by the server so third-party skills appear automatically
+* Added a Pet volume slider GUI - opens from `/petsettings volume` or the volume button in `/pet`, with five presets at 0/25/50/75/100%
+* Added `Volume-Control` and `Volume-Mode` (per-owner or per-player) flags to `hooks-config.yml` under each packet adapter's section
+* Added support for Nautilus, Zombie Nautilus, Happy Ghast, Camel Husk, and Parched Pets
+* Added support for custom Pet types through BetterModel (recommended), ModelEngine, ItemsAdder, and MythicMobs
+* Added support for custom model overlays for Pets through BetterModel (recommended), ModelEngine, and ItemsAdder
+* Added ten new skills: Mining, Lumberjack, Fishing, Sniff, Potion, Toolbox, Taunt, Armor, Climb, and Camouflage
+* Added a "climb" upgrade to the Ride skill
+* Added 124 new default skilltrees with an ascension play style
+* Added skilltree ascension - ascending is free, bypasses `MyPet.Skilltree.ChooseOnce`, and skilltree Weight can be set per pet type
+* Added `/petride` - mounts your active Pet (requires the Ride skill unless `RequireRideSkill` is disabled)
+* Added `/petride driver|passengers allow|disallow` - lets Pet owners opt in to other players riding their Pet
+* Added `/petinv` as an alias for `/petinventory`
+* Added `/petadmin switch (user)` GUI for switching another player's active Pet
+* Added per-command admin permissions
+* Added support for Folia servers
+* Added support for WorldGuard-Folia
+* Added automatic migration from MyPet 3 - configs, Pets and their inventories, skilltrees, locale files, pet shops, and the database schema are all converted on first startup (including legacy color codes → MiniMessage)
+* Added an auto-updater for users downloading releases from BuiltByBit and dev builds from Discord
+* Added the `%mypet_exp_current%` and `%mypet_exp_max%` placeholders for a Pet's level progress
+* Added the `%mypet_owns_pet%` placeholder for whether a player owns any Pet, active or stored
+* Added support for the golden dandelion freezing a Pet's aging (Minecraft 26.1+)
+* Added `OverrideFlySpeed` (default false) and `FlySpeed` config options per Pet type
+* Added riding config options for naturally rideable Pets: `RequireRideSkill` (default true), `RequireRideItem` (default true), `AllowNonOwnerPrimaryMount` (default false), `AllowNonOwnerSecondaryMount` for multi-passenger Pets (default true), `RequireSaddle` (default false), and `AllowNonOwnerSaddle` (default false)
+* Added `AllowFlintAndSteelExplode`, `AllowNonOwnerFlintAndSteel`, `AllowExplosionBlockDamage`, `AllowExplosionEntityDamage`, and `AllowLightningPower` config options for Creeper Pets (all default false)
+* Added `GrantEndAdvancementOnKill`, `AllowBlockDamage`, `AllowPlayerContactDamage`, and `AllowEntityContactDamage` config options for Ender Dragon Pets (all default false)
+* Added `CanSwim`, `PreventSuffocation`, and `PreventDaylightBurn` config options for Pets that swim, suffocate on land, or burn in daylight
+* Added `PreventDryOut` config option for Axolotl Pets (default true)
+* Added `PreventSuffocation` config option for Nautilus Pets (default true)
+* Added `PreventNaturalGrowup` config option for baby Pets (default true)
+* Added `PreventProfessionChange` config option for Villager Pets (default true)
+* Added `AllowLeafDestruction` config option for Ravager Pets (default false)
+* Added `AllowLightningVariantFlip` config option for Mooshroom Pets (default false)
+* Added `AllowLightningConversion` config options for Pig and Villager Pets (default false)
+* Added `CanGiveMilk` config option for Goat Pets
+* Added `CanDropScute` config option for Turtle Pets
+* Added `Can-Shed-Scute` config option for Armadillo Pets
+* Added `Can-Drop-Slimeball` config option for sneezing baby Panda Pets
+* Added `Can-Drop-Horn` config option for Goat Pets
+* Added `Can-Dig-Seeds` config option for Sniffer Pets
+* Added `CanHurtPlayersOnContact` config option for Slime and Magma Cube Pets (default false)
+* Added `harness:<color>` creation option for Happy Ghast Pets
+* Added `variant` creation option for Salmon Pets
+* Added `oxidation` and `waxed` creation options for Copper Golem Pets
 
-#### Fixed (from MyPet 3)
-- Fixed Ender Dragon Pets being unable to follow their owner
-- Fixed Ender Dragon Pets being unrideable
-- Fixed Armadillo Pets moving while scared on 1.21.5+
-- Fixed the Angry leash flag only working for Wolves
-- Fixed the Zone-Messages config option for the Beacon skill
-- Fixed Pets stepping on pressure plates being checked against WorldGuard's INTERACT region flag at the owner's location instead of the Pet's own
-- Starvation damage from the hunger system is now reported as its own named damage source instead of an unnamed generic one
+**Changed**
 
-#### Removed
-- Removed support for Bukkit/Spigot servers (Paper and derivatives only)
-- Removed support for server versions below 1.20.5
-- Removed support for MongoDB databases
-- Removed support for no-permissions mode (aka OP-only mode)
-- Removed the legacy permission system
-- Removed support for legacy item IDs
-- Removed the 5 classic skilltrees (replaced by the 124 new built-in skilltrees)
-- Removed the `Skip-Target-AI-Ticks` config option
-- Removed the Copper Golem `OxidationTime` config option (vanilla now controls oxidation cadence)
-- Removed the `Update.ReplaceOld` config option
-- Removed the `noshake` creation option for Hoglin, Piglin, and Piglin Brute Pets - zombification immunity is controlled by the `AllowZombification` config option
-- Removed the `has-stung` creation option for Bee Pets
-- Removed hooks for discontinued or outdated plugins: AncientRPG, BossShopPro, FabledSkyblock, GangsPlus, GriefPreventionPlus, MagicSpells, Minigames, MobStacker (both versions), NoCheatPlus, PreciousStones, PvPDiffTimer, SkillAPI, WorldGuardCustomFlags, mcMMO v1, MythicMobs v4, WorldGuard v6, and pre-v6 PlotSquared
+* Pets are now real vanilla mobs - the NMS entity system was replaced with Bukkit spawning and Paper's Mob Goal API
+* MyPet now requires Paper (or a derivative), Minecraft 1.20.5+, and Java 21
+* Replaced the command system with Paper's Brigadier Commands API
+* Replaced legacy `&` color codes with MiniMessage (`<green>`, `<gradient>`, hover/click events, …) everywhere - existing files are migrated automatically
+* Replaced all messaging with Adventure Components and the Keyle NBT library with Adventure NBT
+* Pets now save their exact entity state (armor, stats, variants, and more) on capture, store, and release, preventing Pet data loss
+* Each Pet now spawns with its species' vanilla health unless overridden by a config value or skill
+* Per-pet creation options now take string names - `variant:lucy` for Axolotl, `profession:armorer` for Villager, `collar:red` for Cat/Wolf, etc.
+* Horse Pet `variant:` creation option split into `color:` and `style:`
+* Tropical Fish Pet `variant:` creation option split into `pattern:`, `body-color:`, and `pattern-color:`
+* Cat Pet creation option renamed from `type:` to `variant:`
+* Snow Golem Pet `sheared` creation option renamed to `derp`
+* `/petadmin create` now aborts with a clear error when an option value isn't recognized for the chosen Pet type
+* A Pet now receives a default name when the `name:` argument is given with no value
+* Default Pet names are now resolved from Mojang's vanilla entity translations in the creator's language
+* Renamed the `CanGlide` config option for flying Pets to `CanFly` (old configs are migrated)
+* Replaced the `WillShake` config option with `AllowZombification` for Hoglin, Piglin, and Piglin Brute Pets (default false)
+* Replaced the dead Snow Golem `FixSnowTrack` config option with `DisableSnowTrack` (default true)
+* Renamed `/petsettings idle-volume` to `/petsettings volume` and broadened its scope from ambient-only sounds to every sound a Pet emits
+* Removed the Javascript experience calculator in favor of new experience modes (linear, power, exponential)
+* The `MyPet.experience.multiplier` permission now accepts any integer instead of 6 hardcoded tiers (e.g. `.183` for 1.83x)
+* Ender Dragon Pets no longer require ProtocolLib
+* Required libraries are now downloaded on startup through the server's library downloader
+* Updated all hook dependencies to their latest versions; replaced the Factions hook with FactionsUUID and the Kingdoms hook with KingdomsX
+* Miscellaneous performance improvements across the plugin
 
-#### For developers
+**Fixed (from MyPet 3)**
+
+* Fixed Ender Dragon Pets being unable to follow their owner
+* Fixed Ender Dragon Pets being unrideable
+* Fixed Armadillo Pets moving while scared on 1.21.5+
+* Fixed the Angry leash flag only working for Wolves
+* Fixed the Zone-Messages config option for the Beacon skill
+* Fixed Pets stepping on pressure plates being checked against WorldGuard's INTERACT region flag at the owner's location instead of the Pet's own
+* Starvation damage from the hunger system is now reported as its own named damage source instead of an unnamed generic one
+
+**Removed**
+
+* Removed support for Bukkit/Spigot servers (Paper and derivatives only)
+* Removed support for server versions below 1.20.5
+* Removed support for MongoDB databases
+* Removed support for no-permissions mode (aka OP-only mode)
+* Removed the legacy permission system
+* Removed support for legacy item IDs
+* Removed the 5 classic skilltrees (replaced by the 124 new built-in skilltrees)
+* Removed the `Skip-Target-AI-Ticks` config option
+* Removed the Copper Golem `OxidationTime` config option (vanilla now controls oxidation cadence)
+* Removed the `Update.ReplaceOld` config option
+* Removed the `noshake` creation option for Hoglin, Piglin, and Piglin Brute Pets - zombification immunity is controlled by the `AllowZombification` config option
+* Removed the `has-stung` creation option for Bee Pets
+* Removed hooks for discontinued or outdated plugins: AncientRPG, BossShopPro, FabledSkyblock, GangsPlus, GriefPreventionPlus, MagicSpells, Minigames, MobStacker (both versions), NoCheatPlus, PreciousStones, PvPDiffTimer, SkillAPI, WorldGuardCustomFlags, mcMMO v1, MythicMobs v4, WorldGuard v6, and pre-v6 PlotSquared
+
+**For developers**
+
 MyPet 4.0 is a **breaking API release**. The highlights:
 
-- Pet-related API classes and events were renamed from `MyPet____` to `Pet____` (e.g. `MyPetInfo` → `PetInfo`, `MyPetManager` → `PetManager`, `MyPet*Event` → `Pet*Event`)
-- The global `Configuration` class is gone - plugin-wide config values are `ConfigKey<?>` fields on `MyPetGlobal`, and per-pet config flags are `ConfigKey<?>` fields on each `PetXxx` class
-- Third-party plugins can register custom skills, and per-pet event handlers/lifecycle hooks via `PetBehavior` and `PetLifecycleHook`
-- Registration methods (`registerSkill`/`Requirement`/`LeashFlag`/`Hook`) now throw `IllegalArgumentException` on invalid input instead of failing silently
-- The public API surface was reduced and javadocs were added to most API methods; API builds are published as `4.0.0` on the UserDerezzed repository
+* Pet-related API classes and events were renamed from `MyPet____` to `Pet____` (e.g. `MyPetInfo` → `PetInfo`, `MyPetManager` → `PetManager`, `MyPet*Event` → `Pet*Event`)
+* The global `Configuration` class is gone - plugin-wide config values are `ConfigKey<?>` fields on `MyPetGlobal`, and per-pet config flags are `ConfigKey<?>` fields on each `PetXxx` class
+* Third-party plugins can register custom skills, and per-pet event handlers/lifecycle hooks via `PetBehavior` and `PetLifecycleHook`
+* Registration methods (`registerSkill`/`Requirement`/`LeashFlag`/`Hook`) now throw `IllegalArgumentException` on invalid input instead of failing silently
+* The public API surface was reduced and javadocs were added to most API methods; API builds are published as `4.0.0` on the UserDerezzed repository
 
-The full migration guide is on the wiki: **Developer Guide → [Migrating from MyPet 3](https://wiki.mypet-plugin.de/developer-guide/migrating-from-v3)**
+The full migration guide is on the wiki: **Developer Guide →** [**Migrating from MyPet 3**](https://wiki.mypet-plugin.de/developer-guide/migrating-from-v3)
 
 Thanks for choosing MyPet!
