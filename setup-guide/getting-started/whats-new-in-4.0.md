@@ -61,7 +61,7 @@ Five new species can now be tamed: **Nautilus, Zombie Nautilus, Happy Ghast, Cam
 
 Beyond vanilla mobs, MyPet 4.0 supports **custom-model Pets** through BetterModel (recommended), ModelEngine, ItemsAdder, and MythicMobs, plus custom model _overlays_ on top of regular Pets. Your server's custom bosses and creatures can now be Pets.
 
-**MyPet 4 includes two custom model Pets - the Capybara and the Chameleon!** These are provided by [HeavenCreations](whats-new-in-4.0.md#a-complete-rewrite), huge thanks to them. (above gifs are not to scale)
+**MyPet 4 includes two custom model Pets - the Capybara and the Chameleon!** These are provided by [HeavenCreations](https://builtbybit.com/creators/heavencreations.326565/), huge thanks to them. (above gifs are not to scale)
 
 Riding got a major upgrade: the new **`/petride`** command mounts your active Pet, and owners can use `/petride driver|passengers allow|disallow` to let **other players** ride along, with new per-pet config options (`RequireRideSkill`, `RequireRideItem`, `RequireSaddle`, non-owner mount permissions) so server owners control exactly who can ride what. Flying Pets get tuned, configurable flight speeds (`OverrideFlySpeed`/`FlySpeed`).
 
