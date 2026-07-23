@@ -48,6 +48,7 @@
 ## Skilltree Creation
 
 * [What are Skilltrees?](skilltree-creation/what-are-skilltrees.md)
+* [Default Skilltrees](skilltree-creation/default-skilltrees.md)
 * [Creating Custom Skilltrees](skilltree-creation/creating-custom-skilltrees/README.md)
   * [Properties](skilltree-creation/creating-custom-skilltrees/properties.md)
   * [Appearance](skilltree-creation/creating-custom-skilltrees/appearance.md)

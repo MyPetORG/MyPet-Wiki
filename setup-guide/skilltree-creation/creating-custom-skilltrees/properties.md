@@ -20,4 +20,15 @@ For example, if `Skilltree A` is our _parent_ skilltree and `Skilltree B` is our
 
 ### Weight
 
-The Skilltree `Weight` determines which skilltree should take precedence in the event of a conflict.
+The Skilltree `Weight` sets the relative probability of this skilltree being picked when a skilltree is assigned randomly (`MyPet.Skilltree.RandomAssignment` in [config.yml](../../getting-started/configuration/config.yml.md#skilltree)). Higher values make the tree more likely; the default is `1.0`.
+
+Since MyPet 4 the weight can also differ per pet type by writing a map instead of a number in the `.st.json` file:
+
+```json
+"Weight": {
+  "Default": 2.0,
+  "Horse": 3.0
+}
+```
+
+`Default` applies to every pet type without an explicit entry. The Configurator's Weight field currently edits the single-number form; per-type weights are maintained directly in the file.

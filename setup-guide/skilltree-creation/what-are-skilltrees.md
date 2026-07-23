@@ -9,6 +9,12 @@ icon: list-tree
 
 The Skilltree mechanism is a feature that allows Pets to learn Skills as they level up. You can think of Skilltrees like player classes (Archer, Swordsman, Wizard, etc.) but for Pets.&#x20;
 
+MyPet 4 ships with [124 default skilltrees](default-skilltrees.md) arranged as a two-tier "Ascension Ladder". They are ordinary skilltrees built with the features described on these pages - fully customizable, and the ascension design itself is optional.
+
+{% content-ref url="default-skilltrees.md" %}
+[default-skilltrees.md](default-skilltrees.md)
+{% endcontent-ref %}
+
 ### Skilltrees (.st.json)
 
 This is a skilltree file. Every skilltree has its own file, which must be in proper json format and placed in the `plugins/MyPet/skilltrees` directory in your Minecraft server.

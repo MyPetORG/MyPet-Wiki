@@ -338,6 +338,9 @@ Below are the available settings, their types and descriptions.
 * ChooseOnce
   * Type: boolean
   * Description: Enable this if players shouldn't be able to pick another skilltree once the pet has a skilltree.
+* FreeAscension
+  * Type: boolean
+  * Description: If `true` (default), _ascending_ - switching into a skilltree whose `Skilltree` requirement lists the pet's current skilltree - is free: no `SwitchFee` is charged and `ChooseOnce` does not block it. Used by the level-20 ascension of the [default skilltrees](../../skilltree-creation/default-skilltrees.md).
 * PreventLevellingWithout
   * Type: boolean
   * Description: Pets without a skilltree will not gain XP if it is set to `true`.
