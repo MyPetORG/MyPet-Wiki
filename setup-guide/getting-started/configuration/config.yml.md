@@ -114,13 +114,35 @@ Below are the available settings, their types and descriptions.
   * Description: Set the level at which the messages will be logged to the file. [All possible log levels](https://docs.oracle.com/javase/7/docs/api/java/util/logging/Level.html#field_summary).
 * #### Report-Errors:
   * Type: boolean
-  * Description: If enabled all errors that occur are reported automatically.
+  * Default: true
+  * Description: If enabled, errors caused by MyPet are automatically reported to the developers using [Sentry](https://sentry.io), an externally hosted error-tracking service. Set this to `false` to switch error reporting off completely — nothing is then sent anywhere. The change takes effect after a server restart.
 * #### Unique-ID
   * Type: string
   * Description: This is used to identify different users for the error reporter. This will allow the devs to see how many servers have the same problem.
 
 {% hint style="warning" %}
 ❗ DO NOT CHANGE THE UNIQUE-ID STRING ❗
+{% endhint %}
+
+#### What is sent to Sentry
+
+Error reporting is **enabled by default**. Only errors that MyPet is actually involved in are reported.
+
+When such an error occurs, the report contains:
+
+* The exception itself: type, message and full stack trace
+* Recent log messages leading up to the error (breadcrumbs)
+* The `Unique-ID` from this config, used as an anonymous server identifier
+* The MyPet version and build number, and whether it is a release or dev build
+* The server brand and version (Paper, Spigot, Purpur, CraftBukkit, …), the Minecraft version and the Java version
+* The storage backend in use (e.g. SQLite, MySQL)
+* The number of currently active pets
+* A list of all installed plugins with their versions, and the MyPet hooks that are active
+
+Player names and UUIDs are not collected deliberately, but note that they can still appear incidentally inside an exception message or a captured log line.
+
+{% hint style="info" %}
+Keeping this enabled helps the developers spot and fix bugs that affect many servers.
 {% endhint %}
 
 ***
