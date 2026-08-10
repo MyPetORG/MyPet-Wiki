@@ -25,6 +25,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       CanGlide: true
 ```
 
@@ -172,6 +173,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -217,6 +219,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -440,6 +443,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -462,6 +466,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -571,6 +576,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -594,6 +600,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -660,6 +667,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -748,6 +756,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: bread
 ```
 
@@ -793,6 +802,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -817,6 +827,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -932,6 +943,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -1070,6 +1082,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       WillShake: false
       GrowUpItem: experience_bottle
 ```
@@ -1093,6 +1106,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       WillShake: false
       GrowUpItem: experience_bottle
 ```
@@ -1116,6 +1130,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -1294,6 +1309,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -1315,6 +1331,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -1445,6 +1462,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -1577,6 +1595,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       CanGlide: true
 ```
 
@@ -1599,6 +1618,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -1621,6 +1641,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -1729,6 +1750,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
 ```
 
 </details>
@@ -1797,6 +1819,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -1819,6 +1842,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -1841,6 +1865,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 
@@ -1863,6 +1888,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
 ```
 

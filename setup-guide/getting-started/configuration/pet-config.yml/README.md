@@ -67,10 +67,18 @@ Small changes have a massive impact on the speed.
 * Type: boolean
 * Description: Whether or not the pet is released on death.
 
+{% hint style="info" %}
+**Since 4.0.1, a pet released on death drops its equipment.** Any armor or weapon the pet was wearing — gear it kept from taming (see [`RetainEquipmentOnTame`](#retainequipmentontame)), gear a horse or llama was given, or gear another plugin set through the API — now drops as items where the pet died. Previously this never happened: the drop was attempted, but an internal check could never pass for an already-dead pet, so the equipment was silently lost.
+{% endhint %}
+
 #### `RemoveAfterRelease`
 
 * Type: boolean
 * Description: Whether or not the Mob is deleted after the pet is released.
+
+{% hint style="info" %}
+This setting decides **where a released pet's equipment ends up**. Left at `false`, the pet becomes a live wild mob that keeps wearing its gear. Set to `true`, the mob is deleted and the gear drops as items instead. See [`RetainEquipmentOnTame`](#retainequipmentontame).
+{% endhint %}
 
 ### Specific Settings
 
@@ -141,6 +149,31 @@ These settings only apply to specific pet-types.
 * Type: int
 * Description: The time it takes for the pet to progress to the next oxidation level.
 * Restrictions: This setting can only be used with the `CopperGolem` pet.
+
+#### `RetainEquipmentOnTame`
+
+* Type: boolean
+* Default: `true`
+* Description: When true, a wild mob leashed into a pet keeps the armor and weapons it was wearing, and that gear becomes the pet's own equipment — it stays with the pet, and it drops when the pet dies or is released. When false, those slots are emptied as the mob is tamed and the items drop on the ground where it stood.
+* Restrictions: This setting can only be used with pet-types that can wear equipment.
+
+{% hint style="info" %}
+Only the slots a pet-type actually supports are touched. A `Fox` carries an item in its mouth, a `Zombie` wears the full humanoid set — anything the mob was wearing in a slot its pet-type doesn't support is left exactly as it is, whichever way you set this.
+
+Vanilla per-slot drop chances play no part: if the gear is visible on the mob, taming keeps it (or drops it). There is no roll.
+{% endhint %}
+
+{% hint style="warning" %}
+**Releasing a pet does not normally drop its gear — that is expected.**
+
+With the default [`RemoveAfterRelease: false`](#removeafterrelease), `/petrelease` turns the pet back into a living wild mob, and that mob walks away **still wearing** the equipment. Nothing lands on the ground, because nothing was taken away.
+
+Only with `RemoveAfterRelease: true` is the mob itself removed, and then the equipment drops as items at the release location. Either way the gear is never destroyed — it is on the mob or on the floor.
+{% endhint %}
+
+{% hint style="info" %}
+**Pets created by other plugins are not affected by this setting.** A pet adopted from MythicMobs or a similar source plugin always keeps the gear that plugin gave it, whatever `RetainEquipmentOnTame` is set to. The setting applies to leash taming only.
+{% endhint %}
 
 #### `WillShake`
 
@@ -310,7 +343,7 @@ Animations are **best-effort**: if a named animation isn't present in the model,
 
 ### Release behavior
 
-What happens when a player uses `/mypet release` depends on how the pet was created:
+What happens when a player uses `/petrelease` depends on how the pet was created:
 
 * **Re-skinned vanilla pet (Path A):** releases as the underlying vanilla mob, same as always. The model is removed.
 * **Rendered custom creature (Path B — ModelEngine/BetterModel/ItemsAdder):** a wild mob is left behind still wearing the model, so it can be re-leashed back into the same pet.

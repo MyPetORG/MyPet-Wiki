@@ -118,6 +118,12 @@ The entire `api.entity.types` subpackage is gone. It previously held the canonic
 
 v4 also introduces new marker interfaces in `api.entity` with no 3.x equivalent: `PetNaturallyRideable` (any pet that can be ridden out-of-the-box like horses or camels) and `PetMultiPassenger` (pets that seat more than one rider, like camels and happy ghasts). `PetSaddleable` was widened to cover the new rideables in addition to its original 3.x members.
 
+{% hint style="warning" %}
+**Since 4.0.1, `PetEquipment` extends `Pet`.** This lets the interface read its own per-type configuration (it added a `retainEquipmentOnTame()` default method backed by [`RetainEquipmentOnTame`](../setup-guide/getting-started/configuration/pet-config.yml/#retainequipmentontame)), and it matches the other config-reading markers such as `PetBaby`.
+
+Every pet type MyPet ships is already a `Pet`, so nothing changes for them. If your own plugin implements `PetEquipment` on a class that is **not** a `Pet`, it will no longer compile — implement `Pet` as well, or move the equipment handling onto your pet class.
+{% endhint %}
+
 ### `MyPetApi` facade
 
 | 3.x | 4.0 |

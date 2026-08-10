@@ -43,11 +43,6 @@ Below are the available settings, their types and descriptions.
 * Type: boolean
 * Description: Makes the pet invisible when the owner has the `Invisible` effect. Does not affect vanished players.
 
-### RetainEquipmentOnTame
-
-* Type: boolean
-* Description: Allows mobs to keep their equipment after leashed (based on the default MC drop chance).
-
 ### FollowStartDistance
 
 * Type: double
