@@ -71,7 +71,7 @@ cd MyPet-APIExamplePlugin
 
 Output JAR: `build/libs/MyPetAPIExample-1.0.0.jar`.
 
-Because `4.0.0-SNAPSHOT` is a moving version, Gradle caches it for 24 hours. To pick up a freshly-published API change immediately, run `./gradlew build --refresh-dependencies`.
+Because `4.0.1-SNAPSHOT` is a moving version, Gradle caches it for 24 hours. To pick up a freshly-published API change immediately, run `./gradlew build --refresh-dependencies`.
 
 ## Running
 

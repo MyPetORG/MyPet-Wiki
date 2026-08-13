@@ -77,7 +77,7 @@ The API jar is provided by the MyPet plugin at runtime, so it must be declared a
 ```kotlin
 dependencies {
     // Provided by the MyPet plugin at runtime — do not shade.
-    compileOnly("de.keyle:mypet-api:4.0.0-SNAPSHOT")
+    compileOnly("de.keyle:mypet-api:4.0.1-SNAPSHOT")
 }
 ```
 {% endtab %}
@@ -86,7 +86,7 @@ dependencies {
 ```groovy
 dependencies {
     // Provided by the MyPet plugin at runtime — do not shade.
-    compileOnly 'de.keyle:mypet-api:4.0.0-SNAPSHOT'
+    compileOnly 'de.keyle:mypet-api:4.0.1-SNAPSHOT'
 }
 ```
 {% endtab %}
@@ -98,7 +98,7 @@ dependencies {
     <dependency>
         <groupId>de.keyle</groupId>
         <artifactId>mypet-api</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>4.0.1-SNAPSHOT</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
