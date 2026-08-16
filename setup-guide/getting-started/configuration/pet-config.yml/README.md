@@ -80,6 +80,53 @@ Small changes have a massive impact on the speed.
 This setting decides **where a released pet's equipment ends up**. Left at `false`, the pet becomes a live wild mob that keeps wearing its gear. Set to `true`, the mob is deleted and the gear drops as items instead. See [`RetainEquipmentOnTame`](#retainequipmentontame).
 {% endhint %}
 
+### Brain Settings
+
+Modern Minecraft mobs run their AI from a vanilla "brain" rather than the older goal system. MyPet strips goal-based AI automatically, but brain AI has to be switched off explicitly — this is that switch. It only exists on pet-types whose underlying mob is brain-driven.
+
+#### `Brain.Disabled`
+
+* Type: list of strings
+* Description: Vanilla brain AI to switch off for this pet-type.
+
+```yaml
+MyPet:
+  Pets:
+    PiglinBrute:
+      Brain:
+        Disabled:
+        - activity:idle
+        - activity:fight
+```
+
+Each entry is one of two kinds:
+
+* `activity:<name>` — switches off a whole group of brain behaviours at once, e.g. `activity:fight` removes all fighting behaviour. Names are lowercase: `core`, `idle`, `fight`, `avoid`, `admire_item`, `celebrate`, `ride`. Not every pet-type has every activity.
+* `behavior:<Name>` — switches off one specific named behaviour, e.g. `behavior:SonicBoom`. Use this when an `activity:` group would be too broad.
+
+**Pet-types with this key:** `PiglinBrute`, `Piglin`, `Hoglin`, `Zoglin`, `Warden`, `Villager`, `Camel`, `CamelHusk`, `CopperGolem`, `Allay`, `Armadillo`, `Axolotl`, `Breeze`, `Creaking`, `Frog`, `Goat`, `HappyGhast`, `Nautilus`, `Sniffer`, `Tadpole`, `ZombieNautilus`. Other pet-types don't run on a brain, so this key has no effect for them even if added by hand.
+
+**Defaults:**
+
+| Pet type | Default |
+|---|---|
+| `PiglinBrute`, `Piglin`, `Hoglin`, `Zoglin` | `activity:idle`, `activity:fight` |
+| `Warden` | `behavior:Roar`, `behavior:SonicBoom`, `behavior:Emerging`, `behavior:Digging` |
+| `Villager` | `behavior:SleepInBed` |
+| `Camel`, `CamelHusk` | `behavior:RandomSitting` |
+| `CopperGolem` | `behavior:TransportItemsBetweenContainers` |
+| all other brain pets | empty |
+
+{% hint style="info" %}
+**Changes apply when the pet spawns.** `/mypet reload config` reloads the value straight away, but a pet that is already spawned keeps its current AI until it is called back out (or its owner rejoins) and spawns again.
+{% endhint %}
+
+{% hint style="warning" %}
+**Clearing the list for `PiglinBrute`, `Piglin`, `Hoglin`, or `Zoglin` restores their vanilla hostility, and the pet will attack its owner.** That is the setting working as intended, not a bug — leave the defaults in place unless you want that behavior back.
+{% endhint %}
+
+An entry that doesn't match any known activity or behaviour for the pet-type isn't silently ignored — it's reported as a warning in the server log, naming the pet-type and the entry, so a typo is visible instead of doing nothing.
+
 ### Specific Settings
 
 These settings only apply to specific pet-types.
