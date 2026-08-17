@@ -39,7 +39,12 @@ This will allow server owners to set the food and leash items (and some other it
 
 ### Item generators
 
-You can create any item you want but sometimes MyPet will not recognize these items. This happens because the item comparison is very strict in MyPet. To make it easier to set up config items the plugin now has the `/petadmin info item` command. This command will output the item you are currently holding in your main hand to the server logs (don't copy from console). Copy and paste this output to your config and it should work fine.
+You can create any item you want but sometimes MyPet will not recognize these items. This happens because the item comparison is very strict in MyPet. To make it easier to set up config items the plugin has the `/petadmin info item` command. Hold the item in your main hand, run the command, and click one of the two buttons in the output to copy it to your clipboard:
+
+* **\[Copy]** gives the material name (`SHEARS`) — matches any item of that type.
+* **\[Copy with NBT]** gives the full component string (`. minecraft:shears[minecraft:damage=6]`) — matches only that exact item, including its name, lore, enchantments and damage.
+
+Paste the copied value into your config and it should work fine. Run the command as a player, not from the console.
 
 You can use item generators from various sites like these:
 

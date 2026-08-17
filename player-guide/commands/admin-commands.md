@@ -137,7 +137,12 @@ Create a ZIP file with info needed for developer support.
 
 **info item**
 
-Log the item you’re holding, including NBT data. Useful for configuring items in MyPet config.
+Show the item you’re holding, with two clipboard buttons for pasting it into a MyPet config:
+
+* **\[Copy]** — the material name (`SHEARS`). Matches any item of that type, which is what you usually want for leash, food, ride and control items — a partly worn tool still counts.
+* **\[Copy with NBT]** — the full component string (`. minecraft:shears[minecraft:damage=6]`). Use it when the item must match exactly, including custom name, lore, enchantments and damage.
+
+Both formats can be pasted straight into `config.yml`, `pet-config.yml`, or a skilltree drop pool.
 
 ```
 /petadmin info item

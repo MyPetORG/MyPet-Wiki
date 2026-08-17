@@ -20,7 +20,7 @@ Each entry in `drops` has four fields:
 
 | Field       | Type    | Meaning                                                                        |
 | ----------- | ------- | ------------------------------------------------------------------------------- |
-| `item`      | item    | The item to drop — either a `minecraft:…` item/data-component string, or a `base64:…` code copied from `/petadmin info item` (see below). |
+| `item`      | item    | The item to drop — a material name (`SHEARS`), a `minecraft:…` item/data-component string, or a `. minecraft:…[…]` string copied from `/petadmin info item` (see below). |
 | `weight`    | integer | Relative odds of this entry being picked, ≥1. Equal weights across entries mean a uniform random pick. |
 | `amountMin` | integer | Minimum stack size dropped, ≥1.                                                 |
 | `amountMax` | integer | Maximum stack size dropped, ≥ `amountMin`.                                      |
@@ -29,7 +29,9 @@ Drop entries are cumulative: an entry added at one level stays in the pool at ev
 
 ### Capturing an exact item <a href="#capture" id="capture"></a>
 
-To grant an item with a custom name, lore, or enchantments, hold it in your main hand and run [`/petadmin info item`](../../../../player-guide/commands/admin-commands.md#petadmin) — click the **\[Copy]** button on the output to copy the item's exact `base64:…` string to your clipboard, then paste it as the `item` value.
+To grant an item with a custom name, lore, or enchantments, hold it in your main hand and run [`/petadmin info item`](../../../../player-guide/commands/admin-commands.md#petadmin) — click the **\[Copy with NBT]** button on the output to copy the item's full component string (e.g. `. minecraft:shears[minecraft:damage=6]`) to your clipboard, then paste it as the `item` value.
+
+The other button, **\[Copy]**, gives just the material name (`SHEARS`). Use that one when any item of that type will do; use **\[Copy with NBT]** when the drop has to carry its exact name, lore, enchantments, or damage.
 
 ```json
 "Sniff": {
