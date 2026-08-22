@@ -131,6 +131,21 @@ An entry that doesn't match any known activity or behaviour for the pet-type isn
 
 These settings only apply to specific pet-types.
 
+#### `AllowMetamorphosis`
+
+* Type: boolean
+* Default: `false`
+* Description: When true, a `Tadpole` pet is allowed to mature into a `Frog` pet on vanilla's growth timer. When false, that timer is frozen and the pet stays a `Tadpole` indefinitely.
+* Restrictions: This setting can only be used with the `Tadpole` pet.
+
+{% hint style="warning" %}
+**Maturing is permanent, and it changes the pet's type.**
+
+The pet itself survives — it keeps its name, level, experience, skill state and owner, and the same pet is simply now a `Frog`. But it is a `Frog` from then on: it uses `Frog` settings from this file, `Frog` permissions, and `Frog` skilltrees. A `Tadpole`-only skilltree such as ✦ Metamorphosis no longer applies to it.
+
+This is why the default is `false`. Leave it off if players on your server pick a `Tadpole` expecting to keep one.
+{% endhint %}
+
 #### `CanBeSheared`
 
 * Type: boolean
