@@ -104,7 +104,7 @@ Each entry is one of two kinds:
 * `activity:<name>` — switches off a whole group of brain behaviours at once, e.g. `activity:fight` removes all fighting behaviour. Names are lowercase: `core`, `idle`, `fight`, `avoid`, `admire_item`, `celebrate`, `ride`. Not every pet-type has every activity.
 * `behavior:<Name>` — switches off one specific named behaviour, e.g. `behavior:SonicBoom`. Use this when an `activity:` group would be too broad.
 
-**Pet-types with this key:** `PiglinBrute`, `Piglin`, `Hoglin`, `Zoglin`, `Warden`, `Villager`, `Camel`, `CamelHusk`, `CopperGolem`, `Allay`, `Armadillo`, `Axolotl`, `Breeze`, `Creaking`, `Frog`, `Goat`, `HappyGhast`, `Nautilus`, `Sniffer`, `Tadpole`, `ZombieNautilus`. Other pet-types don't run on a brain, so this key has no effect for them even if added by hand.
+**Pet-types with this key:** `PiglinBrute`, `Piglin`, `Hoglin`, `Zoglin`, `Warden`, `Villager`, `Camel`, `CamelHusk`, `CopperGolem`, `Allay`, `Armadillo`, `Axolotl`, `Breeze`, `Creaking`, `Frog`, `Goat`, `HappyGhast`, `Nautilus`, `Sniffer`, `SulfurCube`, `Tadpole`, `ZombieNautilus`. Other pet-types don't run on a brain, so this key has no effect for them even if added by hand.
 
 **Defaults:**
 
@@ -146,11 +146,31 @@ The pet itself survives — it keeps its name, level, experience, skill state an
 This is why the default is `false`. Leave it off if players on your server pick a `Tadpole` expecting to keep one.
 {% endhint %}
 
+#### `AllowShearing`
+
+* Type: boolean
+* Default: `false`
+* Description: When true, players may use shears on a `SulfurCube` pet to extract the block it has absorbed. When false, the interaction is cancelled.
+* Restrictions: This setting can only be used with the `SulfurCube` pet.
+
+{% hint style="danger" %}
+**Shearing a sulfur cube kills it.**
+
+In vanilla, shears pop the absorbed block out as an item *and* kill the cube. On a pet that means any player holding shears — not just the owner — can destroy someone's pet in a single click. That is why this defaults to `false`.
+{% endhint %}
+
 #### `CanBeSheared`
 
 * Type: boolean
 * Description: When true and when wool is present, gives wool when right clicked shears.
 * Restrictions: This setting can only be used with the `Sheep` pet.
+
+#### `CanExplode`
+
+* Type: boolean
+* Default: `false`
+* Description: When true, a `SulfurCube` pet that has absorbed TNT (the explosive archetype) is allowed to detonate when ignited. When false, the explosion is cancelled and the fuse is cleared, so the ignition does not re-fire on the following tick.
+* Restrictions: This setting can only be used with the `SulfurCube` pet.
 
 #### `CanGlide`
 
