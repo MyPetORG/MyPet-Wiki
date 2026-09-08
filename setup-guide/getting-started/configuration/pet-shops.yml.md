@@ -31,7 +31,7 @@ Below is the structure and types for entries in `pet-shops.yml`.
         * Price (double): The price the player has to pay in order to get the pet
         * Skilltree (string): The skilltree the pet will have
         * PetType (string): The mob type of the pet
-        * Options (list of strings): These work exactly like the parameters for the `pet create` admin command
+        * Options (list of strings): These work exactly like the parameters for the `pet create` admin command. Options that change the mob itself (`baby`, `variant:`, `saddle`, …) are skipped for [source-driven custom creatures](../systems/custom-pet-models.md) such as MythicMobs pets — see the note below.
 
 ## Example template
 
@@ -67,3 +67,4 @@ shops:
   from the console, a command block, or a menu plugin button (`petshop <shop-id> %player%`).
   It requires `mypet.command.shop.other` for player senders, and does not require the
   target to hold `mypet.shop.access.<shop-id>`.
+* `Options:` entries that change the mob (`baby`, `variant:`, `saddle`, `tamed`, …) do nothing when `PetType` is a [MythicMobs custom creature](../systems/custom-pet-models.md), because MythicMobs spawns the entity rather than MyPet. `Skilltree:` and `Name:` still apply. The server log names any option that was skipped at checkout.

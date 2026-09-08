@@ -61,6 +61,12 @@ Players get one the same three ways as any custom creature:
 
 When the player later releases it, **it turns back into the real MythicMob** — its own AI, abilities, drops, and model intact, not a bare vanilla animal.
 
+{% hint style="warning" %}
+**Creation parameters that change the host mob are ignored for MythicMobs creatures.** MythicMobs — not MyPet — spawns the entity, so parameters such as `baby`, `variant:`, `saddle`, or `tamed` have nothing to apply to and are skipped; the server log lists which ones were dropped. `skilltree:` and `name:` still work, because those are MyPet's own pet data rather than properties of the mob. Set the creature's appearance in its MythicMobs config instead.
+
+This applies to the `Options:` list in [`pet-shops.yml`](../configuration/pet-shops.yml.md) as well, and to **any** custom creature whose `Model.Provider` plugin is not currently installed.
+{% endhint %}
+
 To allow taming, set `Disable-Leashing: false` in the `MythicMobs:` section of `hooks-config.yml`.
 
 ## The six methods
