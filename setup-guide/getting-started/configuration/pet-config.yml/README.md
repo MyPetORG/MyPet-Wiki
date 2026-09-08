@@ -317,6 +317,10 @@ MyPet:
 * Required: Yes (for custom creatures)
 * Description: The vanilla mob type whose movement, pathfinding, and physics the creature inherits. A flying host (e.g. `Phantom`, `Allay`) makes the pet fly; a swimming host makes it swim. Changing `Host:` requires a server restart. For `Provider: MythicMobs`, set `Host:` to the MythicMob's own base vanilla entity (a Phantom-based boss → `Host: Phantom`) — MyPet spawns/rebuilds from that type.
 
+{% hint style="success" %}
+**MyPet bundles two models you can use here right away** — `Id: capybara` and `Id: chameleon`, with `Provider: BetterModel` or `ModelEngine`. Reference one and MyPet copies the `.bbmodel` out of its own jar into that plugin's folder on load; you never install a model file. They are models, not ready-made pet types, so you still write the section below — and the bundled skilltrees expect the section to be named exactly `Capybara` / `Chameleon`. See [Bundled Models — Capybara & Chameleon](../../systems/bundled-pet-models.md).
+{% endhint %}
+
 {% hint style="info" %}
 **Skills for custom creatures** are granted through **skilltrees** — list the creature's type name in a skilltree's eligible mob types, exactly like vanilla pet types. There is no skill list directly in the creature definition.
 {% endhint %}

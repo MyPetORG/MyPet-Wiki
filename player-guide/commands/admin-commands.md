@@ -94,10 +94,15 @@ Notes:
 * Not usable when the player already has an active pet.
 * Use `-f` to force creation even if the player has a pet.
 * Use TAB to see valid parameters for the selected pettype.
+* `<pettype>` is namespaced: vanilla types use `minecraft:` (`minecraft:wolf`), custom creatures defined in `pet-config.yml` use `mypet:` (`mypet:capybara`, `mypet:frostdragon`). The bare name (`wolf`) also works. TAB-completion lists every registered type in its full namespaced form.
 
 ```
 /petadmin create [-f] <ownername> <pettype> [parameter]
+/petadmin create Notch minecraft:wolf
+/petadmin create Notch mypet:capybara
 ```
+
+A `mypet:` type only exists once you have defined it as a [custom creature](../../setup-guide/getting-started/systems/custom-pet-models.md) — including MyPet's [bundled Capybara and Chameleon models](../../setup-guide/getting-started/systems/bundled-pet-models.md), which need a `pet-config.yml` section before they can be created.
 
 **clone**
 

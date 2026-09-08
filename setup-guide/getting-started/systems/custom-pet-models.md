@@ -25,6 +25,12 @@ You need exactly **one** of the following rendering plugins installed:
 
 If none of these are installed, MyPet behaves exactly as it does without this feature — everything is additive and provider-gated.
 
+## Two models come with MyPet
+
+MyPet 4 bundles two finished BlockBench models in the jar — **`capybara`** and **`chameleon`**. You do not download or install them: reference `Id: capybara` (or `chameleon`) with `Provider: BetterModel` or `ModelEngine`, and MyPet copies the `.bbmodel` into that plugin's folder on load.
+
+They are **models, not ready-made pet types** — you still define the creature once (Path B below), which also lets you pick its host, HP, and speed. Step-by-step, including the exact `pet-config.yml` section and the names the bundled skilltrees expect: [Bundled Models — Capybara & Chameleon](bundled-pet-models.md).
+
 ## Three ways to get a modeled pet
 
 ### Path A — Re-skin existing pets (easiest)
