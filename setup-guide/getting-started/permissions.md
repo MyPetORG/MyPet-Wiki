@@ -184,6 +184,15 @@ pet:
 | `mypet.command.skill.other` | `/petskill <player>` |
 | `mypet.command.inventory.other` | `/petinventory <player>` |
 | `mypet.command.sendaway.other` | `/petsendaway <player>` |
+| `mypet.command.shop.other` | `/petshop <shopname> <player>` — open a shop **for** another player |
+
+{% hint style="info" %}
+`mypet.command.shop.other` is the only node in this table that also works from the
+console and from command blocks, where no sender permission is checked at all. That
+is what lets a GUI plugin open a pet shop with `petshop <shopname> %player%`. The
+player it is opened for does not need `mypet.shop.access.<shopname>` — the sender's
+permission is the authorization.
+{% endhint %}
 
 ### Notification node
 

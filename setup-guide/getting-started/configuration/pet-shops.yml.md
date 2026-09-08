@@ -63,3 +63,7 @@ shops:
 * Each shop must have a unique `<shop-id>`.
 * Each pet item inside a shop must have a unique `<id>`.
 * Open a shop with: `/petshop <shop-id>`.
+* Open a shop **for someone else** with: `/petshop <shop-id> <player>` — the form to use
+  from the console, a command block, or a menu plugin button (`petshop <shop-id> %player%`).
+  It requires `mypet.command.shop.other` for player senders, and does not require the
+  target to hold `mypet.shop.access.<shop-id>`.

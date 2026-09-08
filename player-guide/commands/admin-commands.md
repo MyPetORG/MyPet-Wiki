@@ -232,6 +232,12 @@ These nodes allow a player to run standard pet commands targeting another player
 | `MyPet.command.skill.other`        | `/petskill <player>`         |
 | `MyPet.command.inventory.other`    | `/petinventory <player>`     |
 | `MyPet.command.sendaway.other`     | `/petsendaway <player>`      |
+| `MyPet.command.shop.other`         | `/petshop <shopname> <player>` |
+
+`MyPet.command.shop.other` is the odd one out: rather than acting on the target's
+pet, it opens a **shop** for them. It is also the only one of these that is usable
+from the console and from command blocks, which is what menu plugins need to run
+`petshop <shopname> %player%` on a button click.
 
 #### Capability / bypass nodes
 

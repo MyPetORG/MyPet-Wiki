@@ -351,18 +351,31 @@ Sends your pet away. You can call it back with `/petcall`.
 
 Opens a GUI that shows available pet shops.
 
-{% include "../.gitbook/includes/player-only-command-no-console.md" %}
-
 #### Usage
 
 ```
-/petshop [shopname]
+/petshop [shopname] [player]
 ```
 
 #### Aliases
 
 * `/petsh`
 * `/psh`
+
+#### Notes
+
+* `/petshop` and `/petshop <shopname>` are **player-only** — the console has no shop to
+  open for itself.
+* `/petshop <shopname> <player>` opens that shop **for another player**, and *is* usable
+  from the console, from command blocks, and from GUI plugins that dispatch a console
+  command such as `petshop all %player%`. It needs `mypet.command.shop.other` when a
+  player runs it; console and command-block senders are always allowed.
+* The target of `/petshop <shopname> <player>` does **not** need
+  `mypet.shop.access.<shopname>` — the sender's permission is the authorization. That is
+  what lets a custom menu open a shop for players who hold no MyPet shop permissions at
+  all. Players opening a shop for themselves still need the access node.
+* Shop names are single words (they are also used to build the
+  `mypet.shop.access.<shopname>` permission node).
 
 ***
 
