@@ -90,4 +90,4 @@ If you are upgrading a server that used it:
 * The `exp.js` and `rhino.jar` files in your `MyPet` folder are no longer read by the plugin and can be deleted.
 * To keep a similar curve, match your old script to a mode: a flat cost per level is `Linear`, a cost that accelerates is `Power`, and a percentage increase per level is `Exponential`.
 
-If you had a script that none of the modes can reproduce, please tell us about it on [Discord](http://discord.mypet-plugin.de/) in the help channel.
+If you had a script that none of the modes can reproduce, please tell us about it on [Discord](https://discord.gg/GtcdWFw) in the help channel.
