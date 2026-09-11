@@ -182,6 +182,6 @@ MyPet 4.0 is a **breaking API release**. The highlights:
 * Registration methods (`registerSkill`/`Requirement`/`LeashFlag`/`Hook`) now throw `IllegalArgumentException` on invalid input instead of failing silently
 * The public API surface was reduced and javadocs were added to most API methods; API builds are published as `4.0.0` on the UserDerezzed repository
 
-The full migration guide is on the wiki: **Developer Guide →** [**Migrating from MyPet 3**](https://wiki.mypet-plugin.de/developer-guide/migrating-from-v3)
+The full migration guide is on the wiki: **Developer Guide →** [**Migrating from MyPet 3**](https://wiki.mypet-plugin.com/developer-guide/migrating-from-v3)
 
 Thanks for choosing MyPet!

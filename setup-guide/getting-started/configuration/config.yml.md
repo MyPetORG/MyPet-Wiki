@@ -267,10 +267,10 @@ Keeping this enabled helps the developers spot and fix bugs that affect many ser
 
 * Enabled
   * Type: boolean
-  * Description: Disable the use of permissions and fall back to the OP permission system. (https://wiki.mypet-plugin.de/setup/permissions)
+  * Description: Disable the use of permissions and fall back to the OP permission system. (https://wiki.mypet-plugin.com/setup/permissions)
 * Extended
   * Type: boolean
-  * Description: Enable if you want to use some additional permissions: https://wiki.mypet-plugin.de/setup/permissions#extended-mypet-permissions
+  * Description: Enable if you want to use some additional permissions: https://wiki.mypet-plugin.com/setup/permissions#extended-mypet-permissions
 * Legacy
   * Type: boolean
   * Description: Set to true to use permissions nodes from versions prior to MyPet 3.0. Not recommended.
@@ -459,7 +459,7 @@ Keeping this enabled helps the developers spot and fix bugs that affect many ser
   * Description: The global XP modifier. 1.0 equals 100% XP; 2.0 equals 200% XP.
 * Use-Permissions
   * Type: boolean
-  * Description: If true, the modifier can be changed via permissions too. See: https://wiki.mypet-plugin.de/setup/permissions
+  * Description: If true, the modifier can be changed via permissions too. See: https://wiki.mypet-plugin.com/setup/permissions
 
 ***
 

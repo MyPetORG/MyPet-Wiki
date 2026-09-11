@@ -9,9 +9,9 @@ Pet Storage allows you to store additional pets and activate them later as neede
 
 ### What uses the storage?
 
-* The pet [shop](https://wiki.mypet-plugin.de/misc/premium).
-* The `/petstore` and `/petswitch` [commands](https://wiki.mypet-plugin.de/setup/commands).
-* The `mypet-storage`-Citizens trait of [MyPet-NPC](https://wiki.mypet-plugin.de/hooks/npc).
+* The pet [shop](https://wiki.mypet-plugin.com/misc/premium).
+* The `/petstore` and `/petswitch` [commands](https://wiki.mypet-plugin.com/setup/commands).
+* The `mypet-storage`-Citizens trait of [MyPet-NPC](https://wiki.mypet-plugin.com/hooks/npc).
 * All pets obtained by ways other than taming them.
 
 ### How can I limit the amount of pets a player can store?

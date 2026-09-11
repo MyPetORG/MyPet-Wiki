@@ -23,4 +23,4 @@ A custom _region flag,_ `mypet-fly,` can be used to prevent or allow flying in [
 
 ### Demonstration <a href="#demonstration" id="demonstration"></a>
 
-![](https://wiki.mypet-plugin.de/~gitbook/image?url=https%3A%2F%2F3869790376-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LXhRZyUgDZpPIQrYK1o%252F-LXxVYSycZFQoBs4DWCN%252F-LXxWEem_pP_elRMPHEA%252Fride.gif%3Falt%3Dmedia%26token%3Dacdaa844-8fcb-4ad6-b62c-5853d91e84eb\&width=768\&dpr=4\&quality=100\&sign=d9f000a8\&sv=2)
+![](https://wiki.mypet-plugin.com/~gitbook/image?url=https%3A%2F%2F3869790376-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LXhRZyUgDZpPIQrYK1o%252F-LXxVYSycZFQoBs4DWCN%252F-LXxWEem_pP_elRMPHEA%252Fride.gif%3Falt%3Dmedia%26token%3Dacdaa844-8fcb-4ad6-b62c-5853d91e84eb\&width=768\&dpr=4\&quality=100\&sign=d9f000a8\&sv=2)

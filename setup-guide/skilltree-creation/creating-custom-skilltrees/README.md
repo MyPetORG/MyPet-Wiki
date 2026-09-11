@@ -7,7 +7,7 @@ icon: layer-plus
 
 Skilltrees were designed to be customized to fit the needs of the server running MyPet. Because of this, the [MyPet Configurator](../../configurator/) includes a visual skilltree editor, which reads and writes the `.st.json` files used by the plugin.
 
-To get started, run `/mypet editor` in-game and open the link it gives you, then select `Skilltrees` in the sidebar. See [Opening a Session](../../configurator/opening-a-session.md) for the full walkthrough, or [try the demo](https://editor.mypet-plugin.de/#demo) to explore with example data and no server.
+To get started, run `/mypet editor` in-game and open the link it gives you, then select `Skilltrees` in the sidebar. See [Opening a Session](../../configurator/opening-a-session.md) for the full walkthrough, or [try the demo](https://editor.mypet-plugin.com/#demo) to explore with example data and no server.
 
 ## Skilltree Canvas
 

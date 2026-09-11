@@ -17,7 +17,7 @@ Every world is in a _World-group_ and every player can have one active pet per _
 There are two methods you could use to disable pets in specific worlds:
 
 * The simplest method is to include worlds under a `Disabled:` key in `worldgroups.yml`, as shown [below](world-groups.md#disable-worlds).
-* You can also put the world(s) into a new world-group (you can call the group whatever you want, for example `nopets`). Then remove (or don't add) the leash [permissions](https://wiki.mypet-plugin.de/setup/permissions) from these worlds. Now no new pets can be created and no pets can enter this world.
+* You can also put the world(s) into a new world-group (you can call the group whatever you want, for example `nopets`). Then remove (or don't add) the leash [permissions](https://wiki.mypet-plugin.com/setup/permissions) from these worlds. Now no new pets can be created and no pets can enter this world.
 
 ### Installation
 

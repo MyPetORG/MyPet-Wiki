@@ -51,4 +51,4 @@ The [Skilltrees](../skilltree-creation/creating-custom-skilltrees/) editor works
 
 ## Trying it without a server
 
-Open [https://editor.mypet-plugin.de/#demo](https://editor.mypet-plugin.de/#demo), or click `Try the demo` on the Configurator's start screen. This loads example data locally so you can explore every editor. Nothing is saved, and no server is involved.
+Open [https://editor.mypet-plugin.com/#demo](https://editor.mypet-plugin.com/#demo), or click `Try the demo` on the Configurator's start screen. This loads example data locally so you can explore every editor. Nothing is saved, and no server is involved.

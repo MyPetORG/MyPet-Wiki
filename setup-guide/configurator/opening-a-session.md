@@ -77,9 +77,9 @@ The relevant settings live in the `config.yml` under `MyPet.WebEditor`:
 | Setting        | Default                           | Description                                                |
 | -------------- | --------------------------------- | ---------------------------------------------------------- |
 | `Enabled`      | `true`                            | Set to `false` to disable `/mypet editor` entirely.        |
-| `EditorUrl`    | `https://editor.mypet-plugin.de`  | The Configurator to link to. Change this if you self-host. |
-| `BytebinUrl`   | `https://bytebin.mypet-plugin.de` | Relay used to transfer your configuration to the browser.  |
-| `BytesocksUrl` | `wss://bytesocks.mypet-plugin.de` | Relay used for the live connection back to the server.     |
+| `EditorUrl`    | `https://editor.mypet-plugin.com`  | The Configurator to link to. Change this if you self-host. |
+| `BytebinUrl`   | `https://bytebin.mypet-plugin.com` | Relay used to transfer your configuration to the browser.  |
+| `BytesocksUrl` | `wss://bytesocks.mypet-plugin.com` | Relay used for the live connection back to the server.     |
 
 If the editor is disabled, `/mypet editor` replies with `The MyPet web editor is disabled in the server config.`
 
