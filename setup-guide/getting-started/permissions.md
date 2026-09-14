@@ -51,17 +51,47 @@ Granting `mypet.player` gives a player the standard toolkit:
 Other player command nodes (`mypet.command.switch`, `mypet.command.store`,
 `mypet.command.info.other`) are declared separately and can be granted as needed.
 
+### Pet menu buttons (`/pet`)
+
+Some buttons in the `/pet` menu are shown only to players with a matching node.
+These nodes are **not** in the `mypet.player` bundle and are not declared by the
+plugin, so they are `default: op` — grant them explicitly to show the button to
+normal players.
+
+| Node | Shows the button |
+| ---- | ---------------- |
+| `mypet.command.call` | Call |
+| `mypet.command.stay` | Stay |
+| `mypet.command.sendaway` | Send away |
+| `mypet.command.trade` | Trade (also required to appear in another player's trade-target list) |
+| `mypet.command.chooseskilltree` | Choose skilltree |
+| `mypet.command.behavior` | Behavior (only when the pet has the Behavior skill) |
+| `mypet.command.pickup` | Pickup (only when the pet has the Pickup skill) |
+| `mypet.command.inventory` | Backpack (only when the pet has the Backpack skill) |
+
+These nodes only control the menu buttons; the matching slash commands do not
+check them. The Rename, Switch, Release, and Store buttons use the command nodes
+listed above (`mypet.command.name`, `mypet.command.switch`,
+`mypet.command.release`, `mypet.command.store`).
+
 ### Extended permissions
 
 **Extended permissions are _not_ part of the `mypet.player` bundle** — grant them
 explicitly to unlock the matching capability. This lets you sell/gate features
 per rank.
 
+{% hint style="info" %}
+Extended permissions are only checked when `MyPet.Permissions.Extended` is `true`
+in [config.yml](configuration/config.yml.md) (default `false`). While it is
+`false`, every player can use these features without the nodes.
+{% endhint %}
+
 | Node | Grants |
 | ---- | ------ |
-| `mypet.extended.feed` | Feed pets. |
+| `mypet.extended.feed` | Declared by the plugin, but currently has no effect — nothing checks it. |
 | `mypet.extended.equip` | Equip pets. |
 | `mypet.extended.beacon` | Open the beacon GUI. |
+| `mypet.extended.toolbox` | Open the Toolbox skill's workstations (`/pettoolbox` and the `/pet` menu's Toolbox button). |
 | `mypet.extended.inventory` | Open the pet's inventory (backpack). |
 | `mypet.extended.ride` | Mount pets. |
 | `mypet.extended.ride.fly` | Fly the pet while riding. |
@@ -119,6 +149,17 @@ The number of pets a player may **store** is capped by their highest
 | `mypet.petstorage.limit.*` | `default: op` · granted by `mypet.admin` · store the configured maximum (unlimited tier). |
 
 See [Pet Storage](systems/pet-storage.md) for the full explanation.
+
+### Pet shops
+
+Neither node is in the `mypet.player` bundle; both are `default: op`.
+
+| Node | Effect |
+| ---- | ------ |
+| `mypet.shop.access.<shopname>` | Open the shop `<shopname>` with `/petshop <shopname>`. Grant `mypet.shop.access.*` for every shop. |
+| `mypet.shop.storage` | Buy a pet while you already have an active pet. Without it, the purchase is refused until your current pet is stored or released. |
+
+See [pet-shops.yml](configuration/pet-shops.yml.md) for defining shops.
 
 ### Skilltree access
 
