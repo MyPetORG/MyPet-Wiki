@@ -1,0 +1,213 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: MyPet
+  structure:
+    - type: section
+      key: section-1
+      title: Home
+      path: home
+      description: ""
+      icon: house
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Home
+          path: home
+          default: true
+          content:
+            directory: ./en/home
+            language: en
+        - type: space
+          key: space-6
+          title: Home (DE)
+          path: home-de
+          content:
+            directory: ./de/home
+            language: de
+        - type: space
+          key: space-10
+          title: Home (ES)
+          path: home-es
+          content:
+            directory: ./es/home
+            language: es
+        - type: space
+          key: space-11
+          title: Home (ZH)
+          path: home-zh
+          content:
+            directory: ./zh-home
+            language: zh
+        - type: space
+          key: space-12
+          title: Home (FR)
+          path: home-fr
+          content:
+            directory: ./fr/home
+            language: fr
+        - type: space
+          key: space-13
+          title: Home (IT)
+          path: home-it
+          content:
+            directory: ./it/home
+            language: it
+        - type: space
+          key: space-14
+          title: Home (PT)
+          path: home-pt
+          content:
+            directory: ./pt/home
+            language: pt
+        - type: space
+          key: space-15
+          title: Home (RU)
+          path: home-ru
+          content:
+            directory: ./ru/home
+            language: ru
+        - type: space
+          key: space-16
+          title: Home (PT-BR)
+          path: home-pt-br
+          content:
+            directory: ./pt-br/home
+            language: pt-br
+        - type: space
+          key: space-17
+          title: Home (JA)
+          path: home-ja
+          content:
+            directory: ./ja/home
+            language: ja
+        - type: space
+          key: space-18
+          title: Home (ZH-TW)
+          path: home-zh-tw
+          content:
+            directory: ./zh-tw/home
+            language: zh-tw
+        - type: space
+          key: space-19
+          title: Home (YUE)
+          path: home-yue
+          content:
+            directory: ./yue/home
+            language: yue
+        - type: space
+          key: space-20
+          title: Home (KO)
+          path: home-ko
+          content:
+            directory: ./kohome
+            language: ko
+        - type: space
+          key: space-21
+          title: Home (AR)
+          path: home-ar
+          content:
+            directory: ./ar/home
+            language: ar
+        - type: space
+          key: space-22
+          title: Home (HI)
+          path: home-hi
+          content:
+            directory: ./hi/home
+            language: hi
+        - type: space
+          key: space-23
+          title: Home (NL)
+          path: home-nl
+          content:
+            directory: ./nl/home
+            language: nl
+        - type: space
+          key: space-24
+          title: Home (PL)
+          path: home-pl
+          content:
+            directory: ./pl/home
+            language: pl
+    - type: section
+      key: section-4
+      title: Player Guide
+      path: player-guide
+      icon: paw-simple
+      children:
+        - type: space
+          key: space-4
+          title: Player Guide
+          path: player-guide
+          default: true
+          content:
+            directory: ./en/player-guide
+        - type: space
+          key: space-7
+          title: Player Guide (DE)
+          path: player-guide-de
+          draft: true
+          content:
+            directory: ./de/player-guide
+            language: de
+    - type: section
+      key: section-2
+      title: Setup Guide
+      path: setup-guide
+      description: ""
+      icon: gears
+      children:
+        - type: space
+          key: space-2
+          title: Setup Guide
+          path: documentation
+          default: true
+          content:
+            directory: ./en/setup-guide
+            language: en
+        - type: space
+          key: space-8
+          title: Setup Guide (DE)
+          path: setup-guide-de
+          draft: true
+          content:
+            directory: ./de/setup-guide
+            language: de
+    - type: section
+      key: section-3
+      title: Developer Guide
+      path: developer-guide
+      description: ""
+      icon: square-terminal
+      children:
+        - type: space
+          key: space-3
+          title: Developer Guide
+          path: api-reference
+          default: true
+          content:
+            directory: ./en/developer-guide
+            language: en
+        - type: space
+          key: space-9
+          title: Developer Guide (DE)
+          path: developer-guide-de
+          draft: true
+          content:
+            directory: ./de/developer-guide
+            language: de
+    - type: section
+      key: section-5
+      title: MyPet 3
+      path: mypet-3
+      description: ""
+      icon: paw
+      children:
+        - type: space
+          key: space-5
+          title: MyPet 3
+          path: untitled
+          default: true
+          content:
+            directory: ./en/mypet-3
