@@ -194,6 +194,19 @@ This is why the default is `false`. Leave it off if players on your server pick 
 * Description: When true, allows the Iron Golem to toss up its target similar to vanilla behavior.
 * Restrictions: This setting can only be used with the `IronGolem` pet.
 
+#### `CurseNearbyPlayers`
+
+* Type: boolean
+* Default: `false`
+* Description: When true, an `ElderGuardian` pet keeps vanilla's curse pulse — roughly once a minute it shows the elder guardian jumpscare, plays the curse sound, and applies Mining Fatigue II for 5 minutes. When false, the pulse is cancelled entirely.
+* Restrictions: This setting can only be used with the `ElderGuardian` pet.
+
+{% hint style="warning" %}
+**The curse hits everyone nearby, not just the owner.**
+
+Vanilla's pulse reaches every player in survival mode within 50 blocks of the guardian. On a pet that means a single `ElderGuardian` parked in a shared base, shop or spawn area repeatedly gives Mining Fatigue to everyone who walks past — which is why this defaults to `false`.
+{% endhint %}
+
 #### `FixSnowTrack`
 
 * Type: boolean
