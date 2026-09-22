@@ -137,6 +137,8 @@ Both bundled models already use MyPet's default animation names — `spawn`, `de
 | The `.bbmodel` never appears in the provider folder | The installer only runs for `Provider: BetterModel` or `ModelEngine`. `ItemsAdder` and `MythicMobs` are skipped by design. |
 | Console: `duplicates the model of '<other>'` | Two sections use the same `Provider` + `Id`. A model is a creature's identity, so only one type may claim `capybara`. |
 | Pet has no skilltrees to choose | The section is not named exactly `Capybara` / `Chameleon`, or you replaced the bundled skilltrees. Add your type name to a tree's eligible mob types. |
+| You cannot ride the pet — you and it move around separately | The installed `.bbmodel` has no `mount` bone. MyPet's own copies declare one; if you edited yours, MyPet leaves it alone and says so in the console. Add a `mount` bone, or delete the file and restart to take MyPet's copy. See [Riding](custom-pet-models.md#riding). |
+| Console: `Updated bundled model '<id>'` | Expected on upgrade. MyPet replaced a bundled model it had installed itself with the newer one it now ships. Models you have edited are never touched. |
 
 ## See also
 
