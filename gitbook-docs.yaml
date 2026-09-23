@@ -143,14 +143,6 @@ site:
           default: true
           content:
             directory: ./en/player-guide
-        - type: space
-          key: space-7
-          title: Player Guide (DE)
-          path: player-guide-de
-          draft: true
-          content:
-            directory: ./de/player-guide
-            language: de
     - type: section
       key: section-2
       title: Setup Guide
@@ -166,14 +158,6 @@ site:
           content:
             directory: ./en/setup-guide
             language: en
-        - type: space
-          key: space-8
-          title: Setup Guide (DE)
-          path: setup-guide-de
-          draft: true
-          content:
-            directory: ./de/setup-guide
-            language: de
     - type: section
       key: section-3
       title: Developer Guide
@@ -189,14 +173,6 @@ site:
           content:
             directory: ./en/developer-guide
             language: en
-        - type: space
-          key: space-9
-          title: Developer Guide (DE)
-          path: developer-guide-de
-          draft: true
-          content:
-            directory: ./de/developer-guide
-            language: de
     - type: section
       key: section-5
       title: MyPet 3
