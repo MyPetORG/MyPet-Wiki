@@ -27,10 +27,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       CanGlide: true
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -53,10 +50,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -79,13 +73,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - guardian
-      - elder_guardian
-      - drowned
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -110,10 +98,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -149,10 +134,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
       CanGlide: true
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -175,12 +157,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -203,12 +180,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wolf
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -231,12 +203,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -262,10 +229,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -288,10 +252,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -313,12 +274,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -343,12 +299,7 @@ These are the default settings for each My-Pet type. For information on what eac
       CanGlide: true
       CanLayEggs: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - fox
-      - ocelot
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -370,12 +321,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - fox
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -399,10 +345,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       CanOxidize: true
       OxidationTime: 24000
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -426,10 +369,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       CanGiveMilk: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -451,10 +391,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - snow_golem
-      - wither
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -476,12 +413,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -505,10 +437,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -534,10 +463,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -561,12 +487,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -590,13 +511,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -619,12 +534,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -646,12 +556,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -673,13 +578,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - enderman
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -702,12 +601,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -732,12 +626,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - wither
-      - wolf
-      - polar_bear
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -759,10 +648,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -787,12 +673,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -815,12 +696,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -842,13 +718,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - guardian
-      - elder_guardian
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -870,10 +740,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -895,13 +762,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -929,10 +790,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: bread
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -956,13 +814,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       WillShake: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - piglin
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -986,11 +838,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1015,12 +863,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1043,25 +886,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanTossUp: true
-      DisabledWildAttackers:
-      - wither
-      - wither_skeleton
-      - zombie
-      - husk
-      - zombie_villager
-      - drowned
-      - skeleton
-      - stray
-      - bogged
-      - slime
-      - magma_cube
-      - pillager
-      - vindicator
-      - evoker
-      - illusioner
-      - ravager
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1086,10 +911,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1113,13 +935,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - frog
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1143,10 +959,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
       CanGiveStew: false
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1172,10 +985,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1201,10 +1011,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1229,10 +1036,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1256,10 +1060,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1282,11 +1083,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1309,10 +1106,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1337,13 +1131,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RetainEquipmentOnTame: true
       WillShake: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - wither_skeleton
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1368,13 +1156,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RetainEquipmentOnTame: true
       WillShake: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - wither_skeleton
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1397,12 +1179,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1425,10 +1202,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1450,12 +1224,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - fox
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1480,13 +1249,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - wolf
-      - fox
-      - cat
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1509,12 +1272,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1538,12 +1296,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - fox
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1568,11 +1321,7 @@ These are the default settings for each My-Pet type. For information on what eac
       CanBeSheared: true
       CanRegrowWool: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - wolf
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1594,12 +1343,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1622,12 +1366,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wolf
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1651,10 +1390,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wolf
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1676,13 +1412,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - frog
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1705,10 +1435,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1732,10 +1459,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       FixSnowTrack: true
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1757,12 +1481,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1784,13 +1503,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - guardian
-      - elder_guardian
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1813,12 +1526,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wolf
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1841,10 +1549,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1868,12 +1573,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - fox
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1895,10 +1595,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1920,12 +1617,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - fox
-      - zoglin
-      - axolotl
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1948,22 +1640,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - wolf
-      - fox
-      - ocelot
-      - cat
-      - wither_skeleton
-      - zombie
-      - husk
-      - zombie_villager
-      - drowned
-      - skeleton
-      - stray
-      - bogged
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1989,12 +1666,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       CanGlide: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2018,19 +1690,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - zombie
-      - husk
-      - zombie_villager
-      - drowned
-      - pillager
-      - vindicator
-      - evoker
-      - illusioner
-      - ravager
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2053,12 +1713,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2082,11 +1737,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2108,19 +1759,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - wither
-      - zombie
-      - husk
-      - zombie_villager
-      - drowned
-      - pillager
-      - vindicator
-      - evoker
-      - illusioner
-      - ravager
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2142,12 +1781,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wither
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2170,13 +1804,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - piglin
-      - piglin_brute
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2199,14 +1827,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - wolf
-      - piglin
-      - piglin_brute
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2230,12 +1851,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - wither
-      - llama
-      - trader_llama
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2260,10 +1876,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2287,11 +1900,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2315,9 +1924,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2341,11 +1948,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -2369,11 +1972,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
-      DisabledWildAttackers:
-      - iron_golem
-      - snow_golem
-      - zoglin
-      - warden
+      EnabledWildAttackers: []
 ```
 
 </details>
