@@ -154,6 +154,14 @@ Both formats can be pasted straight into `config.yml`, `pet-config.yml`, or a sk
 /petadmin info item
 ```
 
+**list**
+
+List every pet a player owns, with the same hover details as `/petlist`. The player does not have to be online — any name the server has seen before works, so you can check a player's pets while they are away.
+
+```
+/petadmin list <ownername>
+```
+
 ***
 
 ### petinventory (admin)
