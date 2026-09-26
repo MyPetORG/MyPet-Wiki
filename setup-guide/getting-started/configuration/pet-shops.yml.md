@@ -21,6 +21,10 @@ Below is the structure and types for entries in `pet-shops.yml`.
 * Shops:
   * `<shop-id>`:
     * Name (string): The name that will be shown in the shop overview
+    * Position (integer): The order of the shop's icon in the `/petshop` selection menu, lowest first. Shops without a `Position` are listed after the positioned ones, in file order.
+    * Icon (section): The item shown for the shop in the selection menu.
+      * Material (string): The item type, e.g. `CHEST`. Default is `chest`.
+      * Glowing (boolean): Whether the item has the enchantment glint. Default is `false`.
     * Balance (string): Wallet type. Default is `Private`.
     * Pets:
       * `<id>`:
@@ -41,6 +45,10 @@ Below is the structure and types for entries in `pet-shops.yml`.
 shops:
   <shop-id>:
     Name: "<Shop Display Name>"
+    Position: 0
+    Icon:
+      Material: "CHEST"
+      Glowing: false
     Balance: "<wallet>"
     Pets:
       <id>:
