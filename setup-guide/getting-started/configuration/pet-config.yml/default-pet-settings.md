@@ -16,6 +16,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Allay:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -40,6 +41,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Armadillo:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - spider_eye
       LeashRequirements:
@@ -63,6 +65,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Axolotl:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - tropical_fish
       LeashRequirements:
@@ -88,6 +91,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Bat:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - spider_eye
       LeashRequirements:
@@ -111,6 +115,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Bee:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - poppy
       - dandelion
@@ -147,6 +152,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Blaze:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - gunpowder
       LeashRequirements:
@@ -170,6 +176,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Bogged:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -193,6 +200,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Breeze:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - gunpowder
       LeashRequirements:
@@ -218,6 +226,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Camel:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cod
       LeashRequirements:
@@ -242,6 +251,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Cat:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cod
       LeashRequirements:
@@ -265,6 +275,7 @@ These are the default settings for each My-Pet type. For information on what eac
     CaveSpider:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -287,6 +298,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Chicken:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - wheat_seeds
       LeashRequirements:
@@ -312,6 +324,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Cod:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - seagrass
       LeashRequirements:
@@ -334,6 +347,7 @@ These are the default settings for each My-Pet type. For information on what eac
     CopperGolem:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - copper_ingot
       LeashRequirements:
@@ -358,6 +372,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Cow:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - wheat
       LeashRequirements:
@@ -382,6 +397,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Creeper:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - gunpowder
       LeashRequirements:
@@ -404,6 +420,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Creaking:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - resin_clump
       LeashRequirements:
@@ -428,6 +445,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Dolphin:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cod
       LeashRequirements:
@@ -450,6 +468,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Donkey:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       - wheat
@@ -476,6 +495,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Drowned:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -502,6 +522,7 @@ These are the default settings for each My-Pet type. For information on what eac
     ElderGuardian:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       LeashRequirements:
@@ -524,6 +545,7 @@ These are the default settings for each My-Pet type. For information on what eac
     EnderDragon:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - end_stone
       LeashRequirements:
@@ -547,6 +569,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Enderman:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - soul_sand
       LeashRequirements:
@@ -569,6 +592,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Endermite:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       LeashRequirements:
@@ -591,6 +615,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Evoker:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -616,6 +641,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Fox:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sweet_berries
       LeashRequirements:
@@ -639,6 +665,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Frog:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - slime_ball
       LeashRequirements:
@@ -663,6 +690,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Ghast:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - gunpowder
       LeashRequirements:
@@ -686,6 +714,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Giant:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -709,6 +738,7 @@ These are the default settings for each My-Pet type. For information on what eac
     GlowSquid:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cod
       LeashRequirements:
@@ -731,6 +761,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Goat:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - wheat
       LeashRequirements:
@@ -753,6 +784,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Guardian:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       LeashRequirements:
@@ -777,6 +809,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Horse:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       - wheat
@@ -803,6 +836,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Hoglin:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - crimson_fungus
       LeashRequirements:
@@ -827,6 +861,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Husk:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -853,6 +888,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Illusioner:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -876,6 +912,7 @@ These are the default settings for each My-Pet type. For information on what eac
     IronGolem:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - iron_ingot
       LeashRequirements:
@@ -901,6 +938,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Llama:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - wheat
       LeashRequirements:
@@ -926,6 +964,7 @@ These are the default settings for each My-Pet type. For information on what eac
     MagmaCube:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - redstone
       LeashRequirements:
@@ -948,6 +987,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Mooshroom:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - wheat
       LeashRequirements:
@@ -972,6 +1012,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Mule:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       - wheat
@@ -1000,6 +1041,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Ocelot:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cod
       - salmon
@@ -1026,6 +1068,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Panda:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bamboo
       LeashRequirements:
@@ -1049,6 +1092,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Parrot:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cookie
       - sweet_berries
@@ -1073,6 +1117,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Phantom:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -1096,6 +1141,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Pig:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - carrot
       LeashRequirements:
@@ -1119,6 +1165,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Piglin:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - gold_nugget
       LeashRequirements:
@@ -1144,6 +1191,7 @@ These are the default settings for each My-Pet type. For information on what eac
     PiglinBrute:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - gold_nugget
       LeashRequirements:
@@ -1169,6 +1217,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Pillager:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -1192,6 +1241,7 @@ These are the default settings for each My-Pet type. For information on what eac
     PolarBear:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cod
       LeashRequirements:
@@ -1215,6 +1265,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Pufferfish:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - seagrass
       LeashRequirements:
@@ -1239,6 +1290,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Rabbit:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - carrot
       LeashRequirements:
@@ -1262,6 +1314,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Ravager:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - beef
       - mutton
@@ -1287,6 +1340,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Salmon:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - seagrass
       LeashRequirements:
@@ -1309,6 +1363,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Sheep:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - wheat
       LeashRequirements:
@@ -1334,6 +1389,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Silverfish:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       LeashRequirements:
@@ -1356,6 +1412,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Skeleton:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -1379,6 +1436,7 @@ These are the default settings for each My-Pet type. For information on what eac
     SkeletonHorse:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -1403,6 +1461,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Slime:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - sugar
       LeashRequirements:
@@ -1425,6 +1484,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Sniffer:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - torchflower_seeds
       LeashRequirements:
@@ -1448,6 +1508,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Snowman:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - carrot
       - snowball
@@ -1472,6 +1533,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Spider:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -1494,6 +1556,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Squid:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - cod
       LeashRequirements:
@@ -1516,6 +1579,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Stray:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -1539,6 +1603,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Strider:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -1588,6 +1653,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Tadpole:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - slime_ball
       LeashRequirements:
@@ -1610,6 +1676,7 @@ These are the default settings for each My-Pet type. For information on what eac
     TraderLlama:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - wheat
       LeashRequirements:
@@ -1632,6 +1699,7 @@ These are the default settings for each My-Pet type. For information on what eac
     TropicalFish:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - seagrass
       LeashRequirements:
@@ -1654,6 +1722,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Turtle:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - seagrass
       LeashRequirements:
@@ -1679,6 +1748,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Vex:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -1703,6 +1773,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Villager:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -1727,6 +1798,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Vindicator:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -1752,6 +1824,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Warden:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -1774,6 +1847,7 @@ These are the default settings for each My-Pet type. For information on what eac
     WanderingTrader:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - apple
       LeashRequirements:
@@ -1796,6 +1870,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Witch:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - mushroom_stew
       LeashRequirements:
@@ -1818,6 +1893,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Wither:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -1841,6 +1917,7 @@ These are the default settings for each My-Pet type. For information on what eac
     WitherSkeleton:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - bone
       LeashRequirements:
@@ -1864,6 +1941,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Wolf:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - beef
       - mutton
@@ -1890,6 +1968,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Zoglin:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - crimson_fungus
       LeashRequirements:
@@ -1913,6 +1992,7 @@ These are the default settings for each My-Pet type. For information on what eac
     Zombie:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -1937,6 +2017,7 @@ These are the default settings for each My-Pet type. For information on what eac
     ZombieHorse:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -1961,6 +2042,7 @@ These are the default settings for each My-Pet type. For information on what eac
     ZombifiedPiglin:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
@@ -1985,6 +2067,7 @@ These are the default settings for each My-Pet type. For information on what eac
     ZombieVillager:
       HP: 20.0
       Speed: 0.3
+      TeleportDistance: 32.0
       Food:
       - rotten_flesh
       LeashRequirements:
