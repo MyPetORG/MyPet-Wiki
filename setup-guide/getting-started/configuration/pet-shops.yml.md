@@ -21,6 +21,10 @@ Below is the structure and types for entries in `pet-shops.yml`.
 * Shops:
   * `<shop-id>`:
     * Name (string): The name that will be shown in the shop overview
+    * Position (integer): The order of the shop's icon in the `/petshop` selection menu, lowest first. Shops without a `Position` are listed after the positioned ones, in file order.
+    * Icon (section): The item shown for the shop in the selection menu.
+      * Material (string): The item type, e.g. `CHEST`. Default is `chest`.
+      * Glowing (boolean): Whether the item has the enchantment glint. Default is `false`.
     * Balance (string): Wallet type. Default is `Private`.
     * Pets:
       * `<id>`:
@@ -30,7 +34,7 @@ Below is the structure and types for entries in `pet-shops.yml`.
         * Exp (double): The XP the pet will have
         * Price (double): The price the player has to pay in order to get the pet
         * Skilltree (string): The skilltree the pet will have
-        * PetType (string): The mob type of the pet
+        * PetType (string): The mob type of the pet — a vanilla type name (`IronGolem`) or the section name of a [custom creature](../systems/custom-pet-models.md) from `pet-config.yml` (`Capybara`). An entry whose `PetType` is missing or not registered is left out of the shop, and the server log says which entry was skipped and why.
         * Options (list of strings): These work exactly like the parameters for the `pet create` admin command. Options that change the mob itself (`baby`, `variant:`, `saddle`, …) are skipped for [source-driven custom creatures](../systems/custom-pet-models.md) such as MythicMobs pets — see the note below.
 
 ## Example template
@@ -41,6 +45,10 @@ Below is the structure and types for entries in `pet-shops.yml`.
 shops:
   <shop-id>:
     Name: "<Shop Display Name>"
+    Position: 0
+    Icon:
+      Material: "CHEST"
+      Glowing: false
     Balance: "<wallet>"
     Pets:
       <id>:

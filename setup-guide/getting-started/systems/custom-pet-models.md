@@ -101,9 +101,21 @@ Every method now carries a `Model.Id`, so **`Model.Id` is not the discriminator*
 
 Across all six methods, MyPet plays a handful of **animations** on the model automatically — on spawn, despawn, sit/unsit, and attack. If your models name those animations the MyPet defaults (`spawn`, `despawn`, `sit`, `sit_loop`, `unsit`, `attack`) they work out of the box; otherwise you can remap the names per pet type. Walking, idling, and other movement animations are handled by the rendering plugin itself, not by MyPet. See [pet-config.yml → Model animations](../configuration/pet-config.yml/#model-animations) for the full list and how to override names.
 
+## Riding
+
+**A model needs a seat before a player can ride the pet wearing it.** Add a bone named `mount` to the model, positioned where the rider should sit.
+
+This is not a MyPet quirk — it is how the renderers work. Once ModelEngine, BetterModel or ItemsAdder draws a model on a pet, it stops sending the underlying vanilla mob to players' clients. A rider placed on that mob is riding something their client cannot see, so they and the pet appear to move around independently of each other. MyPet therefore seats riders on the model's own seat, which every one of those plugins provides, and every one of them requires the model to declare it.
+
+A model with no `mount` bone is not an error. Riding falls back to the old behaviour, and MyPet logs a one-line console notice naming the pet type, so a model that was never meant to be ridden costs nothing.
+
+The bundled Capybara and Chameleon models declare a `mount` bone. MyPet keeps them up to date: on startup it replaces a bundled model it installed itself with the current one, so an existing server picks up model changes on upgrade. A bundled model you have edited yourself is left alone — MyPet says so in the console rather than overwriting your work.
+
+The Ride skill still governs everything else: whether the pet can be ridden at all, its speed, jump height, and whether `CanFly` lets the rider gain height.
+
 ## What doesn't change
 
-A modeled pet is still a MyPet pet in every way that matters: experience and leveling, the skill tree, sit/follow/aggression behavior, the backpack, naming, riding — all of it works as it does now. The custom model is purely visual.
+A modeled pet is still a MyPet pet in every way that matters: experience and leveling, the skill tree, sit/follow/aggression behavior, the backpack, naming — all of it works as it does now. The custom model is purely visual. Riding is the one mechanic with an extra requirement on the model itself; see [Riding](#riding) above.
 
 ## Configuration
 

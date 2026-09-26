@@ -52,6 +52,14 @@ Because no custom creature named `Capybara` is defined yet, or its section is mi
 **My model's animations have custom names — I could remap sit and the others, but where do I set the walk animation?**\
 You don't set it in MyPet. MyPet only plays the **event** animations — `spawn`, `despawn`, `sit`, `sit_loop`, `unsit`, `attack` — and those names can be remapped per pet type (see [pet-config.yml → Model animations](getting-started/configuration/pet-config.yml/#model-animations)). Movement animations like walking and idling are handled by the rendering plugin itself (ModelEngine / BetterModel / ItemsAdder), not by MyPet — so either rename your walk animation to the name that plugin expects (usually `walk`), or check whether the plugin lets you target a different animation name. See [Custom Pet Models](getting-started/systems/custom-pet-models.md#animations).
 
+## Pet shops
+
+### A shop entry shows the wrong egg, or sells a different pet than its `PetType`
+
+The `PetType` in `pet-shops.yml` did not resolve to a registered pet type when the shop loaded. Since 4.1.0 such an entry is skipped and the server log prints `Shop '<shop>': pet entry '<name>' skipped — <type> is not a valid Pet type`; older builds silently sold the first registered type (an Allay) under the entry's name.
+
+For a custom creature the usual cause is the creature itself failing to register: search the startup log for `custom-pets: '<Name>'`. An `invalid host` warning means the `Host:` value is not a vanilla mob name (see [`Host:`](getting-started/configuration/pet-config.yml/README.md#host)); a `duplicates the model of` warning means two creatures share the same `Model.Id`.
+
 ## Updating
 
 **Can I update my server from MyPet 3.x (e.g. 3.14.2) straight to 4.0, or will there be incompatibilities and data loss?**\

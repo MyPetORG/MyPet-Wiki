@@ -154,6 +154,14 @@ Both formats can be pasted straight into `config.yml`, `pet-config.yml`, or a sk
 /petadmin info item
 ```
 
+**list**
+
+List every pet a player owns, with the same hover details as `/petlist`. The player does not have to be online — any name the server has seen before works, so you can check a player's pets while they are away.
+
+```
+/petadmin list <ownername>
+```
+
 ***
 
 ### petinventory (admin)
@@ -229,16 +237,27 @@ View skill info for another player’s pet.
 
 #### Act on other players’ pets
 
-These nodes allow a player to run standard pet commands targeting another player’s pet:
+Acting on someone else’s pet is a `/petadmin` subcommand. The player commands no
+longer take a `<player>` argument at all.
 
-| Permission node                    | Command                      |
-| ---------------------------------- | ---------------------------- |
-| `MyPet.command.info.other`         | `/petinfo <player>`          |
-| `MyPet.command.list.other`         | `/petlist <player>`          |
-| `MyPet.command.skill.other`        | `/petskill <player>`         |
-| `MyPet.command.inventory.other`    | `/petinventory <player>`     |
-| `MyPet.command.sendaway.other`     | `/petsendaway <player>`      |
-| `MyPet.command.shop.other`         | `/petshop <shopname> <player>` |
+| Permission node               | Command                          |
+| ----------------------------- | -------------------------------- |
+| `MyPet.admin.info.player`     | `/petadmin info <player>`        |
+| `MyPet.admin.list`            | `/petadmin list <player>`        |
+| `MyPet.admin.skill`           | `/petadmin skill <player>`       |
+| `MyPet.admin.inventory`       | `/petadmin inventory <player>`   |
+| `MyPet.admin.sendaway`        | `/petadmin sendaway <player>`    |
+| `MyPet.command.shop.other`    | `/petshop <shopname> <player>`   |
+
+{% hint style="warning" %}
+**Changed in 4.1.0.** These five nodes were `MyPet.command.info.other`,
+`.list.other`, `.skill.other`, `.inventory.other` and `.sendaway.other`, and the
+commands were `/petinfo <player>`, `/petlist <player>`, `/petskill <player>`,
+`/petinventory <player>` and `/petsendaway <player>`.
+
+Anyone granted the `MyPet.admin` bundle keeps all five — the bundle was updated
+with them. You only need to act if you granted the old nodes individually.
+{% endhint %}
 
 `MyPet.command.shop.other` is the odd one out: rather than acting on the target's
 pet, it opens a **shop** for them. It is also the only one of these that is usable

@@ -80,6 +80,28 @@ Small changes have a massive impact on the speed.
 This setting decides **where a released pet's equipment ends up**. Left at `false`, the pet becomes a live wild mob that keeps wearing its gear. Set to `true`, the mob is deleted and the gear drops as items instead. See [`RetainEquipmentOnTame`](#retainequipmentontame).
 {% endhint %}
 
+#### `EnabledWildAttackers`
+
+* Type: list of strings
+* Default: empty
+* Description: Vanilla mobs that are **allowed** to pick this pet-type as a target on their own, by mob id (`iron_golem`, `wolf`, `warden`, …). A `minecraft:` prefix is allowed. Add `*` to allow every mob.
+
+Pets are real vanilla mobs, so every vanilla "hunt the nearest …" rule would see them: village iron golems and snow golems attack monsters, wolves attack skeletons, zombies and illagers attack villagers, and the wither, zoglins and wardens attack almost anything. MyPet therefore refuses every unprovoked pick of a pet unless the pet-type's list names the attacker, so out of the box **no pet is attacked unprovoked**. Add a mob to let it hunt that pet-type again (for example, add `iron_golem` under `Wither` if you want village golems to fight Wither pets).
+
+Only unprovoked targeting is affected. A mob that the pet hits fights back, and an iron golem still defends a villager the pet hurt, regardless of this list.
+
+```yaml
+MyPet:
+  Pets:
+    Wither:
+      EnabledWildAttackers:
+      - iron_golem
+      - snow_golem
+    Villager:
+      EnabledWildAttackers:
+      - '*'
+```
+
 ### Brain Settings
 
 Modern Minecraft mobs run their AI from a vanilla "brain" rather than the older goal system. MyPet strips goal-based AI automatically, but brain AI has to be switched off explicitly — this is that switch. It only exists on pet-types whose underlying mob is brain-driven.
@@ -328,7 +350,8 @@ MyPet:
 
 * Type: string
 * Required: Yes (for custom creatures)
-* Description: The vanilla mob type whose movement, pathfinding, and physics the creature inherits. A flying host (e.g. `Phantom`, `Allay`) makes the pet fly; a swimming host makes it swim. Changing `Host:` requires a server restart. For `Provider: MythicMobs`, set `Host:` to the MythicMob's own base vanilla entity (a Phantom-based boss → `Host: Phantom`) — MyPet spawns/rebuilds from that type.
+* Description: The vanilla mob type whose movement, pathfinding, and physics the creature inherits. A flying host (e.g. `Phantom`, `Allay`) makes the pet fly; a swimming host makes it swim. Changing `Host:` requires a server restart.
+* Format: the mob's name in any of these spellings, case-insensitive — `IronGolem`, `Iron_Golem`, `IRON_GOLEM` or `Iron Golem` all work. One-word mobs are simply `Pig`, `Ocelot`, `Phantom`. A name that is not a vanilla mob (`Iron`, `Golem`, `Demon`) is rejected: the server log prints `custom-pets: '<Name>' has invalid host '<value>' — skipped`, the creature is **not** registered, and any pet shop entry with that `PetType` is skipped with its own warning. For `Provider: MythicMobs`, set `Host:` to the MythicMob's own base vanilla entity (a Phantom-based boss → `Host: Phantom`) — MyPet spawns/rebuilds from that type.
 
 {% hint style="success" %}
 **MyPet bundles two models you can use here right away** — `Id: capybara` and `Id: chameleon`, with `Provider: BetterModel` or `ModelEngine`. Reference one and MyPet copies the `.bbmodel` out of its own jar into that plugin's folder on load; you never install a model file. They are models, not ready-made pet types, so you still write the section below — and the bundled skilltrees expect the section to be named exactly `Capybara` / `Chameleon`. See [Bundled Models — Capybara & Chameleon](../../systems/bundled-pet-models.md).
