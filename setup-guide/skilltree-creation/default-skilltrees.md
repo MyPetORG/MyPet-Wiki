@@ -29,6 +29,8 @@ A fresh pet (one that has no skilltree yet) can pick one of three paths:
 
 Tier 1 trees stop at **level 25** and show a notification at level 19 hinting at the coming ascension.
 
+Every tier 1 tree also grants the [Behavior](creating-custom-skilltrees/skills/behavior.md) skill, so `/petbehavior` works on any pet that has picked a path — see [Behavior modes](default-skilltrees.md#behavior-modes).
+
 ### Tier 2 — Ascension (Level 20)
 
 From level 20 on, the pet chooses between exactly two trees:
@@ -47,6 +49,25 @@ Ascending is **free** and **permanent**:
 * **No universal trees.** Every tree's [eligible pets](creating-custom-skilltrees/eligible-pets.md) list is a real subset of the roster.
 * **Vanilla parity.** Stronger vanilla mobs get stronger trees; a Warden's signature outclasses a Chicken's by design.
 * **One signature per species.** Each pet type has exactly one tree that exists only for it; everything else is shared by family or habitat.
+
+### Behavior modes <a href="#behavior-modes" id="behavior-modes"></a>
+
+Every tree in the default set grants the [Behavior](creating-custom-skilltrees/skills/behavior.md) skill. `duel` and `friendly` are baseline on all of them; the remaining modes are role rewards:
+
+| Family / path                                          | Extra modes   | Reasoning                                             |
+| ------------------------------------------------------ | ------------- | ----------------------------------------------------- |
+| _Undead_, _Arthropod_, _Predator_, _Nether_, _End_, _Illager_ | `aggressive`  | Hostile-flavored hunters; going after things is the point. |
+| _Construct_                                            | `farm`        | Village defenders: they clear monsters, they don't start fights. |
+| _Companion_                                            | `farm`, `raid` | The protective family — the only one with both safe modes. |
+| _Rascal_                                               | `raid`        | Mischief, not murder; never attacks players.           |
+| _Keeper_ trees (all 4 habitats)                        | `farm`        | Work pets clear monsters while they gather.            |
+| _Wayfarer_ trees (all 4 habitats)                      | `raid`        | Mounts stay safe to ride in group content.             |
+
+Tier 1 trees unlock `duel` at level 5 and the rest of their set at level 14. A **✦ species signature** grants its family's full set at level 20, so ascending never takes away a mode the pet already had on that family's path. A **path ascension** simply inherits its tier 1 tree's modes.
+
+{% hint style="info" %}
+Ascending from a _Keeper_ or _Wayfarer_ tree to a species signature can **trade** one mode for another — a wolf that took _Land Keeper_ (`farm`) and ascends to its _Predator_-family signature gets `aggressive` instead. That is the same trade every other skill makes at ascension: a signature is self-contained and rebuilds the pet's kit around its species.
+{% endhint %}
 
 ## How ascension works under the hood
 
