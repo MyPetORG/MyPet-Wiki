@@ -27,6 +27,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -49,6 +50,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -71,6 +73,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -95,6 +98,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -130,6 +134,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -152,6 +157,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -174,6 +180,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -196,6 +203,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -221,6 +229,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -243,6 +252,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -264,6 +274,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -288,6 +299,7 @@ These are the default settings for each My-Pet type. For information on what eac
       CanGlide: true
       CanLayEggs: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -309,6 +321,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -332,6 +345,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       CanOxidize: true
       OxidationTime: 24000
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -355,6 +369,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       CanGiveMilk: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -376,6 +391,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -397,6 +413,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -420,6 +437,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -445,6 +463,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -468,6 +487,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -491,6 +511,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -513,6 +534,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -534,6 +556,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -555,6 +578,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -577,6 +601,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -601,6 +626,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -622,6 +648,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -646,6 +673,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -668,6 +696,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -689,6 +718,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -710,6 +740,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -731,6 +762,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -758,6 +790,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: bread
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -781,6 +814,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       WillShake: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -804,6 +838,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -828,6 +863,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -850,6 +886,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanTossUp: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -874,6 +911,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -897,6 +935,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -920,6 +959,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
       CanGiveStew: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -945,6 +985,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -970,6 +1011,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -994,6 +1036,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1017,6 +1060,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1039,6 +1083,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1061,6 +1106,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1085,6 +1131,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RetainEquipmentOnTame: true
       WillShake: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1109,6 +1156,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RetainEquipmentOnTame: true
       WillShake: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1131,6 +1179,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1153,6 +1202,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1174,6 +1224,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1198,6 +1249,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1220,6 +1272,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1243,6 +1296,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1267,6 +1321,7 @@ These are the default settings for each My-Pet type. For information on what eac
       CanBeSheared: true
       CanRegrowWool: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1288,6 +1343,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1310,6 +1366,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1333,6 +1390,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1354,6 +1412,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1376,6 +1435,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1399,6 +1459,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       FixSnowTrack: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1420,6 +1481,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1441,6 +1503,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1463,6 +1526,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1485,6 +1549,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1508,6 +1573,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1529,6 +1595,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1550,6 +1617,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1572,6 +1640,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1597,6 +1666,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1620,6 +1690,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1642,6 +1713,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1665,6 +1737,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1686,6 +1759,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1707,6 +1781,7 @@ These are the default settings for each My-Pet type. For information on what eac
       LeashItem: lead
       ReleaseOnDeath: false
       RemoveAfterRelease: false
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1729,6 +1804,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       CanGlide: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1751,6 +1827,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1774,6 +1851,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1798,6 +1876,7 @@ These are the default settings for each My-Pet type. For information on what eac
       ReleaseOnDeath: false
       RemoveAfterRelease: false
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1821,6 +1900,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1844,6 +1924,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1867,6 +1948,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
@@ -1890,6 +1972,7 @@ These are the default settings for each My-Pet type. For information on what eac
       RemoveAfterRelease: false
       RetainEquipmentOnTame: true
       GrowUpItem: experience_bottle
+      EnabledWildAttackers: []
 ```
 
 </details>
