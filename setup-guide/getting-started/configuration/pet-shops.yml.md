@@ -35,7 +35,7 @@ Below is the structure and types for entries in `pet-shops.yml`.
         * Price (double): The price the player has to pay in order to get the pet
         * Skilltree (string): The skilltree the pet will have
         * PetType (string): The mob type of the pet — a vanilla type name (`IronGolem`) or the section name of a [custom creature](../systems/custom-pet-models.md) from `pet-config.yml` (`Capybara`). An entry whose `PetType` is missing or not registered is left out of the shop, and the server log says which entry was skipped and why.
-        * Options (list of strings): These work exactly like the parameters for the `pet create` admin command. Options that change the mob itself (`baby`, `variant:`, `saddle`, …) are skipped for [source-driven custom creatures](../systems/custom-pet-models.md) such as MythicMobs pets — see the note below.
+        * Options (list of strings): These work exactly like the parameters for the `pet create` admin command — [Pet Creation Options](../systems/pet-creation-options.md) lists every option and value, per pet. Options that change the mob itself (`baby`, `variant:`, `saddle`, …) are skipped for [source-driven custom creatures](../systems/custom-pet-models.md) such as MythicMobs pets — see the note below.
 
 ## Example template
 
