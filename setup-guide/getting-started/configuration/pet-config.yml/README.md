@@ -149,6 +149,33 @@ Each entry is one of two kinds:
 
 An entry that doesn't match any known activity or behaviour for the pet-type isn't silently ignored — it's reported as a warning in the server log, naming the pet-type and the entry, so a typo is visible instead of doing nothing.
 
+### Skill Settings
+
+Settings under `Skill.<Skill name>` change how one skill behaves for this pet-type,
+and sit alongside that skill's server-wide settings in [config.yml](../config.yml.md).
+Every pet-type has these keys; a pet-type whose skilltrees never grant the skill
+simply never reads them.
+
+#### `Skill.Backpack.OpenInWater`
+
+* Type: boolean
+* Default: `true` for pet-types that swim, `false` for every other pet-type
+* Description: Whether the owner may open this pet's backpack while the pet itself is standing in a liquid. When false, the attempt is refused with the "is swimming" message. Note that this looks at where the *pet* is, not the owner — and that lava counts as a liquid just as water does.
+* Since: 4.1.0
+
+**Pet-types that default to `true`:** `Cod`, `Salmon`, `TropicalFish`, `Pufferfish`,
+`Squid`, `GlowSquid`, `Dolphin`, `Guardian`, `ElderGuardian`, `Nautilus`, `Tadpole`,
+`Axolotl`, `Drowned`, `Frog`, `Turtle`, `ZombieNautilus`. These are the pet-types that
+swim naturally, so a backpack blocked in water would be a backpack blocked everywhere
+they live.
+
+{% hint style="info" %}
+**This only gates opening the backpack.** Items already inside are unaffected: the
+backpack still drops on death (see `MyPet.Skill.Backpack.DropWhenOwnerDies` in
+[config.yml](../config.yml.md)), and the Pickup skill still stores into it, wherever
+the pet is standing.
+{% endhint %}
+
 ### Specific Settings
 
 These settings only apply to specific pet-types.
