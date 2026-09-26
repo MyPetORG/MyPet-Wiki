@@ -1558,6 +1558,30 @@ These are the default settings for each My-Pet type. For information on what eac
 
 <details>
 
+<summary>Sulfur Cube</summary>
+
+```yaml
+    SulfurCube:
+      HP: 8.0
+      Speed: 0.4
+      Food:
+      - slime_ball
+      LeashRequirements:
+      - LowHp
+      CustomRespawnTimeFactor: 0
+      CustomRespawnTimeFixed: 0
+      LeashItem: lead
+      ReleaseOnDeath: false
+      RemoveAfterRelease: false
+      GrowUpItem: experience_bottle
+      CanExplode: false
+      AllowShearing: false
+```
+
+</details>
+
+<details>
+
 <summary>Tadpole</summary>
 
 ```yaml
