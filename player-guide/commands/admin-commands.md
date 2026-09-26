@@ -93,7 +93,7 @@ Notes:
 
 * Not usable when the player already has an active pet.
 * Use `-f` to force creation even if the player has a pet.
-* Use TAB to see valid parameters for the selected pettype.
+* Use TAB to see valid parameters for the selected pettype, or look them up in [Pet Creation Options](../../setup-guide/getting-started/systems/pet-creation-options.md) — every option and value, per pet.
 * `<pettype>` is namespaced: vanilla types use `minecraft:` (`minecraft:wolf`), custom creatures defined in `pet-config.yml` use `mypet:` (`mypet:capybara`, `mypet:frostdragon`). The bare name (`wolf`) also works. TAB-completion lists every registered type in its full namespaced form.
 * Parameters that change the mob itself (`baby`, `variant:`, `saddle`, …) are skipped for [MythicMobs custom creatures](../../setup-guide/getting-started/systems/custom-pet-models.md), because MythicMobs spawns the entity rather than MyPet. `skilltree:` and `name:` still apply, and the server log names anything that was skipped.
 

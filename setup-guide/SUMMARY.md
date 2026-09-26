@@ -22,6 +22,7 @@
 * [Systems](getting-started/systems/README.md)
   * [Translation](getting-started/systems/translation.md)
   * [Leash Flags / Requirements](getting-started/systems/leash-flags-requirements.md)
+  * [Pet Creation Options](getting-started/systems/pet-creation-options.md)
   * [Skilltrees](getting-started/systems/skilltrees.md)
   * [Experience](getting-started/systems/experience/README.md)
   * [Pet Storage](getting-started/systems/pet-storage.md)
