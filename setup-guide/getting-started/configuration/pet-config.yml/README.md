@@ -37,6 +37,12 @@ These are settings common to all pet-types.
 Small changes have a massive impact on the speed.
 {% endhint %}
 
+#### `TeleportDistance`
+
+* Type: double
+* Default: `32.0`
+* Description: How many blocks a pet of this type can fall behind its owner before it teleports to them. Lower it for pets that should stay close; raise it for pets you want to keep exploring on their own. Versions before 4.1.0 used a fixed 12 blocks for every pet.
+
 #### `Food`
 
 * Type: list
