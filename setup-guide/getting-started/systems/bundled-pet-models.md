@@ -111,7 +111,9 @@ Now that the type exists, all three normal routes work:
 
 `Host:` is the vanilla mob whose movement, pathfinding, and physics the creature borrows — it is **not** visible to players, the model covers it completely. A flying host makes the pet fly; a swimming host makes it swim.
 
-`Pig` and `Ocelot` above are only suggestions. Any walking mob works for both models. Changing `Host:` later requires a **server restart** (everything else applies on `/mypet reload config`).
+`Pig` and `Ocelot` above are only suggestions. Any walking mob works for both models. Multi-word mobs can be written as `IronGolem`, `Iron_Golem` or `Iron Golem` — all resolve to the same host. Changing `Host:` later requires a **server restart** (everything else applies on `/mypet reload config`).
+
+If you mistype the host, the creature is not registered at all: look for `custom-pets: '<Name>' has invalid host` in the server log.
 
 ## Which skilltrees they get
 

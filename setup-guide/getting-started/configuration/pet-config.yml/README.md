@@ -328,7 +328,8 @@ MyPet:
 
 * Type: string
 * Required: Yes (for custom creatures)
-* Description: The vanilla mob type whose movement, pathfinding, and physics the creature inherits. A flying host (e.g. `Phantom`, `Allay`) makes the pet fly; a swimming host makes it swim. Changing `Host:` requires a server restart. For `Provider: MythicMobs`, set `Host:` to the MythicMob's own base vanilla entity (a Phantom-based boss → `Host: Phantom`) — MyPet spawns/rebuilds from that type.
+* Description: The vanilla mob type whose movement, pathfinding, and physics the creature inherits. A flying host (e.g. `Phantom`, `Allay`) makes the pet fly; a swimming host makes it swim. Changing `Host:` requires a server restart.
+* Format: the mob's name in any of these spellings, case-insensitive — `IronGolem`, `Iron_Golem`, `IRON_GOLEM` or `Iron Golem` all work. One-word mobs are simply `Pig`, `Ocelot`, `Phantom`. A name that is not a vanilla mob (`Iron`, `Golem`, `Demon`) is rejected: the server log prints `custom-pets: '<Name>' has invalid host '<value>' — skipped`, the creature is **not** registered, and any pet shop entry with that `PetType` is skipped with its own warning. For `Provider: MythicMobs`, set `Host:` to the MythicMob's own base vanilla entity (a Phantom-based boss → `Host: Phantom`) — MyPet spawns/rebuilds from that type.
 
 {% hint style="success" %}
 **MyPet bundles two models you can use here right away** — `Id: capybara` and `Id: chameleon`, with `Provider: BetterModel` or `ModelEngine`. Reference one and MyPet copies the `.bbmodel` out of its own jar into that plugin's folder on load; you never install a model file. They are models, not ready-made pet types, so you still write the section below — and the bundled skilltrees expect the section to be named exactly `Capybara` / `Chameleon`. See [Bundled Models — Capybara & Chameleon](../../systems/bundled-pet-models.md).
