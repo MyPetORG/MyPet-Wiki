@@ -81,6 +81,8 @@ The relevant settings live in the `config.yml` under `MyPet.WebEditor`:
 | `BytebinUrl`   | `https://bytebin.mypet-plugin.com` | Relay used to transfer your configuration to the browser.  |
 | `BytesocksUrl` | `wss://bytesocks.mypet-plugin.com` | Relay used for the live connection back to the server.     |
 
+On an alpha build of MyPet (a version such as `4.1.0-alpha-02`), leaving `EditorUrl` at its default opens the alpha Configurator at `https://editor.mypet-plugin.com/alpha` instead, which understands that alpha's config options. A custom `EditorUrl` is always used as-is.
+
 If the editor is disabled, `/mypet editor` replies with `The MyPet web editor is disabled in the server config.`
 
 ## Skill list
