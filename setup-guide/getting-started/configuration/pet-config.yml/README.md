@@ -80,6 +80,30 @@ Small changes have a massive impact on the speed.
 This setting decides **where a released pet's equipment ends up**. Left at `false`, the pet becomes a live wild mob that keeps wearing its gear. Set to `true`, the mob is deleted and the gear drops as items instead. See [`RetainEquipmentOnTame`](#retainequipmentontame).
 {% endhint %}
 
+#### `DisabledWildAttackers`
+
+* Type: list of strings
+* Default: the vanilla mobs that hunt this pet-type (see below)
+* Description: Vanilla mobs that may **not** pick this pet-type as a target on their own, by mob id (`iron_golem`, `wolf`, `warden`, …). A `minecraft:` prefix is allowed. Add `*` to block every mob.
+
+Pets are real vanilla mobs, so every vanilla "hunt the nearest …" rule sees them: village iron golems and snow golems attack monster pets, wolves attack skeleton pets, zombies and illagers attack villager pets, and the wither, zoglins and wardens attack almost anything. The default list for each pet-type is exactly the set of mobs whose vanilla rule would match it, so out of the box **no pet is attacked unprovoked**. Remove a mob from the list to let it hunt that pet-type again (for example, delete `iron_golem` under `Wither` if you want village golems to fight Wither pets).
+
+Only unprovoked targeting is affected. A mob that the pet hits fights back, and an iron golem still defends a villager the pet hurt, regardless of this list. A mob added in a future Minecraft version is not on any default list until MyPet learns its rule, so it attacks pets like vanilla until you add it.
+
+```yaml
+MyPet:
+  Pets:
+    Husk:
+      DisabledWildAttackers:
+      - iron_golem
+      - snow_golem
+      - zoglin
+      - warden
+    Villager:
+      DisabledWildAttackers:
+      - '*'
+```
+
 ### Brain Settings
 
 Modern Minecraft mobs run their AI from a vanilla "brain" rather than the older goal system. MyPet strips goal-based AI automatically, but brain AI has to be switched off explicitly — this is that switch. It only exists on pet-types whose underlying mob is brain-driven.
