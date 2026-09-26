@@ -48,8 +48,9 @@ Granting `mypet.player` gives a player the standard toolkit:
 | `mypet.command.trade.receive.*` | Receive any pet type in a trade. |
 | `mypet.command.list` | `/petlist` (own pets). |
 
-Other player command nodes (`mypet.command.switch`, `mypet.command.store`,
-`mypet.command.info.other`) are declared separately and can be granted as needed.
+Other player command nodes (`mypet.command.switch`, `mypet.command.store`) are
+declared separately and can be granted as needed. Acting on someone else's pet is
+an admin node — see [Act on other players' pets](#act-on-other-players-pets).
 
 ### Pet menu buttons (`/pet`)
 
@@ -220,11 +221,11 @@ pet:
 
 | Node | Command |
 | ---- | ------- |
-| `mypet.command.info.other` | `/petinfo <player>` |
-| `mypet.command.list.other` | `/petlist <player>` |
-| `mypet.command.skill.other` | `/petskill <player>` |
-| `mypet.command.inventory.other` | `/petinventory <player>` |
-| `mypet.command.sendaway.other` | `/petsendaway <player>` |
+| `mypet.admin.info.player` | `/petadmin info <player>` |
+| `mypet.admin.list` | `/petadmin list <player>` |
+| `mypet.admin.skill` | `/petadmin skill <player>` |
+| `mypet.admin.inventory` | `/petadmin inventory <player>` |
+| `mypet.admin.sendaway` | `/petadmin sendaway <player>` |
 | `mypet.command.shop.other` | `/petshop <shopname> <player>` — open a shop **for** another player |
 
 {% hint style="info" %}
